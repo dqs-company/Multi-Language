@@ -62,7 +62,8 @@
     <system:String x:Key="DAYS">일</system:String>
     <system:String x:Key="ANYTIME">애니타임</system:String>
     <system:String x:Key="SECONDS">초</system:String>
-
+    <system:String x:Key="MINUTES">분</system:String>
+	
     <system:String x:Key="CELL">셀</system:String>
     <system:String x:Key="SHEET">시트</system:String>
     <system:String x:Key="CELL_USED">사용됨</system:String>
@@ -70,6 +71,17 @@
     <system:String x:Key="PART">파트</system:String>
     <system:String x:Key="CHAR">측정항목</system:String>
     <system:String x:Key="VALUE">측정 값</system:String>
+
+	<system:String x:Key="UNKNOWN">알수없음</system:String>
+    <system:String x:Key="VALID_VALUE">유효한 값</system:String>
+    <system:String x:Key="INVALID_VALUE">잘못된 값</system:String>
+    <system:String x:Key="ADD">추가</system:String>
+    <system:String x:Key="DELETE">삭제</system:String>
+    <system:String x:Key="INSERT">삽입</system:String>
+
+    <system:String x:Key="STACKED_BAR_CHART_TEXT">Stacked Bar 차트 텍스트</system:String>
+    <system:String x:Key="TREEMAP_CHART_TEXT">Treemap 차트 텍스트</system:String>
+    <system:String x:Key="DATE_TIME_RANGE">날짜/시간 범위</system:String>
 
     
     <system:String x:Key="SELECTION">선택</system:String>
@@ -79,17 +91,21 @@
     <system:String x:Key="DUPLITE_DELETE">중복값 무시</system:String>
     <system:String x:Key="NO.">넘버.</system:String>
 		
-	<system:String x:Key="PAGE">페이지</system:String>		
+		
 	<system:String x:Key="PREFERENCES">환경&#x0d;&#x0a;설정</system:String>		
     <system:String x:Key="CONFIG">설정</system:String>
     <system:String x:Key="SETTING">설정</system:String>
 
-    <system:String x:Key="PRINTER">프린터</system:String>
-    <system:String x:Key="STATUS">상태</system:String>
-    <system:String x:Key="LOCATION">위치</system:String>
-    <system:String x:Key="COMMENT">커맨트</system:String>
-	<system:String x:Key="CURRENT">현재 상태</system:String>
-	
+
+	<system:String x:Key="ENABLE">활성화</system:String>
+	<system:String x:Key="COUNT">개수</system:String>
+	<system:String x:Key="DATA">데이터</system:String>
+	<system:String x:Key="NUMBER">넘버</system:String>
+	<system:String x:Key="LABEL">라벨</system:String>
+	<system:String x:Key="VIEW">뷰</system:String>
+	<system:String x:Key="LAYOUT">n x n 레이아웃</system:String>
+  	<system:String x:Key="PAGE_LEVEL">페이지 레벨</system:String>
+  
     <system:String x:Key="LANGUAGE">언어</system:String>
     <system:String x:Key="KOREAN">한국어</system:String>
     <system:String x:Key="ENGLISH">영어</system:String>
@@ -101,19 +117,41 @@
     <system:String x:Key="EXPORT">내보내기</system:String>
     <system:String x:Key="IMPORT">불러오기</system:String>
 
-    <!-- Message Box -->
-    <system:String x:Key="MSG_LOAD_FAIL">불러오기 실패</system:String>
-    <system:String x:Key="MSG_LOAD_OK">불러오기 성공</system:String>
-    <system:String x:Key="MSG_SAVE_OK">저장 성공</system:String>
-    <system:String x:Key="MSG_SAVE_FAIL">저장 실패</system:String>
+	<system:String x:Key="THEME">테마</system:String>
+	<system:String x:Key="CHART">차트</system:String>	
 
+    <system:String x:Key="WARNING">경고</system:String>
+    <system:String x:Key="PROGRAM_EXIT">프로그램 종료</system:String>
+	
+	
+	<!--Print Dialog-->
+	<system:String x:Key="PAGE">페이지</system:String>
+	<system:String x:Key="PRINTER">프린터</system:String>
+    <system:String x:Key="STATUS">상태</system:String>
+    <system:String x:Key="LOCATION">위치</system:String>
+    <system:String x:Key="COMMENT">커맨트</system:String>
+	<system:String x:Key="CURRENT">현재 상태</system:String>
+    <system:String x:Key="DOCUMENTS(S)_IN_QUEUE">대기열의 문서</system:String>
+    <system:String x:Key="NUMBER_OF_COPIES">사본 페이지</system:String>
+    <system:String x:Key="COLLATE">1부씩</system:String>
+    <system:String x:Key="PAGE_RANGE">페이지 범위</system:String>
+    <system:String x:Key="ALL_PAGES">전체 페이지</system:String>
+    <system:String x:Key="SOME_PAGES">일부 페이지</system:String>
+    <system:String x:Key="FOR_EXAMPLE: 1,3,5-12">예: 1,3,5-12</system:String>
+    <system:String x:Key="PRINT_ON_BOTH_SIDES">양면 인쇄</system:String>
+    <system:String x:Key="PAPER_SOURCE">페이퍼 소스</system:String>
+    <system:String x:Key="FILE_PATH">파일 경로</system:String>
+    <system:String x:Key="PRINT_TO_FILE">파일에 출력</system:String>
+    <system:String x:Key="PRINTER_STATUS_READY">프린터가 준비 되었습니다.</system:String>
+	<system:String x:Key="PRINTING">프린트 중...</system:String>
+    <system:String x:Key="PRINT">프린트</system:String>
+	
 
-    <system:String x:Key="MSG_PROGRAM_EXIT">프로그램 종료 하시겠습니까?</system:String>
 
 <!--###############################################################################>
  [Data Field]
 #################################################################################-->
-   <system:String x:Key="DATA_FIELD_FIELD_1001">부품 번호</system:String>
+    <system:String x:Key="DATA_FIELD_FIELD_1001">부품 번호</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_1002">부품 내역</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_1003">부품 간략 기술</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_1005">제품</system:String>
@@ -132,7 +170,6 @@
     <system:String x:Key="DATA_FIELD_FIELD_2003">측정항목(약식)</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_2005">측정항목분류</system:String>
 
-
     <system:String x:Key="DATA_FIELD_FIELD_0001">측정값</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_0002">상태</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_0004">날짜/시간</system:String>
@@ -147,21 +184,166 @@
     <system:String x:Key="DATA_FIELD_FIELD_0012">게이지 번호</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_0014">제품 ID 번호</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_0053">발주</system:String>
+    <system:String x:Key="DATA_FIELD_FIELD_0054">0054</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_0055">0055</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_0056">0056</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_0057">0057</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_0058">0058</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_0059">0059</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_0060">0060</system:String>
+
 
     <system:String x:Key="DATA_FIELD_CATALOG">카탈로그(숫자만 사용)</system:String>
 
 
+    <system:String x:Key="UNIMPORTANT">unimportant</system:String>
+    <system:String x:Key="LITTLE_IMPORTANT">little important</system:String>
+    <system:String x:Key="IMPORTANT">important</system:String>
+    <system:String x:Key="SIGNIFICANT">significant</system:String>
+    <system:String x:Key="CRITICAL">critical</system:String>
+	
 <!--###############################################################################>
 [Q/i-Report]
 #################################################################################-->
-   
+	<!--Top Ribbon Menu-->
+    <system:String x:Key="RE_MENU_STATUS_NO_PART">로드 파트 없음</system:String>
+    <system:String x:Key="RE_MENU_STATUS_NO_CHAR_COUNT">측정 항목 없음</system:String>
+    <system:String x:Key="RE_MENU_STATUS_NO_DATE_RANGE">기간 없음</system:String>
+    <system:String x:Key="RE_MENU_FILE_GROUP">파일변환</system:String>
+    <system:String x:Key="RE_MENU_FILE_CONVERT_START">파일변환 시작</system:String>
+    <system:String x:Key="RE_MENU_FILE_CONVERT_END">파일 변환 종료</system:String>
+    <system:String x:Key="RE_MENU_DB_GROUP">데이터베이스</system:String>
+    <system:String x:Key="RE_MENU_DB_LOAD">데이터베이스&#x0d;&#x0a;불러오기</system:String>
+    <system:String x:Key="RE_MENU_DB_SAVE">데이터베이스&#x0d;&#x0a;저장</system:String>
+    <system:String x:Key="RE_MENU_VALUE_LIST">측정 값&#x0d;&#x0a;리스트</system:String>
+    <system:String x:Key="RE_MENU_EXCEL_GRUOP">엑셀 파일</system:String>
+    <system:String x:Key="RE_MENU_EXCEL_LOAD">엑셀 파일&#x0d;&#x0a;불러오기</system:String>
+    <system:String x:Key="RE_MENU_EXCEL_SAVE">엑셀 파일&#x0d;&#x0a;저장</system:String>
+    <system:String x:Key="RE_MENU_EXCEL_AS_SAVE">엑셀 파일&#x0d;&#x0a;다른 이름 저장</system:String>
+    <system:String x:Key="RE_MENU_EXCEL_CLOSE">엑셀 파일&#x0d;&#x0a;닫기</system:String>
+    <system:String x:Key="RE_MENU_MEASURE_INFO_GROUP">측정 정보</system:String>
+    <system:String x:Key="RE_MENU_STATUS_INFO_GROUP">현재 정보</system:String>
+
+    <!--Measure List -->
+    <system:String x:Key="RE_CHAR_LIST_TITLE">측정항목 리스트</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_NUMBER">순서</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_CELL_POS">셀위치</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_NAME">항목수</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_TYPE">항목설명</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_NOMINAL">기준값</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_USL">규격상한</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_LSL">규격하한</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_UPPER">상한허용</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_LOWER">하한허용</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_MEASURE_NUMBER">개수</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_MEASURE_MANUMAL_NUMBER">M-개수</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_RESULT">Cp/Cpk</system:String>
+
+    <!--Excel Tab -->
+    <system:String x:Key="RE_TAB_EXCEL_TITEL">엑셀 설정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_TITEL">셀 설정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_ONE">단독 셀 지정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_TYPE">셀 타입</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_RANGE">범위 지정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_HORIZONTAL">가로</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_VERTICAL">세로</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_MANUAL_TITLEL">수동 지정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_MANUAL_CELL_EX">예)셀:A1~A3</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_MANUAL_LIST_EX">예)측정 항목 리스트:1~3</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_MANUAL_POS_TITLEL">셀 좌표 지정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_MANUAL_LIST_TITLEL">측정 항목 지정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_SETUP">셀 설정</system:String>
+
+    
+    <!--Output Tab -->
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_TITEL">출력 설정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_SIZE">출력 값 개수</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_VALUE">출력 값</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_DIRECTION">출력 방향</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_DIRECTION_HOR">가로 방향</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_DIRECTION_VER">세로방향</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_AUTO_FORMAT_VALUE_INTERVAL">출력 값 간격</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_DECIMAL">소수점</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_DECIMAL_ROUND">반올림</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_DECIMAL_ROUNDUP">올림</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_DECIMAL_ROUNDDOWN">버림</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ABSOLUTE_VALUE">절대값 출력</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_RECENT_VALUE">최신 날짜 순서 출력</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_RESULT_NG_OK">NG/OK 여부 판단</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_FUNCTION">소수점 / 절대값 함수 처리</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_NG_COLOR">NG 컬러 표시</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_INPUT_RIGHT_TO_LEFT">입력 오른쪽->왼쪽/아래->위</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_DATA_SELECT">임의 날짜 / 데이터 선택</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_CONFIG">설정</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_CONFIG_SAVE">출력 설정 저장</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENTER">출력 엑셀</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_AUTO_ENTER">출력 엑셀 자동 </system:String>
+    <system:String x:Key="RE_TAB_EXCEL_ACTUAL">실측값</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_DEVIATION">편차</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_DEVIATION_CARBODY">편차(CARBODY-LH)</system:String>
+    <system:String x:Key="RE_AUTO_EXCEL_ASCENDING">오름 정렬</system:String>
+    <system:String x:Key="RE_AUTO_EXCEL_DESCENDING">내림 정렬</system:String>
 
 
 <!--###############################################################################>
 [Q/i-Board]
 #################################################################################-->
+    <!--Main - Top Ribbon Menu-->
+	<system:String x:Key="BO_MENU_PAGE_CONTROL">페이지 컨트롤</system:String>
+    <system:String x:Key="BO_MENU_BACK">이전 페이지</system:String>
+    <system:String x:Key="BO_MENU_HOME">홈 페이지</system:String>
+    <system:String x:Key="BO_MENU_START_AUTOPAGE">시작&#x0d;&#x0a;자동 페이지</system:String>
+    <system:String x:Key="BO_MENU_STOP_AUTOPAGE">정지&#x0d;&#x0a;자동 페이지</system:String>
+    <system:String x:Key="BO_MENU_GRAPHIC_UPDATE">그래픽 업데이트</system:String>
+    <system:String x:Key="BO_MENU_MANUAL_GRAPHIC_UPDATE">수동 그래픽</system:String>
+    <system:String x:Key="BO_MENU_MANUAL_GRAPHIC_END">종료 그래픽c</system:String>
+    <system:String x:Key="BO_MENU_USER_GRAPHIC_UPDATE">유저 그래픽</system:String>
+    <system:String x:Key="BO_MENU_AUTO_GRAPHIC_UPDATE_START">시작&#x0d;&#x0a;자동 그래픽</system:String>
+    <system:String x:Key="BO_MENU_AUTO_GRAPHIC_UPDATE_END">종료&#x0d;&#x0a;자동 그래픽</system:String> 
+    <system:String x:Key="BO_MENU_INFO">i-Board&#x0d;&#x0a;정보</system:String>
+    <system:String x:Key="BO_MENU_CURRENT_DATE_TIME">현재 시간</system:String>
+    <system:String x:Key="BO_MENU_UPDATE_VALUE_COUNT">업데이트 개수</system:String>
+    <system:String x:Key="BO_MENU_UPDATE_DATE_TIME">업데이트 시간</system:String>
+    <system:String x:Key="BO_MENU_STATUS_INFO_GROUP">현재 정보</system:String>
+    <system:String x:Key="BO_MENU_UPDATE_EXIST">있음</system:String>
+    <system:String x:Key="BO_MENU_UPDATE_NOT_EXIST">없음</system:String>
 
+	<!-- ==>Top Title -->
+	<system:String x:Key="BO_TOP_TITLE_PART">Part</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1001">Part No</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1002">Part name</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1005">Product</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1008">Part type</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1009">Part code</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1011">Variant</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1012">ID number annex</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1013">ID number index</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1014">Parts ID</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1062">Customer Name</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1072">Supplier Name</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1081">Station No</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1085">Passage plant</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1086">Detailed process ID</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1087">Production cycle description</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1091">Line</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1092">Line description</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1101">Parts ID</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1203">Reason for Test</system:String>
+    <system:String x:Key="BO_TOP_TITLE_1303">Plant</system:String>
 
+    <system:String x:Key="BO_TOP_TITLE_CHAR">Characteristics</system:String>
+
+    <system:String x:Key="BO_TOP_TITLE_VALUE">Value</system:String>
+    <system:String x:Key="BO_TOP_TITLE_0006">Station No</system:String>
+    <system:String x:Key="BO_TOP_TITLE_0007">Line number</system:String>
+    <system:String x:Key="BO_TOP_TITLE_0008">Detailed process ID</system:String>
+    <system:String x:Key="BO_TOP_TITLE_0010">Machine number</system:String>
+    <system:String x:Key="BO_TOP_TITLE_0012">Gage number</system:String>
+    <system:String x:Key="BO_TOP_TITLE_0014">S/N number</system:String>
+    <system:String x:Key="BO_TOP_TITLE_0053">Passage plant</system:String>
+	
+	
+	
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -213,113 +395,368 @@
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_PART_NAME">파트 이름</system:String>
 
 
-    <!-- Config  -->
-    <!-- ==>Q-Collector Server -->
+<!--###############################################################################>
+[Config]
+#################################################################################-->
+    <!-- ==>Q/i-Collector Server -->
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector 서버</system:String>
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector 서버 설정</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector 서버</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">I-Collector 서버 설정</system:String>
 
-    <system:String x:Key="CS_CONFIG_SERVER_ADDRESS">서버 주소</system:String>
-    <system:String x:Key="CS_CONFIG_SERVER_AUTO_START">자동 실행 - 서버</system:String>
-    <system:String x:Key="CS_CONFIG_SERVER_PORT">서버 포트</system:String>
-    <system:String x:Key="CS_CONFIG_SERVER_UPDATE_TIME">서버 업데이트 시간</system:String>
+    <!-- ==>Q/i-Board -->
+	<system:String x:Key="BO_CONFIG_DASHBOARD">대시보드</system:String>
+    <system:String x:Key="BO_CONFIG_CATALOG">카탈로그</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_RANGE">날짜/값 범위</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_LAST_VALUES">최신 값</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_MANUAL_RANGE">수동범위</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">최근 1일</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">최근 1주</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">최근 1달</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_BASETIME">하루-기준시간</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL">공차 아웃</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">경고 퍼센트</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">에러 퍼센트</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">값 무시 활성화</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_USL_PERCENT">USL 초과 퍼센트</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_LSL_PERCENT">LSL 초과 퍼센트</system:String>
+    <system:String x:Key="BO_CONFIG_CHART_ORDER">차트 순서</system:String>
+    <system:String x:Key="BO_CONFIG_CHART_CLASS">등급</system:String>
+    <system:String x:Key="BO_CONFIG_CHART_FIELD">필드</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR">차트 컬러</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_BAD">나쁨</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_WARNING">경고</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_GOOD">좋음</system:String>
+    <system:String x:Key="BO_CONFIG_CHART_FONT">폰트</system:String>
+    <system:String x:Key="BO_CONFIG_CHART_FONT_SIZE">사이즈</system:String>
+    <system:String x:Key="BO_CONFIG_CHART_FONT_COLOR">컬러</system:String>
+    <system:String x:Key="BO_CONFIG_TOP_ORDER_TEXT">Top - Order Text</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE">자동 페이지 - [슬라이드쇼]</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE_SWITCHING">페이지 전환</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE_RESTART_POINT">페이지 재시작 점</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE_VALUE_CHART_LAYOUT">페이지 벨류 차트 레이아웃</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE_VALUE_CHART_FILE_DELETE">지난 날짜 이미지 파일 삭제</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE_RANDOM">페이지 랜덤</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE_ORDER">페이지 순서</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_GRAPHIC">자동 그래픽 업데이트</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_GRAPHIC_DB_UPDATE_CYCLE">DB 업데이트 주기</system:String>
+    <system:String x:Key="BO_CONFIG_SPECIAL_MODE">스페셜 모드</system:String>
+    <system:String x:Key="BO_CONFIG_CHART_VISIBLE">측정항목 표시</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_POPUP_MODE">팝업 모드</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_PAGE_MODE">페이지 모드</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_BALLOON_FIELD">라벨 데이터 필드</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_X_AXIS_TYPE">X-축 타입</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_X_AXIS_FONT_SIZE">X-축 폰트 사이즈</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_X_AXIS_AUTO_GRID">X-축 자동 그리드</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_Y_AXIS_FONT_COLOR">폰트/라벨/영역컬러</system:String>
+    <system:String x:Key="BO_CONFIG_VALUE_CHART_Y_AXIS_FONT_COLOR_AVERAGE">평균값</system:String>
+    <system:String x:Key="BO_CONFIG_BAR_CHART">바 차트</system:String>
+    <system:String x:Key="BO_CONFIG_BAR_CHART_AUTO_SCALE">페이지 스케일</system:String>
+    <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">바 차트 순서</system:String>
+	
+	
+	<!-- ==>Auto -->
+    <system:String x:Key="CONFIG_SERVER_ADDRESS">서버 주소</system:String>
+    <system:String x:Key="CONFIG_SERVER_AUTO_START">자동 실행 - 서버</system:String>
+    <system:String x:Key="CONFIG_SERVER_PORT">서버 포트</system:String>
+    <system:String x:Key="CONFIG_SERVER_UPDATE_TIME">서버 업데이트 시간</system:String>
 
+    <!-- ==>Menu -->
+    <system:String x:Key="CONFIG_MENU_TITLE">메뉴</system:String>
+    <system:String x:Key="CONFIG_MENU">메인 메뉴 표시/숨김</system:String>
+	
     <!-- ==>Client -->
-    <system:String x:Key="CS_CONFIG_CLIENT_TITLE">클라이언트</system:String>
-    <system:String x:Key="CS_CONFIG_CLIENT">클라이언트 설정</system:String>
-    <system:String x:Key="CS_CONFIG_CLIENT_ACTIVE">활성화</system:String>
-    <system:String x:Key="CS_CONFIG_CLIENT_SHARE_FOLDER_MODE">공유 폴더 모드</system:String>
+    <system:String x:Key="CONFIG_CLIENT_TITLE">클라이언트</system:String>
+    <system:String x:Key="CONFIG_CLIENT">클라이언트 설정</system:String>
+    <system:String x:Key="CONFIG_CLIENT_ACTIVE">활성화</system:String>
+    <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">공유 폴더 모드</system:String>
    
     <!-- ==>CONVERSION Screen-->
-    <system:String x:Key="CS_CONFIG_CONVERSION_TITLE">변환</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE">장비 모델</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_TYPE">장비 타입</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_CALYPSO">Calypso</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitutoyo CMM</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_CHAR_DELIMITER">측정 항목 구분자</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_KFIELD">K-필드</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">열순서</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">라인</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">데이터심볼</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_USE_FILE_NAME_POS">파일이름 위치</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_FILESOURCE">소스 파일</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_USERDEFINE">사용자 정의</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_DEVICE_LIST_DESCRIPTION">설명</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_ZEISS_OPERATOR">유저 필드명 - 작업자명</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_ZEISS_MACHINE">유저 필드명 - 장비명</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_ZEISS_ORDER">유저 필드명 - 오더번호</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_ZEISS_LOT_NUMBER">유저 필드명 - 로트번호</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_ZEISS_OP_NUMBER">유저 필드명 - OP번호</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_EXTERNAL_EXCEL">외부 엑셀 사용</system:String>
-    <system:String x:Key="CS_CONFIG_CONVERSION_INTERNAL_EXCEL">내부엑셀 사용</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_TITLE">변환</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE">장비 모델</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_TYPE">장비 타입</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CALYPSO">Calypso</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitutoyo CMM</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_DELIMITER">측정 항목 구분자</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_KFIELD">K-필드</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">열순서</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">라인</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">데이터심볼</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_USE_FILE_NAME_POS">파일이름 위치</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_FILESOURCE">소스 파일</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_USERDEFINE">사용자 정의</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DESCRIPTION">설명</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_ZEISS_OPERATOR">유저 필드명 - 작업자명</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_ZEISS_MACHINE">유저 필드명 - 장비명</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_ZEISS_ORDER">유저 필드명 - 오더번호</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_ZEISS_LOT_NUMBER">유저 필드명 - 로트번호</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_ZEISS_OP_NUMBER">유저 필드명 - OP번호</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_EXTERNAL_EXCEL">외부 엑셀 사용</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_INTERNAL_EXCEL">내부엑셀 사용</system:String>
 
 
     <!-- ==>Key Field-->
-    <system:String x:Key="CS_CONFIG_KEY_FIELD_TITLE">키 필드</system:String>
-    <system:String x:Key="CS_CONFIG_KEY_FIELD">키 필드 설정</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD_TITLE">키 필드</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD">키 필드 설정</system:String>
 
-    <system:String x:Key="CS_CONFIG_KEY_FIELD_PART_INPUT">파트 키 필드</system:String>
-    <system:String x:Key="CS_CONFIG_KEY_FIELD_PART_LIST">파트 키 필드 리스트</system:String>
-    <system:String x:Key="CS_CONFIG_KEY_FIELD_PART_ADD">추가 파트 키 필드</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">파트 키 필드</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD_PART_LIST">파트 키 필드 리스트</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD_PART_ADD">추가 파트 키 필드</system:String>
 
-    <system:String x:Key="CS_CONFIG_KEY_FIELD_CHAR_INPUT">측정 키 필드</system:String>
-    <system:String x:Key="CS_CONFIG_KEY_FIELD_CHAR_LIST">측정 키 필드 리스트</system:String>
-    <system:String x:Key="CS_CONFIG_KEY_FIELD_CHAR_ADD">추가 측정 키 필드</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD_CHAR_INPUT">측정 키 필드</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD_CHAR_LIST">측정 키 필드 리스트</system:String>
+    <system:String x:Key="CONFIG_KEY_FIELD_CHAR_ADD">추가 측정 키 필드</system:String>
 
 
     <!-- ==>Data Collection -->
-	<system:String x:Key="CS_CONFIG_DATA_COLLECT_TITLE">데이터 수집 설정</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_COLLECT">데이터 수집</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_COLLEC_INPUT_DIR">입력 디렉토리</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_COLLEC_INPUT_DIR_LIST">디렉토리 리스트</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_COLLEC_INPUT_SUBDIR">하위 디렉토리 포함</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">쓰기 금지 파일/숨김 파일 무시</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_COLLEC_DATETIME">날짜/시간 형식</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_COLLEC_CODEPAGE">국가 코드페이지</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_ALL_COLLECT_OPTION">데이터 모두 수집(상태 값 무시)</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_DEFAULT_BLOCK">데이터 기본/차단</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_DEFAULT_BLOCK_FIELD_NUMBER">필드 넘버</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_DEFAULT_BLOCK_FIELD_BLOCK">필드 차단</system:String>
-    <system:String x:Key="CS_CONFIG_DATA_DEFAULT_BLOCK_DATA">필드 기본 값</system:String>
+	<system:String x:Key="CONFIG_DATA_COLLECT_TITLE">데이터 수집 설정</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLECT">데이터 수집</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR">입력 디렉토리</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR_LIST">디렉토리 리스트</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_SUBDIR">하위 디렉토리 포함</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">쓰기 금지 파일/숨김 파일 무시</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">날짜/시간 형식</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">국가 코드페이지</system:String>
+    <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">데이터 모두 수집(상태 값 무시)</system:String>
+
+    <system:String x:Key="CONFIG_DATA_HEXAGON_EQUAL_OPTION">헥사곤 옵션(노미널, 측정값 같은 경우 무시, DFQ용)</system:String>
+    <system:String x:Key="CONFIG_DATA_HEXAGON_K0014_OPTION">헥사곤 옵션(K1001->K0014 이동, DFQ용)</system:String>
+    <system:String x:Key="CONFIG_DATA_SAMMIK_CARBODY_OPTION">SAMMI-K 옵션(CARBODY-LH)</system:String>
+
+    <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK">데이터 기본/차단</system:String>
+    <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_NUMBER">필드 넘버</system:String>
+    <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_BLOCK">필드 차단</system:String>
+    <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_DATA">필드 기본 값</system:String>
 	
 
     <!-- ==>Backup -->
-    <system:String x:Key="CS_CONFIG_BACKUP_TITLE">백업</system:String>
-    <system:String x:Key="CS_CONFIG_BACKUP">백업 설정</system:String>
-    <system:String x:Key="CS_CONFIG_BACKUP_RENAME_FIELS">백업 파일 이름</system:String>
-    <system:String x:Key="CS_CONFIG_BACKUP_CHK_RENAME_FIELS">백업 파일 재설정 - [filename__yyyyMMddHHmmss]</system:String>
-    <system:String x:Key="CS_CONFIG_BACKUP_DIR">백업 디렉토리</system:String>
-    <system:String x:Key="CS_CONFIG_BACKUP_DIR_DEL">백업 파일 삭제</system:String>
-    <system:String x:Key="CS_CONFIG_BACKUP_DIR_OLD_DEL">지난 날짜 백업 파일 삭제</system:String>
-    <system:String x:Key="CS_CONFIG_ERROR_DIR">에러 디렉토리</system:String>
-    <system:String x:Key="CS_CONFIG_ERROR_DIR_DEL">에러 파일 삭제</system:String>
-    <system:String x:Key="CS_CONFIG_ERROR_DIR_OLD_DEL">지난 날짜 에러 파일 삭제</system:String>
-    <system:String x:Key="CS_CONFIG_OUTPUT_DIR">출력 디렉토리</system:String>
+    <system:String x:Key="CONFIG_BACKUP_TITLE">백업</system:String>
+    <system:String x:Key="CONFIG_BACKUP">백업 설정</system:String>
+    <system:String x:Key="CONFIG_BACKUP_RENAME_FIELS">백업 파일 이름</system:String>
+    <system:String x:Key="CONFIG_BACKUP_CHK_RENAME_FIELS">백업 파일 재설정 - [filename__yyyyMMddHHmmss]</system:String>
+    <system:String x:Key="CONFIG_BACKUP_DIR">백업 디렉토리</system:String>
+    <system:String x:Key="CONFIG_BACKUP_DIR_DEL">백업 파일 삭제</system:String>
+    <system:String x:Key="CONFIG_BACKUP_DIR_OLD_DEL">지난 날짜 백업 파일 삭제</system:String>
+    <system:String x:Key="CONFIG_ERROR_DIR">에러 디렉토리</system:String>
+    <system:String x:Key="CONFIG_ERROR_DIR_DEL">에러 파일 삭제</system:String>
+    <system:String x:Key="CONFIG_ERROR_DIR_OLD_DEL">지난 날짜 에러 파일 삭제</system:String>
+    <system:String x:Key="CONFIG_OUTPUT_DIR">출력 디렉토리</system:String>
 	
 
     <!-- ==>Database -->
-    <system:String x:Key="CS_CONFIG_DB_TITLE">데이터베이스</system:String>
-    <system:String x:Key="CS_CONFIG_DB">데이터베이스 설정</system:String>
-    <system:String x:Key="CS_CONFIG_DB_SQL">SQL 데이터베이스 서버</system:String>
-    <system:String x:Key="CS_CONFIG_DB_ADDRESS">주소(IP/DNS)</system:String>
-    <system:String x:Key="CS_CONFIG_DB_ID">아이디</system:String>
-    <system:String x:Key="CS_CONFIG_DB_PASSWORD">패스워드</system:String>
-    <system:String x:Key="CS_CONFIG_DB_LIST">데이터베이스</system:String>
-    <system:String x:Key="CS_CONFIG_DB_LOCAL">로컬 데이터베이스</system:String>
-    <system:String x:Key="CS_CONFIG_DELETE_PART">선택 파트 삭제</system:String>
+    <system:String x:Key="CONFIG_DB_TITLE">데이터베이스</system:String>
+    <system:String x:Key="CONFIG_DB">데이터베이스 설정</system:String>
+    <system:String x:Key="CONFIG_DB_SQL">SQL 데이터베이스 서버</system:String>
+    <system:String x:Key="CONFIG_DB_ADDRESS">주소(IP/DNS)</system:String>
+    <system:String x:Key="CONFIG_DB_ID">아이디</system:String>
+    <system:String x:Key="CONFIG_DB_PASSWORD">패스워드</system:String>
+    <system:String x:Key="CONFIG_DB_LIST">데이터베이스</system:String>
+    <system:String x:Key="CONFIG_DB_LOCAL">로컬 데이터베이스</system:String>
+    <system:String x:Key="CONFIG_DELETE_PART">선택 파트 삭제</system:String>
+
+    <system:String x:Key="CONFIG_DB_SQLITE_FILE">Sqlite 파일</system:String>
+    <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">Sqlite 삭제(클린업)</system:String>	
+
+    <system:String x:Key="CONFIG_DB_USE_VALUE_DATA">사용 밸류 필드</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0001">측정값 - [0001] *필수 필드</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0002">상태 - [0002] *필수 필드</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0004">날짜/시간 - [0004] *필수 필드</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0005">이벤트- [0005]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0006">시리얼 넘버 - [0006]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0007">치구 위치- [0007] *필수 필드</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0008">작업자명- [0008]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0010">장비 번호- [0010] *필수 필드</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0011">공정 파라메터 - [0011]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0012">게이지 넘버 - [0012]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0014">제품 ID 넘버 - [0014]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0053">발주 - [0053]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0054">스페셜 데이터 54 - [0054]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0055">스페셜 데이터 55 - [0055]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0056">스페셜 데이터 56 - [0056]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0057">스페셜 데이터 57 - [0057]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0058">스페셜 데이터 58 - [0058]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0059">스페셜 데이터 59 - [0059]</system:String>
+    <system:String x:Key="CONFIG_DB_USE_VALUE_0060">스페셜 데이터 60 - [0060]</system:String>
 	
+    <system:String x:Key="CONFIG_DB_PART_FILTER">파트 필터</system:String>
+    <system:String x:Key="CONFIG_DB_PART_FILTER_SYMBOL">기호</system:String>
+    <system:String x:Key="CONFIG_DB_PART_FILTER_K_FILED">필드</system:String>
+    <system:String x:Key="CONFIG_DB_PART_FILTER_FILTER">필터</system:String>
+    <system:String x:Key="CONFIG_DB_PART_FILTER_EQUEAL">같음</system:String>
+    <system:String x:Key="CONFIG_DB_PART_FILTER_COMPARE">OR</system:String>
+
+
+	
+    <!-- 카탈로그 화면 -->
+    <system:String x:Key="CONFIG_CATALOG_MAIN">카탈로그</system:String>
+    <system:String x:Key="CONFIG_CATALOG_SOURCE_FILE">카탈로그 데이터 파일</system:String>
+
 
     <!-- ==> exceution button -->
-    <system:String x:Key="CS_CONFIG_SAVE">설정 저장</system:String>
-    <system:String x:Key="CS_CONFIG_EXE_CONTROL_PANEL">제어판 실행</system:String>
-    <system:String x:Key="CS_CONFIG_EXE_NETWORK">네트워크 실행</system:String>
-    <system:String x:Key="CS_CONFIG_EXE_FIREWALL">방화벽 실행</system:String>
-    <system:String x:Key="CS_CONFIG_EXE_FILE">파일창 실행</system:String>
-    <system:String x:Key="CS_CONFIG_EXE_EXIT">프로그램 종료</system:String>
-
-    <!-- Message Box -->
+    <system:String x:Key="CONFIG_SAVE">설정 저장</system:String>
+    <system:String x:Key="CONFIG_EXE_CONTROL_PANEL">제어판 실행</system:String>
+    <system:String x:Key="CONFIG_EXE_NETWORK">네트워크 실행</system:String>
+    <system:String x:Key="CONFIG_EXE_FIREWALL">방화벽 실행</system:String>
+    <system:String x:Key="CONFIG_EXE_FILE">파일창 실행</system:String>
+    <system:String x:Key="CONFIG_EXE_EXIT">프로그램 종료</system:String>
 
 
+<!--###############################################################################>
+[Database Load]
+#################################################################################-->
+	<system:String x:Key="DATABASE_FILTER_ARRANGE">배열</system:String>
+    <system:String x:Key="DATABASE_FILTER_ARRANGE_NO">안함</system:String>
+    <system:String x:Key="DATABASE_FILTER_ARRANGE_DATETIME">날짜/시간</system:String>
+    <system:String x:Key="DATABASE_FILTER_ARRANGE_K0014">파트ID</system:String>
+    <system:String x:Key="DATABASE_FILTER_ARRANGE_K0053">오더(워크 넘버)</system:String>
+
+
+    <system:String x:Key="DATABASE_FILTER_SORT">정렬</system:String>
+    <system:String x:Key="DATABASE_FILTER_SORT_NO">안함</system:String>
+    <system:String x:Key="DATABASE_FILTER_SORT_DESCENDING">오름 차순 정렬 - 최신 순서</system:String>
+    <system:String x:Key="DATABASE_FILTER_SORT_ASCENDING">내림 차순 정렬 - 오래된 순서</system:String>
+    <system:String x:Key="DATABASE_FILTER_ENABLE_DATE_TIME">설정 날짜/시간</system:String>
+    
+    
+    <system:String x:Key="DATABASE_FILTER_START_DATETIME">시작 날짜/시간</system:String>
+    <system:String x:Key="DATABASE_FILTER_END_DATETIME">종료 날짜/시간</system:String>
+
+    <system:String x:Key="DATABASE_FILTER_PART">측정파트</system:String>
+    <system:String x:Key="DATABASE_FILTER_PART_NO">파트 넘버</system:String>
+
+    <system:String x:Key="DATABASE_FILTER_OPERATOR">작업자</system:String>
+    <system:String x:Key="DATABASE_FILTER_MACHINE">장비명</system:String>
+    <system:String x:Key="DATABASE_FILTER_ORDER_NUMBER">오더번호</system:String>
+    <system:String x:Key="DATABASE_FILTER_LOT_NUMBER">로트번호</system:String>
+    <system:String x:Key="DATABASE_FILTER_OP_NUMBER">OP번호</system:String>
+
+    <system:String x:Key="DATABASE_VALUE_DELETE">값 삭제</system:String>
+
+    <system:String x:Key="DATABASE_CELL_POS_COPY_TITLE">복사 셀 정보</system:String>
+
+    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">파트를 삭제 하시겠습니까?</system:String>
+    <system:String x:Key="DATABASE_PART_DEL">파트 삭제</system:String>
+    <system:String x:Key="DATABASE_CELL_POS_COPY">복사 셀 정보</system:String>
+    <system:String x:Key="DATABASE_CELL_POS_COPY_SOURCE_PART">소스 파트</system:String>
+    <system:String x:Key="DATABASE_CELL_POS_COPY_DEST_PART">대상 파트</system:String>
+    
+    
+    <system:String x:Key="DATABASE_CHAR_CLASS_UNIMPORTANT">Unimportant</system:String>
+    <system:String x:Key="DATABASE_CHAR_CLASS_LITTLE_IMPORTANT">Little important</system:String>
+    <system:String x:Key="DATABASE_CHAR_CLASS_IMPORTANT">Important</system:String>
+    <system:String x:Key="DATABASE_CHAR_CLASS_SIGNIFICANT">Significant</system:String>
+    <system:String x:Key="DATABASE_CHAR_CLASS_CRITICAL">Critical</system:String>
+
+
+<!--###############################################################################>
+[Value List]
+#################################################################################-->
+    <system:String x:Key="VALUE_LIST">측정값 리스트</system:String>
+    <system:String x:Key="VALUE_COUNT">측정값 개수 </system:String>
+
+<!--###############################################################################>
+[Select Value]
+#################################################################################-->
+    <system:String x:Key="VALUE_SELECT_TITLE">측정값 선택</system:String>
+	<system:String x:Key="VALUE_SELECT_PART_NAME">파트 이름</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_FEATURE">측정값 특징</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_DATE_TIME">시간 날짜</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_K0014">파트 아이디</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_K0053">오더(워크 넘버)</system:String>
+	
+<!--###############################################################################>
+[Value Chart]
+#################################################################################-->	
+	<system:String x:Key="VALUE_CHART">밸류 차트</system:String>	
+	<system:String x:Key="QCC_CHART">QCC 차트</system:String>
+    <system:String x:Key="POSITIONAL_TOLERANCE">2D 위치도</system:String>
+    <system:String x:Key="CP_CPK">Cp/Cpk</system:String>
+	
+	<system:String x:Key="VALUE_CHART_POPUP_UPDATE_EVENT">업데이트 이벤트</system:String>
+    <system:String x:Key="VALUE_CHART_POPUP_CONFIRM_VALUE">확인 값</system:String>
+    <system:String x:Key="VALUE_CHART_POPUP_UNCONFIRM_VALUE">미확인 값</system:String>
+	
+	<system:String x:Key="VALUE_CHART_SIDE_SETTING">그래픽 설정</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_MARKER">심볼 표시 / 크기</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">표시</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">범위(개수)</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">범위(측정값)</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_APPLY">설정 적용</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_OUT_TORELENCE">공차 아웃 표시</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">확대/축소 기본값</system:String>
+	
+	
+<!--###############################################################################>
+[Process parameter]
+#################################################################################-->
+    <system:String x:Key="PROCESS_PARAMETER_VALUES">공정 파라메타 값</system:String>
+    <system:String x:Key="PROCESS_PARAMETER_SELECTED">선택된 공정 파라메타 값</system:String>
+	
+	
+<!--###############################################################################>
+[Message]
+#################################################################################-->
+	<!-- Common -->
+    <system:String x:Key="MSG_LOAD_FAIL">불러오기 실패</system:String>
+    <system:String x:Key="MSG_LOAD_OK">불러오기 성공</system:String>
+    <system:String x:Key="MSG_SAVE_OK">저장 성공</system:String>
+    <system:String x:Key="MSG_SAVE_FAIL">저장 실패</system:String>
+    <system:String x:Key="MSG_VALUE_DELETE_OK">측정 값 삭제 완료.</system:String>
+    <system:String x:Key="MSG_DATABASE_CHECK">데이터베이스 연결 상태 확인.</system:String>
+    <system:String x:Key="MSG_SELECT_CHARACTERISTIC">측정 항목 선택 해주세요.</system:String>
+    <system:String x:Key="MSG_PROGRAM_EXIT">프로그램 종료 하시겠습니까?</system:String>
+    <system:String x:Key="MSG_SETTING_PROGRAM_EXIT">프로그램 종료 하시겠습니까?</system:String>
+	
+	<system:String x:Key="MSG_CATALOG_MESSAGE_0001">카탈로그 파일이 없습니다..</system:String>
+	
+    <system:String x:Key="MSG_DB_MESSAGE_0001">데이터베이스 필수 항목 입니다.</system:String>
+    <system:String x:Key="MSG_DB_MESSAGE_0002">데이터베이스 업데이트 필요.</system:String>
+    <system:String x:Key="MSG_DB_MESSAGE_0003">데이터베이스 갱신</system:String>
+
+
+    <system:String x:Key="MSG_DB_ERROR_0001">선택 아이템 에러.</system:String>
+    <system:String x:Key="MSG_DB_ERROR_0002">데이터베이스 연결 되지 않음.</system:String>
+    <system:String x:Key="MSG_DB_ERROR_0003">데이터가 존재 하지 않습니다..</system:String>
+    <system:String x:Key="MSG_DB_ERROR_0004">데이터베이스 읽기 실패</system:String>
+    <system:String x:Key="MSG_DB_ERROR_0005">상위에 CHAR Item 이 필요 합니다.</system:String>
+    <system:String x:Key="MSG_DB_ERROR_0006">PART/CHAR/VALUE CHART 이용 할수 없습니다.</system:String>
+    <system:String x:Key="MSG_DB_ERROR_0007">날짜/시간 설정을 확인 하십시오.  (종료 날짜/시간이 시작 시간 보다 작습니다.)</system:String>
+
+
+
+	<!-- Q/i Report -->
+	<system:String x:Key="MSG_SELECT_CELL">위치 선택 하시겠습니까?</system:String>
+    <system:String x:Key="MSG_RELEASE_CELL">셀 지정을 해제 하시겠습니까?</system:String>
+    <system:String x:Key="MSG_1SELECT_CELL">범위 지정 시 셀/측정 항목 1개를 선택 하십시오.</system:String>
+    <system:String x:Key="MSG_1SELECT_LIST">범위 지정을 0 이상 하십시오.</system:String>
+    <system:String x:Key="MSG_MANUAL_INPUT_CELL">수동 지정 시 셀 좌표를 입력 하십시오.</system:String>
+    <system:String x:Key="MSG_MANUAL_INPUT_LIST">수동 지정 시 측정 항목 지정 입력 하십시오.</system:String>
+    <system:String x:Key="MSG_MANUAL_INPUT_DATETIME">수동 지정 측정 항목 순서가 더 작습니다.</system:String>
+    <system:String x:Key="MSG_CELL_SET_FAIL">셀 설정 실패</system:String>
+    <system:String x:Key="MSG_AUTO_INPUT_EXCEL">자동으로 입력 하시겠습니까?</system:String>
+    <system:String x:Key="MSG_CHECK_EXCEL_FILE">엑셀 파일을 확인 하십시오.</system:String>
+    <system:String x:Key="MSG_CHECK_EXCEL_CLOSE">엑셀 파일을 닫으시겠습니까?</system:String>
+    <system:String x:Key="MSG_FILE_UPLOAD_CALYPSO">칼립소 파일형식을 업로드 하시겠습니까?</system:String>
+    <system:String x:Key="MSG_FILE_UPLOAD_MITUTOYO">미츠토요 파일형식을 업로드 하시겠습니까?</system:String>
+    <system:String x:Key="MSG_FILE_UPLOAD_QDAS">큐다스 파일형식을 업로드 하시겠습니까?</system:String>
+    <system:String x:Key="MSG_LIC_ERROR_CALYPSO">라이센스가 칼립소 파일 형식을 지원 하지 않습니다.</system:String>
+    <system:String x:Key="MSG_LIC_ERROR_MITUTOYO">라이센스가 미츠도요 파일 형식을 지원 하지 않습니다.</system:String>
+    <system:String x:Key="MSG_LIC_ERROR_QDAS">라이센스가 dfq 파일 형식을 지원 하지 않습니다.</system:String>
+    <system:String x:Key="MSG_LIC_ERROR_TUBE_INSPECTOR">라이센스가 튜브 인스펙터 파일 형식을 지원 하지 않습니다.</system:String>
+    <system:String x:Key="MSG_SHEET_NOT_EXIST">엑셀 시트가 없습니다.</system:String>
+    <system:String x:Key="MSG_COPY_CELL_INFO">셀 정보를 복사 하시겠습니까?</system:String>
+
+	<!-- Q/i Board -->
+	<system:String x:Key="MSG_DB_NISSAN_SPECIAL_MODE">닛산 스페셜 모드</system:String>
+    <system:String x:Key="MSG_DB_NISSAN_SPECIAL_COMMENT">Replaced fields Line[1091] OP[1087] Machine[0006] Follow by above chart order setting</system:String>
+    <system:String x:Key="MSG_GRAPHIC_END_LEVEL">마지막 페이지 입니다..</system:String>
+
+    <system:String x:Key="MSG_GRAPHIC_CHART_ERROR_0001">차트 순서 에러.</system:String>
+    <system:String x:Key="MSG_GRAPHIC_UPDATE_ERROR_0001">그래픽(차트) 업데이트 에러  *데이터베이스 상태 체크 필요.</system:String>
+    <system:String x:Key="MSG_DIAGRAM_DELETE_0001">항목을 삭제 하시겠습니까?</system:String>
+
+    <system:String x:Key="MSG_FIELD_ERROR_0001">상위 필드 CHAR 아이템이 필요하다.</system:String>
+    <system:String x:Key="MSG_FIELD_ERROR_0002">하위 필드 VALUE CHART 아이템이 필요하다</system:String>
+    <system:String x:Key="MSG_FIELD_ERROR_0003">필드 존재 한다.</system:String>
 
 </ResourceDictionary>
