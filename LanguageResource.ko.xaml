@@ -40,7 +40,7 @@
 	
 	
 	<system:String x:Key="SAVE">저장</system:String>
-	<system:String x:Key="SAVING">저장 중...</system:String>
+	<system:String x:Key="SAVING">저장중...</system:String>
 	<system:String x:Key="LOAD">불러오기</system:String>
 	<system:String x:Key="LOADING">불러오기 중...</system:String>
     <system:String x:Key="START">시작</system:String>
