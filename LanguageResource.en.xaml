@@ -176,6 +176,13 @@
     <system:String x:Key="DATA_FIELD_FIELD_2003">Characteristic Abbreviation</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_2005">Characteristics Class</system:String>
 
+	<system:String x:Key="DATA_FIELD_FIELD_2101">Nominal</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_2110">Lo.spec.lim</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_2111">Up.spec.lim</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_2112">Lo.allowance</system:String>
+	<system:String x:Key="DATA_FIELD_FIELD_2113">Up.allowance</system:String>
+	
+	
     <system:String x:Key="DATA_FIELD_FIELD_0001">measured value</system:String>
     <system:String x:Key="DATA_FIELD_FIELD_0002">Attribute</system:String>
 	<system:String x:Key="DATA_FIELD_FIELD_0004">Date/Time</system:String>
