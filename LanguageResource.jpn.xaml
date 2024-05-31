@@ -25,7 +25,7 @@
 #################################################################################--> 
     <system:String x:Key="LICENSE">ライセンス</system:String>
     <system:String x:Key="DEMO">デモ</system:String>
-    <system:String x:Key="FULL_VERSION">正式バージョン</system:String>
+    <system:String x:Key="FULL_VERSION">正規版</system:String>
     <system:String x:Key="TRIAL_VERSION">トライアルバージョン</system:String>
 	
 	<system:String x:Key="INFORMATION">情報</system:String>
