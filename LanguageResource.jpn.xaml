@@ -477,7 +477,7 @@
 
    
     <!-- ==>CONVERSION Screen-->
-    <system:String x:Key="CONFIG_CONVERSION_TITLE">会話</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_TITLE">変換</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE">デバイスモデル</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_TYPE">デバイスタイプ</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CALYPSO">Calypso</system:String>
