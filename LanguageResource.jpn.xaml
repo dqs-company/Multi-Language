@@ -38,6 +38,7 @@
     <system:String x:Key="YES">はい</system:String>
     <system:String x:Key="NO">いいえ</system:String>
 	
+	
 	<system:String x:Key="SAVE">保存</system:String>
 	<system:String x:Key="SAVING">保存中...</system:String>
 	<system:String x:Key="LOAD">ロード</system:String>
