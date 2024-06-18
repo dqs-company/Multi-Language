@@ -72,7 +72,11 @@
     <system:String x:Key="PART">部品</system:String>
     <system:String x:Key="CHAR">特性</system:String>
     <system:String x:Key="VALUE">測定値</system:String>
-
+	<system:String x:Key="NOMINAL">規格値</system:String>
+	<system:String x:Key="USL">規格上限</system:String>
+	<system:String x:Key="LSL">規格下限</system:String>
+	
+ 
 	<system:String x:Key="UNKNOWN">不明</system:String>
     <system:String x:Key="VALID_VALUE">有効な値</system:String>
     <system:String x:Key="INVALID_VALUE">無効な値</system:String>
@@ -126,6 +130,11 @@
 
     <system:String x:Key="WARNING">警告</system:String>
 	<system:String x:Key="PROGRAM_EXIT">プログラムの終了</system:String>
+	
+    <system:String x:Key="ASCENDING">昇順</system:String>
+	<system:String x:Key="DESCENDING">降順</system:String>
+
+	
 	
 	<!--Print Dialog-->
 	<system:String x:Key="PAGE">ページ</system:String>	
@@ -456,7 +465,7 @@
     <system:String x:Key="BO_CONFIG_BAR_CHART">バー チャート</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_AUTO_SCALE">バーチャート表示数</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">バーチャートの順序</system:String>
-	
+	<system:String x:Key="BO_CONFIG_LAST_FIELD">最後のフィールド</system:String>
 	
 	
 	<!-- ==>Auto -->

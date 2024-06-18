@@ -71,7 +71,11 @@
     <system:String x:Key="PART">파트</system:String>
     <system:String x:Key="CHAR">측정항목</system:String>
     <system:String x:Key="VALUE">측정 값</system:String>
-
+	<system:String x:Key="NOMINAL">공칭값</system:String>
+	<system:String x:Key="USL">USL</system:String>
+	<system:String x:Key="LSL">LSL</system:String>
+	
+	
 	<system:String x:Key="UNKNOWN">알수없음</system:String>
     <system:String x:Key="VALID_VALUE">유효한 값</system:String>
     <system:String x:Key="INVALID_VALUE">잘못된 값</system:String>
@@ -123,7 +127,10 @@
     <system:String x:Key="WARNING">경고</system:String>
     <system:String x:Key="PROGRAM_EXIT">프로그램 종료</system:String>
 	
-	
+    <system:String x:Key="ASCENDING">오름차순</system:String>
+    <system:String x:Key="DESCENDING">내림차순</system:String>
+
+
 	<!--Print Dialog-->
 	<system:String x:Key="PAGE">페이지</system:String>
 	<system:String x:Key="PRINTER">프린터</system:String>
@@ -342,8 +349,7 @@
     <system:String x:Key="BO_TOP_TITLE_0014">S/N number</system:String>
     <system:String x:Key="BO_TOP_TITLE_0053">Passage plant</system:String>
 	
-	
-	
+ 
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -453,7 +459,7 @@
     <system:String x:Key="BO_CONFIG_BAR_CHART">바 차트</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_AUTO_SCALE">페이지 스케일</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">바 차트 순서</system:String>
-	
+	<system:String x:Key="BO_CONFIG_RECENT_FIELD">최근 필드</system:String>
 	
 	<!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_ADDRESS">서버 주소</system:String>

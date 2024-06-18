@@ -72,7 +72,11 @@
     <system:String x:Key="PART">Part</system:String>
     <system:String x:Key="CHAR">Characteristics</system:String>
     <system:String x:Key="VALUE">Value</system:String>
-
+	<system:String x:Key="NOMINAL">NOMINAL</system:String>
+	<system:String x:Key="USL">USL</system:String>
+	<system:String x:Key="LSL">LSL</system:String>
+	
+	
     <system:String x:Key="UNKNOWN">unknown</system:String>
     <system:String x:Key="VALID_VALUE">valid value</system:String>
     <system:String x:Key="INVALID_VALUE">invalid value</system:String>
@@ -129,7 +133,8 @@
 	<system:String x:Key="WARNING">Warning</system:String>
 	<system:String x:Key="PROGRAM_EXIT">Program Exit</system:String>
 		
-
+    <system:String x:Key="ASCENDING">Ascending</system:String>
+    <system:String x:Key="DESCENDING">Descending</system:String>
 	
 	<!--Print Dialog-->
 	<system:String x:Key="PAGE">Page</system:String>
@@ -472,7 +477,7 @@
     <system:String x:Key="BO_CONFIG_BAR_CHART">Bar Chart</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_AUTO_SCALE">Page Scale</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">Bar Chart Order</system:String>
-	
+	<system:String x:Key="BO_CONFIG_LAST_FIELD">Last Field</system:String>
 	
 	<!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Auto Start - Server</system:String>
