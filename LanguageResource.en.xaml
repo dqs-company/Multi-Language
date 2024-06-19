@@ -667,6 +667,7 @@
     <system:String x:Key="DATABASE_PART_DEL">Part delete.</system:String>
 
     <system:String x:Key="DATABASE_VALUE_DELETE">Value Delete</system:String>
+    <system:String x:Key="DATABASE_CONNECTION">Database Connection</system:String>
 
     <system:String x:Key="DATABASE_CELL_POS_COPY_TITLE">Copy cell information</system:String>
 

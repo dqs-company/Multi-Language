@@ -650,6 +650,7 @@
     <system:String x:Key="DATABASE_CELL_POS_COPY_TITLE">セル情報のコピー</system:String>
 
     <system:String x:Key="DATABASE_VALUE_DELETE">値の削除</system:String>
+    <system:String x:Key="DATABASE_CONNECTION">データベースの接続</system:String>
 
     <system:String x:Key="DATABASE_PART_DEL">部品を削除</system:String>
     <system:String x:Key="DATABASE_CELL_POS_COPY">セル位置をコピー</system:String>

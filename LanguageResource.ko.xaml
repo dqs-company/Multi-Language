@@ -637,6 +637,7 @@
     <system:String x:Key="DATABASE_FILTER_OP_NUMBER">OP번호</system:String>
 
     <system:String x:Key="DATABASE_VALUE_DELETE">값 삭제</system:String>
+    <system:String x:Key="DATABASE_CONNECTION">데이터베이스 연결</system:String>
 
     <system:String x:Key="DATABASE_CELL_POS_COPY_TITLE">복사 셀 정보</system:String>
 
