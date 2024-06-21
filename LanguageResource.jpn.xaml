@@ -130,6 +130,8 @@
 
     <system:String x:Key="WARNING">警告</system:String>
 	<system:String x:Key="PROGRAM_EXIT">プログラムの終了</system:String>
+    <system:String x:Key="EXIT">終了</system:String>
+	
 	
     <system:String x:Key="ASCENDING">昇順</system:String>
 	<system:String x:Key="DESCENDING">降順</system:String>
@@ -723,7 +725,10 @@
     <system:String x:Key="MSG_DB_MESSAGE_0001">要データベースフィールド</system:String>
     <system:String x:Key="MSG_DB_MESSAGE_0002">データベースを更新してください。</system:String>
     <system:String x:Key="MSG_DB_MESSAGE_0003">DBリフレッシュ</system:String>
-
+    <system:String x:Key="MSG_DB_MESSAGE_0004">データベース接続に成功しました。</system:String>
+    <system:String x:Key="MSG_DB_MESSAGE_0005">データベース接続に失敗しました。</system:String>
+	
+	
     <system:String x:Key="MSG_DB_ERROR_0001">選択アイテムエラー</system:String>
     <system:String x:Key="MSG_DB_ERROR_0002">DB未接続</system:String>
     <system:String x:Key="MSG_DB_ERROR_0003">該当する値がありません。</system:String>

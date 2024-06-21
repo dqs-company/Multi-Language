@@ -126,7 +126,8 @@
 
     <system:String x:Key="WARNING">경고</system:String>
     <system:String x:Key="PROGRAM_EXIT">프로그램 종료</system:String>
-	
+	<system:String x:Key="EXIT">종료</system:String>
+
     <system:String x:Key="ASCENDING">오름차순</system:String>
     <system:String x:Key="DESCENDING">내림차순</system:String>
 
@@ -719,7 +720,8 @@
     <system:String x:Key="MSG_DB_MESSAGE_0001">데이터베이스 필수 항목 입니다.</system:String>
     <system:String x:Key="MSG_DB_MESSAGE_0002">데이터베이스 업데이트 필요.</system:String>
     <system:String x:Key="MSG_DB_MESSAGE_0003">데이터베이스 갱신</system:String>
-
+    <system:String x:Key="MSG_DB_MESSAGE_0004">데이터베이스 연결 성공.</system:String>
+    <system:String x:Key="MSG_DB_MESSAGE_0005">데이터베이스 연결 실패.</system:String>
 
     <system:String x:Key="MSG_DB_ERROR_0001">선택 아이템 에러.</system:String>
     <system:String x:Key="MSG_DB_ERROR_0002">데이터베이스 연결 되지 않음.</system:String>

@@ -132,6 +132,7 @@
 	
 	<system:String x:Key="WARNING">Warning</system:String>
 	<system:String x:Key="PROGRAM_EXIT">Program Exit</system:String>
+    <system:String x:Key="EXIT">Exit</system:String>
 		
     <system:String x:Key="ASCENDING">Ascending</system:String>
     <system:String x:Key="DESCENDING">Descending</system:String>
@@ -756,6 +757,9 @@
 	<system:String x:Key="MSG_DB_MESSAGE_0001">Database fields are required.</system:String>
     <system:String x:Key="MSG_DB_MESSAGE_0002">Database update required.</system:String>
     <system:String x:Key="MSG_DB_MESSAGE_0003">Refresh database.</system:String>
+    <system:String x:Key="MSG_DB_MESSAGE_0004">Database connection successful.</system:String>
+    <system:String x:Key="MSG_DB_MESSAGE_0005">Database connection failed.</system:String>
+
 
     <system:String x:Key="MSG_DB_ERROR_0001">Selected item error.</system:String>
     <system:String x:Key="MSG_DB_ERROR_0002">Database not connected.</system:String>
