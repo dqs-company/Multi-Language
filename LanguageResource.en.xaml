@@ -10,6 +10,7 @@
     <system:String x:Key="APP-REPORT">i-Report</system:String>
     <system:String x:Key="APP-BOARD">i-Board</system:String>
     <system:String x:Key="APP-COLLECTOR-SERVER">i-Collector Server</system:String>
+	<system:String x:Key="APP-COLLECTOR-CLIENT">i-Collector Client</system:String>
     <system:String x:Key="APP-INTERFACE">i-Interface</system:String>
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
@@ -33,7 +34,7 @@
     <system:String x:Key="YES">YES</system:String>
     <system:String x:Key="NO">NO</system:String>
 	
-	
+	<system:String x:Key="SERVER">Server</system:String>
 	<system:String x:Key="SAVE">Save</system:String>
 	<system:String x:Key="SAVING">Saving</system:String>
 	<system:String x:Key="LOAD">Load</system:String>
@@ -75,6 +76,7 @@
     <system:String x:Key="UNKNOWN">unknown</system:String>
     <system:String x:Key="VALID_VALUE">valid value</system:String>
     <system:String x:Key="INVALID_VALUE">invalid value</system:String>
+    <system:String x:Key="INVALID_DIRCTORY">invalid directory</system:String>	
     <system:String x:Key="ADD">Add</system:String>
     <system:String x:Key="DELETE">Delete</system:String>
     <system:String x:Key="INSERT">Insert</system:String>
@@ -116,7 +118,7 @@
     <system:String x:Key="JAPANESE">Japanese</system:String>
     <system:String x:Key="TAIWAN">ZH-TW</system:String>
 
-	<system:String x:Key="ADDITIONAL DATA">Additional data</system:String>
+	<system:String x:Key="ADDITIONAL_DATA">Additional data</system:String>
     <system:String x:Key="NONE">None</system:String>
     
     <system:String x:Key="EXPORT">Export</system:String>
@@ -195,8 +197,83 @@
 	
 	<system:String x:Key="DRAWING_IMAGE">Drawing Image</system:String>
 	
+	<system:String x:Key="PART_IMAGE">Part Image</system:String>
+	
 	<system:String x:Key="OPTION">Option</system:String>
  
+ 	<system:String x:Key="FIXED">Fixed</system:String>
+ 	<system:String x:Key="MOVING">Moving</system:String>
+ 
+  	<system:String x:Key="TEST">Test</system:String>
+
+
+  	<system:String x:Key="ENTER_VALUE">Enter Value</system:String>
+  
+   	<system:String x:Key="REPORTING">Reporting</system:String>
+	
+   	<system:String x:Key="FILE">File</system:String>	
+	
+   	<system:String x:Key="AVERAGE">Average</system:String>		
+	<system:String x:Key="MEDIAN">Median</system:String>		
+	
+	<system:String x:Key="STANDARD_DEVIATION">Standard Deviation</system:String>			 
+	<system:String x:Key="MINIMUM">Minimum</system:String>		
+	<system:String x:Key="MAXIMUM">Maximum</system:String>		
+	
+	<system:String x:Key="COLOR">Color</system:String>		
+	
+	<system:String x:Key="PRIORITY">Priority</system:String>		
+
+	<system:String x:Key="CONDITION">Condition</system:String>		
+	
+	<system:String x:Key="INSUFFICIENT_DATA">Insufficient data</system:String>		
+	
+	<system:String x:Key="LINEAR_TRANSFORMATION">Linear Transformation</system:String>		
+	<system:String x:Key="ACCMULATING_CONSTANT">Accumulating Constant</system:String>		
+	<system:String x:Key="MULTIPLICATION_FACTOR">Multiplication factor</system:String>		
+	
+    <system:String x:Key="LIST">List</system:String>	
+	
+    <system:String x:Key="OPEN">Open</system:String>		
+	<system:String x:Key="CLOSE">Close</system:String>		
+	
+	<system:String x:Key="DELETE_FIELD">Delete field</system:String>		
+	
+	
+	<system:String x:Key="PART_CHAR_LIST">Parts/Characteristics list</system:String>	
+	
+	<system:String x:Key="SAVE_TO_FILE_JSON">Save to file(json)</system:String>	
+	<system:String x:Key="SAVE_TO_DATABASE">Save to database</system:String>	
+	
+	
+ 	<system:String x:Key="AVERAGE_CHART">Average Chart</system:String>	
+	<system:String x:Key="RAW_CHART">Raw Chart</system:String>	
+	
+	<system:String x:Key="INDEQS_JSON_FILE">INDEQS JSON File</system:String>	
+	<system:String x:Key="DFQ_FILE">DFQ File</system:String>	
+	
+	
+	<system:String x:Key="ALARM_TABLE">Alarm Table</system:String>			
+	
+	<system:String x:Key="ALL_DATA">All Data</system:String>		
+ 
+ 
+ 	<system:String x:Key="CANCELING_UPLOAD">Canceling upload...</system:String>		
+ 
+	
+	<system:String x:Key="DIAMETER">Diameter</system:String>		
+	<system:String x:Key="ANGLE">Angle</system:String>		
+	<system:String x:Key="RADIUS">Radius</system:String>		
+	<system:String x:Key="ROUGHNESS">Roughness</system:String>		
+	<system:String x:Key="LENGTH">Length</system:String>		
+
+
+	<system:String x:Key="SPEC_LIMITS">Specification limits</system:String>	
+
+
+
+ 
+	
 	<!--Print Dialog-->
 	<system:String x:Key="PAGE">Page</system:String>
 	<system:String x:Key="PRINTER">Printer</system:String>
@@ -268,7 +345,12 @@
 	<system:String x:Key="DATA_FIELD_1900">User Field 11</system:String>
 	
 	<system:String x:Key="DATA_FIELD_2001">Characteristic Number</system:String>
+	<system:String x:Key="DATA_FIELD_2001_ABBR">Char'-Number</system:String><!--Abbr -->
+	
 	<system:String x:Key="DATA_FIELD_2002">Characteristic Description</system:String>
+	<system:String x:Key="DATA_FIELD_2002_ABBR">Char'-Descr</system:String><!--Abbr -->	
+	
+	
 	<system:String x:Key="DATA_FIELD_2003">Characteristic Abbreviation</system:String>
 	<system:String x:Key="DATA_FIELD_2004">Characteristic Type</system:String>
 	<system:String x:Key="DATA_FIELD_2005">Characteristic Class</system:String>
@@ -364,7 +446,7 @@
     <system:String x:Key="DATA_FIELD_0004_1">Date</system:String>
     <system:String x:Key="DATA_FIELD_0004_2">Time</system:String>
     <system:String x:Key="DATA_FIELD_0005">Event</system:String>
-    <system:String x:Key="DATA_FIELD_0006">Batch number</system:String>
+    <system:String x:Key="DATA_FIELD_0006">Batch number</system:String> 
     <system:String x:Key="DATA_FIELD_0007">Cavity number</system:String>
     <system:String x:Key="DATA_FIELD_0008">Operator name</system:String>
     <system:String x:Key="DATA_FIELD_0009">Text</system:String>
@@ -386,16 +468,31 @@
 	<system:String x:Key="DATA_FIELD_0062">0062</system:String>
 	<system:String x:Key="DATA_FIELD_0063">0063</system:String>
 
-
     <system:String x:Key="DATA_FIELD_CATALOG">Catalog (Use only number)</system:String>
- 
  
 	<system:String x:Key="UNIMPORTANT">unimportant</system:String>
 	<system:String x:Key="LITTLE_IMPORTANT">little important</system:String>
 	<system:String x:Key="IMPORTANT">important</system:String>
 	<system:String x:Key="SIGNIFICANT">significant</system:String>
 	<system:String x:Key="CRITICAL">critical</system:String>
+		
+	<system:String x:Key="DATA_FIELD_2004_VARIABLE">variable</system:String>
+	<system:String x:Key="DATA_FIELD_2004_ATTRIBUTE">attribute</system:String>
  
+ 	<system:String x:Key="DATA_FIELD_2008_NO_GROUP">no group/coordinate</system:String>
+  	<system:String x:Key="DATA_FIELD_2008_POSITIONAL_TOLERANCE">positional tolerance</system:String>
+   	<system:String x:Key="DATA_FIELD_2008_BEST_FIT_MOVE">BestFitMove group</system:String>
+	<system:String x:Key="DATA_FIELD_2008_3D_POSITIONAL_TOLERANCE">3D positional tolerance</system:String>
+	
+ 
+	<system:String x:Key="DATA_FIELD_2015_UNDEFINED">Undefined</system:String>
+	<system:String x:Key="DATA_FIELD_2015_ASCENDING">Ascending</system:String>
+	<system:String x:Key="DATA_FIELD_2015_DESCENDING">Descending</system:String>
+ 
+ 	<system:String x:Key="DATA_FIELD_2020_NO_LIMIT">Undefine</system:String>
+ 	<system:String x:Key="DATA_FIELD_2020_NATURAL_LIMIT">Natural limit</system:String>
+ 
+
 <!--###############################################################################>
 [Q/i-Report]
 #################################################################################-->
@@ -468,6 +565,8 @@
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_INPUT_RIGHT_TO_LEFT">Input-right to left/bottom to top</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_DATA_SELECT">Manual data selection</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_CONFIG">Settings</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_CP">Enable Cp</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_CPK">Enable Cpk</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_CONFIG_SAVE">Save output settings</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENTER">Output to excel</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_AUTO_ENTER">Auto format output to excel</system:String>
@@ -594,12 +693,72 @@
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DESCRIPTION">Error description</system:String>
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_PART_NAME">Part Name</system:String>
 
+<!--###############################################################################>
+[Q/i-Collector Client]
+#################################################################################-->
+    <!--Main - Top Ribbon Menu-->
+    <system:String x:Key="CC_MENU_CLIENT_GROUP">Client</system:String>
+    <system:String x:Key="CC_MENU_CLIENT_UPLOAD_START">Start&#x0d;&#x0a;Client</system:String>
+    <system:String x:Key="CC_MENU_CLEINT_UPLOAD_END">End&#x0d;&#x0a;Client</system:String>
+
+    <system:String x:Key="CC_MENU_SETTING_GRUOP">Setting</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE">Language</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_KO">Korean</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_ENG">English</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_JPN">Japanese</system:String>
+ 
+    <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">Upload&#x0d;&#x0a;information</system:String>
+    <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">Current&#x0d;&#x0a;information</system:String>
+
+
+    <!-- Main -  Status Information -->
+    <system:String x:Key="CC_MAIN_STATUS_LICENSE">License</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INFO">Status Information</system:String>
+
+    <system:String x:Key="CC_MAIN_STATUS_AUTO_START">Run-Auto Start</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INPUT_DIR">Input Directory</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_EXTENSION">File Extension</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_CODE_PAGE">File Country Code page</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_ADDRESS_PORT">Server Address/Port</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_TARGET_CLIENT">Server Target Client</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_CONVERTER_MODULE">Server Converter Module</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_BACKUP_DIR">Backup Directory</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_ERROR_DIR">Error Directory</system:String>
+
+
+    <!-- Main - Log -->
+    <system:String x:Key="CC_MAIN_ERR_LOG">Error Log</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_ERR_LOG">Delete error log</system:String>
+
+    <system:String x:Key="CC_MAIN_CLIENT_LOG">Client Log</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_CLIENT_LOG">Delete client log</system:String>
+
+
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_FILE_NAME">File name</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DATE_TIME">Error Date/Time</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_NUMBER">Error number</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DESCRIPTION">Error description</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_PART_NAME">Part Name</system:String>
+	
+	<!-- ==>Config Client -->
+    <system:String x:Key="CC_CONFIG_CLIENT_TITLE">i-Collector Client</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT">i-Collector Client Configuration</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT_AUTO_START">Auto Start - Client</system:String>
+    
 
 
 <!--###############################################################################>
 [Q/i-Sense]
 #################################################################################-->
     <!--Main - Top Ribbon Menu-->
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_INFORMATION">Data Information</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_WAITING">Data Waiting</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_PART_COUNT">Part Count</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">Value Count</system:String>
+	
+	
+	
     <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">Monitoring Start</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_MONITORING_STOP">Monitoring Stop</system:String>
 
@@ -647,7 +806,7 @@
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO">Monitoring Info'</system:String>
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_WAITING_FILE">Waiting File</system:String>
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_COMPLETED_FILE">Completed File</system:String>
-    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_FAILED_FILE">Failed File</system:String>
+	<system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_FAILED_FILE">Failed File</system:String>
 
 
 
@@ -655,18 +814,112 @@
 
 
 
+	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Selected Value</system:String>
+	<system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Not selected</system:String>
+	<system:String x:Key="SENSE_ALARM_CHART">Alarm Chart</system:String>	
+	
+	
+	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Scrap limit violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
+	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Out of control limit in variation chart</system:String>	
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>	
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
+ 
+ 
+
 <!--###############################################################################>
 [Q/i-Record]
 #################################################################################-->
-
+    <!--Main - Top Ribbon Menu-->
+	<system:String x:Key="RC_MAIN_MENU_NEW_EDIT">New/Edit</system:String>
+	<system:String x:Key="RC_MAIN_MENU_NEW_PLAN">New Plan</system:String>
+	<system:String x:Key="RC_MAIN_MENU_EDIT_PLAN">Edit Plan</system:String>
+	<system:String x:Key="RC_MAIN_MENU_CLOSE_PLAN">Close Plan</system:String>
+	
+	<system:String x:Key="RC_MAIN_MENU_TEST_LIST">Input Value</system:String>
+	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">DWG View</system:String>
+	<system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">Drawing</system:String>
+	
+	<system:String x:Key="RC_MAIN_NEW_PLAN">New Plan</system:String>
+	<system:String x:Key="RC_MAIN_CHANGE_PLAN">Change Plan</system:String>
+	
+	
 	<system:String x:Key="RC_CONFIG_DASHBOARD">Dashboard</system:String>
+
+
+	<system:String x:Key="RC_TEST_WAITING_DATA">D: Waiting Data</system:String>
+	<system:String x:Key="RC_TEST_PENDING_DATA">D: Pending Data</system:String>
+ 
+ 
 
 <!--###############################################################################>
 [Config]
 #################################################################################-->
-    <!-- ==>Q/i-Record -->
-	<system:String x:Key="RECORD_LIMIT_VALUES_TO_LAST">Limit values to last</system:String>
+   <!-- ==>Q/i-Record -->
+   
+   <system:String x:Key="RC_CONFIG">i-Record Configuration</system:String>
+   
+   <system:String x:Key="RC_NO_SWITCH_CHAR">Do not allow switch characteristics</system:String>
+   <system:String x:Key="RC_NO_CLOSE_END_MEASUREMENT">Do not allow close the application with incomplete measuring</system:String>
+   
+   <system:String x:Key="RC_PLAN_LIMIT_VALUES_TO_LAST">Limit values to last</system:String>
+   <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">Max values</system:String>
+   
+   <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">File Save Path</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">File Save Timing</system:String>
+   <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">Enable OutofTol Popup</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">Additonal Popup</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_DATA">Additional Data</system:String>
+
+   <system:String x:Key="RC_PLAN_RESET_ADDITIONAL_DATA">Reset Additional Data</system:String>
+
+   <system:String x:Key="RC_PLAN_CHAR_ADD_ITEM">Add Characteristic Item</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">Remove Characteristic Item</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">Save Characteristic Item</system:String>
+   
+   <system:String x:Key="RC_PLAN_DWG_FILE">DWG File</system:String>	
+   <system:String x:Key="RC_PLAN_INPUT_TYPE">Input Type</system:String>	   
+   
+   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_VALUES">Values</system:String>	   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_DAYS">Days</system:String>	   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_WEEKS">Weeks</system:String>	   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_MONTHS">Months</system:String>	   	  
+
+   <system:String x:Key="RC_PLAN_SAVE_TIMING_PART">Save after every part</system:String>	   	  
+   <system:String x:Key="RC_PLAN_SAVE_TIMING_VALUE">Save after every value</system:String>	  
+
+   <system:String x:Key="RC_PLAN_POPUP_NO">No Popup</system:String>	  
+   <system:String x:Key="RC_PLAN_POPUP_PART_START">Part Start</system:String>	   
+   <system:String x:Key="RC_PLAN_POPUP_PART_END">Part End</system:String>	  
+   
+	 
+   <system:String x:Key="RC_CATALOG_SAVE_FILE_JSON">Save to file(JSON)</system:String>
+   <system:String x:Key="RC_CATALOG_SAVE_DB">Save to database</system:String>
 	
+   <system:String x:Key="RC_CATALOG_TYPE">Catalog Type</system:String>
+   <system:String x:Key="RC_CATALOG_ADD_ROW">Add Row</system:String>
+   <system:String x:Key="RC_CATALOG_DEL_ROW">Del Row</system:String>
+	
+   <system:String x:Key="RC_CATALOG_LIST_CONST_NO">const no.</system:String>
+   <system:String x:Key="RC_CATALOG_LIST_DESCRIPTION">description</system:String>	
+	
+   <system:String x:Key="RC_CATALOG_LIST_SUB_CONST_NO">sub const no.</system:String>
+   <system:String x:Key="RC_CATALOG_LIST_SUB_DESCRIPTION">sub description</system:String>		
+	
+	
+	<system:String x:Key="RC_ALARM_TABLE">Alarm Table</system:String>		
+	<system:String x:Key="RC_ALARM_TABLE_CLICK_TO_CHART">Click To Chart</system:String>		
+	
+	
+	<system:String x:Key="RC_BAR_CHART_COLOR">Bar Chart</system:String>		
+	<system:String x:Key="RC_BAR_CHART_CLASS_RANGE_COLOR">Class range</system:String>		
+	<system:String x:Key="RC_BAR_CHART_SIGMA_COLOR">Sigma</system:String>	
+	<system:String x:Key="RC_BAR_CHART_DIST_CURVE_COLOR">Distribution Curve</system:String>	
+
+
 	
 	<!-- ==>Q/i-Collector Server -->
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector Server</system:String>
@@ -686,7 +939,10 @@
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">Day - BaseTime</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">Out of tolerance</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">Warning Percent</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_LIMIT_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">Error Percent</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">Scrap limits line</system:String>	
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">Acceptance limits line</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">Ignore values enable</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_USL_PERCENT">USL over percent</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_LSL_PERCENT">LSL over percent</system:String>
@@ -697,6 +953,8 @@
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_BAD">Bad</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_WARNING">Warning</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_GOOD">Good</system:String>
+	<system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_BAD">Bad(out of control limits)</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_GOOD">Good</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT">Font</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_SIZE">Size</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_COLOR">Color</system:String>
@@ -720,17 +978,33 @@
     <system:String x:Key="BO_CONFIG_VALUE_CHART_X_AXIS_AUTO_GRID">X-Axis Auto Grid</system:String>
     <system:String x:Key="BO_CONFIG_VALUE_CHART_Y_AXIS_FONT_COLOR">Font/Label/Area Color</system:String>
     <system:String x:Key="BO_CONFIG_VALUE_CHART_Y_AXIS_FONT_COLOR_AVERAGE">Average</system:String>
+	
     <system:String x:Key="BO_CONFIG_BAR_CHART">Bar Chart</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_AUTO_SCALE">Page Scale</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">Bar Chart Order</system:String>
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">Last Field</system:String>
 	
+	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">Average Line Color</system:String>
+	
+	
     <!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense Configuration</system:String>
-    <system:String x:Key="SENSE_AUTO_START">Start automatically</system:String>
-    <system:String x:Key="SENSE_AUTO_ACCEPT">Automatic acception</system:String>
-    <system:String x:Key="SENSE_LATEST_DATA">Accept latest data set</system:String>
+	
+	<system:String x:Key="SENSE_LOGIN_NO_WINDOW">Log in without window</system:String>
+	<system:String x:Key="SENSE_DEFAULT_ID">Default ID</system:String>
+	<system:String x:Key="SENSE_FILE_SEARCH_TIME">File search time</system:String>	
+	<system:String x:Key="SENSE_AUTO_START">Start automatically</system:String>
+	<system:String x:Key="SENSE_FILLUP_DATA">Fill up incomplete measurement</system:String>	
+    <system:String x:Key="SENSE_AUTO_ACCEPT">Automatic acception</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">Decimal point</system:String>
+    <system:String x:Key="SENSE_FILE_ACCEPT">File acceptance</system:String>	
+    <system:String x:Key="SENSE_LATEST_DATA">Accept latest data set</system:String>	
+	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">Take over QCC from dataset</system:String>
+	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Location chart type</system:String>
+	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
+ 
+
+
 
 	
 	<!-- ==>Auto -->
@@ -745,8 +1019,8 @@
     <system:String x:Key="CONFIG_MENU">Main Menu Visible/Hidden</system:String>
 	
     <!-- ==>Requirements -->
-    <system:String x:Key="CONFIG_REQUIREMENTS_TITLE">Alarm requirements</system:String>
-	
+    <system:String x:Key="CONFIG_REQUIREMENTS_TITLE">Requirements</system:String>
+	<system:String x:Key="CONFIG_REQUIREMENTS_ALARMS">Alarms</system:String>
 
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_CLIENT_TITLE">Client</system:String>
@@ -815,6 +1089,7 @@
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK">Data Default/Block</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_NUMBER">Field Number</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_BLOCK">Field Block</system:String>
+	<system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_OVERWRITE">Overwrite</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_DATA">Field Default Data</system:String>
 
 
@@ -842,6 +1117,8 @@
     <system:String x:Key="CONFIG_DB_LIST">Database</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">Local Database</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">Delete Selected Part</system:String>
+
+
 
     <system:String x:Key="CONFIG_DB_SQLITE_FILE">Sqlite File</system:String>
     <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">Sqlite vacuum(cleanup)</system:String>
@@ -913,8 +1190,9 @@
     <system:String x:Key="DATABASE_FILTER_SORT_NO">No</system:String>
     <system:String x:Key="DATABASE_FILTER_SORT_DESCENDING">Sort in descending order [sort by latest]</system:String>
     <system:String x:Key="DATABASE_FILTER_SORT_ASCENDING">Sort in ascending order  [sort by old]</system:String>
-    <system:String x:Key="DATABASE_FILTER_ENABLE_DATE_TIME">Enable Date/Time</system:String>
     
+ 
+	<system:String x:Key="DATABASE_FILTER_ENABLE_DATE_TIME">Enable Date/Time</system:String>
     <system:String x:Key="DATABASE_FILTER_START_DATETIME">Start Date/Time</system:String>
     <system:String x:Key="DATABASE_FILTER_END_DATETIME">End Date/Time</system:String>
 
@@ -928,8 +1206,18 @@
     <system:String x:Key="DATABASE_FILTER_LOT_NUMBER">Lot Number</system:String>
     <system:String x:Key="DATABASE_FILTER_OP_NUMBER">OP Number</system:String>
 
-    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">Do you want to delete the part ?</system:String>
+    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">Do you want to delete the part data?</system:String>
     <system:String x:Key="DATABASE_PART_DEL">Part delete.</system:String>
+
+
+    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">Do you want to delete the characteristic data?</system:String>
+    <system:String x:Key="DATABASE_CHAR_DEL">Characteristic delete.</system:String>
+
+
+    <system:String x:Key="DATABASE_VALUE_DEL_MESSAGE">Do you want to delete the value data?</system:String>
+    <system:String x:Key="DATABASE_VALUE_DEL">Value delete.</system:String>
+
+
 
     <system:String x:Key="DATABASE_VALUE_DELETE">Value Delete</system:String>
     <system:String x:Key="DATABASE_CONNECTION">Database Connection</system:String>
@@ -978,8 +1266,8 @@
 	
     <system:String x:Key="QCC_CHART">QCC Chart</system:String>
     <system:String x:Key="QCC_USEER_MODE">QCC User Mode</system:String>
-	<system:String x:Key="QCC_SUB_GROUP_TYPE">QCC-Subgroup Type</system:String>
-	<system:String x:Key="QCC_SUB_GROUP_SIZE">QCC-Subgroup Size</system:String>
+	<system:String x:Key="QCC_SUB_GROUP_TYPE">Subgroup Type</system:String>
+	<system:String x:Key="QCC_SUB_GROUP_SIZE">Subgroup Size</system:String>
 
 
     <system:String x:Key="POSITIONAL_TOLERANCE">2D Positional Tolerance</system:String>
@@ -996,6 +1284,7 @@
 
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">Graphics Settings</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">Postion[2001]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">Marker</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible/ Size</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">Number range</system:String>
@@ -1036,7 +1325,7 @@
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_MODE">Date/Time Mode</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_CHAR_COUNT">Char' Count</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG Count</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ File</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_FILE">File</system:String>
 
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">Date/Time Start</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">Date/Time End</system:String>
@@ -1087,7 +1376,9 @@
 
 	<system:String x:Key="MSG_NOT_EXIST_DFX_FILE">DFX file does not exist.</system:String>
 
-
+	<system:String x:Key="MSG_LIC_ERROR">The license does not support.</system:String>
+	
+	
 	<system:String x:Key="MSG_CATALOG_MESSAGE_0001">Not exist catalog file.</system:String>
 				
 	<system:String x:Key="MSG_DB_MESSAGE_0001">Database fields are required.</system:String>
@@ -1115,7 +1406,7 @@
 	<system:String x:Key="MSG_LOGIN_MESSAGE_0002">Login failed.</system:String>
 	<system:String x:Key="MSG_LOGIN_MESSAGE_0003">Wrong UserName or Password.</system:String>
 
-
+	<system:String x:Key="MSG_THEME_MESSAGE_0001">The theme will be applied after restarting.</system:String>
 
 	
 	<!-- Q/i Report -->
@@ -1161,10 +1452,17 @@
 	<system:String x:Key="MSG_MULTI_DATA_UPLOAD_ITEM">Do you want to upload data or item?</system:String>
 	
 	<system:String x:Key="MSG_VALUE_CHART_SPLIT_DATA">Do you want to split up data?</system:String>
-
-	
 		
 	<system:String x:Key="MSG_PROGRAM_ERROR_0001">Please contact the program manager.</system:String>
 
 
+	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">Alarm priority duplication error.</system:String>
+
+
+	<system:String x:Key="MSG_FILE_ACCEPT_ERROR_0001">Multiple approval are not supported in file accept mode.</system:String>
+	
+	
+	<!-- Q/i record-->
+    <system:String x:Key="MSG_PLAN_0001">Do you want to close the current plan?</system:String>	
+	
 </ResourceDictionary>

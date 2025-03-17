@@ -10,6 +10,7 @@
     <system:String x:Key="APP-REPORT">i-Report</system:String>
     <system:String x:Key="APP-BOARD">i-Board</system:String>
     <system:String x:Key="APP-COLLECTOR-SERVER">i-Collector Server</system:String>
+	<system:String x:Key="APP-COLLECTOR-CLIENT">i-Collector Client</system:String>	
     <system:String x:Key="APP-INTERFACE">i-Interface</system:String>
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
@@ -33,6 +34,7 @@
     <system:String x:Key="YES">예</system:String>
     <system:String x:Key="NO">아니오</system:String>
 	
+	<system:String x:Key="SERVER">서버</system:String>
 	
 	<system:String x:Key="SAVE">저장</system:String>
 	<system:String x:Key="SAVING">저장중...</system:String>
@@ -74,6 +76,7 @@
 	<system:String x:Key="UNKNOWN">알수없음</system:String>
     <system:String x:Key="VALID_VALUE">유효한 값</system:String>
     <system:String x:Key="INVALID_VALUE">잘못된 값</system:String>
+    <system:String x:Key="INVALID_DIRCTORY">잘못된 경로</system:String>		
     <system:String x:Key="ADD">추가</system:String>
     <system:String x:Key="DELETE">삭제</system:String>
     <system:String x:Key="INSERT">삽입</system:String>
@@ -111,7 +114,7 @@
     <system:String x:Key="JAPANESE">일본어</system:String>
     <system:String x:Key="TAIWAN">대만어</system:String>
 	
-	<system:String x:Key="ADDITIONAL DATA">추가 데이터</system:String>
+	<system:String x:Key="ADDITIONAL_DATA">추가 데이터</system:String>
     <system:String x:Key="NONE">없음</system:String>
     
     <system:String x:Key="EXPORT">내보내기</system:String>
@@ -186,9 +189,73 @@
 	<system:String x:Key="VALUE_FIELD">측정값 필드</system:String>
 	
 	<system:String x:Key="DRAWING_IMAGE">드로잉 이미지</system:String>
+	<system:String x:Key="PART_IMAGE">파트 이미지</system:String>
 	
 	<system:String x:Key="OPTION">옵션</system:String>
- 
+
+ 	<system:String x:Key="FIXED">Fixed</system:String>
+ 	<system:String x:Key="MOVING">Moving</system:String>
+	
+   	<system:String x:Key="TEST">테스트</system:String>	
+
+  	<system:String x:Key="ENTER_VALUE">입력 측정값</system:String>
+
+   	<system:String x:Key="REPORTING">レポート</system:String>
+	
+   	<system:String x:Key="FILE">파일</system:String>	
+
+   	<system:String x:Key="AVERAGE">평균</system:String>			
+	
+	<system:String x:Key="MEDIAN">중간값</system:String>	
+
+	<system:String x:Key="STANDARD_DEVIATION">표쥰편차</system:String>			 
+	<system:String x:Key="MINIMUM">최소값</system:String>		
+	<system:String x:Key="MAXIMUM">최대값</system:String>		
+	
+	<system:String x:Key="COLOR">아이콘</system:String>		
+	<system:String x:Key="PRIORITY">우선순위</system:String>	
+
+	<system:String x:Key="CONDITION">차트 상태</system:String>		
+
+	<system:String x:Key="INSUFFICIENT_DATA">불충분 데이터</system:String>		
+	
+	<system:String x:Key="LINEAR_TRANSFORMATION">선형 변환</system:String>			
+	<system:String x:Key="ACCMULATING_CONSTANT">Accumulating Constant</system:String>		
+	<system:String x:Key="MULTIPLICATION_FACTOR">Multiplication factor</system:String>		
+
+	
+    <system:String x:Key="LIST">리스트</system:String>		
+	
+	<system:String x:Key="OPEN">열기</system:String>		
+	<system:String x:Key="CLOSE">닫기</system:String>		
+	
+	<system:String x:Key="DELETE_FIELD">필드 삭제</system:String>	
+	<system:String x:Key="PART_CHAR_LIST">파트/측정 항목 리스트</system:String>	
+
+	<system:String x:Key="SAVE_TO_FILE_JSON">파일 저장(Json)</system:String>	
+	<system:String x:Key="SAVE_TO_DATABASE">데이터베이스 저장</system:String>	
+
+ 	<system:String x:Key="AVERAGE_CHART">평균 차트</system:String>	
+	<system:String x:Key="RAW_CHART">측정값 차트</system:String>	
+
+	<system:String x:Key="INDEQS_JSON_FILE">INDEQS JSON 파일</system:String>	
+	<system:String x:Key="DFQ_FILE">DFQ 파일</system:String>	
+	
+	<system:String x:Key="ALARM_TABLE">알람 테이블</system:String>	
+	
+	<system:String x:Key="ALL_DATA">전부 데이터</system:String>		
+	
+	<system:String x:Key="CANCELING_UPLOAD">업로드 취소중...</system:String>		
+	
+	<system:String x:Key="DIAMETER">지름</system:String>		
+	<system:String x:Key="ANGLE">각도</system:String>		
+	<system:String x:Key="RADIUS">반지름</system:String>		
+	<system:String x:Key="ROUGHNESS">거칠기</system:String>		
+	<system:String x:Key="LENGTH">길이</system:String>		
+
+
+	<system:String x:Key="SPEC_LIMITS">허용공차</system:String>	
+
 	
 	<!--Print Dialog-->
 	<system:String x:Key="PAGE">페이지</system:String>
@@ -217,140 +284,142 @@
 <!--###############################################################################>
  [Data Field]
 #################################################################################-->
-	<system:String x:Key="DATA_FIELD_1001">부품 번호</system:String>
-    <system:String x:Key="DATA_FIELD_1002">부품 내역</system:String>
-    <system:String x:Key="DATA_FIELD_1003">부품 간략 기술</system:String>
+	<system:String x:Key="DATA_FIELD_1001">품번</system:String>
+    <system:String x:Key="DATA_FIELD_1002">품명</system:String>
+    <system:String x:Key="DATA_FIELD_1003">품명(약어)</system:String>
     <system:String x:Key="DATA_FIELD_1005">제품</system:String>
-	<system:String x:Key="DATA_FIELD_1007">Part number-short description</system:String>
+	<system:String x:Key="DATA_FIELD_1007">품번(약식)</system:String>
 	<system:String x:Key="DATA_FIELD_1008">부품 타입</system:String>
 	<system:String x:Key="DATA_FIELD_1009">부품 코드</system:String>	
 	<system:String x:Key="DATA_FIELD_1011">버전</system:String>
-	<system:String x:Key="DATA_FIELD_1012">ID Number Annex</system:String>
-	<system:String x:Key="DATA_FIELD_1013">ID Numbeer Index</system:String>
-	<system:String x:Key="DATA_FIELD_1014">Part Ident</system:String>
-	<system:String x:Key="DATA_FIELD_1015">Type of Study</system:String>
-	<system:String x:Key="DATA_FIELD_1022">Manufacturer Description</system:String>
-	<system:String x:Key="DATA_FIELD_1032">Material Description</system:String>
-	<system:String x:Key="DATA_FIELD_1046">Drawing Description</system:String>
-	<system:String x:Key="DATA_FIELD_1052">Contractor Description</system:String>
+	<system:String x:Key="DATA_FIELD_1012">ID 번호 부록</system:String>
+	<system:String x:Key="DATA_FIELD_1013">ID 번호 색인</system:String>
+	<system:String x:Key="DATA_FIELD_1014">부품식별번호</system:String>
+	<system:String x:Key="DATA_FIELD_1015">분석유형</system:String>
+	<system:String x:Key="DATA_FIELD_1022">제조사명</system:String>
+	<system:String x:Key="DATA_FIELD_1032">자재명</system:String>
+	<system:String x:Key="DATA_FIELD_1046">도면명</system:String>
+	<system:String x:Key="DATA_FIELD_1052">계약자명</system:String>
     <system:String x:Key="DATA_FIELD_1053">계약</system:String>
     <system:String x:Key="DATA_FIELD_1062">고객 이름</system:String>
     <system:String x:Key="DATA_FIELD_1072">공급자 이름</system:String>
     <system:String x:Key="DATA_FIELD_1082">장비 내역</system:String>
-	<system:String x:Key="DATA_FIELD_1085">Machine Location</system:String>
-	<system:String x:Key="DATA_FIELD_1086">Work Cycle/Operation</system:String>
-	<system:String x:Key="DATA_FIELD_1087">Work Cycle Description</system:String>
-	<system:String x:Key="DATA_FIELD_1091">Line Number</system:String>
-    <system:String x:Key="DATA_FIELD_1092">라인 설명</system:String>
-	<system:String x:Key="DATA_FIELD_1100">Area/Plant sector</system:String>
+	<system:String x:Key="DATA_FIELD_1085">기계위치</system:String>
+	<system:String x:Key="DATA_FIELD_1086">작업주기/운영</system:String>
+	<system:String x:Key="DATA_FIELD_1087">작업주기설명</system:String>
+	<system:String x:Key="DATA_FIELD_1091">라인번호</system:String>
+    <system:String x:Key="DATA_FIELD_1092">라인명</system:String>
+	<system:String x:Key="DATA_FIELD_1100">구역/공장 섹터</system:String>
     <system:String x:Key="DATA_FIELD_1101">부서</system:String>
-	<system:String x:Key="DATA_FIELD_1102">Workshop</system:String>
-	<system:String x:Key="DATA_FIELD_1103">Cost centre</system:String>
-	<system:String x:Key="DATA_FIELD_1104">Shift</system:String>
+	<system:String x:Key="DATA_FIELD_1102">작업장</system:String>
+	<system:String x:Key="DATA_FIELD_1103">코스트센터</system:String>
+	<system:String x:Key="DATA_FIELD_1104">시프트</system:String>
     <system:String x:Key="DATA_FIELD_1203">시험사유</system:String>
     <system:String x:Key="DATA_FIELD_1206">시험장소</system:String>
     <system:String x:Key="DATA_FIELD_1303">공장</system:String>
-	<system:String x:Key="DATA_FIELD_1802">User Field 1</system:String>
-	<system:String x:Key="DATA_FIELD_1812">User Field 2</system:String>
-	<system:String x:Key="DATA_FIELD_1822">User Field 3</system:String>
-	<system:String x:Key="DATA_FIELD_1832">User Field 4</system:String>
-	<system:String x:Key="DATA_FIELD_1842">User Field 5</system:String>
-	<system:String x:Key="DATA_FIELD_1852">User Field 6</system:String>
-	<system:String x:Key="DATA_FIELD_1862">User Field 7</system:String>
-	<system:String x:Key="DATA_FIELD_1872">User Field 8</system:String>
-	<system:String x:Key="DATA_FIELD_1882">User Field 9</system:String>
-	<system:String x:Key="DATA_FIELD_1892">User Field 10</system:String>
-	<system:String x:Key="DATA_FIELD_1900">User Field 11</system:String>
-	 
+	<system:String x:Key="DATA_FIELD_1802">사용자필드 1</system:String>
+	<system:String x:Key="DATA_FIELD_1812">사용자필드 2</system:String>
+	<system:String x:Key="DATA_FIELD_1822">사용자필드 3</system:String>
+	<system:String x:Key="DATA_FIELD_1832">사용자필드 4</system:String>
+	<system:String x:Key="DATA_FIELD_1842">사용자필드 5</system:String>
+	<system:String x:Key="DATA_FIELD_1852">사용자필드 6</system:String>
+	<system:String x:Key="DATA_FIELD_1862">사용자필드 7</system:String>
+	<system:String x:Key="DATA_FIELD_1872">사용자필드 8</system:String>
+	<system:String x:Key="DATA_FIELD_1882">사용자필드 9</system:String>
+	<system:String x:Key="DATA_FIELD_1892">사용자필드 10</system:String>
+	<system:String x:Key="DATA_FIELD_1900">사용자필드 11</system:String>
+ 
 	<system:String x:Key="DATA_FIELD_2001">측정항목번호</system:String>
+	<system:String x:Key="DATA_FIELD_2001_ABBR">측정항목번호</system:String><!--Abbr -->	
 	<system:String x:Key="DATA_FIELD_2002">측정항목</system:String>
+	<system:String x:Key="DATA_FIELD_2002_ABBR">측정항목</system:String><!--Abbr -->	
 	<system:String x:Key="DATA_FIELD_2003">측정항목(약식)</system:String>
-	<system:String x:Key="DATA_FIELD_2004">Characteristic Type</system:String>
+	<system:String x:Key="DATA_FIELD_2004">측정특성유형</system:String>
 	<system:String x:Key="DATA_FIELD_2005">측정항목분류</system:String>
-	<system:String x:Key="DATA_FIELD_2006">Control Item</system:String>
-	<system:String x:Key="DATA_FIELD_2007">Control Type</system:String>
-	<system:String x:Key="DATA_FIELD_2008">Group type</system:String>
-	<system:String x:Key="DATA_FIELD_2009">Measured quantity</system:String>
-	<system:String x:Key="DATA_FIELD_2011">Saved distribution</system:String>
-	<system:String x:Key="DATA_FIELD_2015">Tool wear type (Trend)</system:String>
-	<system:String x:Key="DATA_FIELD_2016">100% Measurement</system:String>
-	<system:String x:Key="DATA_FIELD_2021">Logical Operation Formula</system:String>
-	<system:String x:Key="DATA_FIELD_2022">Decimal Places  </system:String>
-	<system:String x:Key="DATA_FIELD_2035">Calibration Date [Date/Time]</system:String>
-	<system:String x:Key="DATA_FIELD_2041">Recording Type </system:String>
-	<system:String x:Key="DATA_FIELD_2042">Recording Device Number</system:String>
-	<system:String x:Key="DATA_FIELD_2043">Recording Device Name</system:String> 
-	<system:String x:Key="DATA_FIELD_2051">Interface </system:String>
-	<system:String x:Key="DATA_FIELD_2091">Characteristic index</system:String>
-	<system:String x:Key="DATA_FIELD_2092">Characteristic text</system:String>
-	<system:String x:Key="DATA_FIELD_2093">Processing status</system:String>
-	<system:String x:Key="DATA_FIELD_2100">Target Value</system:String>
-	<system:String x:Key="DATA_FIELD_2101">기준값</system:String> 
+	<system:String x:Key="DATA_FIELD_2006">관리항목</system:String>
+	<system:String x:Key="DATA_FIELD_2007">관리타입</system:String>
+	<system:String x:Key="DATA_FIELD_2008">그룹타입</system:String>
+	<system:String x:Key="DATA_FIELD_2009">측정종류</system:String>
+	<system:String x:Key="DATA_FIELD_2011">지정분포</system:String>
+	<system:String x:Key="DATA_FIELD_2015">공구마모유형(추세)</system:String>
+	<system:String x:Key="DATA_FIELD_2016">전수측정</system:String>
+	<system:String x:Key="DATA_FIELD_2021">논리연산식</system:String>
+	<system:String x:Key="DATA_FIELD_2022">소수점자리수</system:String>
+	<system:String x:Key="DATA_FIELD_2035">보정날짜 [날짜/시간]</system:String>
+	<system:String x:Key="DATA_FIELD_2041">기록타입</system:String>
+	<system:String x:Key="DATA_FIELD_2042">기록장치번호</system:String>
+	<system:String x:Key="DATA_FIELD_2043">기록장치이름</system:String>
+	<system:String x:Key="DATA_FIELD_2051">인터페이스</system:String>
+	<system:String x:Key="DATA_FIELD_2091">특성인덱스</system:String>
+	<system:String x:Key="DATA_FIELD_2092">특성텍스트</system:String>
+	<system:String x:Key="DATA_FIELD_2093">처리상태</system:String>
+	<system:String x:Key="DATA_FIELD_2100">목표값</system:String>
+	<system:String x:Key="DATA_FIELD_2101">기준값</system:String>
 	<system:String x:Key="DATA_FIELD_2110">규격하한</system:String>
 	<system:String x:Key="DATA_FIELD_2111">규격상한</system:String>
 	<system:String x:Key="DATA_FIELD_2112">하한허용</system:String>
 	<system:String x:Key="DATA_FIELD_2113">상한허용</system:String>
-	<system:String x:Key="DATA_FIELD_2114">Lower Scrap Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2115">Upper Scrap Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2116">Lower acceptance limit</system:String>
-	<system:String x:Key="DATA_FIELD_2117">Upper acceptance limit</system:String>
-	<system:String x:Key="DATA_FIELD_2120">Lower Limit type</system:String>
-	<system:String x:Key="DATA_FIELD_2121">Upper Limit type</system:String>
-	<system:String x:Key="DATA_FIELD_2130">Lower Plausibility Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2131">Upper Plausibility Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2142">Unit Description </system:String>
-	<system:String x:Key="DATA_FIELD_2161">Re-work cost</system:String>
-	<system:String x:Key="DATA_FIELD_2162">Rejects cost</system:String>
-	<system:String x:Key="DATA_FIELD_2163">Error cost</system:String>
-	<system:String x:Key="DATA_FIELD_2202">Evaluation Type</system:String>
-	<system:String x:Key="DATA_FIELD_2205">Number of parts Number of standards</system:String>
-	<system:String x:Key="DATA_FIELD_2213">Master Actual Value</system:String>
-	<system:String x:Key="DATA_FIELD_2220">Number of Operators</system:String>
-	<system:String x:Key="DATA_FIELD_2221">Number of Trials</system:String>
-	<system:String x:Key="DATA_FIELD_2222">No. of Reference Measurements</system:String>
-	<system:String x:Key="DATA_FIELD_2225">Determined Cg value</system:String>
-	<system:String x:Key="DATA_FIELD_2226">Determined Cgk value</system:String>
-	<system:String x:Key="DATA_FIELD_2227">Deviation GC Type 3 – GC Type 1</system:String>
-	<system:String x:Key="DATA_FIELD_2243">Drawing file name</system:String>
-	<system:String x:Key="DATA_FIELD_2244">Drawing Reference point X</system:String>
-	<system:String x:Key="DATA_FIELD_2245">Drawing Reference point Y</system:String>
-	<system:String x:Key="DATA_FIELD_2246">Drawing Reference point Z</system:String>
-	<system:String x:Key="DATA_FIELD_2302">Machine Description</system:String>
-	<system:String x:Key="DATA_FIELD_2402">Gage Description</system:String>
-	<system:String x:Key="DATA_FIELD_2410">Test location</system:String>
-	<system:String x:Key="DATA_FIELD_2413">Gage graphic</system:String>
-	<system:String x:Key="DATA_FIELD_2415">Gage serial number</system:String>
-	<system:String x:Key="DATA_FIELD_2802">user field contents 1</system:String>
- 	<system:String x:Key="DATA_FIELD_2812">user field contents 2</system:String>
- 	<system:String x:Key="DATA_FIELD_2822">user field contents 3</system:String>
- 	<system:String x:Key="DATA_FIELD_2832">user field contents 4</system:String>
- 	<system:String x:Key="DATA_FIELD_2842">user field contents 5</system:String>
- 	<system:String x:Key="DATA_FIELD_2852">user field contents 6</system:String>
- 	<system:String x:Key="DATA_FIELD_2862">user field contents 7</system:String>
- 	<system:String x:Key="DATA_FIELD_2872">user field contents 8</system:String>
- 	<system:String x:Key="DATA_FIELD_2882">user field contents 9</system:String>
- 	<system:String x:Key="DATA_FIELD_2892">user field contents 10</system:String>
-	<system:String x:Key="DATA_FIELD_2900">Remark</system:String>
-	<system:String x:Key="DATA_FIELD_2999">Char Select</system:String>
-	<system:String x:Key="DATA_FIELD_8006">Lower alarm limit (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8007">Upper alarm limit (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8011">Central Position (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8012">Lower Control Limit LCL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8013">Upper Control Limit UCL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8014">Lower Warning Limit LWL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8015">Upper Warning Limit UWL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8106">Lower Alarm limit (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8107">Upper Alarm limit (variation)</system:String>
- 	<system:String x:Key="DATA_FIELD_8111">Central Position (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8112">Lower Control limit LCL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8113">Upper Control Limit UCL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8114">Lower Warning Limit LWL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8115">Upper Warning Limit UWL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8500">Subgroup size (total)</system:String>
-	<system:String x:Key="DATA_FIELD_8501">Subgroup type </system:String>
-	<system:String x:Key="DATA_FIELD_8531">Recorded Process Capability (Cp)</system:String>
-	<system:String x:Key="DATA_FIELD_8532">Recorded Process Capability (Cpk)</system:String>
-	<system:String x:Key="DATA_FIELD_8540">Evaluation</system:String>
+	<system:String x:Key="DATA_FIELD_2114">하한스크랩한계</system:String>
+	<system:String x:Key="DATA_FIELD_2115">상한스크랩한계</system:String>
+	<system:String x:Key="DATA_FIELD_2116">하한허용한계</system:String>
+	<system:String x:Key="DATA_FIELD_2117">상한허용한계</system:String>
+	<system:String x:Key="DATA_FIELD_2120">하한타입</system:String>
+	<system:String x:Key="DATA_FIELD_2121">상한타입</system:String>
+	<system:String x:Key="DATA_FIELD_2130">하한타당성한계</system:String>
+	<system:String x:Key="DATA_FIELD_2131">상한타당성한계</system:String>
+	<system:String x:Key="DATA_FIELD_2142">단위</system:String>
+	<system:String x:Key="DATA_FIELD_2161">재작업코스트</system:String>
+	<system:String x:Key="DATA_FIELD_2162">불량코스트</system:String>
+	<system:String x:Key="DATA_FIELD_2163">오류코스트</system:String>
+	<system:String x:Key="DATA_FIELD_2202">평가타입</system:String>
+	<system:String x:Key="DATA_FIELD_2205">부품수/기준수</system:String>
+	<system:String x:Key="DATA_FIELD_2213">마스터실측값</system:String>
+	<system:String x:Key="DATA_FIELD_2220">작업자수</system:String>
+	<system:String x:Key="DATA_FIELD_2221">시험횟수</system:String>
+	<system:String x:Key="DATA_FIELD_2222">참조측정수치</system:String>
+	<system:String x:Key="DATA_FIELD_2225">산출된 Cg 값</system:String>
+	<system:String x:Key="DATA_FIELD_2226">산출된 Cgk 값</system:String>
+	<system:String x:Key="DATA_FIELD_2227">편차 GC 유형 3 – GC 유형 1</system:String>
+	<system:String x:Key="DATA_FIELD_2243">도면파일명</system:String>
+	<system:String x:Key="DATA_FIELD_2244">도면기준점 X</system:String>
+	<system:String x:Key="DATA_FIELD_2245">도면기준점 Y</system:String>
+	<system:String x:Key="DATA_FIELD_2246">도면기준점 Z</system:String>
+	<system:String x:Key="DATA_FIELD_2302">기계명</system:String>
+	<system:String x:Key="DATA_FIELD_2402">게이지명</system:String>
+	<system:String x:Key="DATA_FIELD_2410">시험장소</system:String>
+	<system:String x:Key="DATA_FIELD_2413">게이지그래픽</system:String>
+	<system:String x:Key="DATA_FIELD_2415">게이지 일련번호</system:String>
+	<system:String x:Key="DATA_FIELD_2802">사용자필드 내용 1</system:String>
+	<system:String x:Key="DATA_FIELD_2812">사용자필드 내용 2</system:String>
+	<system:String x:Key="DATA_FIELD_2822">사용자필드 내용 3</system:String>
+	<system:String x:Key="DATA_FIELD_2832">사용자필드 내용 4</system:String>
+	<system:String x:Key="DATA_FIELD_2842">사용자필드 내용 5</system:String>
+	<system:String x:Key="DATA_FIELD_2852">사용자필드 내용 6</system:String>
+	<system:String x:Key="DATA_FIELD_2862">사용자필드 내용 7</system:String>
+	<system:String x:Key="DATA_FIELD_2872">사용자필드 내용 8</system:String>
+	<system:String x:Key="DATA_FIELD_2882">사용자필드 내용 9</system:String>
+	<system:String x:Key="DATA_FIELD_2892">사용자필드 내용 10</system:String>
+	<system:String x:Key="DATA_FIELD_2900">비고</system:String>
+	<system:String x:Key="DATA_FIELD_2999">특성 선택</system:String>
+	<system:String x:Key="DATA_FIELD_8006">하한알람한계(위치)</system:String>
+	<system:String x:Key="DATA_FIELD_8007">상한알람한계(위치)</system:String>
+	<system:String x:Key="DATA_FIELD_8011">중앙위치(위치)</system:String>
+	<system:String x:Key="DATA_FIELD_8012">하한관리한계 LCL(위치)</system:String>
+	<system:String x:Key="DATA_FIELD_8013">상한관리한계 UCL(위치)</system:String>
+	<system:String x:Key="DATA_FIELD_8014">하한경고한계 LWL(위치)</system:String>
+	<system:String x:Key="DATA_FIELD_8015">상한경고한계 UWL(위치)</system:String>
+	<system:String x:Key="DATA_FIELD_8106">하한알람한계(산포)</system:String>
+	<system:String x:Key="DATA_FIELD_8107">상한알람한계(산포)</system:String>
+	<system:String x:Key="DATA_FIELD_8111">중앙위치(산포)</system:String>
+	<system:String x:Key="DATA_FIELD_8112">하한관리한계 LCL(산포)</system:String>
+	<system:String x:Key="DATA_FIELD_8113">상한관리한계 UCL(산포)</system:String>
+	<system:String x:Key="DATA_FIELD_8114">하한경고한계 LWL(산포)</system:String>
+	<system:String x:Key="DATA_FIELD_8115">상한경고한계 UWL(산포)</system:String>
+	<system:String x:Key="DATA_FIELD_8500">서브그룹크기 (전체)</system:String>
+	<system:String x:Key="DATA_FIELD_8501">서브그룹타입</system:String>
+	<system:String x:Key="DATA_FIELD_8531">기록된공정능력 (Cp)</system:String>
+	<system:String x:Key="DATA_FIELD_8532">기록된공정능력 (Cpk)</system:String>
+	<system:String x:Key="DATA_FIELD_8540">평가</system:String>
 	
     <system:String x:Key="DATA_FIELD_0001">측정값</system:String>
     <system:String x:Key="DATA_FIELD_0002">상태</system:String>
@@ -361,6 +430,7 @@
     <system:String x:Key="DATA_FIELD_0006">시리얼번호</system:String>
     <system:String x:Key="DATA_FIELD_0007">치구 위치</system:String>
     <system:String x:Key="DATA_FIELD_0008">작업자명</system:String>
+    <system:String x:Key="DATA_FIELD_0009">테스트</system:String>	
     <system:String x:Key="DATA_FIELD_0010">장비 번호</system:String>
     <system:String x:Key="DATA_FIELD_0011">공정 parameter</system:String>
     <system:String x:Key="DATA_FIELD_0012">게이지 번호</system:String>
@@ -383,11 +453,30 @@
     <system:String x:Key="DATA_FIELD_CATALOG">카탈로그(숫자만 사용)</system:String>
 
 
-    <system:String x:Key="UNIMPORTANT">unimportant</system:String>
-    <system:String x:Key="LITTLE_IMPORTANT">little important</system:String>
-    <system:String x:Key="IMPORTANT">important</system:String>
-    <system:String x:Key="SIGNIFICANT">significant</system:String>
-    <system:String x:Key="CRITICAL">critical</system:String>
+	<system:String x:Key="UNIMPORTANT">중요하지않음</system:String>
+	<system:String x:Key="LITTLE_IMPORTANT">조금중요</system:String>
+	<system:String x:Key="IMPORTANT">중요</system:String>
+	<system:String x:Key="SIGNIFICANT">상당히중요</system:String>
+	<system:String x:Key="CRITICAL">매우중요</system:String>
+
+	
+	
+	<system:String x:Key="DATA_FIELD_2004_VARIABLE">계량치</system:String>
+	<system:String x:Key="DATA_FIELD_2004_ATTRIBUTE">계수치</system:String>
+ 
+ 	<system:String x:Key="DATA_FIELD_2008_NO_GROUP">그룹없음/좌표</system:String>
+	<system:String x:Key="DATA_FIELD_2008_POSITIONAL_TOLERANCE">위치공차</system:String>
+	<system:String x:Key="DATA_FIELD_2008_BEST_FIT_MOVE">BestFitMove그룹</system:String>
+	<system:String x:Key="DATA_FIELD_2008_3D_POSITIONAL_TOLERANCE">3D위치공차</system:String>
+
+	<system:String x:Key="DATA_FIELD_2015_UNDEFINED">정의되지않음</system:String>
+	<system:String x:Key="DATA_FIELD_2015_ASCENDING">오름차순</system:String>
+	<system:String x:Key="DATA_FIELD_2015_DESCENDING">내림차순</system:String>
+
+	<system:String x:Key="DATA_FIELD_2020_NO_LIMIT">제한없음</system:String>
+	<system:String x:Key="DATA_FIELD_2020_NATURAL_LIMIT">자연한계</system:String>
+
+ 	
 	
 <!--###############################################################################>
 [Q/i-Report]
@@ -464,7 +553,10 @@
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_INPUT_RIGHT_TO_LEFT">입력 오른쪽->왼쪽/아래->위</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_DATA_SELECT">임의 날짜 / 데이터 선택</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_CONFIG">설정</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_CP">Cp 표시</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_CPK">Cpk 표시</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_CONFIG_SAVE">출력 설정 저장</system:String>
+	
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENTER">출력 엑셀</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_AUTO_ENTER">출력 엑셀 자동 </system:String>
     <system:String x:Key="RE_TAB_EXCEL_ACTUAL">실측값</system:String>
@@ -585,9 +677,70 @@
 
 
 <!--###############################################################################>
+[Q/i-Collector Client]
+#################################################################################-->
+    <!--Main - Top Ribbon Menu-->
+    <system:String x:Key="CC_MENU_CLIENT_GROUP">클라이언트</system:String>
+    <system:String x:Key="CC_MENU_CLIENT_UPLOAD_START">시작&#x0d;&#x0a;클라이언트</system:String>
+    <system:String x:Key="CC_MENU_CLEINT_UPLOAD_END">종료&#x0d;&#x0a;클라이언트</system:String>
+					 
+    <system:String x:Key="CC_MENU_SETTING_GRUOP">설정</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE">언어</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_KO">한국어</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_ENG">영어</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_JPN">일본어</system:String>
+						 
+    <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">업로드 정보</system:String>
+    <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">현재 정보</system:String>
+
+
+    <!-- Main -  Status Information -->
+    <system:String x:Key="CC_MAIN_STATUS_LICENSE">라이센스</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_DATETIME">현재 날짜/시간</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INFO">상태 정보</system:String>
+					 
+    <system:String x:Key="CC_MAIN_STATUS_AUTO_START">실행-자동시작</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INPUT_DIR">입력 디렉토리</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_EXTENSION">파일 확장자</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_CODE_PAGE">파일 국가 코드페이지</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_ADDRESS_PORT">서버 주소/포트</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_TARGET_CLIENT">서버 타겟 클라어인트</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_CONVERTER_MODULE">서버 컨버터 모듈</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_BACKUP_DIR">백업 디렉토리</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_ERROR_DIR">에러 디렉토리</system:String>
+
+
+    <!-- Main - Log -->
+    <system:String x:Key="CC_MAIN_ERR_LOG">에러 로그</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_ERR_LOG">삭제 에러 로그</system:String>
+						   
+    <system:String x:Key="CC_MAIN_CLIENT_LOG">클라이언트 로그</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_CLIENT_LOG">삭제 클라이언트 로그</system:String>
+						   
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_FILE_NAME">파일 이름</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DATE_TIME">에러 날짜/시간</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_NUMBER">에러 넘버</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DESCRIPTION">에러 설명</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_PART_NAME">파트 이름</system:String>
+	
+	<!-- ==>Config Client -->
+    <system:String x:Key="CC_CONFIG_CLIENT_TITLE">i-Collector 클라이언트</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT">i-Collector 클라이언트 설정</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT_AUTO_START">자동 시작 - 클라이언트</system:String>
+    
+
+
+
+<!--###############################################################################>
 [Q/i-Sense]
 #################################################################################-->
     <!--Main - Top Ribbon Menu-->
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_INFORMATION">데이터 정보</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_WAITING">대기 데이터</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_PART_COUNT">파트 개수</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">측정값 개수</system:String>
+
+	
     <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">모니터링 시작</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_MONITORING_STOP">모니터링 정지</system:String>
 
@@ -642,10 +795,123 @@
     <!-- Main - Log -->
 
 
+
+	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">선택된 값</system:String>
+	<system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">선택 되지 않음</system:String>
+	
+	
+	<system:String x:Key="SENSE_ALARM_CHART">알람 차트</system:String>	
+	
+	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Scrap limit violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
+	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Out of control limit in variation chart</system:String>	
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>	
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
+ 
+
+ 
+<!--###############################################################################>
+[Q/i-Record]
+#################################################################################-->
+    <!--Main - Top Ribbon Menu-->
+	<system:String x:Key="RC_MAIN_MENU_NEW_EDIT">신규/수정</system:String>
+	<system:String x:Key="RC_MAIN_MENU_NEW_PLAN">신규 계획</system:String>
+	<system:String x:Key="RC_MAIN_MENU_EDIT_PLAN">수정 계획</system:String>
+	<system:String x:Key="RC_MAIN_MENU_CLOSE_PLAN">닫음 계획</system:String>
+		
+	
+	<system:String x:Key="RC_MAIN_NEW_PLAN">신규 계획</system:String>
+	<system:String x:Key="RC_MAIN_CHANGE_PLAN">변경 계획</system:String>
+	
+	
+	<system:String x:Key="RC_MAIN_MENU_TEST_LIST">입력 값</system:String>
+
+	<system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">이미지</system:String>
+	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">DWG 뷰어</system:String>
+
+	
+	<system:String x:Key="RC_CONFIG_DASHBOARD">대시보드</system:String>
+
+	<system:String x:Key="RC_TEST_WAITING_DATA">D: 대기중 데이터</system:String>
+	<system:String x:Key="RC_TEST_PENDING_DATA">D: 보류 데이터</system:String>
+
+
+
+
+
+
 <!--###############################################################################>
 [Config]
 #################################################################################-->
-    <!-- ==>Q/i-Collector Server -->
+    
+   <!-- ==>Q/i-Record -->
+   
+   <system:String x:Key="RC_CONFIG">i-Record 설정</system:String>
+   <system:String x:Key="RC_NO_SWITCH_CHAR">측정 항목 이동 제한</system:String>
+   <system:String x:Key="RC_NO_CLOSE_END_MEASUREMENT">측정 완료 전 프로그램 종료 제한</system:String>
+ 
+   
+   <system:String x:Key="RC_PLAN_LIMIT_VALUES_TO_LAST">측정값 호출 개수(최신)</system:String>
+   <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">측정값 최대 개수</system:String>
+   
+   <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">파일 저장 경로</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">파일 저장 타이밍</system:String>
+   <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">공차 아웃 팝업</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">추가 데이터 팝업</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_DATA">추가 데이터</system:String>
+
+   <system:String x:Key="RC_PLAN_RESET_ADDITIONAL_DATA">추가 항목 초기화</system:String>
+
+   <system:String x:Key="RC_PLAN_CHAR_ADD_ITEM">측정 항목 아이템 추가</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">측정 항목 아이템 삭제</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">측정 항목 아이템 추가</system:String>
+   <system:String x:Key="RC_PLAN_DWG_FILE">DWG 파일</system:String>
+
+   <system:String x:Key="RC_PLAN_INPUT_TYPE">입력 타입</system:String>	   
+   
+   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_VALUES">측정값</system:String>	   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_DAYS">일</system:String>	   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_WEEKS">주</system:String>	   
+   <system:String x:Key="RC_PLAN_LIMIT_ITEM_MONTHS">월</system:String>	   	  
+
+   <system:String x:Key="RC_PLAN_SAVE_TIMING_PART">파트 측정 후 저장</system:String>	   	  
+   <system:String x:Key="RC_PLAN_SAVE_TIMING_VALUE">값 측정 후 저장</system:String>	  
+
+   <system:String x:Key="RC_PLAN_POPUP_NO">팝업 없음</system:String>	  
+   <system:String x:Key="RC_PLAN_POPUP_PART_START">파트 시작 시점</system:String>	   
+   <system:String x:Key="RC_PLAN_POPUP_PART_END">파트 종료 시점</system:String>	  
+
+
+   
+   <system:String x:Key="RC_CATALOG_SAVE_FILE_JSON">파일 저장(JSON)</system:String>
+   <system:String x:Key="RC_CATALOG_SAVE_DB">데이터베이스 저장</system:String>
+	
+   
+   <system:String x:Key="RC_CATALOG_TYPE">카탈로그 타입</system:String>
+   <system:String x:Key="RC_CATALOG_ADD_ROW">줄 추가</system:String>
+   <system:String x:Key="RC_CATALOG_DEL_ROW">줄 삭제</system:String>
+	
+   <system:String x:Key="RC_CATALOG_LIST_CONST_NO">const no.</system:String>
+   <system:String x:Key="RC_CATALOG_LIST_DESCRIPTION">description</system:String>	
+	
+   <system:String x:Key="RC_CATALOG_LIST_SUB_CONST_NO">sub const no.</system:String>
+   <system:String x:Key="RC_CATALOG_LIST_SUB_DESCRIPTION">sub description</system:String>			
+	
+	
+
+	<system:String x:Key="RC_ALARM_TABLE">알람 테이블</system:String>		
+	<system:String x:Key="RC_ALARM_TABLE_CLICK_TO_CHART">알람 테이블 선택 - 차트</system:String>		
+
+	
+	<system:String x:Key="RC_BAR_CHART_COLOR">바 차트</system:String>		
+	<system:String x:Key="RC_BAR_CHART_CLASS_RANGE_COLOR">등급 범위</system:String>		
+	<system:String x:Key="RC_BAR_CHART_SIGMA_COLOR">시그마</system:String>	
+	<system:String x:Key="RC_BAR_CHART_DIST_CURVE_COLOR">분포 커브</system:String>		
+	
+	<!-- ==>Q/i-Collector Server -->
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector 서버</system:String>
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector 서버 설정</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector 서버</system:String>
@@ -663,7 +929,10 @@
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">하루-기준시간</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">공차 아웃</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">경고 퍼센트</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_LIMIT_NATURAL_BOUNDARY">경고 제한 - 자연 공차 퍼센트</system:String>		
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">에러 퍼센트</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">스크랩 한계선</system:String>	
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">허용 한계선</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">값 무시 활성화</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_USL_PERCENT">USL 초과 퍼센트</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_LSL_PERCENT">LSL 초과 퍼센트</system:String>
@@ -674,6 +943,8 @@
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_BAD">나쁨</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_WARNING">경고</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_GOOD">좋음</system:String>
+	<system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_BAD">나쁨(out of control limits)</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_GOOD">좋음</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT">폰트</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_SIZE">사이즈</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_COLOR">컬러</system:String>
@@ -701,14 +972,24 @@
     <system:String x:Key="BO_CONFIG_BAR_CHART_AUTO_SCALE">페이지 스케일</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">바 차트 순서</system:String>
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">최근 필드</system:String>
-	
+	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">평균 라인 색상</system:String>	
 	
 	<!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense 설정</system:String>
-    <system:String x:Key="SENSE_AUTO_START">자동 시작</system:String>
-    <system:String x:Key="SENSE_AUTO_ACCEPT">자동 데이터 승인</system:String>
-    <system:String x:Key="SENSE_LATEST_DATA">최신 데이터 사용</system:String>
+
+
+	<system:String x:Key="SENSE_LOGIN_NO_WINDOW">로그인 창 사용 안함</system:String>
+	<system:String x:Key="SENSE_DEFAULT_ID">디폴트 아이디</system:String>
+	<system:String x:Key="SENSE_FILE_SEARCH_TIME">파일 검색 타임</system:String>	
+	<system:String x:Key="SENSE_AUTO_START">자동 시작</system:String>
+	<system:String x:Key="SENSE_FILLUP_DATA">빈 데이터 채우기</system:String>	
+    <system:String x:Key="SENSE_AUTO_ACCEPT">자동 승인</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">소수점</system:String>
+    <system:String x:Key="SENSE_FILE_ACCEPT">파일 기준 승인</system:String>		
+    <system:String x:Key="SENSE_LATEST_DATA">최신 데이터 사용</system:String>	
+	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">데이터 QCC 사용</system:String>
+	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">로케이션 차트 타입</system:String>
+	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">디폴트 서브그룹</system:String>
 
 	
 	
@@ -724,7 +1005,7 @@
 	
 	<!-- ==>Requirements -->
     <system:String x:Key="CONFIG_REQUIREMENTS_TITLE">알람 요구사항</system:String>
-	
+	<system:String x:Key="CONFIG_REQUIREMENTS_ALARMS">알람</system:String>	
 
 	
     <!-- ==>Client -->
@@ -788,6 +1069,7 @@
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK">데이터 기본/차단</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_NUMBER">필드 넘버</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_BLOCK">필드 차단</system:String>
+	<system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_OVERWRITE">덮어쓰기</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_DATA">필드 기본 값</system:String>
 	
 
@@ -906,6 +1188,11 @@
     <system:String x:Key="DATABASE_CELL_POS_COPY_SOURCE_PART">소스 파트</system:String>
     <system:String x:Key="DATABASE_CELL_POS_COPY_DEST_PART">대상 파트</system:String>
     
+    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">측정 항목을 삭제 하시겠습니까?</system:String>
+    <system:String x:Key="DATABASE_CHAR_DEL">측정 항목 삭제.</system:String>
+
+    <system:String x:Key="DATABASE_VALUE_DEL_MESSAGE">측정 값을 삭제 하시겠습니까?</system:String>
+    <system:String x:Key="DATABASE_VALUE_DEL">측정값 삭제.</system:String>
     
     <system:String x:Key="DATABASE_CHAR_CLASS_UNIMPORTANT">Unimportant</system:String>
     <system:String x:Key="DATABASE_CHAR_CLASS_LITTLE_IMPORTANT">Little important</system:String>
@@ -954,6 +1241,7 @@
     <system:String x:Key="VALUE_CHART_POPUP_UNCONFIRM_VALUE">미확인 값</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">그래픽 설정</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">위치[2001]</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER">심볼 표시 / 크기</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">표시</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">범위(개수)</system:String>
@@ -993,7 +1281,7 @@
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_MODE">날짜/시간 모드</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_CHAR_COUNT">Char' 개수</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG 개수</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ 파일</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_FILE">파일</system:String>
 
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">날짜/시간 시작</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">날짜/시간 종료</system:String>
@@ -1045,7 +1333,8 @@
     <system:String x:Key="MSG_SETTING_PROGRAM_EXIT">프로그램 종료 하시겠습니까?</system:String>
 	
 	<system:String x:Key="MSG_NOT_EXIST_DFX_FILE">DFX 파일이 없습니다.</system:String>
-
+	<system:String x:Key="MSG_LIC_ERROR">현재 라이센스 지원하지 않습니다.</system:String>
+	
 	<system:String x:Key="MSG_CATALOG_MESSAGE_0001">카탈로그 파일이 없습니다.</system:String>
 	
     <system:String x:Key="MSG_DB_MESSAGE_0001">데이터베이스 필수 항목 입니다.</system:String>
@@ -1073,6 +1362,8 @@
 	<system:String x:Key="MSG_LOGIN_MESSAGE_0002">로그인 실패.</system:String>
 	<system:String x:Key="MSG_LOGIN_MESSAGE_0003">유저 아이디/패스워드 실패.</system:String>
 	
+	<system:String x:Key="MSG_THEME_MESSAGE_0001">재시작 후 테마가 적용 됩니다.</system:String>
+
 
 
 	<!-- Q/i Report -->
@@ -1121,6 +1412,12 @@
 	
 	<system:String x:Key="MSG_PROGRAM_ERROR_0001">프로그램 담당자에게 문의 하십시오.</system:String>
 
+	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">알람 우선순위 중복 오류.</system:String>
 
+
+	<system:String x:Key="MSG_FILE_ACCEPT_ERROR_0001">파일 승인 모드에서는 다중 승인이 지원되지 않습니다.</system:String>
+	
+	<!-- Q/i record-->
+    <system:String x:Key="MSG_PLAN_0001">현재 플랜을 닫으시겠습니까?</system:String>	
 
 </ResourceDictionary>

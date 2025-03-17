@@ -10,6 +10,7 @@
     <system:String x:Key="APP-REPORT">i-Report</system:String>
     <system:String x:Key="APP-BOARD">i-Board</system:String>
     <system:String x:Key="APP-COLLECTOR-SERVER">i-Collector Server</system:String>
+	<system:String x:Key="APP-COLLECTOR-CLIENT">i-Collector Client</system:String>	
     <system:String x:Key="APP-INTERFACE">i-Interface</system:String>
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
@@ -32,7 +33,7 @@
     <system:String x:Key="OFF">Off</system:String>
     <system:String x:Key="YES">是</system:String>
     <system:String x:Key="NO">否</system:String>
-	
+	<system:String x:Key="SERVER">Server</system:String>	
 	
 	<system:String x:Key="SAVE">儲存</system:String>
 	<system:String x:Key="SAVING">儲存中</system:String>
@@ -184,6 +185,41 @@
 	<system:String x:Key="OUT_OF_TOL_NG_DOWN">NG(-)</system:String>
 	
 	
+	<system:String x:Key="CONNECTED">Connected</system:String>
+	<system:String x:Key="NOT_CONNECTED">Not connected</system:String>
+	
+	<system:String x:Key="PART_FIELD">Part Field</system:String>
+	<system:String x:Key="CHARACTERISTIC_FIELD">Characteristic Field</system:String>
+	<system:String x:Key="VALUE_FIELD">Value Field</system:String>
+	
+	<system:String x:Key="DRAWING_IMAGE">Drawing Image</system:String>
+	
+	<system:String x:Key="OPTION">Option</system:String>
+ 
+ 	<system:String x:Key="FIXED">Fixed</system:String>
+ 	<system:String x:Key="MOVING">Moving</system:String>	
+	
+	<system:String x:Key="TEST">テスト</system:String>	
+	
+  	<system:String x:Key="ENTER_VALUE">値を入力</system:String>
+
+	
+   	<system:String x:Key="REPORTING">レポート</system:String>
+
+	<system:String x:Key="FILE">ファイル</system:String>	
+	
+   	<system:String x:Key="AVERAGE">平均</system:String>		
+	
+	<system:String x:Key="MEDIAN">中央値</system:String>		
+	<system:String x:Key="STANDARD_DEVIATION">標準偏差</system:String>			 
+	<system:String x:Key="MINIMUM">最小値</system:String>		
+	<system:String x:Key="MAXIMUM">最大値</system:String>			
+	<system:String x:Key="COLOR">色</system:String>		
+	<system:String x:Key="PRIORITY">優先度</system:String>		
+	
+	<system:String x:Key="CONDITION">Condition</system:String>			
+	<system:String x:Key="INSUFFICIENT_DATA">Insufficient data</system:String>		
+		
 	<!--Print Dialog-->
 	<system:String x:Key="PAGE">頁碼</system:String>
 	<system:String x:Key="PRINTER">印表機</system:String>
@@ -408,7 +444,9 @@
     <system:String x:Key="RE_MENU_EXCEL_CLOSE">關閉&#x0d;&#x0a;Excel檔案</system:String>
     <system:String x:Key="RE_MENU_MEASURE_INFO_GROUP">測量&#x0d;&#x0a;資訊</system:String>
     <system:String x:Key="RE_MENU_STATUS_INFO_GROUP">目前&#x0d;&#x0a;資訊</system:String>
-
+    <system:String x:Key="RE_MENU_CURRENT_DATE_TIME">目前&#x0d;&#x0a;時間</system:String>
+	
+	
     <!--Measure List -->
     <system:String x:Key="RE_CHAR_LIST_TITLE">特徵清單</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NUMBER">特徵編號</system:String>
@@ -458,6 +496,8 @@
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_NG_COLOR">啟用NG顏色(紅色)</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_INPUT_RIGHT_TO_LEFT">輸入-由右至左/從下到上</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_DATA_SELECT">手動數據選擇</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_CP">Enable Cp</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENABLE_CPK">Enable Cpk</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_MANUAL_CONFIG">設定</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_CONFIG_SAVE">儲存輸出設定</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENTER">輸出至Excel</system:String>
@@ -588,9 +628,71 @@
 
 
 <!--###############################################################################>
+[Q/i-Collector Client]
+#################################################################################-->
+    <!--Main - Top Ribbon Menu-->
+    <system:String x:Key="CC_MENU_CLIENT_GROUP">Client</system:String>
+    <system:String x:Key="CC_MENU_CLIENT_UPLOAD_START">Start&#x0d;&#x0a;Client</system:String>
+    <system:String x:Key="CC_MENU_CLEINT_UPLOAD_END">End&#x0d;&#x0a;Client</system:String>
+
+    <system:String x:Key="CC_MENU_SETTING_GRUOP">Setting</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE">Language</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_KO">Korean</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_ENG">English</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_JPN">Japanese</system:String>
+ 
+    <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">Upload&#x0d;&#x0a;information</system:String>
+    <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">Current&#x0d;&#x0a;information</system:String>
+
+
+    <!-- Main -  Status Information -->
+    <system:String x:Key="CC_MAIN_STATUS_LICENSE">License</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INFO">Status Information</system:String>
+
+    <system:String x:Key="CC_MAIN_STATUS_AUTO_START">Run-Auto Start</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INPUT_DIR">Input Directory</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_EXTENSION">File Extension</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_CODE_PAGE">File Country Code page</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_ADDRESS_PORT">Server Address/Port</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_TARGET_CLIENT">Server Target Client</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_CONVERTER_MODULE">Server Converter Module</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_BACKUP_DIR">Backup Directory</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_ERROR_DIR">Error Directory</system:String>
+
+
+    <!-- Main - Log -->
+    <system:String x:Key="CC_MAIN_ERR_LOG">Error Log</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_ERR_LOG">Delete error log</system:String>
+
+    <system:String x:Key="CC_MAIN_CLIENT_LOG">Client Log</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_CLIENT_LOG">Delete client log</system:String>
+
+
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_FILE_NAME">File name</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DATE_TIME">Error Date/Time</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_NUMBER">Error number</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DESCRIPTION">Error description</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_PART_NAME">Part Name</system:String>
+	
+	<!-- ==>Config Client -->
+    <system:String x:Key="CC_CONFIG_CLIENT_TITLE">i-Collector Client</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT">i-Collector Client Configuration</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT_AUTO_START">Auto Start - Client</system:String>
+    
+
+
+
+<!--###############################################################################>
 [Q/i-Sense]
 #################################################################################-->
     <!--Main - Top Ribbon Menu-->
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_INFORMATION">Data Information</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_WAITING">Waiting Data</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_PART_COUNT">Part Count</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">Value Count</system:String>
+	
+	
     <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">Monitoring Start</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_MONITORING_STOP">Monitoring Stop</system:String>
 
@@ -650,7 +752,27 @@
 <!--###############################################################################>
 [Config]
 #################################################################################-->
-    <!-- ==>Q/i-Collector Server -->
+   <!-- ==>Q/i-Record -->
+   <system:String x:Key="RC_CONFIG">i-Record Configuration</system:String>
+   <system:String x:Key="RC_NO_SWITCH_CHAR">Do not allow switch characteristics </system:String>   
+   <system:String x:Key="RC_NO_CLOSE_END_MEASUREMENT">Do not allow close the application with incomplete measuring</system:String>
+    
+   <system:String x:Key="RC_PLAN_LIMIT_VALUES_TO_LAST">Limit values to last</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">File Save Path</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">File Save Timing</system:String>
+   <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">Enable OutofTol Popup</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">Additonal Popup</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_DATA">Additional Data</system:String>
+
+   <system:String x:Key="RC_PLAN_RESET_ADDITIONAL_DATA">Reset Additional Data</system:String>
+						  
+   <system:String x:Key="RC_PLAN_CHAR_ADD_ITEM">Add Characteristic Item</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">Remove Characteristic Item</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">Save Characteristic Item</system:String>
+	
+	
+	
+	<!-- ==>Q/i-Collector Server -->
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector Server</system:String>
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector Server Configuration</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector Server</system:String>
@@ -669,6 +791,8 @@
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">Out of tolerance</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">Warning Percent</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">Error Percent</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">Scrap limits line</system:String>	
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">Acceptance limits line</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">Ignore values enable</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_USL_PERCENT">USL over percent</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_LSL_PERCENT">LSL over percent</system:String>
@@ -709,10 +833,18 @@
 	
     <!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense Configuration</system:String>
-    <system:String x:Key="SENSE_AUTO_START">Start automatically</system:String>
-    <system:String x:Key="SENSE_AUTO_ACCEPT">Automatic acception</system:String>
-    <system:String x:Key="SENSE_LATEST_DATA">Accept latest data set</system:String>
+	
+	<system:String x:Key="SENSE_LOGIN_NO_WINDOW">Log in without window</system:String>
+	<system:String x:Key="SENSE_DEFAULT_ID">Default ID</system:String>
+	<system:String x:Key="SENSE_FILE_SEARCH_TIME">File search time</system:String>	
+	<system:String x:Key="SENSE_AUTO_START">Start automatically</system:String>
+	<system:String x:Key="SENSE_FILLUP_DATA">Fill up incomplete measurement</system:String>	
+    <system:String x:Key="SENSE_AUTO_ACCEPT">Automatic acception</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">Decimal point</system:String>
+    <system:String x:Key="SENSE_LATEST_DATA">Accept latest data set</system:String>	
+	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">Take over QCC from dataset</system:String>
+	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">QCC location chart type</system:String>
+	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
 
 	
 	<!-- ==>Auto -->
@@ -1018,7 +1150,7 @@
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_MODE">Date/Time Mode</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_CHAR_COUNT">Char' Count</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG Count</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ File</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_FILE">File</system:String>
 
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">Date/Time Start</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">Date/Time End</system:String>
@@ -1066,7 +1198,7 @@
 	<system:String x:Key="MSG_SETTING_PROGRAM_EXIT">是否要退出程式?</system:String>
 
 	<system:String x:Key="MSG_NOT_EXIST_DFX_FILE">DFX檔案不存在</system:String>
-
+	<system:String x:Key="MSG_LIC_ERROR">The license does not support.</system:String>
 
 	<system:String x:Key="MSG_CATALOG_MESSAGE_0001">目錄檔案不存在</system:String>
 				
@@ -1142,9 +1274,9 @@
 	
 	<system:String x:Key="MSG_VALUE_CHART_SPLIT_DATA">Do you want to split up data?</system:String>
 
-	
 		
 	<system:String x:Key="MSG_PROGRAM_ERROR_0001">Please contact the program manager.</system:String>
 
+	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">Alarm priority duplication error.</system:String>
 
 </ResourceDictionary>
