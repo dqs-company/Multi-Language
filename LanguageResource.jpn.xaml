@@ -1266,6 +1266,7 @@
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">範囲(数量)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">範囲(測定値)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_APPLY">設定適用</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">線の太さ</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">サブグループ設定</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">サブグループ適用</system:String>

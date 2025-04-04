@@ -1247,6 +1247,7 @@
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">범위(개수)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">범위(측정값)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_APPLY">설정 적용</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">선 굵기</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">밸류 서브그룹</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">서브그룹 적용</system:String>
