@@ -34,6 +34,13 @@
     <system:String x:Key="YES">YES</system:String>
     <system:String x:Key="NO">NO</system:String>
 	
+	<system:String x:Key="WIDTH">Width</system:String>
+	<system:String x:Key="HEIGHT">Height</system:String>
+
+	<system:String x:Key="CAD_SIZE">CAD Size</system:String>
+	<system:String x:Key="BALLOONING_SIZE">Ballooning Size</system:String>
+
+	
 	<system:String x:Key="SERVER">Server</system:String>
 	<system:String x:Key="SAVE">Save</system:String>
 	<system:String x:Key="SAVING">Saving</system:String>
@@ -51,6 +58,10 @@
 
     <system:String x:Key="ALL_SELECT">All check</system:String>
     <system:String x:Key="ALL_DESELECT">All uncheck</system:String>
+
+    <system:String x:Key="SHOW_ALL_COLUMNS">Show All-Columns</system:String>
+    <system:String x:Key="HIDE_ALL_COLUMNS">Hide All-Columns</system:String>
+
 
     <system:String x:Key="ORDER">Order</system:String>
     <system:String x:Key="SELECT">Select</system:String>
@@ -81,7 +92,7 @@
     <system:String x:Key="DELETE">Delete</system:String>
     <system:String x:Key="INSERT">Insert</system:String>
 
-
+    <system:String x:Key="ACTIVE">Active</system:String>
 
     <system:String x:Key="STACKED_BAR_CHART_TEXT">Stacked Bar Chart Text</system:String>
     <system:String x:Key="TREEMAP_CHART_TEXT">Treemap Chart Text</system:String>
@@ -518,7 +529,14 @@
     <!--Measure List -->
     <system:String x:Key="RE_CHAR_LIST_TITLE">Characteristics list</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NUMBER">Char.no</system:String>
-    <system:String x:Key="RE_CHAR_LIST_COL_CELL_POS">Cell</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_CELL_VALUE">[Cell Value]</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_NOMINAL">[Cell Nominal]</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_USL">[Cell USL]</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_LSL">[Cell LSL]</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MAX">[Cell Max]</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MIN">[Cell Min]</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_AVERAGE">[Cell Average]</system:String>
+	 
     <system:String x:Key="RE_CHAR_LIST_COL_NAME">Char.No</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_TYPE">Char.Descr</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NOMINAL">Nominal</system:String>
@@ -933,9 +951,9 @@
     <system:String x:Key="BO_CONFIG_DATE_RANGE">Date/Values Duration</system:String>
     <system:String x:Key="BO_CONFIG_DATE_LAST_VALUES">Last values</system:String>
     <system:String x:Key="BO_CONFIG_DATE_MANUAL_RANGE">Few days</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">Last 1day</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">Last 1week</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">Last 1month</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">Last n days</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">Last n weeks</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">Last n months</system:String>
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">Day - BaseTime</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">Out of tolerance</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">Warning Percent</system:String>
@@ -1035,8 +1053,8 @@
 
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CALYPSO">Calypso</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitutoyo CMM</system:String>
-    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_DELIMITER">Characteristics Delimiter</system:String>
-
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">Delimiter</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">Char' Line Start</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">ROW INDEX</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">DATA LINE</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">DATA SYMBOM</system:String>

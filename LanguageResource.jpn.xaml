@@ -33,6 +33,12 @@
     <system:String x:Key="OFF">Off</system:String>
     <system:String x:Key="YES">はい</system:String>
     <system:String x:Key="NO">いいえ</system:String>
+
+	<system:String x:Key="WIDTH">幅</system:String>
+	<system:String x:Key="HEIGHT">身長</system:String>
+	
+	<system:String x:Key="CAD_SIZE">CADのサイズ</system:String>
+	<system:String x:Key="BALLOONING_SIZE">バルーニングのサイズ</system:String>	
 	
 	<system:String x:Key="SERVER">サーバ</system:String>	
 	
@@ -51,6 +57,11 @@
 	
     <system:String x:Key="ALL_SELECT">全選択</system:String>
     <system:String x:Key="ALL_DESELECT">全解除</system:String>
+
+    <system:String x:Key="SHOW_ALL_COLUMNS">すべての列を表示</system:String>
+    <system:String x:Key="HIDE_ALL_COLUMNS">すべての列を非表示</system:String>
+
+
 
     <system:String x:Key="ORDER">順番</system:String>
     <system:String x:Key="SELECT">選択</system:String>
@@ -81,6 +92,8 @@
     <system:String x:Key="ADD">追加</system:String>
     <system:String x:Key="DELETE">消去</system:String>
     <system:String x:Key="INSERT">挿入</system:String>
+
+    <system:String x:Key="ACTIVE">Active</system:String>
 
 	
 	
@@ -513,7 +526,13 @@
     <!--Measure List -->
     <system:String x:Key="RE_CHAR_LIST_TITLE">特性リスト</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NUMBER">特性番号</system:String>
-    <system:String x:Key="RE_CHAR_LIST_COL_CELL_POS">セル位置</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_CELL_VALUE">セル値</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_NOMINAL">セル公称</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_USL">セルUSL</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_LSL">セルLSL</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MAX">セルマックス</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MIN">セル最小</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_AVERAGE">セル平均</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NAME">特性数</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_TYPE">特性名</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NOMINAL">規格値</system:String>
@@ -935,9 +954,9 @@
     <system:String x:Key="BO_CONFIG_DATE_RANGE">日付/値範囲</system:String>
     <system:String x:Key="BO_CONFIG_DATE_LAST_VALUES">最新の値</system:String>
     <system:String x:Key="BO_CONFIG_DATE_MANUAL_RANGE">日数</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">過去1日</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">過去1週</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">過去1月</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">過去 n日</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">過去 n週</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">過去 n月</system:String>
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">日ベースの時間</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">公差外</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">CAレベル</system:String>
@@ -1034,7 +1053,8 @@
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_TYPE">デバイスタイプ</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CALYPSO">Calypso</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitsutoyo CMM</system:String>
-    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_DELIMITER">特性区切り文字</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">区切り文字</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">Char'行の開始</system:String>	
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">列インデックス</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">データライン</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">データシンボル</system:String>

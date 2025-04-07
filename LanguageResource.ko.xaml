@@ -33,6 +33,13 @@
     <system:String x:Key="OFF">꺼짐</system:String>
     <system:String x:Key="YES">예</system:String>
     <system:String x:Key="NO">아니오</system:String>
+
+	<system:String x:Key="WIDTH">넓이</system:String>
+	<system:String x:Key="HEIGHT">높이</system:String>
+	
+	<system:String x:Key="CAD_SIZE">캐드 사이즈</system:String>
+	<system:String x:Key="BALLOONING_SIZE">표시(표기) 사이즈</system:String>
+	
 	
 	<system:String x:Key="SERVER">서버</system:String>
 	
@@ -51,6 +58,11 @@
 
     <system:String x:Key="ALL_SELECT">전체 선택</system:String>
     <system:String x:Key="ALL_DESELECT">전체 해제</system:String>
+
+    <system:String x:Key="SHOW_ALL_COLUMNS">모든 컬럼 표시</system:String>
+    <system:String x:Key="HIDE_ALL_COLUMNS">모든 컬럼 미표시</system:String>
+
+
 
     <system:String x:Key="ORDER">순서</system:String>
     <system:String x:Key="SELECT">선택</system:String>
@@ -80,6 +92,10 @@
     <system:String x:Key="ADD">추가</system:String>
     <system:String x:Key="DELETE">삭제</system:String>
     <system:String x:Key="INSERT">삽입</system:String>
+
+    <system:String x:Key="ACTIVE">활성화</system:String>
+
+
 
     <system:String x:Key="STACKED_BAR_CHART_TEXT">Stacked Bar 차트 텍스트</system:String>
     <system:String x:Key="TREEMAP_CHART_TEXT">Treemap 차트 텍스트</system:String>
@@ -505,7 +521,13 @@
     <!--Measure List -->
     <system:String x:Key="RE_CHAR_LIST_TITLE">측정항목 리스트</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NUMBER">순서</system:String>
-    <system:String x:Key="RE_CHAR_LIST_COL_CELL_POS">셀위치</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_CELL_VALUE">셀 값</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_NOMINAL">셀 기준값</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_USL">셀 규격상한</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_LSL">셀 규격하한</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MAX">셀 최대값</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MIN">셀 최소값</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_AVERAGE">셀 평균</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NAME">항목수</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_TYPE">항목설명</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NOMINAL">기준값</system:String>
@@ -923,9 +945,9 @@
     <system:String x:Key="BO_CONFIG_DATE_RANGE">날짜/값 범위</system:String>
     <system:String x:Key="BO_CONFIG_DATE_LAST_VALUES">최신 값</system:String>
     <system:String x:Key="BO_CONFIG_DATE_MANUAL_RANGE">수동범위</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">최근 1일</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">최근 1주</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">최근 1달</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">최근 n일</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">최근 n주</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">최근 n달</system:String>
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">하루-기준시간</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">공차 아웃</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">경고 퍼센트</system:String>
@@ -1020,7 +1042,8 @@
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_TYPE">장비 타입</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CALYPSO">Calypso</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitutoyo CMM</system:String>
-    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_DELIMITER">측정 항목 구분자</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">항목 구분자</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">측정 항목 라인 시작</system:String>	
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_KFIELD">K-필드</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">열순서</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">라인</system:String>

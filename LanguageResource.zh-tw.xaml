@@ -450,7 +450,13 @@
     <!--Measure List -->
     <system:String x:Key="RE_CHAR_LIST_TITLE">特徵清單</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NUMBER">特徵編號</system:String>
-    <system:String x:Key="RE_CHAR_LIST_COL_CELL_POS">儲存格位置</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_CELL_VALUE">Cell Value</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_NOMINAL">Cell Nominal</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_USL">Cell USL</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_LSL">Cell LSL</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MAX">Cell Max</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MIN">Cell Min</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_AVERAGE">Cell Average</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NAME">特徵數量</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_TYPE">特徵名稱</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NOMINAL">標準值</system:String>
