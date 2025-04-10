@@ -1216,7 +1216,7 @@
     <system:String x:Key="DATABASE_FILTER_LOT_NUMBER">ロット番号</system:String>
     <system:String x:Key="DATABASE_FILTER_OP_NUMBER">OP番号</system:String>
 
-    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">部品を削除しますか？</system:String>
+    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">部品を削除しますか？[部品/特性/値データが削除されます!]</system:String>
     <system:String x:Key="DATABASE_CELL_POS_COPY_TITLE">セル情報のコピー</system:String>
 
     <system:String x:Key="DATABASE_VALUE_DELETE">値の削除</system:String>
@@ -1226,7 +1226,7 @@
     <system:String x:Key="DATABASE_CELL_POS_COPY">セル位置をコピー</system:String>
 
 
-    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">特性データを削除しますか?</system:String>
+    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">特性データを削除しますか? [特性/値データが削除されます!]</system:String>
     <system:String x:Key="DATABASE_CHAR_DEL">特性を削除します。</system:String>
 
     <system:String x:Key="DATABASE_VALUE_DEL_MESSAGE">値データを削除しますか?</system:String>
@@ -1283,6 +1283,10 @@
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">Postion[2001]</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER">マーカ</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">マーカ表示/サイズ</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">マーカサイズ[OK]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">マーカサイズ[NG]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">マーカサイズ</system:String>
+	
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">範囲(数量)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">範囲(測定値)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_APPLY">設定適用</system:String>
@@ -1296,6 +1300,16 @@
 	<system:String x:Key="VALUE_CHART_SIDE_DEVIATION">偏差適用</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">拡大/縮小デフォルト</system:String>
 	
+	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">線の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">レジェンドを表示</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">チェックボックスを表示</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">マーカーを表示</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">中央の文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USLの文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSLの文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWLの文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWLの文字の色</system:String>
+
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">マーカーサイズ</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">マーカーの色</system:String>

@@ -1205,13 +1205,13 @@
 
     <system:String x:Key="DATABASE_CELL_POS_COPY_TITLE">복사 셀 정보</system:String>
 
-    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">파트를 삭제 하시겠습니까?</system:String>
+    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">파트를 삭제 하시겠습니까? [파트/특성/값 데이터가 제거됩니다!]</system:String>
     <system:String x:Key="DATABASE_PART_DEL">파트 삭제</system:String>
     <system:String x:Key="DATABASE_CELL_POS_COPY">복사 셀 정보</system:String>
     <system:String x:Key="DATABASE_CELL_POS_COPY_SOURCE_PART">소스 파트</system:String>
     <system:String x:Key="DATABASE_CELL_POS_COPY_DEST_PART">대상 파트</system:String>
     
-    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">측정 항목을 삭제 하시겠습니까?</system:String>
+    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">측정 항목을 삭제 하시겠습니까? [특성/값 데이터가 제거됩니다!]</system:String>
     <system:String x:Key="DATABASE_CHAR_DEL">측정 항목 삭제.</system:String>
 
     <system:String x:Key="DATABASE_VALUE_DEL_MESSAGE">측정 값을 삭제 하시겠습니까?</system:String>
@@ -1265,8 +1265,11 @@
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">그래픽 설정</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">위치[2001]</system:String>
-    <system:String x:Key="VALUE_CHART_SIDE_MARKER">심볼 표시 / 크기</system:String>
-    <system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">표시</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER">마커</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">마커 표시</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">마커 표시[OK]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">마커 표시[NG]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">마커 사이즈</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">범위(개수)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">범위(측정값)</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_APPLY">설정 적용</system:String>
@@ -1279,9 +1282,20 @@
     <system:String x:Key="VALUE_CHART_SIDE_OUT_TORELENCE">공차 아웃 표시</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_DEVIATION">편차 적용</system:String>	
     <system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">확대/축소 기본값</system:String>
+
+	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">라인 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">표시 레전드</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">표시 체크박스</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">표시 마커</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">중앙 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USL 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSL 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWL 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWL 글씨 색상</system:String>
+
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">심볼 사이즈</system:String>
-    <system:String x:Key="VALUE_CHART_MARKER_COLOR">심볼 컬러</system:String>
+    <system:String x:Key="VALUE_CHART_MARKER_COLOR">심볼 색상</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_UPLOADED_DATA">업로드완료 데이터</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_WAITING_DATA">대기 데이터</system:String>
 	

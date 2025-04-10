@@ -1224,11 +1224,11 @@
     <system:String x:Key="DATABASE_FILTER_LOT_NUMBER">Lot Number</system:String>
     <system:String x:Key="DATABASE_FILTER_OP_NUMBER">OP Number</system:String>
 
-    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">Do you want to delete the part data?</system:String>
+    <system:String x:Key="DATABASE_PART_DEL_MESSAGE">Do you want to delete the part data? [part/characteristic/values data is removed.!]</system:String>
     <system:String x:Key="DATABASE_PART_DEL">Part delete.</system:String>
 
 
-    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">Do you want to delete the characteristic data?</system:String>
+    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">Do you want to delete the characteristic data? [characteristic/values data is removed.]</system:String>
     <system:String x:Key="DATABASE_CHAR_DEL">Characteristic delete.</system:String>
 
 
@@ -1304,7 +1304,11 @@
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">Graphics Settings</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">Postion[2001]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">Marker</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible/ Size</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">Marker Visible[OK]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">Marker Visible[NG]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">Marker Size</system:String>
+ 
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">Number range</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">Value range</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_APPLY">Range Apply</system:String>
@@ -1317,15 +1321,25 @@
 	<system:String x:Key="VALUE_CHART_SIDE_DEVIATION">Deviation Apply</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">Zoom Default</system:String>
 	
+	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">Line Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">Show Legend</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">Show CheckBoxes</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">Show Markers</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">Center Text Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USL Text Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSL Text Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWL Text Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWL Text Color</system:String>
+	
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">Marker Size</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">Marker Color</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_UPLOADED_DATA">Uploaded Data</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_WAITING_DATA">Waiting Data</system:String>
 
-	
-	
-	
+ 
+	 
+	 
 <!--###############################################################################>
 [Process parameter]
 #################################################################################-->	
