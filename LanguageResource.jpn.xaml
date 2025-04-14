@@ -49,6 +49,10 @@
     <system:String x:Key="START">開始</system:String>
     <system:String x:Key="STARTING">起動中・・・</system:String>
 
+    <system:String x:Key="INPUT_EVENT">入力イベント</system:String>
+	
+	
+	
     <system:String x:Key="UPLOADING">アップロード中...</system:String>
     <system:String x:Key="UPLOAD">アップロード</system:String>
 	
@@ -71,7 +75,10 @@
     <system:String x:Key="ANYTIME">常時</system:String>
 	<system:String x:Key="SECONDS">秒</system:String>
     <system:String x:Key="MINUTES">分</system:String>
-	
+
+
+    <system:String x:Key="GRID_LINE">グリッドライン</system:String>
+    <system:String x:Key="LABEL_AUTO_TICKS">ラベルの自動表示</system:String>	
 	
     <system:String x:Key="CELL">セル</system:String>
     <system:String x:Key="SHEET">シート</system:String>
@@ -84,7 +91,10 @@
 	<system:String x:Key="USL">規格上限</system:String>
 	<system:String x:Key="LSL">規格下限</system:String>
 	
- 
+ 	<system:String x:Key="TOOLTIP">ツールチップ</system:String>
+	<system:String x:Key="FONT_SIZE">フォントサイズ</system:String>
+	
+	
 	<system:String x:Key="UNKNOWN">不明</system:String>
     <system:String x:Key="VALID_VALUE">有効な値</system:String>
     <system:String x:Key="INVALID_VALUE">無効な値</system:String>
@@ -101,7 +111,10 @@
     <system:String x:Key="TREEMAP_CHART_TEXT">ツリーマップテキスト</system:String>
     <system:String x:Key="DATE_TIME_RANGE">日付/時刻範囲</system:String>
 
-
+    <system:String x:Key="X_AXIS">X-軸</system:String>
+    <system:String x:Key="Y_AXIS">Y-軸</system:String>
+	
+	
     <system:String x:Key="SELECTION">選択</system:String>
     <system:String x:Key="NAME">名前</system:String>
     <system:String x:Key="MODULE">モジュール</system:String>
@@ -230,6 +243,10 @@
 	<system:String x:Key="MINIMUM">最小値</system:String>		
 	<system:String x:Key="MAXIMUM">最大値</system:String>			
 	<system:String x:Key="COLOR">色</system:String>		
+	<system:String x:Key="TEXT_COLOR">テキストの色</system:String>	
+	<system:String x:Key="LINE">ライン</system:String>		
+	
+	
 	<system:String x:Key="PRIORITY">優先度</system:String>		
 
 	<system:String x:Key="CONDITION">状態</system:String>		
@@ -1300,16 +1317,20 @@
 	<system:String x:Key="VALUE_CHART_SIDE_DEVIATION">偏差適用</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">拡大/縮小デフォルト</system:String>
 	
+	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">凡例</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">線の色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">レジェンドを表示</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">チェックボックスを表示</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">マーカーを表示</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">中央の文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">ポゴの文字の色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USLの文字の色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSLの文字の色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWLの文字の色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWLの文字の色</system:String>
 
+	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCLの文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCLの文字の色</system:String>
+	
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">マーカーサイズ</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">マーカーの色</system:String>

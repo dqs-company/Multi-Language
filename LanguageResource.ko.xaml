@@ -50,6 +50,9 @@
     <system:String x:Key="START">시작</system:String>
     <system:String x:Key="STARTING">시작 중...</system:String>
 
+
+    <system:String x:Key="INPUT_EVENT">입력 이벤트</system:String>
+	
     <system:String x:Key="UPLOADING">업로드 중...</system:String>
     <system:String x:Key="UPLOAD">업로드</system:String>
 	
@@ -72,6 +75,11 @@
     <system:String x:Key="ANYTIME">애니타임</system:String>
     <system:String x:Key="SECONDS">초</system:String>
     <system:String x:Key="MINUTES">분</system:String>
+
+
+    <system:String x:Key="GRID_LINE">격자 라인</system:String>
+    <system:String x:Key="LABEL_AUTO_TICKS">라벨 자동 표시</system:String>
+
 	
     <system:String x:Key="CELL">셀</system:String>
     <system:String x:Key="SHEET">시트</system:String>
@@ -84,6 +92,10 @@
 	<system:String x:Key="USL">USL</system:String>
 	<system:String x:Key="LSL">LSL</system:String>
 	
+	
+	<system:String x:Key="TOOLTIP">툴팁</system:String>
+	<system:String x:Key="FONT_SIZE">폰트 사이즈</system:String>
+
 	
 	<system:String x:Key="UNKNOWN">알수없음</system:String>
     <system:String x:Key="VALID_VALUE">유효한 값</system:String>
@@ -101,7 +113,9 @@
     <system:String x:Key="TREEMAP_CHART_TEXT">Treemap 차트 텍스트</system:String>
     <system:String x:Key="DATE_TIME_RANGE">날짜/시간 범위</system:String>
 
-    
+    <system:String x:Key="X_AXIS">X-축</system:String>
+    <system:String x:Key="Y_AXIS">Y-축</system:String>
+	
     <system:String x:Key="SELECTION">선택</system:String>
     <system:String x:Key="NAME">이름</system:String>
     <system:String x:Key="MODULE">모듈</system:String>
@@ -228,7 +242,10 @@
 	<system:String x:Key="MINIMUM">최소값</system:String>		
 	<system:String x:Key="MAXIMUM">최대값</system:String>		
 	
-	<system:String x:Key="COLOR">아이콘</system:String>		
+	<system:String x:Key="COLOR">색상</system:String>		
+	<system:String x:Key="TEXT_COLOR">텍스트 색상</system:String>	
+	<system:String x:Key="LINE">라인</system:String>		
+	
 	<system:String x:Key="PRIORITY">우선순위</system:String>	
 
 	<system:String x:Key="CONDITION">차트 상태</system:String>		
@@ -1283,16 +1300,18 @@
 	<system:String x:Key="VALUE_CHART_SIDE_DEVIATION">편차 적용</system:String>	
     <system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">확대/축소 기본값</system:String>
 
+	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">차트 범례</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">라인 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">표시 레전드</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">표시 체크박스</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">표시 마커</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">중앙 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">평균 글씨 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USL 글씨 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSL 글씨 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWL 글씨 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWL 글씨 색상</system:String>
-
+	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCL 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCL 글씨 색상</system:String>
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">심볼 사이즈</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">심볼 색상</system:String>

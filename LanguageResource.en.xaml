@@ -49,6 +49,9 @@
     <system:String x:Key="START">Start</system:String>
     <system:String x:Key="STARTING">Starting..</system:String>
 
+
+    <system:String x:Key="INPUT_EVENT">Input Event</system:String>
+
     <system:String x:Key="UPLOADING">Uploading..</system:String>
     <system:String x:Key="UPLOAD">Upload</system:String>
 	
@@ -72,6 +75,9 @@
     <system:String x:Key="SECONDS">seconds</system:String>
     <system:String x:Key="MINUTES">minutes</system:String>
 
+    <system:String x:Key="GRID_LINE">Grid Line</system:String>
+    <system:String x:Key="LABEL_AUTO_TICKS">Label Auto Ticks</system:String>
+	
     <system:String x:Key="CELL">Cell</system:String>
     <system:String x:Key="SHEET">Sheet</system:String>
     <system:String x:Key="CELL_USED">Used</system:String>
@@ -83,7 +89,10 @@
 	<system:String x:Key="USL">USL</system:String>
 	<system:String x:Key="LSL">LSL</system:String>
 	
+	<system:String x:Key="TOOLTIP">Tooltip</system:String>
 	
+	<system:String x:Key="FONT_SIZE">Font Size</system:String>
+				
     <system:String x:Key="UNKNOWN">unknown</system:String>
     <system:String x:Key="VALID_VALUE">valid value</system:String>
     <system:String x:Key="INVALID_VALUE">invalid value</system:String>
@@ -98,8 +107,9 @@
     <system:String x:Key="TREEMAP_CHART_TEXT">Treemap Chart Text</system:String>
     <system:String x:Key="DATE_TIME_RANGE">Date/Time Range</system:String>
     
-
-    
+    <system:String x:Key="X_AXIS">X-Axis</system:String>
+    <system:String x:Key="Y_AXIS">Y-Axis</system:String>
+	
     <system:String x:Key="SELECTION">Selection</system:String>
     <system:String x:Key="NAME">Name</system:String>
     <system:String x:Key="MODULE">Module</system:String>
@@ -232,6 +242,8 @@
 	<system:String x:Key="MAXIMUM">Maximum</system:String>		
 	
 	<system:String x:Key="COLOR">Color</system:String>		
+	<system:String x:Key="TEXT_COLOR">Text Color</system:String>		
+	<system:String x:Key="LINE">Line</system:String>		
 	
 	<system:String x:Key="PRIORITY">Priority</system:String>		
 
@@ -1312,7 +1324,7 @@
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">Number range</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">Value range</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_APPLY">Range Apply</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">Stroke Thickness</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">Line Thickness</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">Value Sub Group</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">Sub G' Apply</system:String>
@@ -1322,14 +1334,20 @@
 	<system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">Zoom Default</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">Line Color</system:String>
+	
+	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">Legend</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">Show Legend</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">Show CheckBoxes</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">Show Markers</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">Center Text Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">Average Text Color</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USL Text Color</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSL Text Color</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWL Text Color</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWL Text Color</system:String>
+
+	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCL Text Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCL Text Color</system:String>
+
 	
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">Marker Size</system:String>
