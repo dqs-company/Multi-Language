@@ -234,7 +234,9 @@
 	
    	<system:String x:Key="FILE">파일</system:String>	
 
-   	<system:String x:Key="AVERAGE">평균</system:String>			
+   	<system:String x:Key="AVERAGE">평균</system:String>
+	<system:String x:Key="SCRAP">스크랩</system:String>	
+	<system:String x:Key="ACCEPTANCE">허용</system:String>		
 	
 	<system:String x:Key="MEDIAN">중간값</system:String>	
 
@@ -1285,6 +1287,7 @@
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">마커</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">마커 표시</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">마커 표시[OK]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_WARNING">마커 표시[WARNING]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">마커 표시[NG]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">마커 사이즈</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">범위(개수)</system:String>
@@ -1303,6 +1306,7 @@
 	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">차트 범례</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">라인 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">표시 레전드</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_VERTICAL_LEGEND">수직정렬</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">표시 체크박스</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">표시 마커</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">평균 글씨 색상</system:String>
@@ -1312,6 +1316,8 @@
 	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWL 글씨 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCL 글씨 색상</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCL 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SCRAP_TEXT_COLOR">스크랩 글씨 색상</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_ACCEPTANCE_TEXT_COLOR">허용 글씨 색상</system:String>
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">심볼 사이즈</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">심볼 색상</system:String>

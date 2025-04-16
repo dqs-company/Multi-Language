@@ -237,7 +237,8 @@
 	<system:String x:Key="FILE">ファイル</system:String>	
 	
    	<system:String x:Key="AVERAGE">平均</system:String>		
-	
+	<system:String x:Key="SCRAP">スクラップ</system:String>	
+	<system:String x:Key="ACCEPTANCE">承諾</system:String>
 	<system:String x:Key="MEDIAN">中央値</system:String>		
 	<system:String x:Key="STANDARD_DEVIATION">標準偏差</system:String>			 
 	<system:String x:Key="MINIMUM">最小値</system:String>		
@@ -1301,6 +1302,7 @@
     <system:String x:Key="VALUE_CHART_SIDE_MARKER">マーカ</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">マーカ表示/サイズ</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">マーカサイズ[OK]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_WARNING">マーカサイズ[WARNING]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">マーカサイズ[NG]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">マーカサイズ</system:String>
 	
@@ -1320,6 +1322,7 @@
 	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">凡例</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">線の色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">レジェンドを表示</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_VERTICAL_LEGEND">縦(垂直)</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">チェックボックスを表示</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">マーカーを表示</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">ポゴの文字の色</system:String>
@@ -1330,7 +1333,8 @@
 
 	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCLの文字の色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCLの文字の色</system:String>
-	
+	<system:String x:Key="VALUE_CHART_SIDE_SCRAP_TEXT_COLOR">スクラップ文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_ACCEPTANCE_TEXT_COLOR">承諾文字の色</system:String>
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">マーカーサイズ</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">マーカーの色</system:String>

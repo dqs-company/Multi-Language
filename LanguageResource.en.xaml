@@ -234,7 +234,9 @@
 	
    	<system:String x:Key="FILE">File</system:String>	
 	
-   	<system:String x:Key="AVERAGE">Average</system:String>		
+   	<system:String x:Key="AVERAGE">Average</system:String>	
+	<system:String x:Key="SCRAP">Scrap</system:String>	
+	<system:String x:Key="ACCEPTANCE">Acceptance</system:String>
 	<system:String x:Key="MEDIAN">Median</system:String>		
 	
 	<system:String x:Key="STANDARD_DEVIATION">Standard Deviation</system:String>			 
@@ -1318,6 +1320,7 @@
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">Marker</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">Marker Visible[OK]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_WARNING">Marker Visible[WARNING]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">Marker Visible[NG]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">Marker Size</system:String>
  
@@ -1337,6 +1340,7 @@
 	
 	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">Legend</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">Show Legend</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_VERTICAL_LEGEND">Vertical</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">Show CheckBoxes</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">Show Markers</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">Average Text Color</system:String>
@@ -1348,7 +1352,8 @@
 	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCL Text Color</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCL Text Color</system:String>
 
-	
+	<system:String x:Key="VALUE_CHART_SIDE_SCRAP_TEXT_COLOR">Scrap Text Color</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_ACCEPTANCE_TEXT_COLOR">Acceptance Text Color</system:String>
 	
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">Marker Size</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">Marker Color</system:String>
