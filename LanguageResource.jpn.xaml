@@ -48,7 +48,7 @@
     <system:String x:Key="LOADING">ロード中...</system:String>
     <system:String x:Key="START">開始</system:String>
     <system:String x:Key="STARTING">起動中・・・</system:String>
-
+    <system:String x:Key="STOP">停止</system:String>
     <system:String x:Key="INPUT_EVENT">入力イベント</system:String>
 	
 	
