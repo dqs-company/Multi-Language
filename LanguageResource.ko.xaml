@@ -1175,6 +1175,7 @@
 
 	
     <!-- Catalog Screen -->
+	<system:String x:Key="CONFIG_CATALOG_TITLE">카탈로그</system:String>
     <system:String x:Key="CONFIG_CATALOG_MAIN">카탈로그</system:String>
     <system:String x:Key="CONFIG_CATALOG_SOURCE_FILE">카탈로그 데이터 파일</system:String>
 
