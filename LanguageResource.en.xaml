@@ -48,8 +48,8 @@
 	<system:String x:Key="LOADING">Loading..</system:String>
     <system:String x:Key="START">Start</system:String>
     <system:String x:Key="STARTING">Starting..</system:String>
-
-
+    <system:String x:Key="STOP">Stop</system:String>
+	
     <system:String x:Key="INPUT_EVENT">Input Event</system:String>
 
     <system:String x:Key="UPLOADING">Uploading..</system:String>

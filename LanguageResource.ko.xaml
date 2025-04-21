@@ -49,8 +49,8 @@
 	<system:String x:Key="LOADING">불러오기중...</system:String>
     <system:String x:Key="START">시작</system:String>
     <system:String x:Key="STARTING">시작 중...</system:String>
-
-
+    <system:String x:Key="STOP">중지</system:String>
+	
     <system:String x:Key="INPUT_EVENT">입력 이벤트</system:String>
 	
     <system:String x:Key="UPLOADING">업로드 중...</system:String>
