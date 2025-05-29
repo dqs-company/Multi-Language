@@ -240,6 +240,12 @@
 	
 	<system:String x:Key="MEDIAN">중간값</system:String>	
 
+	<system:String x:Key="UACL">UAcl</system:String>		
+	<system:String x:Key="LACL">LAcl</system:String>		
+	<system:String x:Key="URL">URL</system:String>		
+	<system:String x:Key="LRL">LRL</system:String>		
+ 
+ 
 	<system:String x:Key="STANDARD_DEVIATION">표쥰편차</system:String>			 
 	<system:String x:Key="MINIMUM">최소값</system:String>		
 	<system:String x:Key="MAXIMUM">최대값</system:String>		
@@ -1141,6 +1147,7 @@
     <system:String x:Key="CONFIG_DB_ID">아이디</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">패스워드</system:String>
     <system:String x:Key="CONFIG_DB_LIST">데이터베이스</system:String>
+	<system:String x:Key="CONFIG_DB_PORT">포트</system:String>	
     <system:String x:Key="CONFIG_DB_LOCAL">로컬 데이터베이스</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">선택 파트 삭제</system:String>
 

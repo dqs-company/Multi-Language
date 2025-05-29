@@ -35,7 +35,7 @@
     <system:String x:Key="NO">いいえ</system:String>
 
 	<system:String x:Key="WIDTH">幅</system:String>
-	<system:String x:Key="HEIGHT">身長</system:String>
+	<system:String x:Key="HEIGHT">高さ</system:String>
 	
 	<system:String x:Key="CAD_SIZE">CADのサイズ</system:String>
 	<system:String x:Key="BALLOONING_SIZE">バルーニングのサイズ</system:String>	
@@ -103,7 +103,7 @@
     <system:String x:Key="DELETE">消去</system:String>
     <system:String x:Key="INSERT">挿入</system:String>
 
-    <system:String x:Key="ACTIVE">Active</system:String>
+    <system:String x:Key="ACTIVE">アクティブ</system:String>
 
 	
 	
@@ -238,8 +238,12 @@
 	
    	<system:String x:Key="AVERAGE">平均</system:String>		
 	<system:String x:Key="SCRAP">スクラップ</system:String>	
-	<system:String x:Key="ACCEPTANCE">承諾</system:String>
+	<system:String x:Key="ACCEPTANCE">合否</system:String>
 	<system:String x:Key="MEDIAN">中央値</system:String>		
+	<system:String x:Key="UACL">UAcl</system:String>		
+	<system:String x:Key="LACL">LAcl</system:String>		
+	<system:String x:Key="URL">URL</system:String>		
+	<system:String x:Key="LRL">LRL</system:String>
 	<system:String x:Key="STANDARD_DEVIATION">標準偏差</system:String>			 
 	<system:String x:Key="MINIMUM">最小値</system:String>		
 	<system:String x:Key="MAXIMUM">最大値</system:String>			
@@ -471,7 +475,7 @@
     <system:String x:Key="DATA_FIELD_0006">バッチ番号</system:String>
     <system:String x:Key="DATA_FIELD_0007">キャビティ番号</system:String>
     <system:String x:Key="DATA_FIELD_0008">検査員名</system:String>
-	<system:String x:Key="DATA_FIELD_0009">テスト</system:String>
+	<system:String x:Key="DATA_FIELD_0009">テキスト</system:String>
     <system:String x:Key="DATA_FIELD_0010">機械番号</system:String>
     <system:String x:Key="DATA_FIELD_0011">プロセスパラメータ</system:String>
     <system:String x:Key="DATA_FIELD_0012">ゲージ番号</system:String>
@@ -544,13 +548,13 @@
     <!--Measure List -->
     <system:String x:Key="RE_CHAR_LIST_TITLE">特性リスト</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NUMBER">特性番号</system:String>
-    <system:String x:Key="RE_CHAR_LIST_COL_CELL_VALUE">セル値</system:String>
-	<system:String x:Key="RE_CHAR_LIST_COL_CELL_NOMINAL">セル公称</system:String>
-	<system:String x:Key="RE_CHAR_LIST_COL_CELL_USL">セルUSL</system:String>
-	<system:String x:Key="RE_CHAR_LIST_COL_CELL_LSL">セルLSL</system:String>
-	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MAX">セルマックス</system:String>
-	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MIN">セル最小</system:String>
-	<system:String x:Key="RE_CHAR_LIST_COL_CELL_AVERAGE">セル平均</system:String>
+    <system:String x:Key="RE_CHAR_LIST_COL_CELL_VALUE">値(CELL)</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_NOMINAL">規格値(CELL)</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_USL">規格上限(CELL)</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_LSL">規格下限(CELL)</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MAX">最大(CELL)</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_MIN">最小(CELL)</system:String>
+	<system:String x:Key="RE_CHAR_LIST_COL_CELL_AVERAGE">平均(CELL)</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NAME">特性数</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_TYPE">特性名</system:String>
     <system:String x:Key="RE_CHAR_LIST_COL_NOMINAL">規格値</system:String>
@@ -748,7 +752,7 @@
     <system:String x:Key="CC_MAIN_STATUS_AUTO_START">実行-自動スタート</system:String>
     <system:String x:Key="CC_MAIN_STATUS_INPUT_DIR">入力ディレクトリ</system:String>
     <system:String x:Key="CC_MAIN_STATUS_FILE_EXTENSION">ファイル拡張子</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_FILE_CODE_PAGE">ファイル国コードページ</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_CODE_PAGE">ファイルエンコード</system:String>
     <system:String x:Key="CC_MAIN_STATUS_SERVER_ADDRESS_PORT">サーバーアドレス/ポート</system:String>
     <system:String x:Key="CC_MAIN_STATUS_SERVER_TARGET_CLIENT">サーバー ターゲット クライアント</system:String>
     <system:String x:Key="CC_MAIN_STATUS_SERVER_CONVERTER_MODULE">サーバーコンバータモジュール</system:String>
@@ -784,7 +788,7 @@
 	<system:String x:Key="SENSE_MAIN_MENU_DATA_INFORMATION">データ情報</system:String>
 	<system:String x:Key="SENSE_MAIN_MENU_DATA_WAITING">待機データ</system:String>
 	<system:String x:Key="SENSE_MAIN_MENU_DATA_PART_COUNT">部品数</system:String>
-	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">価値数</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">数値の数</system:String>
 
 	
     <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">モニタリングの開始</system:String>
@@ -872,7 +876,7 @@
 	<system:String x:Key="RC_MAIN_CHANGE_PLAN">プランの変更</system:String>
 
 	<system:String x:Key="RC_MAIN_MENU_TEST_LIST">入力値</system:String>
-	<system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">描画</system:String>
+	<system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">イメージ</system:String>
 	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">DWG ビュー</system:String>
 	
 	
@@ -972,18 +976,19 @@
     <system:String x:Key="BO_CONFIG_DATE_RANGE">日付/値範囲</system:String>
     <system:String x:Key="BO_CONFIG_DATE_LAST_VALUES">最新の値</system:String>
     <system:String x:Key="BO_CONFIG_DATE_MANUAL_RANGE">日数</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">過去 n日</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">過去 n週</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">過去 n月</system:String>
-    <system:String x:Key="BO_CONFIG_DATE_BASETIME">日ベースの時間</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1DAY_RANGE">過去n日</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1WEEK_RANGE">過去n週</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_1MONTH_RANGE">過去n月</system:String>
+    <system:String x:Key="BO_CONFIG_DATE_BASETIME">日のベース時間</system:String>
+	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">公差外</system:String>
-    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">CAレベル</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">公差使用率</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_OPACITY">不透明度</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_LIMIT_NATURAL_BOUNDARY">自然限界公差使用率</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">NGレベル</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_OPACITY">不透明度</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">スクラップ限界線</system:String>	
-    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">承諾限界線</system:String>	
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">合否限界線</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">外れ値除外有効化</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_USL_PERCENT">USL 外れ値公差使用率</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_LSL_PERCENT">LSL 外れ値公差使用率</system:String>
@@ -994,13 +999,13 @@
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_BAD">NG</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_WARNING">CA</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_GOOD">OK</system:String>
-	<system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_BAD">Bad(out of control limits)</system:String>
+	<system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_BAD">NG(管理公差外)</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_GOOD">Good</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT">フォント</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_SIZE">サイズ</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_COLOR">カラー</system:String>
     <system:String x:Key="BO_CONFIG_TOP_ORDER_TEXT">階層表示テキスト</system:String>
-    <system:String x:Key="BO_CONFIG_AUTO_PAGE">自動変遷 - [スライドショー]</system:String>
+    <system:String x:Key="BO_CONFIG_AUTO_PAGE">オートスライド - [スライドショー]</system:String>
     <system:String x:Key="BO_CONFIG_AUTO_PAGE_SWITCHING">スライドショー切替</system:String>
     <system:String x:Key="BO_CONFIG_AUTO_PAGE_RESTART_POINT">ページの再開階層</system:String>
     <system:String x:Key="BO_CONFIG_AUTO_PAGE_VALUE_CHART_LAYOUT">数値図のレイアウト</system:String>
@@ -1033,12 +1038,12 @@
 	<system:String x:Key="SENSE_LOGIN_NO_WINDOW">ウィンドウなしでログイン</system:String>
 	<system:String x:Key="SENSE_DEFAULT_ID">デフォルトID</system:String>
 	<system:String x:Key="SENSE_FILE_SEARCH_TIME">ファイル検索時間</system:String>	
-	<system:String x:Key="SENSE_AUTO_START">自動的に開始</system:String>
+	<system:String x:Key="SENSE_AUTO_START">オートスタート</system:String>
 	<system:String x:Key="SENSE_FILLUP_DATA">不完全な測定値を記入する</system:String>	
     <system:String x:Key="SENSE_AUTO_ACCEPT">自動データ承認</system:String>	
 	<system:String x:Key="SENSE_DECIMAL_POINT">小数点</system:String>
-	<system:String x:Key="SENSE_FILE_ACCEPT">ファイルの受け入れ</system:String>	
-    <system:String x:Key="SENSE_LATEST_DATA">直近のデータ基準の使用</system:String>	
+	<system:String x:Key="SENSE_FILE_ACCEPT">ファイル単位承認</system:String>	
+    <system:String x:Key="SENSE_LATEST_DATA">直近のデータから承認</system:String>	
 	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">データの管理限界を使用</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Xバー管理図タイプ</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">デフォルトのサブグループ</system:String>
@@ -1048,7 +1053,7 @@
 	
 	
 	<!-- ==>Auto -->
-    <system:String x:Key="CONFIG_SERVER_AUTO_START">i-Collector 起動時にインスタンスを開始</system:String>
+    <system:String x:Key="CONFIG_SERVER_AUTO_START">i-Collector起動時にインスタンスを開始</system:String>
     <system:String x:Key="CONFIG_SERVER_ADDRESS">サーバアドレス</system:String>
     <system:String x:Key="CONFIG_SERVER_PORT">サーバポート</system:String>
     <system:String x:Key="CONFIG_SERVER_UPDATE_TIME">サーバ更新時間</system:String>
@@ -1071,12 +1076,12 @@
    
     <!-- ==>CONVERSION Screen-->
     <system:String x:Key="CONFIG_CONVERSION_TITLE">変換</system:String>
-    <system:String x:Key="CONFIG_CONVERSION_DEVICE">デバイスモデル</system:String>
-    <system:String x:Key="CONFIG_CONVERSION_DEVICE_TYPE">デバイスタイプ</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE">フォーマット</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_TYPE">タイプ</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CALYPSO">Calypso</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitsutoyo CMM</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">区切り文字</system:String>
-    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">Char'行の開始</system:String>	
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">特性行の開始</system:String>	
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">列インデックス</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">データライン</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">データシンボル</system:String>
@@ -1124,7 +1129,7 @@
     <system:String x:Key="CONFIG_DATA_HEXAGON_K0014_OPTION">HXオプション(K1001->K0014 移動)</system:String>
 	<system:String x:Key="CONFIG_DATA_SAMMIK_CARBODY_OPTION">SAMMI-Kオプション (CARBODY-LH)</system:String>	
 
-    <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK">データ基本/ブロック</system:String>
+    <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK">デフォルト値/ブロック</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_NUMBER">フィールド番号</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_BLOCK">フィールドブロック</system:String>
 	<system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_OVERWRITE">上書き</system:String>
@@ -1155,11 +1160,12 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">パスワード</system:String>
     <system:String x:Key="CONFIG_DB_LIST">データベース</system:String>
+	<system:String x:Key="CONFIG_DB_PORT">ポート</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">ローカルデータベース</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">選択した部品を削除</system:String>
 	
-    <system:String x:Key="CONFIG_DB_SQLITE_FILE">SQlite ファイル</system:String>
-    <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">SQlite クリーンアップ</system:String>
+    <system:String x:Key="CONFIG_DB_SQLITE_FILE">SQliteファイル</system:String>
+    <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">SQliteクリーンアップ</system:String>
 
     <system:String x:Key="CONFIG_DB_USE_VALUE_DATA">付帯情報の選択</system:String>
     <system:String x:Key="CONFIG_DB_USE_VALUE_0001">測定値 - [0001] *必須フィールド</system:String>
@@ -1195,7 +1201,7 @@
     <system:String x:Key="CONFIG_CATALOG_TITLE">カタログ</system:String>
     <system:String x:Key="CONFIG_CATALOG_SOURCE_FILE">カタログファイル</system:String>
     <system:String x:Key="CONFIG_CATALOG_MAIN">カタログ</system:String>
-    <system:String x:Key="CONFIG_CATALOG_FROM_DATABASE">データベースからのカタログデータ</system:String>
+    <system:String x:Key="CONFIG_CATALOG_FROM_DATABASE">データベースのカタログデータ</system:String>
     <system:String x:Key="CONFIG_CATALOG_NO">カタログなし</system:String>
 	
 	<!-- Graphic Screen -->
@@ -1223,7 +1229,7 @@
 
     <system:String x:Key="DATABASE_FILTER_SORT">ソート</system:String>
     <system:String x:Key="DATABASE_FILTER_SORT_NO">なし</system:String>
-    <system:String x:Key="DATABASE_FILTER_SORT_DESCENDING">降順で並べ替え)</system:String>
+    <system:String x:Key="DATABASE_FILTER_SORT_DESCENDING">降順で並べ替え</system:String>
     <system:String x:Key="DATABASE_FILTER_SORT_ASCENDING">昇順で並べ替え</system:String>
     <system:String x:Key="DATABASE_FILTER_ENABLE_DATE_TIME">有効 日付/時刻</system:String>
     
@@ -1304,11 +1310,11 @@
     <system:String x:Key="VALUE_CHART_POPUP_UNCONFIRM_VALUE">値を未確認</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">グラフ設定</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">Postion[2001]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">特性番号[2001]</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER">マーカ</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">マーカ表示/サイズ</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">マーカサイズ[OK]</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_WARNING">マーカサイズ[WARNING]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_WARNING">マーカサイズ[警戒]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">マーカサイズ[NG]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">マーカサイズ</system:String>
 	
@@ -1327,23 +1333,23 @@
 	
 	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">凡例</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">線の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">レジェンドを表示</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">凡例を表示</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_VERTICAL_LEGEND">縦(垂直)</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">チェックボックスを表示</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">マーカーを表示</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">ポゴの文字の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USLの文字の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSLの文字の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWLの文字の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWLの文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">マーカを表示</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">平均のフォント色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USLフォント色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSLフォント色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWLフォント色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWLフォント色</system:String>
 
-	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCLの文字の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCLの文字の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_SCRAP_TEXT_COLOR">スクラップ文字の色</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_ACCEPTANCE_TEXT_COLOR">承諾文字の色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCLフォント色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCLフォント色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SCRAP_TEXT_COLOR">スクラップフォント色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_ACCEPTANCE_TEXT_COLOR">合否限界フォント色</system:String>
 	
-	<system:String x:Key="VALUE_CHART_MARKER_SIZE">マーカーサイズ</system:String>
-    <system:String x:Key="VALUE_CHART_MARKER_COLOR">マーカーの色</system:String>
+	<system:String x:Key="VALUE_CHART_MARKER_SIZE">マーカサイズ</system:String>
+    <system:String x:Key="VALUE_CHART_MARKER_COLOR">マーカの色</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_UPLOADED_DATA">アップロード済データ</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_WAITING_DATA">待機データ</system:String>
 	
@@ -1358,14 +1364,14 @@
 <!--###############################################################################>
 [Data Multi Accept]
 #################################################################################-->
-	<system:String x:Key="SENSE_DATA_MULTI_ACCEPT">デバイス マネージャーを再起動</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_ACCEPT">データ一括承認</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATA_UPLOAD">データの送信</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATA_DELETE">データ削除</system:String>
 	
 	<system:String x:Key="SENSE_DATA_MULTI_LIST_MODE">リストモード</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_MODE">日付/時間モード</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_CHAR_COUNT">特性カウント</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NGカウント</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_CHAR_COUNT">特性数</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG数</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQファイル</system:String>
 
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">日付/時間開始</system:String>
@@ -1385,7 +1391,7 @@
 	<system:String x:Key="CORRELATION_X_DATA">X-データ</system:String>
 	<system:String x:Key="CORRELATION_Y_DATA">Y-データ</system:String>
 	<system:String x:Key="CORRELATION_Y_SLOPE">Y-スロープ</system:String>
-	<system:String x:Key="CORRELATION_Y_INTERCEPT">Y-インターセプト</system:String>	
+	<system:String x:Key="CORRELATION_Y_INTERCEPT">Y軸交点</system:String>	
 
 	<system:String x:Key="LINEAR_REGRESSION">線形回帰</system:String>		
 	
@@ -1450,7 +1456,7 @@
 	<system:String x:Key="MSG_LOGIN_MESSAGE_0002">ログイン失敗</system:String>
 	<system:String x:Key="MSG_LOGIN_MESSAGE_0003">ユーザ名またはパスワードが違います。</system:String>
 	
-	<system:String x:Key="MSG_THEME_MESSAGE_0001">リブート後にテーマが適用されます。</system:String>
+	<system:String x:Key="MSG_THEME_MESSAGE_0001">再起動後にテーマが適用されます。</system:String>
 
 
 
@@ -1473,7 +1479,7 @@
     <system:String x:Key="MSG_LIC_ERROR_MITUTOYO">ライセンスはMitutoyo形式をサポートしていません。</system:String>
     <system:String x:Key="MSG_LIC_ERROR_QDAS">ライセンスはdfq形式をサポートしていません。</system:String>
     <system:String x:Key="MSG_LIC_ERROR_TUBE_INSPECTOR">ライセンスはtube inspector形式をサポートしていません。</system:String>
-    <system:String x:Key="MSG_SHEET_NOT_EXIST">エクセルシートはありません。</system:String>
+    <system:String x:Key="MSG_SHEET_NOT_EXIST">エクセルシートがありません。</system:String>
     <system:String x:Key="MSG_COPY_CELL_INFO">セル情報をコピーしますか?</system:String>
 
 	<!-- Q/i Board -->
@@ -1496,11 +1502,11 @@
 		
 	<system:String x:Key="MSG_VALUE_CHART_SPLIT_DATA">データを分割しますか?</system:String>
 	
-	<system:String x:Key="MSG_PROGRAM_ERROR_0001">プログラムマネージャーにお問い合わせください。</system:String>
+	<system:String x:Key="MSG_PROGRAM_ERROR_0001">プログラム管理者にお問い合わせください。</system:String>
 
-	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">アラーム優先度重複エラー。</system:String>
+	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">アラーム優先度重複エラー</system:String>
 	
-	<system:String x:Key="MSG_FILE_ACCEPT_ERROR_0001">Multiple selections are not supported in file accept mode.</system:String>
+	<system:String x:Key="MSG_FILE_ACCEPT_ERROR_0001">ファイル単位承認モードでは本機能を使用できません。</system:String>
 	
 	<!-- Q/i record-->
     <system:String x:Key="MSG_PLAN_0001">現在のプランを閉じますか?</system:String>		

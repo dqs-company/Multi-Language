@@ -239,6 +239,12 @@
 	<system:String x:Key="ACCEPTANCE">Acceptance</system:String>
 	<system:String x:Key="MEDIAN">Median</system:String>		
 	
+	<system:String x:Key="UACL">UAcl</system:String>		
+	<system:String x:Key="LACL">LAcl</system:String>		
+	<system:String x:Key="URL">URL</system:String>		
+	<system:String x:Key="LRL">LRL</system:String>		
+ 
+
 	<system:String x:Key="STANDARD_DEVIATION">Standard Deviation</system:String>			 
 	<system:String x:Key="MINIMUM">Minimum</system:String>		
 	<system:String x:Key="MAXIMUM">Maximum</system:String>		
@@ -1150,6 +1156,7 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">Password</system:String>
     <system:String x:Key="CONFIG_DB_LIST">Database</system:String>
+	<system:String x:Key="CONFIG_DB_PORT">Port</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">Local Database</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">Delete Selected Part</system:String>
 
