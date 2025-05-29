@@ -294,7 +294,7 @@
 
 
 	<system:String x:Key="SPEC_LIMITS">Specification limits</system:String>	
-
+	<system:String x:Key="INIT">Initialize</system:String>
 
 
  
@@ -971,8 +971,10 @@
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">Day - BaseTime</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">Out of tolerance</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">Warning Percent</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_OPACITY">Opacity</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_LIMIT_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">Error Percent</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_OPACITY">Opacity</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">Scrap limits line</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">Acceptance limits line</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">Ignore values enable</system:String>
@@ -1017,7 +1019,8 @@
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">Last Field</system:String>
 	
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">Average Line Color</system:String>
-	
+	<system:String x:Key="BO_CONFIG_NULL_CHECK">Include NULL</system:String>
+	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">Average Line Thick</system:String>
 	
     <!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense Configuration</system:String>
@@ -1200,12 +1203,14 @@
 	
     <!-- ==> exceution button -->
     <system:String x:Key="CONFIG_SAVE">Save settings</system:String>
+	<system:String x:Key="CONFIG_SAVE_ALL">Save All Settings</system:String>
     <system:String x:Key="CONFIG_EXE_CONTROL_PANEL">Execute Control-Panel</system:String>
     <system:String x:Key="CONFIG_EXE_NETWORK">Execute Network</system:String>
     <system:String x:Key="CONFIG_EXE_FIREWALL">Execute Firewall</system:String>
     <system:String x:Key="CONFIG_EXE_FILE">Execute File Explorer</system:String>
     <system:String x:Key="CONFIG_EXE_EXIT">Program Exit</system:String>
-
+	<system:String x:Key="CONFIG_ISO">ISO Mode</system:String>
+	
 	 <!-- Message Box -->
 
 <!--###############################################################################>
@@ -1304,6 +1309,7 @@
 
     <system:String x:Key="POSITIONAL_TOLERANCE">2D Positional Tolerance</system:String>
     <system:String x:Key="CP_CPK">Cp/Cpk</system:String>
+	<system:String x:Key="LINE_THICK">Thickness</system:String>
 
 	<system:String x:Key="VALUE_CHART_PRED_TYPE">Prediction Type</system:String>
 	<system:String x:Key="VALUE_CHART_PRED_SIZE">Prediction Size</system:String>
@@ -1412,6 +1418,8 @@
 	<!-- Common -->
 	<system:String x:Key="MSG_LOAD_FAIL">Load fail</system:String>
     <system:String x:Key="MSG_LOAD_OK">Load ok</system:String>
+	
+	<system:String x:Key="MSG_CHANGE">Change settings?</system:String>
 	
     <system:String x:Key="MSG_SAVE_OK">Save complete</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">Save fail</system:String>

@@ -292,7 +292,7 @@
 	
 	
 	<system:String x:Key="SPEC_LIMITS">規格限</system:String>	
-
+	<system:String x:Key="INIT">設定初期化</system:String>
 
 
 	<!--Print Dialog-->
@@ -978,8 +978,10 @@
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">日ベースの時間</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">公差外</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">CAレベル</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_OPACITY">不透明度</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_LIMIT_NATURAL_BOUNDARY">自然限界公差使用率</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">NGレベル</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_OPACITY">不透明度</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">スクラップ限界線</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">承諾限界線</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">外れ値除外有効化</system:String>
@@ -1022,6 +1024,8 @@
     <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">バーチャートの順序</system:String>
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">最後のフィールド</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">平均線の色</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK">NULLを含む</system:String>
+	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">平均線の線の太さ</system:String>
 	
 	<!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense 構成</system:String>
@@ -1199,12 +1203,13 @@
 
     <!-- ==> exceution button -->
     <system:String x:Key="CONFIG_SAVE">設定を保存</system:String>
+	<system:String x:Key="CONFIG_SAVE_ALL">一括保存</system:String>
     <system:String x:Key="CONFIG_EXE_CONTROL_PANEL">コントロールパネル</system:String>
     <system:String x:Key="CONFIG_EXE_NETWORK">ネットワーク設定</system:String>
     <system:String x:Key="CONFIG_EXE_FIREWALL">ファイアウォール設定</system:String>
     <system:String x:Key="CONFIG_EXE_FILE">エクスプローラ</system:String>
     <system:String x:Key="CONFIG_EXE_EXIT">プログラムの終了</system:String>
-
+	<system:String x:Key="CONFIG_ISO">ISOモード</system:String>
 
 <!--###############################################################################>
 [Database Load]
@@ -1289,6 +1294,7 @@
     
 	<system:String x:Key="POSITIONAL_TOLERANCE">位置度</system:String>
     <system:String x:Key="CP_CPK">Cp/Cpk</system:String>
+	<system:String x:Key="LINE_THICK">線の太さ</system:String>
 	
 	<system:String x:Key="VALUE_CHART_PRED_TYPE">予測タイプ</system:String>
 	<system:String x:Key="VALUE_CHART_PRED_SIZE">予測サイズ</system:String>
@@ -1395,6 +1401,8 @@
 	<!-- Common --> 
     <system:String x:Key="MSG_LOAD_FAIL">ロード失敗</system:String>
     <system:String x:Key="MSG_LOAD_OK">ロードOK</system:String>
+	
+	<system:String x:Key="MSG_CHANGE">変更しますか？</system:String>
 	
     <system:String x:Key="MSG_SAVE_OK">保存OK</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">保存失敗</system:String>

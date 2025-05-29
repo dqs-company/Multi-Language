@@ -290,7 +290,7 @@
 
 
 	<system:String x:Key="SPEC_LIMITS">허용공차</system:String>	
-
+	<system:String x:Key="INIT">설정 초기화</system:String>	
 	
 	<!--Print Dialog-->
 	<system:String x:Key="PAGE">페이지</system:String>
@@ -970,8 +970,10 @@
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">하루-기준시간</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">공차 아웃</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">경고 퍼센트</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_OPACITY">불투명도</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_LIMIT_NATURAL_BOUNDARY">경고 제한 - 자연 공차 퍼센트</system:String>		
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">에러 퍼센트</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_OPACITY">불투명도</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">스크랩 한계선</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">허용 한계선</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">값 무시 활성화</system:String>
@@ -1013,8 +1015,9 @@
     <system:String x:Key="BO_CONFIG_BAR_CHART_AUTO_SCALE">페이지 스케일</system:String>
     <system:String x:Key="BO_CONFIG_BAR_CHART_ORDER">바 차트 순서</system:String>
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">최근 필드</system:String>
-	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">평균 라인 색상</system:String>	
-	
+	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">평균 라인 색상</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK">NULL 포함</system:String>
+	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">평균 라인 선 굵기</system:String>
 	<!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense 설정</system:String>
 
@@ -1184,11 +1187,13 @@
 
     <!-- ==> exceution button -->
     <system:String x:Key="CONFIG_SAVE">설정 저장</system:String>
+	<system:String x:Key="CONFIG_SAVE_ALL">설정 전체 저장</system:String>
     <system:String x:Key="CONFIG_EXE_CONTROL_PANEL">제어판 실행</system:String>
     <system:String x:Key="CONFIG_EXE_NETWORK">네트워크 실행</system:String>
     <system:String x:Key="CONFIG_EXE_FIREWALL">방화벽 실행</system:String>
     <system:String x:Key="CONFIG_EXE_FILE">파일창 실행</system:String>
     <system:String x:Key="CONFIG_EXE_EXIT">프로그램 종료</system:String>
+	<system:String x:Key="CONFIG_ISO">ISO 모드</system:String>
 
 
 <!--###############################################################################>
@@ -1274,6 +1279,7 @@
 	
     <system:String x:Key="POSITIONAL_TOLERANCE">2D 위치도</system:String>
     <system:String x:Key="CP_CPK">Cp/Cpk</system:String>
+	<system:String x:Key="LINE_THICK">선 굵기</system:String>
 	
 	<system:String x:Key="VALUE_CHART_PRED_TYPE">예측 타입</system:String>
 	<system:String x:Key="VALUE_CHART_PRED_SIZE">예측 사이즈</system:String>
@@ -1379,6 +1385,8 @@
     <system:String x:Key="MSG_LOAD_FAIL">불러오기 실패</system:String>
     <system:String x:Key="MSG_LOAD_OK">불러오기 성공</system:String>
     
+	<system:String x:Key="MSG_CHANGE">변경 하시겠습니까?</system:String>
+	
 	<system:String x:Key="MSG_SAVE_OK">저장 성공</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">저장 실패</system:String>
 	
