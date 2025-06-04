@@ -1330,6 +1330,7 @@
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">Graphics Settings</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">Postion[2001]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CALCULATION">calculation </system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">Marker</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">Marker Visible[OK]</system:String>

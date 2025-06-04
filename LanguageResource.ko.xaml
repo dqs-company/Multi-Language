@@ -1298,6 +1298,7 @@
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">그래픽 설정</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">위치[2001]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CALCULATION">계산</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">마커</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">마커 표시</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">마커 표시[OK]</system:String>
