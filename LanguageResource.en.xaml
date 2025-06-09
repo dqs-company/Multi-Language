@@ -919,7 +919,8 @@
    
    <system:String x:Key="RC_PLAN_DWG_FILE">DWG File</system:String>	
    <system:String x:Key="RC_PLAN_INPUT_TYPE">Input Type</system:String>	   
-   
+   <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">Part Measurement</system:String>
+   <system:String x:Key="RC_PLAN_INPUT_ITEM_GROUP">Group Measurement</system:String>
    
    <system:String x:Key="RC_PLAN_LIMIT_ITEM_VALUES">Values</system:String>	   
    <system:String x:Key="RC_PLAN_LIMIT_ITEM_DAYS">Days</system:String>	   
@@ -927,7 +928,8 @@
    <system:String x:Key="RC_PLAN_LIMIT_ITEM_MONTHS">Months</system:String>	   	  
 
    <system:String x:Key="RC_PLAN_SAVE_TIMING_PART">Save after every part</system:String>	   	  
-   <system:String x:Key="RC_PLAN_SAVE_TIMING_VALUE">Save after every value</system:String>	  
+   <system:String x:Key="RC_PLAN_SAVE_TIMING_VALUE">Save after every value</system:String>	 
+   <system:String x:Key="RC_PLAN_SAVE_TIMING_GROUP">Save after every group</system:String>
 
    <system:String x:Key="RC_PLAN_POPUP_NO">No Popup</system:String>	  
    <system:String x:Key="RC_PLAN_POPUP_PART_START">Part Start</system:String>	   

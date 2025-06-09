@@ -917,7 +917,8 @@
    <system:String x:Key="RC_PLAN_DWG_FILE">DWG 파일</system:String>
 
    <system:String x:Key="RC_PLAN_INPUT_TYPE">입력 타입</system:String>	   
-   
+   <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">파트 측정</system:String>
+   <system:String x:Key="RC_PLAN_INPUT_ITEM_GROUP">그룹 측정</system:String>
    
    <system:String x:Key="RC_PLAN_LIMIT_ITEM_VALUES">측정값</system:String>	   
    <system:String x:Key="RC_PLAN_LIMIT_ITEM_DAYS">일</system:String>	   
@@ -926,6 +927,7 @@
 
    <system:String x:Key="RC_PLAN_SAVE_TIMING_PART">파트 측정 후 저장</system:String>	   	  
    <system:String x:Key="RC_PLAN_SAVE_TIMING_VALUE">값 측정 후 저장</system:String>	  
+   <system:String x:Key="RC_PLAN_SAVE_TIMING_GROUP">그룹 측정 후 저장</system:String>
 
    <system:String x:Key="RC_PLAN_POPUP_NO">팝업 없음</system:String>	  
    <system:String x:Key="RC_PLAN_POPUP_PART_START">파트 시작 시점</system:String>	   
