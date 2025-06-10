@@ -1313,7 +1313,10 @@
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">グラフ設定</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">特性番号[2001]</system:String>
+<<<<<<< Updated upstream
 	<system:String x:Key="VALUE_CHART_SIDE_CALCULATION">計算</system:String>
+=======
+>>>>>>> Stashed changes
     <system:String x:Key="VALUE_CHART_SIDE_MARKER">マーカ</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">マーカ表示/サイズ</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">マーカサイズ[OK]</system:String>
