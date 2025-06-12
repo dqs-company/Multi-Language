@@ -934,7 +934,8 @@
    <system:String x:Key="RC_PLAN_POPUP_NO">No Popup</system:String>	  
    <system:String x:Key="RC_PLAN_POPUP_PART_START">Part Start</system:String>	   
    <system:String x:Key="RC_PLAN_POPUP_PART_END">Part End</system:String>	  
-   
+   <system:String x:Key="RC_PLAN_POPUP_GROUP_START">Group Start</system:String>	   
+   <system:String x:Key="RC_PLAN_POPUP_GROUP_END">Group End</system:String>	
 	 
    <system:String x:Key="RC_CATALOG_SAVE_FILE_JSON">Save to file(JSON)</system:String>
    <system:String x:Key="RC_CATALOG_SAVE_DB">Save to database</system:String>
@@ -1538,5 +1539,5 @@
 	
 	<!-- Q/i record-->
     <system:String x:Key="MSG_PLAN_0001">Do you want to close the current plan?</system:String>	
-	
+	<system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">Duplicate Characteristic Number found</system:String>
 </ResourceDictionary>

@@ -932,7 +932,8 @@
    <system:String x:Key="RC_PLAN_POPUP_NO">팝업 없음</system:String>	  
    <system:String x:Key="RC_PLAN_POPUP_PART_START">파트 시작 시점</system:String>	   
    <system:String x:Key="RC_PLAN_POPUP_PART_END">파트 종료 시점</system:String>	  
-
+   <system:String x:Key="RC_PLAN_POPUP_GROUP_START">그룹 시작 시점</system:String>	   
+   <system:String x:Key="RC_PLAN_POPUP_GROUP_END">그룹 종료 시점</system:String>	
 
    
    <system:String x:Key="RC_CATALOG_SAVE_FILE_JSON">파일 저장(JSON)</system:String>
@@ -1500,6 +1501,7 @@
 	<system:String x:Key="MSG_FILE_ACCEPT_ERROR_0001">파일 승인 모드에서는 다중 승인이 지원되지 않습니다.</system:String>
 	
 	<!-- Q/i record-->
-    <system:String x:Key="MSG_PLAN_0001">현재 플랜을 닫으시겠습니까?</system:String>	
+    <system:String x:Key="MSG_PLAN_0001">현재 플랜을 닫으시겠습니까?</system:String>
+	<system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">중복된 측정항목번호가 있습니다</system:String>	
 
 </ResourceDictionary>

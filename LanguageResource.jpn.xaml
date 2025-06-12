@@ -934,9 +934,10 @@
    <system:String x:Key="RC_PLAN_SAVE_TIMING_GROUP">グループ測定後に保存</system:String>
 
    <system:String x:Key="RC_PLAN_POPUP_NO">ポップアップなし</system:String>	  
-   <system:String x:Key="RC_PLAN_POPUP_PART_START">測定開始時</system:String>	   
-   <system:String x:Key="RC_PLAN_POPUP_PART_END">測定終了時</system:String>	  
-   
+   <system:String x:Key="RC_PLAN_POPUP_PART_START">部品測定開始時</system:String>	   
+   <system:String x:Key="RC_PLAN_POPUP_PART_END">部品測定終了時</system:String>	  
+   <system:String x:Key="RC_PLAN_POPUP_GROUP_START">グループ測定開始時</system:String>	   
+   <system:String x:Key="RC_PLAN_POPUP_GROUP_END">グループ測定終了時</system:String>	
    
    
 	
@@ -1513,5 +1514,5 @@
 	
 	<!-- Q/i record-->
     <system:String x:Key="MSG_PLAN_0001">現在のプランを閉じますか?</system:String>		
-	
+	<system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">特性番号が重複しています</system:String>
 </ResourceDictionary>
