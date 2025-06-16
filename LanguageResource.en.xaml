@@ -1046,7 +1046,7 @@
 	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">Take over QCC from dataset</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Location chart type</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
- 
+	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">Limit parts loaded from Database</system:String>
 
 
 
@@ -1540,4 +1540,5 @@
 	<!-- Q/i record-->
     <system:String x:Key="MSG_PLAN_0001">Do you want to close the current plan?</system:String>	
 	<system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">Duplicate Characteristic Number found</system:String>
+	<system:String x:Key="MSG_PLAN_ALL_DEL">Saving in the current state will delete all content.</system:String>	
 </ResourceDictionary>
