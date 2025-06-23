@@ -919,6 +919,9 @@
    <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">特性アイテムを保存</system:String>
    
    <system:String x:Key="RC_PLAN_DWG_FILE">DWG ファイル</system:String>
+   
+   <system:String x:Key="RC_PLAN_SETTING_LOAD">設定を読み込む(JSON)</system:String>
+   <system:String x:Key="RC_PLAN_SETTING_SAVE">設定を保存する(JSON)</system:String>
 
    <system:String x:Key="RC_PLAN_INPUT_TYPE">入力タイプ</system:String>	   
    <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">部品測定</system:String>

@@ -915,6 +915,9 @@
    <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">측정 항목 아이템 삭제</system:String>
    <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">측정 항목 아이템 추가</system:String>
    <system:String x:Key="RC_PLAN_DWG_FILE">DWG 파일</system:String>
+   
+   <system:String x:Key="RC_PLAN_SETTING_LOAD">설정 불러오기(JSON)</system:String>
+   <system:String x:Key="RC_PLAN_SETTING_SAVE">설정 저장하기(JSON)</system:String>
 
    <system:String x:Key="RC_PLAN_INPUT_TYPE">입력 타입</system:String>	   
    <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">파트 측정</system:String>

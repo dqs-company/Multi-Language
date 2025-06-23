@@ -917,6 +917,9 @@
    <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">Remove Characteristic Item</system:String>
    <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">Save Characteristic Item</system:String>
    
+   <system:String x:Key="RC_PLAN_SETTING_LOAD">Load Settings(JSON)</system:String>
+   <system:String x:Key="RC_PLAN_SETTING_SAVE">Save Settings(JSON)</system:String>
+   
    <system:String x:Key="RC_PLAN_DWG_FILE">DWG File</system:String>	
    <system:String x:Key="RC_PLAN_INPUT_TYPE">Input Type</system:String>	   
    <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">Part Measurement</system:String>
