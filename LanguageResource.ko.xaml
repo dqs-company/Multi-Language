@@ -1029,6 +1029,9 @@
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">최근 필드</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">평균 라인 색상</system:String>
 	<system:String x:Key="BO_CONFIG_NULL_CHECK">NULL 포함</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_1">NULL 포함</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_2">NULL 미포함</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_3">NULL 서브그룹 미포함</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">평균 라인 선 굵기</system:String>
 	<!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense 설정</system:String>
@@ -1430,7 +1433,7 @@
     <system:String x:Key="MSG_DB_MESSAGE_0005">데이터베이스 연결 실패.</system:String>
 	<system:String x:Key="MSG_DB_MESSAGE_0006">데이터베에스 클립업 성공.</system:String>
 	<system:String x:Key="MSG_DB_MESSAGE_0007">데이터베이스 클린업 실패.</system:String>
-	
+	<system:String x:Key="MSG_DB_MESSAGE_0008">데이터베이스 파트 항목 표시가 [{0}]개로 제한된 상태입니다. 제한된 상태에서 보시겠습니까?</system:String>
 	
     <system:String x:Key="MSG_DB_ERROR_0001">선택 아이템 에러.</system:String>
     <system:String x:Key="MSG_DB_ERROR_0002">데이터베이스 연결 되지 않음.</system:String>

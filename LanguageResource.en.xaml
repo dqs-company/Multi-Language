@@ -1032,6 +1032,9 @@
 	
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">Average Line Color</system:String>
 	<system:String x:Key="BO_CONFIG_NULL_CHECK">Include NULL</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_1">Include NULL</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_2">Exclude NULL</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_3">Exclude NULL Subgroup</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">Average Line Thick</system:String>
 	
     <!-- ==>Q/i-Sense -->
@@ -1466,6 +1469,7 @@
     <system:String x:Key="MSG_DB_MESSAGE_0005">Database connection failed.</system:String>
 	<system:String x:Key="MSG_DB_MESSAGE_0006">Clean up success.</system:String>
 	<system:String x:Key="MSG_DB_MESSAGE_0007">Clean up fail.</system:String>
+	<system:String x:Key="MSG_DB_MESSAGE_0008">The display of database part items is currently limited to [{0}] items. Would you like to view it in this limited state?</system:String>
 
     <system:String x:Key="MSG_DB_ERROR_0001">Selected item error.</system:String>
     <system:String x:Key="MSG_DB_ERROR_0002">Database not connected.</system:String>

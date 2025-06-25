@@ -1036,6 +1036,9 @@
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">最後のフィールド</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">平均線の色</system:String>
 	<system:String x:Key="BO_CONFIG_NULL_CHECK">NULLを含む</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_1">NULLを含む</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_2">Null を含まない</system:String>
+	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_3">Null サブグループを含まない</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">平均線の線の太さ</system:String>
 	
 	<!-- ==>Q/i-Sense -->
@@ -1448,6 +1451,7 @@
     <system:String x:Key="MSG_DB_MESSAGE_0005">データベース接続に失敗しました。</system:String>
 	<system:String x:Key="MSG_DB_MESSAGE_0006">クリーンアップ成功。</system:String>
 	<system:String x:Key="MSG_DB_MESSAGE_0007">クリーンアップ失敗。</system:String>
+	<system:String x:Key="MSG_DB_MESSAGE_0008">データベースの部品項目表示は[{0}]個に制限されています。制限された状態で表示しますか？</system:String>
 	
     <system:String x:Key="MSG_DB_ERROR_0001">選択アイテムエラー</system:String>
     <system:String x:Key="MSG_DB_ERROR_0002">DB未接続</system:String>
