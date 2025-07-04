@@ -272,6 +272,7 @@
 	
 	
 	<system:String x:Key="PART_CHAR_LIST">Parts/Characteristics list</system:String>	
+	<system:String x:Key="CHAR_LIST">Characteristics list</system:String>
 	
 	<system:String x:Key="SAVE_TO_FILE_JSON">Save to file(json)</system:String>	
 	<system:String x:Key="SAVE_TO_DATABASE">Save to database</system:String>	
@@ -1053,7 +1054,7 @@
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Location chart type</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">Limit parts loaded from Database</system:String>
-
+	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">Last Part</system:String>
 
 
 	
@@ -1106,7 +1107,9 @@
     <system:String x:Key="CONFIG_CONVERSION_EXTERNAL_EXCEL">Use external excel</system:String>
     <system:String x:Key="CONFIG_CONVERSION_INTERNAL_EXCEL">Use internal excel</system:String>
 
- 
+    <system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_DEPTH">Sub-Directory Depth</system:String>
+	<system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_NAME">level of subfolder name for</system:String> 
+
 
     <!-- ==>Key Field-->
     <system:String x:Key="CONFIG_KEY_FIELD_TITLE">Key-Field</system:String>

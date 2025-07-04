@@ -271,7 +271,8 @@
 		
 	<system:String x:Key="DELETE_FIELD">フィールドを削除</system:String>			
 	<system:String x:Key="PART_CHAR_LIST">部品・特性一覧</system:String>	
-
+	<system:String x:Key="CHAR_LIST">特性一覧</system:String>	
+	
 	<system:String x:Key="SAVE_TO_FILE_JSON">ファイルに保存(json)</system:String>	
 	<system:String x:Key="SAVE_TO_DATABASE">データベースに保存</system:String>	
 
@@ -1057,7 +1058,7 @@
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Xバー管理図タイプ</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">デフォルトのサブグループ</system:String>
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">データベース部品読み込み制限</system:String>
-	
+	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">最後の部分</system:String>	
 	
 	
 	
@@ -1108,7 +1109,9 @@
     <system:String x:Key="CONFIG_CONVERSION_EXTERNAL_EXCEL">外部Excel使用</system:String>
     <system:String x:Key="CONFIG_CONVERSION_INTERNAL_EXCEL">内部Excel使用</system:String>
 
-
+    <system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_DEPTH">サブディレクトリの深さ</system:String>
+	<system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_NAME">サブフォルダ名のレベル</system:String>
+	
 
     <!-- ==>Key Field-->
     <system:String x:Key="CONFIG_KEY_FIELD_TITLE">キーフィールド</system:String>

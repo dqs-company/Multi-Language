@@ -272,7 +272,8 @@
 	
 	<system:String x:Key="DELETE_FIELD">필드 삭제</system:String>	
 	<system:String x:Key="PART_CHAR_LIST">파트/측정 항목 리스트</system:String>	
-
+	<system:String x:Key="CHAR_LIST">측정 항목 리스트</system:String>	
+	
 	<system:String x:Key="SAVE_TO_FILE_JSON">파일 저장(Json)</system:String>	
 	<system:String x:Key="SAVE_TO_DATABASE">데이터베이스 저장</system:String>	
 
@@ -1050,7 +1051,7 @@
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">로케이션 차트 타입</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">디폴트 서브그룹</system:String>
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">데이터베이스 파트 로드 수 제한</system:String>
-	
+	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">최신 파트</system:String>	
 	
 	<!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_ADDRESS">서버 주소</system:String>
@@ -1097,7 +1098,10 @@
     <system:String x:Key="CONFIG_CONVERSION_EXTERNAL_EXCEL">외부 엑셀 사용</system:String>
     <system:String x:Key="CONFIG_CONVERSION_INTERNAL_EXCEL">내부엑셀 사용</system:String>
 
-
+    <system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_DEPTH">서브 폴더 레벨</system:String>
+	<system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_NAME">서브 폴더 이름 사용 데이터</system:String>
+	
+	
     <!-- ==>Key Field-->
     <system:String x:Key="CONFIG_KEY_FIELD_TITLE">키 필드</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">키 필드 설정</system:String>
