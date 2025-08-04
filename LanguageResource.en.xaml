@@ -297,7 +297,43 @@
 	<system:String x:Key="ANGLE">Angle</system:String>		
 	<system:String x:Key="RADIUS">Radius</system:String>		
 	<system:String x:Key="ROUGHNESS">Roughness</system:String>		
-	<system:String x:Key="LENGTH">Length</system:String>		
+	<system:String x:Key="LENGTH">Length</system:String>	
+
+	<!--DWG Parameters-->
+	<system:String x:Key="RA">Arithmetic Average Roughness</system:String>
+	<system:String x:Key="RZ">Average Roughness</system:String>
+	<system:String x:Key="RT">Maximum Height</system:String>
+	<system:String x:Key="RQ">Root Mean Square Roughness</system:String>
+	<system:String x:Key="RSM">Mean Spacing</system:String>
+	<system:String x:Key="SK">Skewness</system:String>
+	<system:String x:Key="KU">Kurtosis</system:String>
+	<system:String x:Key="RK">Core Roughness Depth</system:String>
+	<system:String x:Key="RPK">Reduced Peak Height</system:String>
+	<system:String x:Key="RVK">Reduced Valley Depth</system:String>
+	
+	<!-- Form Tolerances -->
+    <system:String x:Key="DGT_Straightness">Straightness</system:String>
+    <system:String x:Key="DGT_Flatness">Flatness</system:String>
+    <system:String x:Key="DGT_Circularity">Circularity</system:String>
+    <system:String x:Key="DGT_Cylindricity">Cylindricity</system:String>
+
+    <!-- Orientation Tolerances -->
+    <system:String x:Key="DGT_Angularity">Angularity</system:String>
+    <system:String x:Key="DGT_Perpendicularity">Perpendicularity</system:String>
+    <system:String x:Key="DGT_Parallelism">Parallelism</system:String>
+
+    <!-- Location Tolerances -->
+    <system:String x:Key="DGT_Position">Position</system:String>
+    <system:String x:Key="DGT_Concentricity">Concentricity</system:String>
+    <system:String x:Key="DGT_Symmetry">Symmetry</system:String>
+
+    <!-- Run-out Tolerances -->
+    <system:String x:Key="DGT_CircularRunout">Circular Run-out</system:String>
+    <system:String x:Key="DGT_TotalRunout">Total Run-out</system:String>
+
+    <!-- Profile Tolerances -->
+    <system:String x:Key="DGT_ProfileOfALine">Line Profile</system:String>
+    <system:String x:Key="DGT_ProfileOfASurface">Surface Profile</system:String>
 
 
 	<system:String x:Key="SPEC_LIMITS">Specification limits</system:String>	

@@ -295,6 +295,42 @@
 	<system:String x:Key="ROUGHNESS">面粗さ</system:String>		
 	<system:String x:Key="LENGTH">長さ</system:String>		
 	
+	<!--DWG Parameters-->
+	<system:String x:Key="RA">算術平均粗さ</system:String>
+	<system:String x:Key="RZ">平均粗さ</system:String>
+	<system:String x:Key="RT">最大高さ</system:String>
+	<system:String x:Key="RQ">二乗平均平方根粗さ</system:String>
+	<system:String x:Key="RSM">平均山谷間隔</system:String>
+	<system:String x:Key="SK">スキューネス</system:String>
+	<system:String x:Key="KU">クルトシス</system:String>
+	<system:String x:Key="RK">コア粗さ深さ</system:String>
+	<system:String x:Key="RPK">減少山高さ</system:String>
+	<system:String x:Key="RVK">減少谷深さ</system:String>
+	
+	<!-- Form Tolerances -->
+    <system:String x:Key="DGT_Straightness">真直度</system:String>
+    <system:String x:Key="DGT_Flatness">平面度</system:String>
+    <system:String x:Key="DGT_Circularity">真円度</system:String>
+    <system:String x:Key="DGT_Cylindricity">円筒度</system:String>
+
+    <!-- Orientation Tolerances -->
+    <system:String x:Key="DGT_Angularity">傾斜度</system:String>
+    <system:String x:Key="DGT_Perpendicularity">直角度</system:String>
+    <system:String x:Key="DGT_Parallelism">平行度</system:String>
+
+    <!-- Location Tolerances -->
+    <system:String x:Key="DGT_Position">位置度</system:String>
+    <system:String x:Key="DGT_Concentricity">同軸度</system:String>
+    <system:String x:Key="DGT_Symmetry">対称度</system:String>
+
+    <!-- Run-out Tolerances -->
+    <system:String x:Key="DGT_CircularRunout">円周振れ</system:String>
+    <system:String x:Key="DGT_TotalRunout">全振れ</system:String>
+
+    <!-- Profile Tolerances -->
+    <system:String x:Key="DGT_ProfileOfALine">線の輪郭度</system:String>
+    <system:String x:Key="DGT_ProfileOfASurface">面の輪郭度</system:String>
+	
 	
 	<system:String x:Key="SPEC_LIMITS">規格限</system:String>	
 	<system:String x:Key="INIT">設定初期化</system:String>

@@ -293,7 +293,43 @@
 	<system:String x:Key="ANGLE">각도</system:String>		
 	<system:String x:Key="RADIUS">반지름</system:String>		
 	<system:String x:Key="ROUGHNESS">거칠기</system:String>		
-	<system:String x:Key="LENGTH">길이</system:String>		
+	<system:String x:Key="LENGTH">길이</system:String>	
+
+	<!--DWG Parameters-->
+	<system:String x:Key="RA">산술 평균 거칠기</system:String>
+	<system:String x:Key="RZ">평균 거칠기</system:String>
+	<system:String x:Key="RT">최대 높이</system:String>
+	<system:String x:Key="RQ">제곱 평균 거칠기</system:String>
+	<system:String x:Key="RSM">평균 요철 간격</system:String>
+	<system:String x:Key="SK">비대칭도</system:String>
+	<system:String x:Key="KU">첨도</system:String>
+	<system:String x:Key="RK">코어 거칠기 깊이</system:String>
+	<system:String x:Key="RPK">감소된 봉우리 높이</system:String>
+	<system:String x:Key="RVK">감소된 골짜기 깊이</system:String>	
+	
+	<!-- 형상 공차 (Form Tolerances) -->
+    <system:String x:Key="DGT_Straightness">직선도</system:String>
+    <system:String x:Key="DGT_Flatness">평면도</system:String>
+    <system:String x:Key="DGT_Circularity">진원도</system:String>
+    <system:String x:Key="DGT_Cylindricity">진원통도</system:String>
+
+    <!-- 자세 공차 (Orientation Tolerances) -->
+    <system:String x:Key="DGT_Angularity">경사도</system:String>
+    <system:String x:Key="DGT_Perpendicularity">직각도</system:String>
+    <system:String x:Key="DGT_Parallelism">평행도</system:String>
+
+    <!-- 위치 공차 (Location Tolerances) -->
+    <system:String x:Key="DGT_Position">위치도</system:String>
+    <system:String x:Key="DGT_Concentricity">동심도</system:String>
+    <system:String x:Key="DGT_Symmetry">대칭도</system:String>
+
+    <!-- 흔들림 공차 (Run-out Tolerances) -->
+    <system:String x:Key="DGT_CircularRunout">원주 흔들림</system:String>
+    <system:String x:Key="DGT_TotalRunout">온 흔들림</system:String>
+
+    <!-- 윤곽 공차 (Profile Tolerances) -->
+    <system:String x:Key="DGT_ProfileOfALine">선 윤곽도</system:String>
+    <system:String x:Key="DGT_ProfileOfASurface">면 윤곽도</system:String>
 
 
 	<system:String x:Key="SPEC_LIMITS">허용공차</system:String>	
