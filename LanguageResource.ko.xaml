@@ -14,6 +14,7 @@
     <system:String x:Key="APP-INTERFACE">i-Interface</system:String>
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
+	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -707,7 +708,149 @@
     <system:String x:Key="BO_TOP_TITLE_0014">S/N number</system:String>
     <system:String x:Key="BO_TOP_TITLE_0053">Passage plant</system:String>
 	
+<!--###############################################################################>
+[Report Mail System]
+#################################################################################-->
+	<!--Main Menu-->
+	<system:String x:Key="MS_MENU_START">시작</system:String>
+    <system:String x:Key="MS_MENU_END">종료</system:String>
+
+	<!--Main Status-->
+	<system:String x:Key="MS_MAIN_STATUS_LICENSE">라이센스</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_DATETIME">현재 날짜/시간</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST">잡리스트</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_STATE_ENABLE">활성화</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_DATABASE_DESC">데이터베이스</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_FILTER_DESC">필터</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_REPORT_DESC">보고서</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CYCLE_DESC">발송 주기</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CUR_DATE">최근 발송</system:String>
+	
+	
+	<!--Config-->
+	<system:String x:Key="MS_CONFIG_MAIL">메일 설정</system:String>
+	
+	<!--View List-->
+	<system:String x:Key="MS_VIEW_JOBLIST">잡 세팅</system:String>
+	<system:String x:Key="MS_VIEW_FILTERLIST">필터 세팅</system:String>
+	<system:String x:Key="MS_VIEW_DBLIST">데이터베이스 세팅</system:String>
+	<system:String x:Key="MS_VIEW_REPORTLIST">보고서 세팅</system:String>
+
+	<!--Job View-->
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_ENABLE">활성</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_DISEBLE">비활성</system:String>
+	
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ENABLE">활성화</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DISEBLE">비활성화</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ADD">잡 추가</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">잡 수정</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">잡 삭제</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_DB">데이터베이스</system:String>
+	<system:String x:Key="MS_JOB_LIST_FILTER">필터</system:String>
+	<system:String x:Key="MS_JOB_LIST_REPORT">보고서</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE">발송 주기</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING">발송 시점</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_SEL_BUTTON">선택</system:String>
  
+	<system:String x:Key="MS_JOB_LIST_CYCLE_MONTH">매월</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE_WEEK">매주</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE_DAY">매일</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_CYCLE_DATE">일</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_FIRST">월초</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_LAST">월말</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_SEL">일자선택</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_MON">월요일</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_TUE">화요일</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_WED">수요일</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_THU">목요일</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_FRI">금요일</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SAT">토요일</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SUN">일요일</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_TIMING_DATE">일자입력</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_TIME">시간입력</system:String>
+	
+	<system:String x:Key="MS_JOB_SEND_LIST">수신</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_SEL">선택</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_MAIL">메일</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_NAME">이름</system:String>
+	
+	<system:String x:Key="MS_JOB_REF_LIST">참조</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_SEL">선택</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_MAIL">메일</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_NAME">이름</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_SAVE_BUTTON">저장</system:String>
+	<system:String x:Key="MS_JOB_LIST_CANCEL_BUTTON">취소</system:String>
+	
+	<!--FILTER View-->
+	<system:String x:Key="MS_FILTER_VIEW_GRID_NAME">필터명</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_BTN_SEL">선택</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">저장</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">삭제</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">초기화</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">필터명</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY">배열</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_NONE">안함</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_DATE">날짜/시간</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_PARTID">파트ID</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_ORDER">오더(워크넘버)</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT">정렬</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_NONE">안함</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_ASC">오름(최신순)</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_DESC">내림(오래된순)</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE">날짜/시간</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR">설정 날짜/시간</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_DAY">최근 n일</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_WEEK">최근 n주</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_MON">최근 n달</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">측정값</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">시작 날짜/시간</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">종료 날짜/시간</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">파트</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_CHAR">측정항목</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE">측정값</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE_1">측정값 개수</system:String>
+	
+	<!--DB VIEW-->
+	<system:String x:Key="MS_DB_VIEW_GRID_NAME">데이터베이스명</system:String>
+	
+	<system:String x:Key="MS_DB_VIEW_SETTING_NAME">데이터베이스명</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_TYPE">SQL 데이터베이스 서버</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_ADDRESS">주소(IPS/DNS)</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_PORT">포트</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_ID">아이디</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_PASSWORD">패스워드</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_DATABASE">데이터베이스</system:String>
+	
+	<system:String x:Key="MS_DB_VIEW_BTN_SEL">선택</system:String>
+	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">저장</system:String>
+	<system:String x:Key="MS_DB_VIEW_BTN_DEL">삭제</system:String>
+	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">초기화</system:String>
+	
+	<!--REPORT VIEW-->
+	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">보고서명</system:String>
+	
+	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">선택</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">파일 저장</system:String>
+	
+	<!--Message-->
+	<system:String x:Key="MS_MSG_MAIL_TEST_OK">테스트 메일이 성공적으로 발송되었습니다.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">SMTP 정보와 수신자 주소를 모두 입력하세요.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_TEST_ERR2">메일 발송 실패</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -725,12 +868,12 @@
     <system:String x:Key="CS_MENU_INFO">정보</system:String>
     <system:String x:Key="CS_MENU_THEME_GROUP">테마</system:String>
 
-
     <!-- Main -  Status Information -->
     <system:String x:Key="CS_MAIN_STATUS_LICENSE">라이센스</system:String>
     <system:String x:Key="CS_MAIN_STATUS_DATETIME">현재 날짜/시간</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST">잡리스트</system:String>
     <system:String x:Key="CS_MAIN_STATUS_INFO">상태 정보</system:String>
-
+	
     <system:String x:Key="CS_MAIN_STATUS_DATABASE">데이터베이스</system:String>
     <system:String x:Key="CS_MAIN_STATUS_CONVERSION_MODULE">변환 모듈</system:String>
     <system:String x:Key="CS_MAIN_STATUS_PART_KEY_FIELD">파트 키 필드</system:String>
@@ -913,7 +1056,7 @@
 	<system:String x:Key="RC_MAIN_MENU_TEST_LIST">입력 값</system:String>
 
 	<system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">이미지</system:String>
-	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">DWG 뷰어</system:String>
+	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">CAD 뷰어</system:String>
 
 	
 	<system:String x:Key="RC_CONFIG_DASHBOARD">대시보드</system:String>
@@ -951,7 +1094,7 @@
    <system:String x:Key="RC_PLAN_CHAR_ADD_ITEM">측정 항목 아이템 추가</system:String>
    <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">측정 항목 아이템 삭제</system:String>
    <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">측정 항목 아이템 추가</system:String>
-   <system:String x:Key="RC_PLAN_DWG_FILE">DWG 파일</system:String>
+   <system:String x:Key="RC_PLAN_DWG_FILE">CAD 파일</system:String>
    
    <system:String x:Key="RC_PLAN_SETTING_LOAD">설정 불러오기(JSON)</system:String>
    <system:String x:Key="RC_PLAN_SETTING_SAVE">설정 저장하기(JSON)</system:String>
@@ -1237,7 +1380,21 @@
 	<system:String x:Key="CONFIG_CATALOG_TITLE">카탈로그</system:String>
     <system:String x:Key="CONFIG_CATALOG_MAIN">카탈로그</system:String>
     <system:String x:Key="CONFIG_CATALOG_SOURCE_FILE">카탈로그 데이터 파일</system:String>
-
+	
+	<!--Mail-->
+	<system:String x:Key="CONFIG_MAIL">메일</system:String>
+	<system:String x:Key="CONFIG_MAIL_HOST">호스트</system:String>
+	<system:String x:Key="CONFIG_MAIL_PORT">포트</system:String>
+	<system:String x:Key="CONFIG_MAIL_ID">아이디</system:String>
+	<system:String x:Key="CONFIG_MAIL_PW">비밀번호</system:String>
+	<system:String x:Key="CONFIG_MAIL_TIMEOUT">타임아웃</system:String>
+	<system:String x:Key="CONFIG_MAIL_TIMEOUT_SECOND">(밀리초)</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI">수신자 관리</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI_NAME">이름</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">메일주소</system:String>
+	<system:String x:Key="CONFIG_MAIL_TEST">메일 테스트</system:String>
+	
+	
     <!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">그래픽</system:String>
 

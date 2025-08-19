@@ -14,7 +14,7 @@
     <system:String x:Key="APP-INTERFACE">i-Interface</system:String>
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
- 
+	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -709,11 +709,146 @@
     <system:String x:Key="BO_TOP_TITLE_0014">シリアル番号</system:String>
     <system:String x:Key="BO_TOP_TITLE_0053">通過拠点</system:String>
 
+<!--###############################################################################>
+[Report Mail System]
+#################################################################################-->
+	<!--Main Status-->
+	<system:String x:Key="MS_MAIN_STATUS_LICENSE">ライセンス</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_DATETIME">現在の日付/時間</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST">ジョブリスト</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_STATE_ENABLE">有効</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_DATABASE_DESC">データベース</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_FILTER_DESC">フィルター</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_REPORT_DESC">レポート</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CYCLE_DESC">送信周期</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CUR_DATE">最終送信日時</system:String>
+	
+	<!--View List-->
+	<system:String x:Key="MS_VIEW_JOBLIST">ジョブ設定</system:String>
+	<system:String x:Key="MS_VIEW_FILTERLIST">フィルター設定</system:String>
+	<system:String x:Key="MS_VIEW_DBLIST">データベース設定</system:String>
+	<system:String x:Key="MS_VIEW_REPORTLIST">レポート設定</system:String>
 
+	<!--Job View-->
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_ENABLE">有効</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_DISEBLE">無効</system:String>
+	
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ENABLE">有効</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DISEBLE">無効</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ADD">ジョブ追加</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">ジョブ修正</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">ジョブ削除</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_DB">データベース</system:String>
+	<system:String x:Key="MS_JOB_LIST_FILTER">フィルター</system:String>
+	<system:String x:Key="MS_JOB_LIST_REPORT">レポート</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE">配信周期</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING">配信タイミング</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_SEL_BUTTON">選択</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_CYCLE_MONTH">月別</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE_WEEK">週別</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE_DAY">日別</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_FIRST">月初</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_LAST">月末</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_SEL">日付選択</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_MON">月曜日</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_TUE">火曜日</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_WED">水曜日</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_THU">木曜日</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_FRI">金曜日</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SAT">土曜日</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SUN">日曜日</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_TIMING_DATE">日付入力</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_TIME">時間入力</system:String>
+	
+	<system:String x:Key="MS_JOB_SEND_LIST">宛先</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_SEL">選択</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_MAIL">メール</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_NAME">名前</system:String>
+
+	<system:String x:Key="MS_JOB_REF_LIST">CC</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_SEL">選択</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_MAIL">メール</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_NAME">名前</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_SAVE_BUTTON">保存</system:String>
+	<system:String x:Key="MS_JOB_LIST_CANCEL_BUTTON">キャンセル</system:String>
+	
+	<!--FILTER View-->
+	<system:String x:Key="MS_FILTER_VIEW_GRID_NAME">フィルター名</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_BTN_SEL">選択</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">保存</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">削除</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">初期化</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">フィルター名</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY">配列</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_NONE">なし</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_DATE">日付/時間</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_PARTID">部品ID</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_ORDER">オーダー（ワークナンバー）</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT">ソート</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_NONE">なし</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_ASC">昇順（最新順）</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_DESC">降順（古い順）</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE">日付/時間</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR">設定 日付/時間</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_DAY">最近n日</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_WEEK">最近n週</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_MON">最近nヶ月</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">測定値</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">開始 日付/時間</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">終了 日付/時間</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">部品</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_CHAR">特性</system:String>
+
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE">測定値</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE_1">測定値の数</system:String>
+	
+	<!--DB VIEW-->
+	<system:String x:Key="MS_DB_VIEW_GRID_NAME">データベース名</system:String>
+	
+	<system:String x:Key="MS_DB_VIEW_SETTING_NAME">データベース名</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_TYPE">SQLデータベースサーバー</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_ADDRESS">アドレス(IPS/DNS)</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_PORT">ポート</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_ID">ID</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_PASSWORD">パスワード</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_DATABASE">データベース</system:String>
+	
+	<system:String x:Key="MS_DB_VIEW_BTN_SEL">選択</system:String>
+	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">保存</system:String>
+	<system:String x:Key="MS_DB_VIEW_BTN_DEL">削除</system:String>
+	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">初期化</system:String>
+	
+	<!--REPORT VIEW-->
+	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">レポート名</system:String>
+	
+	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">選択</system:String>
+	
+	<!--Message-->
+	<system:String x:Key="MS_MSG_MAIL_TEST_OK">テストメールが正常に送信されました。</system:String>
+	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">SMTP情報と受信者のアドレスをすべて入力してください。</system:String>
+	<system:String x:Key="MS_MSG_MAIL_TEST_ERR2">メールの送信に失敗しました。</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
 #################################################################################-->
+	<!--Main Menu-->
+	<system:String x:Key="MS_MENU_START">開始</system:String>
+    <system:String x:Key="MS_MENU_END">終了</system:String>
+
     <!--Main - Top Ribbon Menu-->
     <system:String x:Key="CS_MENU_SERVER_GROUP">サーバ</system:String>
     <system:String x:Key="CS_MENU_SERVER_LISTENING_START">サーバ&#x0d;&#x0a;受信を開始</system:String>
@@ -732,8 +867,15 @@
     <!-- Main -  Status Information -->
     <system:String x:Key="CS_MAIN_STATUS_LICENSE">ライセンス</system:String>
     <system:String x:Key="CS_MAIN_STATUS_DATETIME">現在の日付/時間</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST">ジョブリスト</system:String>
     <system:String x:Key="CS_MAIN_STATUS_INFO">ステータス情報</system:String>
-
+	
+	<!--Job List-->
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_ENABLE">有効</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_DISEBLE">無効</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_ADD">ジョブ追加</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_EDIT">ジョブ修正</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_DEL">ジョブ削除</system:String>
 
     <system:String x:Key="CS_MAIN_STATUS_DATABASE">データベース</system:String>
     <system:String x:Key="CS_MAIN_STATUS_CONVERSION_MODULE">変換モジュール</system:String>
@@ -914,7 +1056,7 @@
 
 	<system:String x:Key="RC_MAIN_MENU_TEST_LIST">入力値</system:String>
 	<system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">イメージ</system:String>
-	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">DWG ビュー</system:String>
+	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">CAD ビュー</system:String>
 	
 	
 	<system:String x:Key="RC_CONFIG_DASHBOARD">ダッシュボード</system:String>
@@ -955,7 +1097,7 @@
    <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">特性アイテムを削除</system:String>
    <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">特性アイテムを保存</system:String>
    
-   <system:String x:Key="RC_PLAN_DWG_FILE">DWG ファイル</system:String>
+   <system:String x:Key="RC_PLAN_DWG_FILE">CAD ファイル</system:String>
    
    <system:String x:Key="RC_PLAN_SETTING_LOAD">設定を読み込む(JSON)</system:String>
    <system:String x:Key="RC_PLAN_SETTING_SAVE">設定を保存する(JSON)</system:String>
@@ -1251,6 +1393,18 @@
     <system:String x:Key="CONFIG_CATALOG_MAIN">カタログ</system:String>
     <system:String x:Key="CONFIG_CATALOG_FROM_DATABASE">データベースのカタログデータ</system:String>
     <system:String x:Key="CONFIG_CATALOG_NO">カタログなし</system:String>
+	
+	<!--Mail-->
+	<system:String x:Key="CONFIG_MAIL">メール</system:String>
+	<system:String x:Key="CONFIG_MAIL_HOST">ホスト</system:String>
+	<system:String x:Key="CONFIG_MAIL_PORT">ポート</system:String>
+	<system:String x:Key="CONFIG_MAIL_ID">ID</system:String>
+	<system:String x:Key="CONFIG_MAIL_PW">パスワード</system:String>
+	<system:String x:Key="CONFIG_MAIL_TIMEOUT">タイムアウト</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI">受信者管理</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI_NAME">名前</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">メールアドレス</system:String>
+	<system:String x:Key="CONFIG_MAIL_TEST">メールテスト</system:String>
 	
 	<!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">グラフィック</system:String>

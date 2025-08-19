@@ -14,7 +14,7 @@
     <system:String x:Key="APP-INTERFACE">i-Interface</system:String>
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
- 
+	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
      
 <!--###############################################################################>
  [Common]
@@ -710,7 +710,142 @@
     <system:String x:Key="BO_TOP_TITLE_0014">S/N number</system:String>
     <system:String x:Key="BO_TOP_TITLE_0053">Passage plant</system:String>
 	
+<!--###############################################################################>
+[Report Mail System]
+#################################################################################-->
+	<!--Main Menu-->
+	<system:String x:Key="MS_MENU_START">Start</system:String>
+    <system:String x:Key="MS_MENU_END">Emd</system:String>
 
+	<!--Main Status-->
+	<system:String x:Key="MS_MAIN_STATUS_LICENSE">License</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST">Job list</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_STATE_ENABLE">Enabled</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_DATABASE_DESC">Database</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_FILTER_DESC">Filter</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_REPORT_DESC">Report</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CYCLE_DESC">Send Cycle</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CUR_DATE">Last Sent</system:String>
+	
+	<!--View List-->
+	<system:String x:Key="MS_VIEW_JOBLIST">Job Setting</system:String>
+	<system:String x:Key="MS_VIEW_FILTERLIST">Filter Setting</system:String>
+	<system:String x:Key="MS_VIEW_DBLIST">Database Settings</system:String>
+	<system:String x:Key="MS_VIEW_REPORTLIST">Report Settings</system:String>
+	
+	<!--Job View-->
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_ENABLE">Enable</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_DISEBLE">Disable</system:String>
+	
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ENABLE">Enable</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DISEBLE">Disable</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ADD">Add Job</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">Edit Job</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">Delete Job</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_DB">Database</system:String>
+	<system:String x:Key="MS_JOB_LIST_FILTER">Filter</system:String>
+	<system:String x:Key="MS_JOB_LIST_REPORT">Report</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE">Delivery Cycle</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING">Delivery Time</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_SEL_BUTTON">Select</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_CYCLE_MONTH">Monthly</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE_WEEK">Weekly</system:String>
+	<system:String x:Key="MS_JOB_LIST_CYCLE_DAY">Daily</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_FIRST">Start of Month</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_LAST">End of Month</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_SEL">Select Date</system:String>
+
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_MON">Monday</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_TUE">Tuesday</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_WED">Wednesday</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_THU">Thursday</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_FRI">Friday</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SAT">Saturday</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SUN">Sunday</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_TIMING_DATE">Enter Date</system:String>
+	<system:String x:Key="MS_JOB_LIST_TIMING_TIME">Enter Time</system:String>
+	
+	<system:String x:Key="MS_JOB_SEND_LIST">Recipients</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_SEL">Select</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_MAIL">Email</system:String>
+	<system:String x:Key="MS_JOB_SEND_LIST_NAME">Name</system:String>
+
+	<system:String x:Key="MS_JOB_REF_LIST">CC</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_SEL">Select</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_MAIL">Email</system:String>
+	<system:String x:Key="MS_JOB_REF_LIST_NAME">Name</system:String>
+	
+	<system:String x:Key="MS_JOB_LIST_SAVE_BUTTON">Save</system:String>
+	<system:String x:Key="MS_JOB_LIST_CANCEL_BUTTON">Canel</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_GRID_NAME">Filter Name</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_BTN_SEL">Select</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">Save</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">Delete</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">Initialize</system:String>
+	
+	<!--FILTER View-->
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">Filter Name</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY">Array</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_NONE">None</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_DATE">Date/Time</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_PARTID">Part ID</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_ORDER">Order (Work Number)</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT">Sort</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_NONE">None</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_ASC">Ascending (Newest)</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_DESC">Descending (Oldest)</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE">Date/Time</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR">Set Date/Time</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_DAY">Recent n Day(s)</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_WEEK">Recent n Week(s)</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_MON">Recent n Month(s)</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">Measured Value</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">Start Date/Time</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">End Date/Time</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">Part</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_CHAR">Characteristic</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE">Value</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE_1">Value Count</system:String>
+	
+	<!--DB VIEW-->
+	<system:String x:Key="MS_DB_VIEW_GRID_NAME">Database Name</system:String>
+	
+	<system:String x:Key="MS_DB_VIEW_SETTING_NAME">Database Name</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_TYPE">SQL Database Server</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_ADDRESS">Address (IPS/DNS)</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_PORT">Port</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_ID">ID</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_PASSWORD">Password</system:String>
+	<system:String x:Key="MS_DB_VIEW_SETTING_DATABASE">Database</system:String>
+	
+	<system:String x:Key="MS_DB_VIEW_BTN_SEL">Select</system:String>
+	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">Save</system:String>
+	<system:String x:Key="MS_DB_VIEW_BTN_DEL">Delete</system:String>
+	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">Initialize</system:String>
+	
+	<!--REPORT VIEW-->
+	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">Report Name</system:String>
+	
+	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">Select</system:String>
+	
+	<!--Message-->
+	<system:String x:Key="MS_MSG_MAIL_TEST_OK">Test mail sent successfully.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">Enter SMTP information and recipient address.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_TEST_ERR2">Failed to send mail.</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -734,7 +869,15 @@
     <!-- Main -  Status Information -->
     <system:String x:Key="CS_MAIN_STATUS_LICENSE">License</system:String>
     <system:String x:Key="CS_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST">Job list</system:String>
     <system:String x:Key="CS_MAIN_STATUS_INFO">Status Information</system:String>
+	
+	<!--Job List-->
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_ENABLE">Enable</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_DISEBLE">Disable</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_ADD">Add Job</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_EDIT">Edit Job</system:String>
+	<system:String x:Key="CS_MAIN_STATUS_JOBLIST_DEL">Delete Job</system:String>
 
 
     <system:String x:Key="CS_MAIN_STATUS_DATABASE">Database</system:String>
@@ -914,7 +1057,7 @@
 	<system:String x:Key="RC_MAIN_MENU_CLOSE_PLAN">Close Plan</system:String>
 	
 	<system:String x:Key="RC_MAIN_MENU_TEST_LIST">Input Value</system:String>
-	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">DWG View</system:String>
+	<system:String x:Key="RC_MAIN_MENU_DWG_VIEW">CAD View</system:String>
 	<system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">Drawing</system:String>
 	
 	<system:String x:Key="RC_MAIN_NEW_PLAN">New Plan</system:String>
@@ -957,7 +1100,7 @@
    <system:String x:Key="RC_PLAN_SETTING_LOAD">Load Settings(JSON)</system:String>
    <system:String x:Key="RC_PLAN_SETTING_SAVE">Save Settings(JSON)</system:String>
    
-   <system:String x:Key="RC_PLAN_DWG_FILE">DWG File</system:String>	
+   <system:String x:Key="RC_PLAN_DWG_FILE">CAD File</system:String>	
    <system:String x:Key="RC_PLAN_INPUT_TYPE">Input Type</system:String>	   
    <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">Part Measurement</system:String>
    <system:String x:Key="RC_PLAN_INPUT_ITEM_GROUP">Group Measurement</system:String>
@@ -1250,6 +1393,17 @@
     <system:String x:Key="CONFIG_CATALOG_FROM_DATABASE">Catalogue data from database</system:String>
     <system:String x:Key="CONFIG_CATALOG_NO">no catalogues</system:String>
 
+	<!--Mail-->
+	<system:String x:Key="CONFIG_MAIL">Mail</system:String>
+	<system:String x:Key="CONFIG_MAIL_HOST">Host</system:String>
+	<system:String x:Key="CONFIG_MAIL_PORT">Port</system:String>
+	<system:String x:Key="CONFIG_MAIL_ID">ID</system:String>
+	<system:String x:Key="CONFIG_MAIL_PW">Password</system:String>
+	<system:String x:Key="CONFIG_MAIL_TIMEOUT">Timeout</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI">Recipient Management</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI_NAME">Name</system:String>
+	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">Email Address</system:String>
+	<system:String x:Key="CONFIG_MAIL_TEST">Test Mail</system:String>
 
     <!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">Graphic</system:String>
