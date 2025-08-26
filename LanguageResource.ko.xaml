@@ -745,12 +745,16 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ADD">잡 추가</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">잡 수정</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">잡 삭제</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_SEND">메일 보내기</system:String>
 	
 	<system:String x:Key="MS_JOB_LIST_DB">데이터베이스</system:String>
 	<system:String x:Key="MS_JOB_LIST_FILTER">필터</system:String>
 	<system:String x:Key="MS_JOB_LIST_REPORT">보고서</system:String>
 	<system:String x:Key="MS_JOB_LIST_CYCLE">발송 주기</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING">발송 시점</system:String>
+	<system:String x:Key="MS_JOB_LIST_MAIL_TITLE">메일 제목</system:String>
+	<system:String x:Key="MS_JOB_LIST_MAIL_BODY">메일 내용</system:String>
+	<system:String x:Key="MS_JOB_LIST_FILE_NAME">첨부파일명</system:String>
 	
 	<system:String x:Key="MS_JOB_LIST_SEL_BUTTON">선택</system:String>
  
@@ -840,6 +844,7 @@
 	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">저장</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_DEL">삭제</system:String>
 	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">초기화</system:String>
+	<system:String x:Key="MS_DB_VIEW_BTN_TEST">연결 테스트</system:String>
 	
 	<!--REPORT VIEW-->
 	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">보고서명</system:String>
@@ -851,6 +856,16 @@
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">테스트 메일이 성공적으로 발송되었습니다.</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">SMTP 정보와 수신자 주소를 모두 입력하세요.</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR2">메일 발송 실패</system:String>
+	<system:String x:Key="MS_MSG_REPORT_NOT_REPORT">리포트가 없습니다.</system:String>
+	<system:String x:Key="MS_MSG_REPORT_NOT_REPORT_CONTROL">리포트 컨트롤을 찾을 수 없습니다.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_OK">메일 발송 성공</system:String>
+	<system:String x:Key="MS_MSG_MAIL_ERR1">SMTP 정보가 없습니다</system:String>
+	<system:String x:Key="MS_MSG_MAIL_ERR2">메일 발송 실패</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_START">메일 발송 스케줄 체크 시작</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_END">메일 발송 스케줄 체크 완료</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_STOP">메일 발송 스케줄 체크 중지</system:String>
+	<system:String x:Key="MS_MSG_DB_TEST_OK">테스트 연결 성공</system:String>
+	<system:String x:Key="MS_MSG_DB_TEST_NG">테스트 연결 실패</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]

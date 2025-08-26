@@ -738,12 +738,16 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ADD">ジョブ追加</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">ジョブ修正</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">ジョブ削除</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_SEND">メールを送信</system:String>
 
 	<system:String x:Key="MS_JOB_LIST_DB">データベース</system:String>
 	<system:String x:Key="MS_JOB_LIST_FILTER">フィルター</system:String>
 	<system:String x:Key="MS_JOB_LIST_REPORT">レポート</system:String>
 	<system:String x:Key="MS_JOB_LIST_CYCLE">配信周期</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING">配信タイミング</system:String>
+	<system:String x:Key="MS_JOB_LIST_MAIL_TITLE">メール件名</system:String>
+	<system:String x:Key="MS_JOB_LIST_MAIL_BODY">メール本文</system:String>
+	<system:String x:Key="MS_JOB_LIST_FILE_NAME">添付ファイル名</system:String>
 
 	<system:String x:Key="MS_JOB_LIST_SEL_BUTTON">選択</system:String>
 
@@ -831,16 +835,28 @@
 	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">保存</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_DEL">削除</system:String>
 	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">初期化</system:String>
+	<system:String x:Key="MS_DB_VIEW_BTN_TEST">接続テスト</system:String>
 	
 	<!--REPORT VIEW-->
 	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">レポート名</system:String>
 	
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">選択</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">ファイルに保存</system:String>
 	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">テストメールが正常に送信されました。</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">SMTP情報と受信者のアドレスをすべて入力してください。</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR2">メールの送信に失敗しました。</system:String>
+	<system:String x:Key="MS_MSG_REPORT_NOT_REPORT">レポートがありません。</system:String>
+	<system:String x:Key="MS_MSG_REPORT_NOT_REPORT_CONTROL">レポートコントロールが見つかりません。</system:String>
+	<system:String x:Key="MS_MSG_MAIL_OK">メール送信成功</system:String>
+	<system:String x:Key="MS_MSG_MAIL_ERR1">SMTP情報がありません。</system:String>
+	<system:String x:Key="MS_MSG_MAIL_ERR2">メール送信失敗</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_START">メール送信スケジュールチェック開始</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_END">メール送信スケジュールチェック完了</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_STOP">メール送信スケジュールチェック中止</system:String>
+	<system:String x:Key="MS_MSG_DB_TEST_OK">テスト接続成功</system:String>
+	<system:String x:Key="MS_MSG_DB_TEST_NG">テスト接続失敗</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]

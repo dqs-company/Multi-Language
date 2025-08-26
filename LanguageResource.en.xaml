@@ -743,12 +743,16 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ADD">Add Job</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">Edit Job</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">Delete Job</system:String>
+	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_SEND">Send Mail</system:String>
 
 	<system:String x:Key="MS_JOB_LIST_DB">Database</system:String>
 	<system:String x:Key="MS_JOB_LIST_FILTER">Filter</system:String>
 	<system:String x:Key="MS_JOB_LIST_REPORT">Report</system:String>
 	<system:String x:Key="MS_JOB_LIST_CYCLE">Delivery Cycle</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING">Delivery Time</system:String>
+	<system:String x:Key="MS_JOB_LIST_MAIL_TITLE">Mail Title</system:String>
+	<system:String x:Key="MS_JOB_LIST_MAIL_BODY">Mail Body</system:String>
+	<system:String x:Key="MS_JOB_LIST_FILE_NAME">Attached File Name</system:String>
 
 	<system:String x:Key="MS_JOB_LIST_SEL_BUTTON">Select</system:String>
 
@@ -836,16 +840,28 @@
 	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">Save</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_DEL">Delete</system:String>
 	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">Initialize</system:String>
+	<system:String x:Key="MS_DB_VIEW_BTN_TEST">Test Connection</system:String>
 	
 	<!--REPORT VIEW-->
 	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">Report Name</system:String>
 	
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">Select</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">File Save</system:String>
 	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">Test mail sent successfully.</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">Enter SMTP information and recipient address.</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR2">Failed to send mail.</system:String>
+	<system:String x:Key="MS_MSG_REPORT_NOT_REPORT">No report exists.</system:String>
+	<system:String x:Key="MS_MSG_REPORT_NOT_REPORT_CONTROL">Report control not found.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_OK">Mail sent successfully.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_ERR1">No SMTP information available.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_ERR2">Failed to send mail.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_START">Mail sending schedule check started.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_END">Mail sending schedule check complete.</system:String>
+	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_STOP">Mail sending schedule check stopped.</system:String>
+	<system:String x:Key="MS_MSG_DB_TEST_OK">Test connection successful</system:String>
+	<system:String x:Key="MS_MSG_DB_TEST_NG">Test connection failed</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
