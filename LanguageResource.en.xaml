@@ -716,7 +716,9 @@
 	<!--Main Menu-->
 	<system:String x:Key="MS_MENU_START">Start</system:String>
     <system:String x:Key="MS_MENU_END">Emd</system:String>
-
+	<system:String x:Key="MS_MAIN_LOG">Log</system:String>
+	<system:String x:Key="MS_MAIN_DELETE_LOG">Delete Log</system:String>
+	
 	<!--Main Status-->
 	<system:String x:Key="MS_MAIN_STATUS_LICENSE">License</system:String>
     <system:String x:Key="MS_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
@@ -785,17 +787,21 @@
 	<system:String x:Key="MS_JOB_REF_LIST_MAIL">Email</system:String>
 	<system:String x:Key="MS_JOB_REF_LIST_NAME">Name</system:String>
 	
+	<system:String x:Key="MS_JOB_FILE_NAME_DATE">Date</system:String>
+	
 	<system:String x:Key="MS_JOB_LIST_SAVE_BUTTON">Save</system:String>
 	<system:String x:Key="MS_JOB_LIST_CANCEL_BUTTON">Canel</system:String>
 	
+	<!--FILTER View-->
 	<system:String x:Key="MS_FILTER_VIEW_GRID_NAME">Filter Name</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SEL">Select</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">Save</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">Delete</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">Initialize</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">Filter</system:String>
+
 	
-	<!--FILTER View-->
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">Filter Name</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY">Array</system:String>
@@ -814,7 +820,9 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_DAY">Recent n Day(s)</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_WEEK">Recent n Week(s)</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_MON">Recent n Month(s)</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">Measured Value</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_MON">Month</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_WEEK">Week</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">Day</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">Start Date/Time</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">End Date/Time</system:String>
 	
@@ -845,8 +853,17 @@
 	<!--REPORT VIEW-->
 	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">Report Name</system:String>
 	
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW">Preview</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM1">1 Page</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM2">All</system:String>
+	
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">Select</system:String>
-	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">File Save</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">File</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_NEW">New</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">Change</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_DEL">Delete</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">Previous</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">Next</system:String>
 	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">Test mail sent successfully.</system:String>
@@ -862,6 +879,11 @@
 	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_STOP">Mail sending schedule check stopped.</system:String>
 	<system:String x:Key="MS_MSG_DB_TEST_OK">Test connection successful</system:String>
 	<system:String x:Key="MS_MSG_DB_TEST_NG">Test connection failed</system:String>
+	
+	<system:String x:Key="MS_MSG_PROCESS_DB_INPUT">Getting external database information</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_DB_END">External database terminated</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_PDF">Creating PDF</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">Creating PDF page</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1250,7 +1272,8 @@
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">Limit parts loaded from Database</system:String>
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">Last Part</system:String>
-
+	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">Limit Values Loaded from Database</system:String>
+	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">Last Values</system:String>
 
 	
 	<!-- ==>Auto -->
