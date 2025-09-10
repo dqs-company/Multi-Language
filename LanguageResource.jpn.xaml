@@ -780,6 +780,8 @@
 	<system:String x:Key="MS_JOB_REF_LIST_MAIL">メール</system:String>
 	<system:String x:Key="MS_JOB_REF_LIST_NAME">名前</system:String>
 	
+	<system:String x:Key="MS_JOB_FILE_NAME_DATE">Date</system:String>
+	
 	<system:String x:Key="MS_JOB_LIST_SAVE_BUTTON">保存</system:String>
 	<system:String x:Key="MS_JOB_LIST_CANCEL_BUTTON">キャンセル</system:String>
 	
@@ -790,6 +792,7 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">保存</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">削除</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">初期化</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">フィルター</system:String>
 
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">フィルター名</system:String>
 
@@ -809,7 +812,9 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_DAY">最近n日</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_WEEK">最近n週</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_MON">最近nヶ月</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">測定値</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_MON">月</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_WEEK">週</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">日</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">開始 日付/時間</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">終了 日付/時間</system:String>
 
@@ -840,8 +845,17 @@
 	<!--REPORT VIEW-->
 	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">レポート名</system:String>
 	
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW">プレビュー</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM1">1ページ</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM2">全体</system:String>
+	
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">選択</system:String>
-	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">ファイルに保存</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_NEW">新規</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">変更</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_DEL">削除</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">ファイル</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">前へ</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">次へ</system:String>
 	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">テストメールが正常に送信されました。</system:String>
@@ -857,6 +871,11 @@
 	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_STOP">メール送信スケジュールチェック中止</system:String>
 	<system:String x:Key="MS_MSG_DB_TEST_OK">テスト接続成功</system:String>
 	<system:String x:Key="MS_MSG_DB_TEST_NG">テスト接続失敗</system:String>
+	
+	<system:String x:Key="MS_MSG_PROCESS_DB_INPUT">外部データベース情報を取得中</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_DB_END">外部データベース終了</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_PDF">PDF作成</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">PDFページ作成</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -864,6 +883,8 @@
 	<!--Main Menu-->
 	<system:String x:Key="MS_MENU_START">開始</system:String>
     <system:String x:Key="MS_MENU_END">終了</system:String>
+	<system:String x:Key="MS_MAIN_LOG">ログ</system:String>
+	<system:String x:Key="MS_MAIN_DELETE_LOG">削除ログ</system:String>
 
     <!--Main - Top Ribbon Menu-->
     <system:String x:Key="CS_MENU_SERVER_GROUP">サーバ</system:String>

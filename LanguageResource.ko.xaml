@@ -714,6 +714,8 @@
 	<!--Main Menu-->
 	<system:String x:Key="MS_MENU_START">시작</system:String>
     <system:String x:Key="MS_MENU_END">종료</system:String>
+	<system:String x:Key="MS_MAIN_LOG">로그</system:String>
+	<system:String x:Key="MS_MAIN_DELETE_LOG">삭제 로그</system:String>
 
 	<!--Main Status-->
 	<system:String x:Key="MS_MAIN_STATUS_LICENSE">라이센스</system:String>
@@ -789,6 +791,8 @@
 	<system:String x:Key="MS_JOB_REF_LIST_MAIL">메일</system:String>
 	<system:String x:Key="MS_JOB_REF_LIST_NAME">이름</system:String>
 	
+	<system:String x:Key="MS_JOB_FILE_NAME_DATE">일자</system:String>
+	
 	<system:String x:Key="MS_JOB_LIST_SAVE_BUTTON">저장</system:String>
 	<system:String x:Key="MS_JOB_LIST_CANCEL_BUTTON">취소</system:String>
 	
@@ -798,7 +802,8 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SEL">선택</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">저장</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">삭제</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">초기화</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">신규</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">필터</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">필터명</system:String>
 	
@@ -818,9 +823,17 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_DAY">최근 n일</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_WEEK">최근 n주</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_MON">최근 n달</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">측정값</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_MON">월</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_WEEK">주</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">일</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">시작 날짜/시간</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">종료 날짜/시간</system:String>
+	
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT">반복 주기</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_SEL">주기 선택</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STANDARD">값</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STAND">기준 선택</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">파트</system:String>
 	
@@ -843,14 +856,23 @@
 	<system:String x:Key="MS_DB_VIEW_BTN_SEL">선택</system:String>
 	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">저장</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_DEL">삭제</system:String>
-	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">초기화</system:String>
+	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">신규</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_TEST">연결 테스트</system:String>
 	
 	<!--REPORT VIEW-->
 	<system:String x:Key="MS_REPORT_VIEW_GRID_NAME">보고서명</system:String>
 	
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW">프리뷰</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM1">첫페이지</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM2">전체</system:String>
+	
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">선택</system:String>
-	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">파일 저장</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_NEW">신규</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">변경</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_DEL">삭제</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">파일</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">이전</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">다음</system:String>
 	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">테스트 메일이 성공적으로 발송되었습니다.</system:String>
@@ -866,6 +888,11 @@
 	<system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_STOP">메일 발송 스케줄 체크 중지</system:String>
 	<system:String x:Key="MS_MSG_DB_TEST_OK">테스트 연결 성공</system:String>
 	<system:String x:Key="MS_MSG_DB_TEST_NG">테스트 연결 실패</system:String>
+	
+	<system:String x:Key="MS_MSG_PROCESS_DB_INPUT">외부 데이터베이스 정보 가져오는 중</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_DB_END">외부 데이터베이스 종료</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_PDF">PDF 생성</system:String>
+	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">PDF 페이지 생성</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
