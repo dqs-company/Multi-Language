@@ -39,6 +39,8 @@
 	
 	<system:String x:Key="CAD_SIZE">CADのサイズ</system:String>
 	<system:String x:Key="BALLOONING_SIZE">バルーニングのサイズ</system:String>	
+	<system:String x:Key="PREVIEW">プレビュー</system:String>
+	<system:String x:Key="SELECT_LAYOUT">レイアウト選択</system:String>
 	
 	<system:String x:Key="SERVER">サーバ</system:String>	
 	
