@@ -41,7 +41,11 @@
 	<system:String x:Key="BALLOONING_SIZE">バルーニングのサイズ</system:String>	
 	<system:String x:Key="PREVIEW">プレビュー</system:String>
 	<system:String x:Key="SELECT_LAYOUT">レイアウト選択</system:String>
-	
+
+	<system:String x:Key="MODE">モード</system:String>	
+	<system:String x:Key="GENERAL_MODE">一般モード</system:String>
+	<system:String x:Key="ID_MODE">IDモード</system:String>
+		
 	<system:String x:Key="SERVER">サーバ</system:String>	
 	
 	<system:String x:Key="SAVE">保存</system:String>
@@ -415,8 +419,9 @@
 	<system:String x:Key="DATA_FIELD_2002">特性説明</system:String>
 	<system:String x:Key="DATA_FIELD_2002_ABBR">特性説明</system:String>
 	<!--Abbr -->	
-	
 	<system:String x:Key="DATA_FIELD_2003">特性略称</system:String>
+	<system:String x:Key="DATA_FIELD_2003_ABBR">特性略称</system:String>
+	
 	<system:String x:Key="DATA_FIELD_2004">特性タイプ</system:String>
 	<system:String x:Key="DATA_FIELD_2005">特性の分類</system:String>
 	<system:String x:Key="DATA_FIELD_2006">制御項目</system:String>
@@ -620,7 +625,22 @@
     <system:String x:Key="RE_TAB_EXCEL_MANUAL_LIST_TITLEL">特性指定</system:String>
     <system:String x:Key="RE_TAB_EXCEL_CELL_SETUP">セル設定</system:String>
 
-
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIRECTION">検索方向</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_GARO">線[hor.]</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_SERO">セル[版]</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_INFORMATION_SETUP">情報設定 [列/行]</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_SET">セル設定</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_NOMINAL_SETUP">公称セル/ライン設定</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_LH_POS">LH細胞の位置</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_RH_POS">RH細胞の位置</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_ROW_POS">行(N)</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_COLUMN_POS">カラム(A)</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT_SETUP">出力セル設定</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_MAX_COLUMN">最大検索列数</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_MAX_ROW">最大検索行数</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT">出力セル</system:String>
+	
+	
     <!--Output Tab -->
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_TITEL">出力設定</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_SIZE">出力数</system:String>
@@ -1310,6 +1330,7 @@
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitsutoyo CMM</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">区切り文字</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">特性行の開始</system:String>	
+	<system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_REPEAT">特性の繰り返し</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">列インデックス</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">データライン</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">データシンボル</system:String>
