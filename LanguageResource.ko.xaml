@@ -45,6 +45,9 @@
 	
 	<system:String x:Key="MODE">모드</system:String>
 	<system:String x:Key="GENERAL_MODE">일반 모드</system:String>
+    <system:String x:Key="MAPPING_MODE">맵핑 모드</system:String>
+    <system:String x:Key="LATEST">최신순</system:String>
+    <system:String x:Key="OLDEST">오래순</system:String>	
 	<system:String x:Key="ID_MODE">ID 모드</system:String>
 	
 	<system:String x:Key="SERVER">서버</system:String>

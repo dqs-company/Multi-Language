@@ -44,6 +44,9 @@
 	
 	<system:String x:Key="MODE">Mode</system:String>
 	<system:String x:Key="GENERAL_MODE">General Mode</system:String>
+    <system:String x:Key="MAPPING_MODE">Mapping Mode</system:String>
+    <system:String x:Key="LATEST">Latest</system:String>
+    <system:String x:Key="OLDEST">Oldest</system:String>	
 	<system:String x:Key="ID_MODE">ID Mode</system:String>
 
 
