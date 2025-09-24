@@ -44,7 +44,7 @@
 
 	<system:String x:Key="MODE">モード</system:String>	
 	<system:String x:Key="GENERAL_MODE">一般モード</system:String>
-    <system:String x:Key="MAPPING_MODE">Mapping Mode</system:String>
+    <system:String x:Key="MAPPING_MODE">マッピングモード</system:String>
     <system:String x:Key="LATEST">最新</system:String>
     <system:String x:Key="OLDEST">最古</system:String>	
 	<system:String x:Key="ID_MODE">IDモード</system:String>
