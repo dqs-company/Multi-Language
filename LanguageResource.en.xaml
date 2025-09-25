@@ -190,8 +190,12 @@
 	<system:String x:Key="RESULT">Result</system:String>
 	<system:String x:Key="DEVIATION">Deviation</system:String>	
 	<system:String x:Key="CP">Cp</system:String>			
-	<system:String x:Key="CPK">Cpk</system:String>			
+	<system:String x:Key="CPK">Cpk</system:String>	
+	<system:String x:Key="CP_DESC">Process Capability Index (Cp)</system:String>
+	<system:String x:Key="CPK_DESC">Process Capability Index (Cpk)</system:String>
 	<system:String x:Key="OUT_OF_TOL">Out of tolerance</system:String>	
+	<system:String x:Key="TOL_VIOLATION">Tolerance Violation</system:String>
+	<system:String x:Key="DISTRIBUTION">Distribution</system:String>
 	<system:String x:Key="TREND">Trend</system:String>	
 	<system:String x:Key="TARGET">Target</system:String>		
 
@@ -232,6 +236,7 @@
   	<system:String x:Key="ENTER_VALUE">Enter Value</system:String>
   
    	<system:String x:Key="REPORTING">Reporting</system:String>
+	<system:String x:Key="REPORT">Report</system:String>
 	
    	<system:String x:Key="FILE">File</system:String>	
 	
@@ -866,6 +871,69 @@
 	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">Previous</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">Next</system:String>
 	
+	<!--REPORT SETTING VIEW-->
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">Report Type</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">Individual</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">Collection</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">Report Layout</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">Portrait</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">Landscape</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT">Element Layout</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_ROWHEIGHT">Row Height</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_SELCT_ELEMENT">Select Element</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_ADD_BTN">Add</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_REGISTERED_ITEM">Registered Items</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_TITLE">Title</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_HIDE_FIELD">Hide Field Name</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_COLLECTIVE_LIST">List</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_SAVE_BTN">Save</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_IMPORT_BTN">Import</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_EXPORT_BTN">Export</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_CANCEL_BTN">Cancel</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_PREVIEW">Preview</system:String>
+
+	<!--REPORT SETTING Collective List-->
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_PART_NAME">Part Name</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NO">Feature No.</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NAME">Feature Name</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_AVERAGE">Average</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MEDIAN">Median</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_STD_DEV">Standard Deviation</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MIN">Minimum Value</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MAX">Maximum Value</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_NOMINAL">Design Value</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_USL">USL</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LSL">LSL</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_UPPER_LIMIT">Upper Allowance</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LOWER_LIMIT">Lower Allowance</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CP">Cp</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CPK">Cpk</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_RESULT">Result</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TOL_VIOATION">Tolerance Violation</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TREND">Trend</system:String>
+	
+	<!--REPORT SETTING Result List-->
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_NUMBER">Part Number</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_DESC">Part Description</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_NO">Characteristic Number</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_DESC">Characteristic</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_INFO">Characteristic Information</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_VALUE_INFO">Value Information</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_STATIC_INFO">Statistical Information</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_NOMINAL">Nominal</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_TOTVALUE">Total Value</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_INTOL">In Tolerance</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_OUTTOL">Out of Tolerance</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MEDIAN">Median</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MIN">Min</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CLASS">Class</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MAX">Max</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_RANGE">Range</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CAL_METHOD">Calculation Method</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_REQ_STATIC">Requirements are Satisfied</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PROCESS_CAP_INDEX">Process Capability Index</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CENTERED_PROCESS_CAP_INDEX">Centered Process Capability Index</system:String>
+	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">Test mail sent successfully.</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">Enter SMTP information and recipient address.</system:String>
@@ -885,6 +953,8 @@
 	<system:String x:Key="MS_MSG_PROCESS_DB_END">External database terminated</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF">Creating PDF</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">Creating PDF page</system:String>
+	
+	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">Height cannot exceed 100 in total.</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]

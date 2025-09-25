@@ -196,8 +196,12 @@
 	<system:String x:Key="RESULT">결과</system:String>	
 	<system:String x:Key="DEVIATION">편차</system:String>		
 	<system:String x:Key="CP">Cp</system:String>			
-	<system:String x:Key="CPK">Cpk</system:String>		
+	<system:String x:Key="CPK">Cpk</system:String>	
+	<system:String x:Key="CP_DESC">공정능력지수(Cp)</system:String>			
+	<system:String x:Key="CPK_DESC">공정능력지수(Cpk)</system:String>	
 	<system:String x:Key="OUT_OF_TOL">공차아웃</system:String>	
+	<system:String x:Key="TOL_VIOLATION">공차위반</system:String>
+	<system:String x:Key="DISTRIBUTION">분포</system:String>
 	<system:String x:Key="TREND">경향/추세</system:String>	
 	<system:String x:Key="TARGET">대상</system:String>	
 	<system:String x:Key="MODIFICATION">수정</system:String>	
@@ -233,6 +237,7 @@
   	<system:String x:Key="ENTER_VALUE">입력 측정값</system:String>
 
    	<system:String x:Key="REPORTING">レポート</system:String>
+	<system:String x:Key="REPORT">보고서</system:String>
 	
    	<system:String x:Key="FILE">파일</system:String>	
 
@@ -248,7 +253,7 @@
 	<system:String x:Key="LRL">LRL</system:String>		
  
  
-	<system:String x:Key="STANDARD_DEVIATION">표쥰편차</system:String>			 
+	<system:String x:Key="STANDARD_DEVIATION">표준편차</system:String>			 
 	<system:String x:Key="MINIMUM">최소값</system:String>		
 	<system:String x:Key="MAXIMUM">최대값</system:String>		
 	
@@ -875,6 +880,70 @@
 	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">이전</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">다음</system:String>
 	
+	<!--REPORT SETTING VIEW-->
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">보고서 형식</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">개별</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">모음</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">보고서 배치</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">세로</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">가로</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT">요소 배치</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_ROWHEIGHT">행 높이</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_SELCT_ELEMENT">요소 선택</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_ADD_BTN">추가</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_REGISTERED_ITEM">등록된 항목</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_TITLE">제목</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_HIDE_FIELD">필드명 숨기기</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_COLLECTIVE_LIST">리스트</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LIST_COUNT">페이지 표시 수</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_SAVE_BTN">저장</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_IMPORT_BTN">불러오기</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_EXPORT_BTN">내보내기</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_CANCEL_BTN">취소</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_PREVIEW">미리보기</system:String>
+	
+	<!--REPORT SETTING Collective List-->
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_PART_NAME">품명</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NO">특성번호</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NAME">특성명</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_AVERAGE">평균</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MEDIAN">중앙값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_STD_DEV">표준편차</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MIN">최소값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MAX">최대값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_NOMINAL">설계치</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_USL">USL</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LSL">LSL</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_UPPER_LIMIT">상한 허용오차</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LOWER_LIMIT">하한 허용오차</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CP">Cp</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CPK">Cpk</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_RESULT">결과</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TOL_VIOATION">공차위반</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TREND">추세</system:String>
+	
+	<!--REPORT SETTING Result List-->
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_NUMBER">품번</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_DESC">품명</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_NO">측정항목 번호</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_DESC">측정항목</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_INFO">측정항목 정보</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_VALUE_INFO">측정값 정보</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_STATIC_INFO">통계 정보</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_NOMINAL">기준값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_TOTVALUE">총값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_INTOL">공차 범위 내</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_OUTTOL">공차 범위 밖</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MEDIAN">중앙값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MIN">최소값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CLASS">등급</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MAX">최대값</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_RANGE">범위</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CAL_METHOD">계산 방법</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_REQ_STATIC">요구사항이 충족되었습니다</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PROCESS_CAP_INDEX">공정 능력 지수</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CENTERED_PROCESS_CAP_INDEX">중심화 공정 능력 지수</system:String>
+	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">테스트 메일이 성공적으로 발송되었습니다.</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">SMTP 정보와 수신자 주소를 모두 입력하세요.</system:String>
@@ -894,6 +963,8 @@
 	<system:String x:Key="MS_MSG_PROCESS_DB_END">외부 데이터베이스 종료</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF">PDF 생성</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">PDF 페이지 생성</system:String>
+	
+	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">높이는 총 100을 넘을 수 없습니다.</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]

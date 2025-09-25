@@ -196,7 +196,11 @@
 	<system:String x:Key="DEVIATION">偏差</system:String>	
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>		
+	<system:String x:Key="CP_DESC">工程能力指数(Cp)</system:String>
+	<system:String x:Key="CPK_DESC">工程能力指数(Cpk)</system:String>
 	<system:String x:Key="OUT_OF_TOL">公差外</system:String>	
+	<system:String x:Key="TOL_VIOLATION">公差違反</system:String>
+	<system:String x:Key="DISTRIBUTION">分布</system:String>
 	<system:String x:Key="TREND">トレンド</system:String>	
 	<system:String x:Key="TARGET">対象</system:String>	
 	<system:String x:Key="MODIFICATION">変更</system:String>	
@@ -235,6 +239,7 @@
 
 	
    	<system:String x:Key="REPORTING">レポート</system:String>
+	<system:String x:Key="REPORT">レポート</system:String>
 
 	<system:String x:Key="FILE">ファイル</system:String>	
 	
@@ -859,6 +864,69 @@
 	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">前へ</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">次へ</system:String>
 	
+	<!--REPORT SETTING VIEW-->
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">レポート形式</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">個別</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">集合</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">レポートレイアウト</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">縦</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">横</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT">要素レイアウト</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_ROWHEIGHT">行の高さ</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_SELCT_ELEMENT">要素選択</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_ADD_BTN">追加</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_REGISTERED_ITEM">登録済み項目</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_TITLE">タイトル</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_HIDE_FIELD">フィールド名非表示</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_COLLECTIVE_LIST">リスト</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_SAVE_BTN">保存</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_IMPORT_BTN">インポート</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_EXPORT_BTN">エクスポート</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_CANCEL_BTN">キャンセル</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_PREVIEW">プレビュー</system:String>
+
+	<!--REPORT SETTING Collective List-->
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_PART_NAME">品名</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NO">特性番号</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NAME">特性名</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_AVERAGE">平均</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MEDIAN">中央値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_STD_DEV">標準偏差</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MIN">最小値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MAX">最大値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_NOMINAL">設計値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_USL">USL</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LSL">LSL</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_UPPER_LIMIT">上限許容差</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LOWER_LIMIT">下限許容差</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CP">Cp</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CPK">Cpk</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_RESULT">結果</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TOL_VIOATION">公差違反</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TREND">トレンド</system:String>
+	
+	<!--REPORT SETTING Result List-->
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_NUMBER">品番</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_DESC">品名</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_NO">測定項目番号</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_DESC">測定項目</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_INFO">測定項目情報</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_VALUE_INFO">測定値情報</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_STATIC_INFO">統計情報</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_NOMINAL">基準値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_TOTVALUE">合計値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_INTOL">許容範囲内</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_OUTTOL">許容範囲外</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MEDIAN">中央値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MIN">最小値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CLASS">等級</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MAX">最大値</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_RANGE">範囲</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CAL_METHOD">計算方法</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_REQ_STATIC">要求事項が満たされました</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PROCESS_CAP_INDEX">工程能力指数</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CENTERED_PROCESS_CAP_INDEX">中心化工程能力指数</system:String>
+	
 	<!--Message-->
 	<system:String x:Key="MS_MSG_MAIL_TEST_OK">テストメールが正常に送信されました。</system:String>
 	<system:String x:Key="MS_MSG_MAIL_TEST_ERR1">SMTP情報と受信者のアドレスをすべて入力してください。</system:String>
@@ -878,6 +946,8 @@
 	<system:String x:Key="MS_MSG_PROCESS_DB_END">外部データベース終了</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF">PDF作成</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">PDFページ作成</system:String>
+	
+	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">高さは合計100を超過することはできません。</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
