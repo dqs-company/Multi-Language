@@ -43,6 +43,13 @@
 	<system:String x:Key="PREVIEW">미리보기</system:String>
 	<system:String x:Key="SELECT_LAYOUT">레이아웃 선택</system:String>
 	
+	<system:String x:Key="MODE">모드</system:String>
+	<system:String x:Key="GENERAL_MODE">일반 모드</system:String>
+    <system:String x:Key="MAPPING_MODE">맵핑 모드</system:String>
+    <system:String x:Key="LATEST">최신순</system:String>
+    <system:String x:Key="OLDEST">오래순</system:String>	
+	<system:String x:Key="ID_MODE">ID 모드</system:String>
+	
 	<system:String x:Key="SERVER">서버</system:String>
 	
 	<system:String x:Key="SAVE">저장</system:String>
@@ -416,9 +423,13 @@
  
 	<system:String x:Key="DATA_FIELD_2001">측정항목번호</system:String>
 	<system:String x:Key="DATA_FIELD_2001_ABBR">측정항목번호</system:String><!--Abbr -->	
+	
 	<system:String x:Key="DATA_FIELD_2002">측정항목</system:String>
 	<system:String x:Key="DATA_FIELD_2002_ABBR">측정항목</system:String><!--Abbr -->	
+	
 	<system:String x:Key="DATA_FIELD_2003">측정항목(약식)</system:String>
+	<system:String x:Key="DATA_FIELD_2003_ABBR">측정항목(약식)</system:String>
+	
 	<system:String x:Key="DATA_FIELD_2004">측정특성유형</system:String>
 	<system:String x:Key="DATA_FIELD_2005">측정항목분류</system:String>
 	<system:String x:Key="DATA_FIELD_2006">관리항목</system:String>
@@ -623,6 +634,21 @@
     <system:String x:Key="RE_TAB_EXCEL_MANUAL_LIST_TITLEL">측정 항목 지정</system:String>
     <system:String x:Key="RE_TAB_EXCEL_CELL_SETUP">셀 설정</system:String>
 
+
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIRECTION">검색 방향</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_GARO">라인[가로]</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_SERO">셀 [세로]</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_INFORMATION_SETUP">정보 설정 [컬럼/로우]</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_SET">셀 설정</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_NOMINAL_SETUP">노미널 셀/라인 설정</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_LH_POS">LH 셀 좌표</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_RH_POS">RH 셀 좌표</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_ROW_POS">로우(1)</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_COLUMN_POS">컬럼(A)</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT_SETUP">출력 셀 설정</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_MAX_COLUMN">최대 검색 컬럼 수</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_MAX_ROW">최대 검색 라인 수</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT">출력 셀</system:String>
     
     <!--Output Tab -->
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_TITEL">출력 설정</system:String>
@@ -1378,6 +1404,7 @@
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitutoyo CMM</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">항목 구분자</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">측정 항목 라인 시작</system:String>	
+	<system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_REPEAT">측정 항목 반복</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_KFIELD">K-필드</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">열순서</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">라인</system:String>

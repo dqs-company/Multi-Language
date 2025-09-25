@@ -42,6 +42,14 @@
 	<system:String x:Key="PREVIEW">Preview</system:String>
 	<system:String x:Key="SELECT_LAYOUT">Select Layout</system:String>
 	
+	<system:String x:Key="MODE">Mode</system:String>
+	<system:String x:Key="GENERAL_MODE">General Mode</system:String>
+    <system:String x:Key="MAPPING_MODE">Mapping Mode</system:String>
+    <system:String x:Key="LATEST">Latest</system:String>
+    <system:String x:Key="OLDEST">Oldest</system:String>	
+	<system:String x:Key="ID_MODE">ID Mode</system:String>
+
+
 	<system:String x:Key="SERVER">Server</system:String>
 	<system:String x:Key="SAVE">Save</system:String>
 	<system:String x:Key="SAVING">Saving</system:String>
@@ -424,8 +432,9 @@
 	<system:String x:Key="DATA_FIELD_2002">Characteristic Description</system:String>
 	<system:String x:Key="DATA_FIELD_2002_ABBR">Char'-Descr</system:String><!--Abbr -->	
 	
-	
 	<system:String x:Key="DATA_FIELD_2003">Characteristic Abbreviation</system:String>
+	<system:String x:Key="DATA_FIELD_2003_ABBR">Char'-Abbr</system:String>
+	
 	<system:String x:Key="DATA_FIELD_2004">Characteristic Type</system:String>
 	<system:String x:Key="DATA_FIELD_2005">Characteristic Class</system:String>
 	<system:String x:Key="DATA_FIELD_2006">Control Item</system:String>
@@ -626,6 +635,23 @@
     <system:String x:Key="RE_TAB_EXCEL_MANUAL_LIST_TITLEL">Set char.list pos</system:String>
     <system:String x:Key="RE_TAB_EXCEL_CELL_SETUP">Cell settings</system:String>
 
+
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIRECTION">Search Direction</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_GARO">Line[hor.]</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_SERO">Cell[Ver.]</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_INFORMATION_SETUP">Information Setup [Column/Row]</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_SET">Set Cell</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_NOMINAL_SETUP">Nominal Cell/Line Settings</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_LH_POS">LH Cell Pos'</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_RH_POS">RH Cell Pos'</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_ROW_POS">Row(N)</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_COLUMN_POS">Col(A)</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT_SETUP">Output Cell Settings</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_MAX_COLUMN">Max Search Columns</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_MAX_ROW">Max Search Rows</system:String>
+	<system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT">Output Cell</system:String>
+	
+	
     <!--Output Tab -->
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_TITEL">Output settings</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_SIZE">Number of output</system:String>
@@ -808,6 +834,7 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">Filter</system:String>
 
 	
+	<!--FILTER View-->
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">Filter Name</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY">Array</system:String>
@@ -1377,6 +1404,7 @@
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitutoyo CMM</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">Delimiter</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">Char' Line Start</system:String>
+	<system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_REPEAT">Char' Repeat</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">ROW INDEX</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">DATA LINE</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">DATA SYMBOM</system:String>
