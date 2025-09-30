@@ -1540,6 +1540,15 @@
 	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">メールアドレス</system:String>
 	<system:String x:Key="CONFIG_MAIL_TEST">メールテスト</system:String>
 	
+	<!--Box Plot-->
+	<system:String x:Key="CONFIG_BOXPLOT">ボックス プロット</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_CAL">計算</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_X_AXIS">X軸</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_COLOR">色</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_NORMALIZATION">正規化</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_X_TYPE">X軸タイプ</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_BOX_INNER_COLOR">ボックス色</system:String>
+	
 	<!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">グラフィック</system:String>
 

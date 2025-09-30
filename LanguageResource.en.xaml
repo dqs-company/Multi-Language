@@ -1542,6 +1542,15 @@
 	<system:String x:Key="CONFIG_MAIL_RECI_NAME">Name</system:String>
 	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">Email Address</system:String>
 	<system:String x:Key="CONFIG_MAIL_TEST">Test Mail</system:String>
+	
+	<!--Box Plot-->
+	<system:String x:Key="CONFIG_BOXPLOT">Box Plot</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_CAL">Calculation</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_X_AXIS">X-Axis</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_COLOR">Color</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_NORMALIZATION">Normalization</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_X_TYPE">X-Axis Type</system:String>
+	<system:String x:Key="CONFIG_BOXPLOT_BOX_INNER_COLOR">Box Color</system:String>
 
     <!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">Graphic</system:String>
