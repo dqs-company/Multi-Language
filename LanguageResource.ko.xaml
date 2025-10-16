@@ -238,6 +238,9 @@
 
  	<system:String x:Key="FIXED">Fixed</system:String>
  	<system:String x:Key="MOVING">Moving</system:String>
+	<system:String x:Key="MONTH">월</system:String>
+	<system:String x:Key="WEEK">주</system:String>
+	<system:String x:Key="DAY">일</system:String>
 	
    	<system:String x:Key="TEST">테스트</system:String>	
 

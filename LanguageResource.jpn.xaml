@@ -239,6 +239,9 @@
 
 	<system:String x:Key="FIXED">固定</system:String>
  	<system:String x:Key="MOVING">移動</system:String>
+	<system:String x:Key="MONTH">月</system:String>
+	<system:String x:Key="WEEK">週</system:String>
+	<system:String x:Key="DAY">日</system:String>
 
   	<system:String x:Key="TEST">テスト</system:String>	
 	
@@ -753,6 +756,9 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CYCLE_DESC">送信周期</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CUR_DATE">最終送信日時</system:String>
 	
+	<!--Config-->
+	<system:String x:Key="MS_CONFIG_MAIL">メール設定</system:String>
+	
 	<!--View List-->
 	<system:String x:Key="MS_VIEW_JOBLIST">ジョブ設定</system:String>
 	<system:String x:Key="MS_VIEW_FILTERLIST">フィルター設定</system:String>
@@ -847,6 +853,11 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">日</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">開始 日付/時間</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">終了 日付/時間</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT">繰り返し周期</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_SEL">周期選択</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STANDARD">値</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STAND">基準選択</system:String>
 
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">部品</system:String>
 

@@ -237,6 +237,9 @@
  
  	<system:String x:Key="FIXED">Fixed</system:String>
  	<system:String x:Key="MOVING">Moving</system:String>
+	<system:String x:Key="MONTH">Month</system:String>
+	<system:String x:Key="WEEK">Week</system:String>
+	<system:String x:Key="DAY">Day</system:String>
  
   	<system:String x:Key="TEST">Test</system:String>
 
@@ -762,6 +765,9 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CYCLE_DESC">Send Cycle</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CUR_DATE">Last Sent</system:String>
 	
+	<!--Config-->
+	<system:String x:Key="MS_CONFIG_MAIL">Email Settings</system:String>
+	
 	<!--View List-->
 	<system:String x:Key="MS_VIEW_JOBLIST">Job Setting</system:String>
 	<system:String x:Key="MS_VIEW_FILTERLIST">Filter Setting</system:String>
@@ -859,6 +865,11 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">Start Date/Time</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">End Date/Time</system:String>
 	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT">Repeat Cycle</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_SEL">Select Cycle</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STANDARD">Value</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STAND">Select Standard</system:String>
+
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">Part</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_CHAR">Characteristic</system:String>
@@ -901,7 +912,7 @@
 	<!--REPORT SETTING VIEW-->
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">Report Type</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">Individual</system:String>
-	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">Collection</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">Collective</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">Report Layout</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">Portrait</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">Landscape</system:String>
