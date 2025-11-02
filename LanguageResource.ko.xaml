@@ -15,6 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
+	<system:String x:Key="APP-TESTPLANNER">Test Planner</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -994,6 +995,13 @@
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">PDF 페이지 생성</system:String>
 	
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">높이는 총 100을 넘을 수 없습니다.</system:String>
+	
+<!--###############################################################################>
+[Test Planner]
+#################################################################################-->
+	<system:String x:Key="TP_CONFIG_TITLE">Test Planner</system:String>
+    <system:String x:Key="TP_CONFIG">Test Planner 설정</system:String>
+	
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1227,6 +1235,7 @@
    <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">측정값 최대 개수</system:String>
    
    <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">파일 저장 경로</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_EXTENSION">파일 저장 확장자</system:String>
    <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">파일 저장 타이밍</system:String>
    <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">공차 아웃 팝업</system:String>
    <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">추가 데이터 팝업</system:String>

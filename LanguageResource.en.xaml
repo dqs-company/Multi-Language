@@ -15,6 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
+	<system:String x:Key="APP-TESTPLANNER">Test Planner</system:String>
      
 <!--###############################################################################>
  [Common]
@@ -993,6 +994,12 @@
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">Creating PDF page</system:String>
 	
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">Height cannot exceed 100 in total.</system:String>
+	
+<!--###############################################################################>
+[Test Planner]
+#################################################################################-->
+	<system:String x:Key="TP_CONFIG_TITLE">Test Planner</system:String>
+    <system:String x:Key="TP_CONFIG">Test Planner Settings</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
