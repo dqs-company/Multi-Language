@@ -769,6 +769,10 @@
 	<!--Config-->
 	<system:String x:Key="MS_CONFIG_MAIL">Email Settings</system:String>
 	
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_SAVE">Save</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_DEL">Delete</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_NEW">New</system:String>
+	
 	<!--View List-->
 	<system:String x:Key="MS_VIEW_JOBLIST">Job Setting</system:String>
 	<system:String x:Key="MS_VIEW_FILTERLIST">Filter Setting</system:String>
@@ -838,7 +842,7 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">Save</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">Delete</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">Initialize</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">Filter</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">Filter Apply</system:String>
 
 	
 	<!--FILTER View-->
@@ -870,6 +874,8 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_SEL">Select Cycle</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STANDARD">Value</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STAND">Select Standard</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_NONE">None</system:String>
 
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">Part</system:String>
 	

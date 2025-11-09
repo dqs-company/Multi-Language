@@ -760,6 +760,10 @@
 	<!--Config-->
 	<system:String x:Key="MS_CONFIG_MAIL">メール設定</system:String>
 	
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_SAVE">保存</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_DEL">削除</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_NEW">新規</system:String>
+	
 	<!--View List-->
 	<system:String x:Key="MS_VIEW_JOBLIST">ジョブ設定</system:String>
 	<system:String x:Key="MS_VIEW_FILTERLIST">フィルター設定</system:String>
@@ -829,7 +833,7 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">保存</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">削除</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">初期化</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">フィルター</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">フィルター適用</system:String>
 
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">フィルター名</system:String>
 
@@ -859,6 +863,8 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_SEL">周期選択</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STANDARD">値</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STAND">基準選択</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_NONE">未選択</system:String>
 
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">部品</system:String>
 

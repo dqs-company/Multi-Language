@@ -767,6 +767,11 @@
 	
 	<!--Config-->
 	<system:String x:Key="MS_CONFIG_MAIL">메일 설정</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_TIMEOUT_SECOND">(초)</system:String>
+	
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_SAVE">저장</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_DEL">삭제</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_BTN_NEW">신규</system:String>
 	
 	<!--View List-->
 	<system:String x:Key="MS_VIEW_JOBLIST">잡 세팅</system:String>
@@ -839,7 +844,7 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">저장</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">삭제</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">신규</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">필터</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">필터 적용</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">필터명</system:String>
 	
@@ -865,11 +870,12 @@
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">시작 날짜/시간</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">종료 날짜/시간</system:String>
 	
-	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT">반복 주기</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_SEL">주기 선택</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STANDARD">값</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STAND">기준 선택</system:String>
+	
+	<system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_NONE">선택안함</system:String>
 	
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_PART">파트</system:String>
 	
