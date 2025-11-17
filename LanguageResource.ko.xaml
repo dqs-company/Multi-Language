@@ -1008,6 +1008,12 @@
 	<system:String x:Key="TP_CONFIG_TITLE">Test Planner</system:String>
     <system:String x:Key="TP_CONFIG">Test Planner 설정</system:String>
 	
+	<system:String x:Key="TP_MENU_TRANS_MENU">전송</system:String>
+	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">가져오기</system:String>
+	<system:String x:Key="TP_MENU_TRANS_MENU_EXPORT">내보내기</system:String>
+	
+	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">파트 내보내기</system:String>
+	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">파트 삭제</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1877,4 +1883,7 @@
     <system:String x:Key="MSG_PLAN_0001">현재 플랜을 닫으시겠습니까?</system:String>
 	<system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">중복된 측정항목번호가 있습니다</system:String>	
 	<system:String x:Key="MSG_PLAN_ALL_DEL">현재 상태에서 저장 시 모든 내용이 삭제됩니다.</system:String>	
+	
+	<system:String x:Key="MSG_PART_DUPLICATE">파트가 중복입니다</system:String>	
+	<system:String x:Key="MSG_OVERWRITE">덮어씌우겠습니까?</system:String>
 </ResourceDictionary>

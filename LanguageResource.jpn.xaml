@@ -995,6 +995,13 @@
 #################################################################################-->
 	<system:String x:Key="TP_CONFIG_TITLE">Test Planner</system:String>
     <system:String x:Key="TP_CONFIG">Test Planner設定</system:String>
+	
+	<system:String x:Key="TP_MENU_TRANS_MENU">転送</system:String>
+	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">インポート</system:String>
+	<system:String x:Key="TP_MENU_TRANS_MENU_EXPORT">エクスポート</system:String>
+	
+	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">パーツのエクスポート</system:String>
+	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">パーツの削除</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
