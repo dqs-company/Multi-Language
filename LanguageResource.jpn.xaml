@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">Test Planner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-Test Planner</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -991,17 +991,24 @@
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">高さは合計100を超過することはできません。</system:String>
 	
 <!--###############################################################################>
-[Test Planner]
+[i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">Test Planner</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-Test Planner</system:String>
     <system:String x:Key="TP_CONFIG">Test Planner設定</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">転送</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">インポート</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_EXPORT">エクスポート</system:String>
+	<system:String x:Key="TP_MENU_TRANS_MENU_SYNC">同期</system:String>
+	<system:String x:Key="TP_MENU_CUR_TIME">現在時刻</system:String>
+	<system:String x:Key="TP_MENU_SYNC_TIME">同期時刻</system:String>
 	
 	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">パーツのエクスポート</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">パーツの削除</system:String>
+	
+	<system:String x:Key="TP_IS_NEW">区分</system:String>
+	<system:String x:Key="TP_NEW">新規</system:String>
+	<system:String x:Key="TP_EXIST">既存</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1892,4 +1899,15 @@
     <system:String x:Key="MSG_PLAN_0001">現在のプランを閉じますか?</system:String>		
 	<system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">特性番号が重複しています</system:String>
 	<system:String x:Key="MSG_PLAN_ALL_DEL">現在の状態で保存すると、すべての内容が削除されます</system:String>	
+	
+	<system:String x:Key="MSG_PART_DUPLICATE">パートが重複しています</system:String>	
+	<system:String x:Key="MSG_OVERWRITE">上書きしますか？</system:String>
+	<system:String x:Key="MSG_PART_NOT_SELECT">選択されたパートがありません。</system:String>
+	<system:String x:Key="MSG_CHAR_NOT_SELECT">選択された測定項目がありません。</system:String>
+	<system:String x:Key="MSG_PLAN_OVERWRITE">選択されたパートがあります。この形式を取り込みますか？</system:String>
+	<system:String x:Key="MSG_NO_SYNC_DATA">更新するデータがありません。</system:String>
+	<system:String x:Key="MSG_EXTERNAL_DB_CON_ERR">外部DB接続情報がありません。</system:String>
+	<system:String x:Key="MSG_SYNC_OK">同期成功</system:String>
+	<system:String x:Key="MSG_SYNC_ERR">同期失敗</system:String>
+	
 </ResourceDictionary>

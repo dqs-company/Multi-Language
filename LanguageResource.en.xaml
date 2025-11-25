@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">Test Planner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-Test Planner</system:String>
      
 <!--###############################################################################>
  [Common]
@@ -1002,17 +1002,24 @@
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">Height cannot exceed 100 in total.</system:String>
 	
 <!--###############################################################################>
-[Test Planner]
+[i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">Test Planner</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-Test Planner</system:String>
     <system:String x:Key="TP_CONFIG">Test Planner Settings</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">Transfer</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">Import</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_EXPORT">Export</system:String>
+	<system:String x:Key="TP_MENU_TRANS_MENU_SYNC">Synchronization</system:String>
+	<system:String x:Key="TP_MENU_CUR_TIME">Current Time</system:String>
+	<system:String x:Key="TP_MENU_SYNC_TIME">Sync Time</system:String>
 	
 	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">Export Part</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">Delete Part</system:String>
+	
+	<system:String x:Key="TP_IS_NEW">Type</system:String>
+	<system:String x:Key="TP_NEW">New</system:String>
+	<system:String x:Key="TP_EXIST">Imported</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1919,4 +1926,14 @@
     <system:String x:Key="MSG_PLAN_0001">Do you want to close the current plan?</system:String>	
 	<system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">Duplicate Characteristic Number found</system:String>
 	<system:String x:Key="MSG_PLAN_ALL_DEL">Saving in the current state will delete all content.</system:String>	
+	
+	<system:String x:Key="MSG_PART_DUPLICATE">The part is duplicated.</system:String>	
+	<system:String x:Key="MSG_OVERWRITE">Do you want to overwrite it?</system:String>
+	<system:String x:Key="MSG_PART_NOT_SELECT">No part is selected.</system:String>
+	<system:String x:Key="MSG_CHAR_NOT_SELECT">No measurement item is selected.</system:String>
+	<system:String x:Key="MSG_PLAN_OVERWRITE">A part is selected. Do you want to import this format?</system:String>
+	<system:String x:Key="MSG_NO_SYNC_DATA">No data to update.</system:String>
+	<system:String x:Key="MSG_EXTERNAL_DB_CON_ERR">External DB connection information is missing.</system:String>
+	<system:String x:Key="MSG_SYNC_OK">Synchronization successful</system:String>
+	<system:String x:Key="MSG_SYNC_ERR">Synchronization failed</system:String>
 </ResourceDictionary>

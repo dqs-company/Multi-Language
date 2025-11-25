@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">Test Planner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-Test Planner</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -1003,17 +1003,24 @@
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">높이는 총 100을 넘을 수 없습니다.</system:String>
 	
 <!--###############################################################################>
-[Test Planner]
+[i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">Test Planner</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-Test Planner</system:String>
     <system:String x:Key="TP_CONFIG">Test Planner 설정</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">전송</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">가져오기</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_EXPORT">내보내기</system:String>
+	<system:String x:Key="TP_MENU_TRANS_MENU_SYNC">동기화</system:String>
+	<system:String x:Key="TP_MENU_CUR_TIME">현재 시간</system:String>
+	<system:String x:Key="TP_MENU_SYNC_TIME">동기화 시간</system:String>
 	
 	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">파트 내보내기</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">파트 삭제</system:String>
+	
+	<system:String x:Key="TP_IS_NEW">구분</system:String>
+	<system:String x:Key="TP_NEW">신규</system:String>
+	<system:String x:Key="TP_EXIST">기존</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1886,4 +1893,11 @@
 	
 	<system:String x:Key="MSG_PART_DUPLICATE">파트가 중복입니다</system:String>	
 	<system:String x:Key="MSG_OVERWRITE">덮어씌우겠습니까?</system:String>
+	<system:String x:Key="MSG_PART_NOT_SELECT">선택된 파트가 없습니다.</system:String>
+	<system:String x:Key="MSG_CHAR_NOT_SELECT">선택된 측정항목이 없습니다.</system:String>
+	<system:String x:Key="MSG_PLAN_OVERWRITE">선택된 파트가 있습니다. 해당 형식을 가져오시겠습니까?</system:String>
+	<system:String x:Key="MSG_NO_SYNC_DATA">갱신할 데이터가 없습니다.</system:String>
+	<system:String x:Key="MSG_EXTERNAL_DB_CON_ERR">외부 DB 연결 정보가 없습니다.</system:String>
+	<system:String x:Key="MSG_SYNC_OK">동기화 성공</system:String>
+	<system:String x:Key="MSG_SYNC_ERR">동기화 실패</system:String>
 </ResourceDictionary>
