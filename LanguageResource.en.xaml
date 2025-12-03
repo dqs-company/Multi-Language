@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-Test Planner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-TestPlanner</system:String>
      
 <!--###############################################################################>
  [Common]
@@ -1004,8 +1004,8 @@
 <!--###############################################################################>
 [i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">i-Test Planner</system:String>
-    <system:String x:Key="TP_CONFIG">Test Planner Settings</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-TestPlanner</system:String>
+    <system:String x:Key="TP_CONFIG">i-TestPlanner Settings</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">Transfer</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">Import</system:String>
@@ -1526,8 +1526,8 @@
 	<system:String x:Key="CONFIG_DB_PORT">Port</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">Local Database</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">Delete Selected Part</system:String>
-
-
+	<system:String x:Key="CONFIG_EXTERNAL_DWG_FILE_PATH">External DWG file path</system:String>
+	<system:String x:Key="CONFIG_EXTERNAL_CAD_FILE_PATH">External CAD file path</system:String>
 
     <system:String x:Key="CONFIG_DB_SQLITE_FILE">Sqlite File</system:String>
     <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">Sqlite vacuum(cleanup)</system:String>

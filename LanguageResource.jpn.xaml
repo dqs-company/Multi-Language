@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-Test Planner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-TestPlanner</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -993,8 +993,8 @@
 <!--###############################################################################>
 [i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">i-Test Planner</system:String>
-    <system:String x:Key="TP_CONFIG">Test Planner設定</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-TestPlanner</system:String>
+    <system:String x:Key="TP_CONFIG">i-TestPlanner設定</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">転送</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">インポート</system:String>
@@ -1525,6 +1525,8 @@
 	<system:String x:Key="CONFIG_DB_PORT">ポート</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">ローカルデータベース</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">選択した部品を削除</system:String>
+	<system:String x:Key="CONFIG_EXTERNAL_DWG_FILE_PATH">外部DWGファイルの場所</system:String>
+	<system:String x:Key="CONFIG_EXTERNAL_CAD_FILE_PATH">外部CADファイルの場所</system:String>
 	
     <system:String x:Key="CONFIG_DB_SQLITE_FILE">SQliteファイル</system:String>
     <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">SQliteクリーンアップ</system:String>

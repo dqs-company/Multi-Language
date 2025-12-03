@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-Test Planner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-TestPlanner</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -1005,8 +1005,8 @@
 <!--###############################################################################>
 [i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">i-Test Planner</system:String>
-    <system:String x:Key="TP_CONFIG">Test Planner 설정</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-TestPlanner</system:String>
+    <system:String x:Key="TP_CONFIG">i-TestPlanner 설정</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">전송</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">가져오기</system:String>
@@ -1517,6 +1517,8 @@
 	<system:String x:Key="CONFIG_DB_PORT">포트</system:String>	
     <system:String x:Key="CONFIG_DB_LOCAL">로컬 데이터베이스</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">선택 파트 삭제</system:String>
+	<system:String x:Key="CONFIG_EXTERNAL_DWG_FILE_PATH">외부 DWG 파일 경로</system:String>
+	<system:String x:Key="CONFIG_EXTERNAL_CAD_FILE_PATH">외부 CAD 파일 경로</system:String>
 
     <system:String x:Key="CONFIG_DB_SQLITE_FILE">Sqlite 파일</system:String>
     <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">Sqlite 삭제(클린업)</system:String>	
