@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-TestPlanner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-Planner</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -759,6 +759,7 @@
 	
 	<!--Config-->
 	<system:String x:Key="MS_CONFIG_MAIL">メール設定</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_TIMEOUT_SECOND">(秒)</system:String>
 	
 	<system:String x:Key="MS_CONFIG_MAIL_BTN_SAVE">保存</system:String>
 	<system:String x:Key="MS_CONFIG_MAIL_BTN_DEL">削除</system:String>
@@ -832,7 +833,7 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SEL">選択</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">保存</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">削除</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">初期化</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">新規</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">フィルター適用</system:String>
 
 	<system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">フィルター名</system:String>
@@ -887,7 +888,7 @@
 	<system:String x:Key="MS_DB_VIEW_BTN_SEL">選択</system:String>
 	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">保存</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_DEL">削除</system:String>
-	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">初期化</system:String>
+	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">新規</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_TEST">接続テスト</system:String>
 	
 	<!--REPORT VIEW-->
@@ -899,19 +900,23 @@
 	
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">選択</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEW">新規</system:String>
-	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">変更</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">編集</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_DEL">削除</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">ファイル</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">前へ</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">次へ</system:String>
 	
 	<!--REPORT SETTING VIEW-->
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION">レポートセッション</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_COUNT">セッション数</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_SELECT">セッション選択</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">レポート形式</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">個別</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">集合</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">レポートレイアウト</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">縦</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">横</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_NAME">レポート名</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT">要素レイアウト</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_ROWHEIGHT">行の高さ</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_SELCT_ELEMENT">要素選択</system:String>
@@ -920,6 +925,7 @@
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_TITLE">タイトル</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_HIDE_FIELD">フィールド名非表示</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_COLLECTIVE_LIST">リスト</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LIST_COUNT">ページ表示数</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_SAVE_BTN">保存</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_IMPORT_BTN">インポート</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_EXPORT_BTN">エクスポート</system:String>
@@ -987,14 +993,19 @@
 	<system:String x:Key="MS_MSG_PROCESS_DB_END">外部データベース終了</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF">PDF作成</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">PDFページ作成</system:String>
-	
+	<system:String x:Key="MS_MSG_PROCESS_PDF_NO">PDFファイルがないため、メール送信を停止します。</system:String>
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">高さは合計100を超過することはできません。</system:String>
 	
 <!--###############################################################################>
 [i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">i-TestPlanner</system:String>
-    <system:String x:Key="TP_CONFIG">i-TestPlanner設定</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-Planner</system:String>
+    <system:String x:Key="TP_CONFIG">i-Planner設定</system:String>
+	
+	<system:String x:Key="TP_CONFIG_PART_TP_STATUS">パーツ状態</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS">測定項目状態</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_BACKGROUND">背景</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_FONT">フォント</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">転送</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">インポート</system:String>
@@ -1003,12 +1014,29 @@
 	<system:String x:Key="TP_MENU_CUR_TIME">現在時刻</system:String>
 	<system:String x:Key="TP_MENU_SYNC_TIME">同期時刻</system:String>
 	
+	<system:String x:Key="TP_EXPLORER_CONTEXT_SETTING">設定</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">パーツのエクスポート</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">パーツの削除</system:String>
+	<system:String x:Key="TP_EXPLORER_CONTEXT_NEXT_STATUS">ステータス移動</system:String>
 	
 	<system:String x:Key="TP_IS_NEW">区分</system:String>
 	<system:String x:Key="TP_NEW">新規</system:String>
 	<system:String x:Key="TP_EXIST">既存</system:String>
+	<system:String x:Key="TP_EXPORTED">エクスポート</system:String>
+	<system:String x:Key="TP_SYNC">同期</system:String>
+
+	<system:String x:Key="TP_STATUS">状態</system:String>
+
+	<system:String x:Key="TP_STATUS_CREATED">作成</system:String>
+	<system:String x:Key="TP_STATUS_REVIEWED">レビュー済み</system:String>
+	<system:String x:Key="TP_STATUS_CHECKED">チェック済み</system:String>
+	<system:String x:Key="TP_STATUS_APPROVED">承認済み</system:String>
+
+	<system:String x:Key="TP_EDIT_TYPE">変更区分</system:String>
+	<system:String x:Key="TP_EDIT_TYPE_EDIT">変更</system:String>
+	<system:String x:Key="TP_EDIT_TYPE_SYNC">同期</system:String>
+
+	<system:String x:Key="TP_MSG_EXPORT_STATUS_ERR">エクスポートする値の中に承認されていない値があります。</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1580,6 +1608,11 @@
 	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">メールアドレス</system:String>
 	<system:String x:Key="CONFIG_MAIL_TEST">メールテスト</system:String>
 	
+	<!--Report-->
+	<system:String x:Key="CONFIG_REPORT">レポート</system:String>
+	<system:String x:Key="CONFIG_REPORT_USE_LOGO">特定のロゴを使用</system:String>
+	<system:String x:Key="CONFIG_REPORT_LOGO_PATH">ロゴのパス</system:String>
+	
 	<!--Box Plot-->
 	<system:String x:Key="CONFIG_BOXPLOT">ボックス プロット</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT_CAL">計算</system:String>
@@ -1601,6 +1634,20 @@
     <system:String x:Key="CONFIG_EXE_FILE">エクスプローラ</system:String>
     <system:String x:Key="CONFIG_EXE_EXIT">プログラムの終了</system:String>
 	<system:String x:Key="CONFIG_ISO">ISOモード</system:String>
+	
+	<!-- Serial Port -->
+	<system:String x:Key="CONFIG_SERIALPORT_TITLE">シリアルポート</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PORTNAME">ポート名</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_BAUDRATE">ボーレート</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_HANDSHAKE">フロー制御</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PARITY">パリティ</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DATABITS">データビット</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_STOPBITS">ストップビット</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READTIMEOUT">タイムアウト</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DTR">DTR 有効化</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_RTS">RTS 有効化</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READBUFFERSIZE">バッファサイズ</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_NEWLINE">改行コード</system:String>
 
 <!--###############################################################################>
 [Database Load]

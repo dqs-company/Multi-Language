@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-TestPlanner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-Planner</system:String>
      
 <!--###############################################################################>
  [Common]
@@ -751,7 +751,7 @@
 #################################################################################-->
 	<!--Main Menu-->
 	<system:String x:Key="MS_MENU_START">Start</system:String>
-    <system:String x:Key="MS_MENU_END">Emd</system:String>
+    <system:String x:Key="MS_MENU_END">End</system:String>
 	<system:String x:Key="MS_MAIN_LOG">Log</system:String>
 	<system:String x:Key="MS_MAIN_DELETE_LOG">Delete Log</system:String>
 	
@@ -768,6 +768,7 @@
 	
 	<!--Config-->
 	<system:String x:Key="MS_CONFIG_MAIL">Email Settings</system:String>
+	<system:String x:Key="MS_CONFIG_MAIL_TIMEOUT_SECOND">(Second)</system:String>
 	
 	<system:String x:Key="MS_CONFIG_MAIL_BTN_SAVE">Save</system:String>
 	<system:String x:Key="MS_CONFIG_MAIL_BTN_DEL">Delete</system:String>
@@ -841,7 +842,7 @@
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SEL">Select</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">Save</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_DEL">Delete</system:String>
-	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">Initialize</system:String>
+	<system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">New</system:String>
 	<system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">Filter Apply</system:String>
 
 	
@@ -898,7 +899,7 @@
 	<system:String x:Key="MS_DB_VIEW_BTN_SEL">Select</system:String>
 	<system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">Save</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_DEL">Delete</system:String>
-	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">Initialize</system:String>
+	<system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">New</system:String>
 	<system:String x:Key="MS_DB_VIEW_BTN_TEST">Test Connection</system:String>
 	
 	<!--REPORT VIEW-->
@@ -911,18 +912,22 @@
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">Select</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">File</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEW">New</system:String>
-	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">Change</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">Edit</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_DEL">Delete</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">Previous</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">Next</system:String>
 	
 	<!--REPORT SETTING VIEW-->
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION">Report Session</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_COUNT">Session Count</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_SELECT">Select Session</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">Report Type</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">Individual</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">Collective</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">Report Layout</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">Portrait</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">Landscape</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_NAME">Report Name</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT">Element Layout</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_ROWHEIGHT">Row Height</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_SELCT_ELEMENT">Select Element</system:String>
@@ -931,6 +936,7 @@
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_TITLE">Title</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_HIDE_FIELD">Hide Field Name</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_COLLECTIVE_LIST">List</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LIST_COUNT">Displayed Pages</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_SAVE_BTN">Save</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_IMPORT_BTN">Import</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_EXPORT_BTN">Export</system:String>
@@ -946,7 +952,7 @@
 	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_STD_DEV">Standard Deviation</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MIN">Minimum Value</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MAX">Maximum Value</system:String>
-	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_NOMINAL">Design Value</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_NOMINAL">Nominal</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_USL">USL</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LSL">LSL</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_UPPER_LIMIT">Upper Allowance</system:String>
@@ -998,15 +1004,20 @@
 	<system:String x:Key="MS_MSG_PROCESS_DB_END">External database terminated</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF">Creating PDF</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">Creating PDF page</system:String>
-	
+	<system:String x:Key="MS_MSG_PROCESS_PDF_NO">Mail delivery is suspended because the PDF file is missing.</system:String>
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">Height cannot exceed 100 in total.</system:String>
 	
 <!--###############################################################################>
 [i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">i-TestPlanner</system:String>
-    <system:String x:Key="TP_CONFIG">i-TestPlanner Settings</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-Planner</system:String>
+    <system:String x:Key="TP_CONFIG">i-Planner Settings</system:String>
 	
+	<system:String x:Key="TP_CONFIG_PART_TP_STATUS">Part Status</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS">Characteristic Status</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_BACKGROUND">Background</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_FONT">Font</system:String>
+
 	<system:String x:Key="TP_MENU_TRANS_MENU">Transfer</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">Import</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_EXPORT">Export</system:String>
@@ -1014,12 +1025,29 @@
 	<system:String x:Key="TP_MENU_CUR_TIME">Current Time</system:String>
 	<system:String x:Key="TP_MENU_SYNC_TIME">Sync Time</system:String>
 	
+	<system:String x:Key="TP_EXPLORER_CONTEXT_SETTING">Settings</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">Export Part</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">Delete Part</system:String>
+	<system:String x:Key="TP_EXPLORER_CONTEXT_NEXT_STATUS">Change Status</system:String>
 	
 	<system:String x:Key="TP_IS_NEW">Type</system:String>
 	<system:String x:Key="TP_NEW">New</system:String>
 	<system:String x:Key="TP_EXIST">Imported</system:String>
+	<system:String x:Key="TP_EXPORTED">Export</system:String>
+	<system:String x:Key="TP_SYNC">Sync</system:String>
+
+	<system:String x:Key="TP_STATUS">Status</system:String>
+
+	<system:String x:Key="TP_STATUS_CREATED">Created</system:String>
+	<system:String x:Key="TP_STATUS_REVIEWED">Reviewed</system:String>
+	<system:String x:Key="TP_STATUS_CHECKED">Checked</system:String>
+	<system:String x:Key="TP_STATUS_APPROVED">Approved</system:String>
+
+	<system:String x:Key="TP_EDIT_TYPE">Edit Type</system:String>
+	<system:String x:Key="TP_EDIT_TYPE_EDIT">Edit</system:String>
+	<system:String x:Key="TP_EDIT_TYPE_SYNC">Sync</system:String>
+
+	<system:String x:Key="TP_MSG_EXPORT_STATUS_ERR">Some values to be exported have not been approved.</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1581,6 +1609,11 @@
 	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">Email Address</system:String>
 	<system:String x:Key="CONFIG_MAIL_TEST">Test Mail</system:String>
 	
+	<!--Report-->
+	<system:String x:Key="CONFIG_REPORT">Report</system:String>
+	<system:String x:Key="CONFIG_REPORT_USE_LOGO">Use Specific Logo</system:String>
+	<system:String x:Key="CONFIG_REPORT_LOGO_PATH">Logo Path</system:String>
+	
 	<!--Box Plot-->
 	<system:String x:Key="CONFIG_BOXPLOT">Box Plot</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT_CAL">Calculation</system:String>
@@ -1593,8 +1626,6 @@
     <!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">Graphic</system:String>
 
-
-	
     <!-- ==> exceution button -->
     <system:String x:Key="CONFIG_SAVE">Save settings</system:String>
 	<system:String x:Key="CONFIG_SAVE_ALL">Save All Settings</system:String>
@@ -1604,6 +1635,20 @@
     <system:String x:Key="CONFIG_EXE_FILE">Execute File Explorer</system:String>
     <system:String x:Key="CONFIG_EXE_EXIT">Program Exit</system:String>
 	<system:String x:Key="CONFIG_ISO">ISO Mode</system:String>
+	
+	<!-- Serial Port -->
+	<system:String x:Key="CONFIG_SERIALPORT_TITLE">Serial Port</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PORTNAME">Port Name</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_BAUDRATE">Baud Rate</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_HANDSHAKE">Handshake</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PARITY">Parity</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DATABITS">Data Bits</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_STOPBITS">Stop Bits</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READTIMEOUT">Read Timeout</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DTR">DTR Enable</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_RTS">RTS Enable</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READBUFFERSIZE">Read Buffer Size</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_NEWLINE">Newline Character</system:String>
 	
 	 <!-- Message Box -->
 

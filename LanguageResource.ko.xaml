@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-TestPlanner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-Planner</system:String>
  
 <!--###############################################################################>
  [Common]
@@ -910,19 +910,23 @@
 	
 	<system:String x:Key="MS_REPORT_VIEW_BTN_SEL">선택</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEW">신규</system:String>
-	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">변경</system:String>
+	<system:String x:Key="MS_REPORT_VIEW_BTN_MOD">편집</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_DEL">삭제</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_FILE">파일</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_PREV">이전</system:String>
 	<system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">다음</system:String>
 	
 	<!--REPORT SETTING VIEW-->
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION">보고서 세션</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_COUNT">세션 수</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_SELECT">세션 선택</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">보고서 형식</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">개별</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">모음</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">보고서 배치</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">세로</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">가로</system:String>
+	<system:String x:Key="MS_REPORT_SETTING_VIEW_NAME">보고서명</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT">요소 배치</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_ROWHEIGHT">행 높이</system:String>
 	<system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_SELCT_ELEMENT">요소 선택</system:String>
@@ -999,14 +1003,19 @@
 	<system:String x:Key="MS_MSG_PROCESS_DB_END">외부 데이터베이스 종료</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF">PDF 생성</system:String>
 	<system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">PDF 페이지 생성</system:String>
-	
+	<system:String x:Key="MS_MSG_PROCESS_PDF_NO">PDF 파일이 생성되지 않아 메일을 발송하지 않습니다.</system:String>
 	<system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">높이는 총 100을 넘을 수 없습니다.</system:String>
 	
 <!--###############################################################################>
 [i-Test Planner]
 #################################################################################-->
-	<system:String x:Key="TP_CONFIG_TITLE">i-TestPlanner</system:String>
-    <system:String x:Key="TP_CONFIG">i-TestPlanner 설정</system:String>
+	<system:String x:Key="TP_CONFIG_TITLE">i-Planner</system:String>
+    <system:String x:Key="TP_CONFIG">i-Planner 설정</system:String>
+	
+	<system:String x:Key="TP_CONFIG_PART_TP_STATUS">파트 상태</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS">측정항목 상태</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_BACKGROUND">배경</system:String>
+	<system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_FONT">폰트</system:String>
 	
 	<system:String x:Key="TP_MENU_TRANS_MENU">전송</system:String>
 	<system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">가져오기</system:String>
@@ -1015,12 +1024,29 @@
 	<system:String x:Key="TP_MENU_CUR_TIME">현재 시간</system:String>
 	<system:String x:Key="TP_MENU_SYNC_TIME">동기화 시간</system:String>
 	
+	<system:String x:Key="TP_EXPLORER_CONTEXT_SETTING">설정</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">파트 내보내기</system:String>
 	<system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">파트 삭제</system:String>
-	
+	<system:String x:Key="TP_EXPLORER_CONTEXT_NEXT_STATUS">상태 이동</system:String>
+
 	<system:String x:Key="TP_IS_NEW">구분</system:String>
 	<system:String x:Key="TP_NEW">신규</system:String>
-	<system:String x:Key="TP_EXIST">기존</system:String>
+	<system:String x:Key="TP_EXIST">임포트</system:String>
+	<system:String x:Key="TP_EXPORTED">익스포트</system:String>
+	<system:String x:Key="TP_SYNC">동기화</system:String>
+	
+	<system:String x:Key="TP_STATUS">상태</system:String>
+	
+	<system:String x:Key="TP_STATUS_CREATED">생성</system:String>
+	<system:String x:Key="TP_STATUS_REVIEWED">리뷰</system:String>
+	<system:String x:Key="TP_STATUS_CHECKED">체크</system:String>
+	<system:String x:Key="TP_STATUS_APPROVED">승인</system:String>
+	
+	<system:String x:Key="TP_EDIT_TYPE">변경구분</system:String>
+	<system:String x:Key="TP_EDIT_TYPE_EDIT">변경</system:String>
+	<system:String x:Key="TP_EDIT_TYPE_SYNC">동기화</system:String>
+	
+	<system:String x:Key="TP_MSG_EXPORT_STATUS_ERR">내보낼 값 중에 승인되지 않은 값이 있습니다.</system:String>
 
 <!--###############################################################################>
 [Q/i-Collector Server]
@@ -1571,6 +1597,12 @@
 	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">메일주소</system:String>
 	<system:String x:Key="CONFIG_MAIL_TEST">메일 테스트</system:String>
 	
+	<!--Report-->
+	<system:String x:Key="CONFIG_REPORT">레포트</system:String>
+	<system:String x:Key="CONFIG_REPORT_USE_LOGO">특정 로고 사용</system:String>
+	<system:String x:Key="CONFIG_REPORT_LOGO_PATH">로고 경로</system:String>
+	<system:String x:Key="CONFIG_REPORT_LOGO_SELECT">로고 파일 선택</system:String>
+	
 	<!--Box Plot-->
 	<system:String x:Key="CONFIG_BOXPLOT">박스 플롯</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT_CAL">계산</system:String>
@@ -1592,6 +1624,20 @@
     <system:String x:Key="CONFIG_EXE_FILE">파일창 실행</system:String>
     <system:String x:Key="CONFIG_EXE_EXIT">프로그램 종료</system:String>
 	<system:String x:Key="CONFIG_ISO">ISO 모드</system:String>
+	
+	<!-- Serial Port -->
+	<system:String x:Key="CONFIG_SERIALPORT_TITLE">시리얼포트</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PORTNAME">포트명</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_BAUDRATE">보드레이트</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_HANDSHAKE">흐름제어</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PARITY">패리티</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DATABITS">데이터 비트</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_STOPBITS">스톱 비트</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READTIMEOUT">타임아웃</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DTR">DTR 적용</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_RTS">RTS 적용</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READBUFFERSIZE">버퍼 사이즈</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_NEWLINE">개행문자</system:String>
 
 
 <!--###############################################################################>
