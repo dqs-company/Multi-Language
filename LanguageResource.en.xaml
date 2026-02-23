@@ -262,11 +262,11 @@
 	<system:String x:Key="URL">URL</system:String>		
 	<system:String x:Key="LRL">LRL</system:String>		
  
-
+	<system:String x:Key="RANGE">Range</system:String>
 	<system:String x:Key="STANDARD_DEVIATION">Standard Deviation</system:String>			 
 	<system:String x:Key="MINIMUM">Minimum</system:String>		
-	<system:String x:Key="MAXIMUM">Maximum</system:String>		
-	
+	<system:String x:Key="MAXIMUM">Maximum</system:String>	
+
 	<system:String x:Key="COLOR">Color</system:String>		
 	<system:String x:Key="TEXT_COLOR">Text Color</system:String>		
 	<system:String x:Key="LINE">Line</system:String>		
@@ -791,6 +791,7 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">Delete Job</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_SEND">Send Mail</system:String>
 
+	<system:String x:Key="MS_JOB_LIST_NAME">Job Name</system:String>
 	<system:String x:Key="MS_JOB_LIST_DB">Database</system:String>
 	<system:String x:Key="MS_JOB_LIST_FILTER">Filter</system:String>
 	<system:String x:Key="MS_JOB_LIST_REPORT">Report</system:String>
@@ -1419,6 +1420,21 @@
 	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_3">Exclude NULL Subgroup</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">Average Line Thick</system:String>
 	
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD">QCC Calculation Method</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_NORMAL">Normal</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_TV">Extended limit (TV)</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_ANOVA">Extended limit (ANOVA)</system:String>	
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_EMPIRICAL">Quantile Empirical</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_NORMAL">Quantile Normal</system:String>
+
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP">Incomplete Subgroup Handling</system:String>
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_CAL">Include Subgroup</system:String>
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_DEL">Exclude Subgroup</system:String>
+
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE">Variation Chart Type</system:String>
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_RANGE">Range</system:String>
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_STD">Standard Deviation</system:String>
+	
     <!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense Configuration</system:String>
 	
@@ -1637,6 +1653,7 @@
 	<system:String x:Key="CONFIG_ISO">ISO Mode</system:String>
 	
 	<!-- Serial Port -->
+	<system:String x:Key="CONFIG_SERIALPORT">Serial Port Configuration</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_TITLE">Serial Port</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_PORTNAME">Port Name</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_BAUDRATE">Baud Rate</system:String>
@@ -1744,6 +1761,7 @@
     <system:String x:Key="QCC_USEER_MODE">QCC User Mode</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_TYPE">Subgroup Type</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_SIZE">Subgroup Size</system:String>
+	<system:String x:Key="QCC_SUB_GROUP_DEFAULT">Default Subgroup Override</system:String>
 
 
     <system:String x:Key="POSITIONAL_TOLERANCE">2D Positional Tolerance</system:String>

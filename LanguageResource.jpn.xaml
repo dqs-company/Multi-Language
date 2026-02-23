@@ -262,9 +262,12 @@
 	<system:String x:Key="LACL">LAcl</system:String>		
 	<system:String x:Key="URL">URL</system:String>		
 	<system:String x:Key="LRL">LRL</system:String>
+	
+	<system:String x:Key="RANGE">範囲</system:String>
 	<system:String x:Key="STANDARD_DEVIATION">標準偏差</system:String>			 
 	<system:String x:Key="MINIMUM">最小値</system:String>		
-	<system:String x:Key="MAXIMUM">最大値</system:String>			
+	<system:String x:Key="MAXIMUM">最大値</system:String>	
+
 	<system:String x:Key="COLOR">色</system:String>		
 	<system:String x:Key="TEXT_COLOR">テキストの色</system:String>	
 	<system:String x:Key="LINE">ライン</system:String>		
@@ -781,7 +784,8 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">ジョブ修正</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">ジョブ削除</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_SEND">メールを送信</system:String>
-
+	
+	<system:String x:Key="MS_JOB_LIST_NAME">ジョブ名</system:String>
 	<system:String x:Key="MS_JOB_LIST_DB">データベース</system:String>
 	<system:String x:Key="MS_JOB_LIST_FILTER">フィルター</system:String>
 	<system:String x:Key="MS_JOB_LIST_REPORT">レポート</system:String>
@@ -1418,6 +1422,21 @@
 	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_3">Null サブグループを含まない</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">平均線の線の太さ</system:String>
 	
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD">QCC計算方法</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_NORMAL">Normal</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_TV">Extended limit (TV)</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_ANOVA">Extended limit (ANOVA)</system:String>	
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_EMPIRICAL">Quantile Empirical</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_NORMAL">Quantile Normal</system:String>
+
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP">未完了サブグループの処理方法</system:String>
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_CAL">未完了サブグループを計算</system:String>
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_DEL">未完了サブグループを削除</system:String>
+
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE">バリエーションチャートタイプ</system:String>
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_RANGE">Range</system:String>
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_STD">Standard Deviation</system:String>
+	
 	<!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense 構成</system:String>
 
@@ -1636,6 +1655,7 @@
 	<system:String x:Key="CONFIG_ISO">ISOモード</system:String>
 	
 	<!-- Serial Port -->
+	<system:String x:Key="CONFIG_SERIALPORT">シリアルポート設定</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_TITLE">シリアルポート</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_PORTNAME">ポート名</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_BAUDRATE">ボーレート</system:String>
@@ -1729,6 +1749,7 @@
 	<system:String x:Key="QCC_USEER_MODE">管理図ユーザーモード</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_TYPE">管理図-サブグループタイプ</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_SIZE">管理図-サブグループのサイズ</system:String>
+	<system:String x:Key="QCC_SUB_GROUP_DEFAULT">デフォルトサブグループの優先適用</system:String>
     
 	<system:String x:Key="POSITIONAL_TOLERANCE">位置度</system:String>
     <system:String x:Key="CP_CPK">Cp/Cpk</system:String>

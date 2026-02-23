@@ -263,11 +263,11 @@
 	<system:String x:Key="URL">URL</system:String>		
 	<system:String x:Key="LRL">LRL</system:String>		
  
- 
+	<system:String x:Key="RANGE">범위</system:String>
 	<system:String x:Key="STANDARD_DEVIATION">표준편차</system:String>			 
 	<system:String x:Key="MINIMUM">최소값</system:String>		
-	<system:String x:Key="MAXIMUM">최대값</system:String>		
-	
+	<system:String x:Key="MAXIMUM">최대값</system:String>
+
 	<system:String x:Key="COLOR">색상</system:String>		
 	<system:String x:Key="TEXT_COLOR">텍스트 색상</system:String>	
 	<system:String x:Key="LINE">라인</system:String>		
@@ -375,7 +375,15 @@
 	<system:String x:Key="PRINTING">프린트 중...</system:String>
     <system:String x:Key="PRINT">프린트</system:String>
 	
-
+	<!--Serial Port-->
+	<system:String x:Key="SP_PORT_NAME">포트명</system:String>
+	<system:String x:Key="SP_BAUDRATE">보트 레이트</system:String>
+	<system:String x:Key="SP_DATABITS">데이터 비트</system:String>
+	<system:String x:Key="SP_STOPBITS">스톱 비트</system:String>
+	<system:String x:Key="SP_PARITY">패리티</system:String>
+	<system:String x:Key="SP_PORT_MODEL">모델</system:String>
+	<system:String x:Key="SP_CHANNEL">채널</system:String>
+	<system:String x:Key="SP_TAKEOVER">테이크오버</system:String>
 
 <!--###############################################################################>
  [Data Field]
@@ -790,6 +798,7 @@
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">잡 삭제</system:String>
 	<system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_SEND">메일 보내기</system:String>
 	
+	<system:String x:Key="MS_JOB_LIST_NAME">잡 이름</system:String>
 	<system:String x:Key="MS_JOB_LIST_DB">데이터베이스</system:String>
 	<system:String x:Key="MS_JOB_LIST_FILTER">필터</system:String>
 	<system:String x:Key="MS_JOB_LIST_REPORT">보고서</system:String>
@@ -1410,6 +1419,22 @@
 	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_2">NULL 미포함</system:String>
 	<system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_3">NULL 서브그룹 미포함</system:String>
 	<system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">평균 라인 선 굵기</system:String>
+	
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD">QCC 계산 방법</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_NORMAL">Normal</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_TV">Extended limit(TV)</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_ANOVA">Extended limit(ANOVA)</system:String>	
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_EMPIRICAL">Quantile Empirical</system:String>
+	<system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_NORMAL">Quantile Normal</system:String>
+	
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP">미완성 서브그룹 처리 방법</system:String>
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_CAL">미완성 서브그룹 계산</system:String>
+	<system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_DEL">미완성 서브그룹 삭제</system:String>
+	
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE">바리에이션 차트 타입</system:String>
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_RANGE">Range</system:String>
+	<system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_STD">Standard Deviation</system:String>
+	
 	<!-- ==>Q/i-Sense -->
     <system:String x:Key="SENSE_CONFIG">i-Sense 설정</system:String>
 
@@ -1430,7 +1455,6 @@
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">최신 파트</system:String>	
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">데이터베이스 측정값 로드 수 제한</system:String>
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">최신 벨류</system:String>	
-	
 	
 	<!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_ADDRESS">서버 주소</system:String>
@@ -1626,6 +1650,7 @@
 	<system:String x:Key="CONFIG_ISO">ISO 모드</system:String>
 	
 	<!-- Serial Port -->
+	<system:String x:Key="CONFIG_SERIALPORT">시리얼포트 설정</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_TITLE">시리얼포트</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_PORTNAME">포트명</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_BAUDRATE">보드레이트</system:String>
@@ -1720,6 +1745,7 @@
 	<system:String x:Key="QCC_USEER_MODE">QCC 유저 모드</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_TYPE">QCC-서브그룹 타입</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_SIZE">QCC-서브그룹 사이즈</system:String>
+	<system:String x:Key="QCC_SUB_GROUP_DEFAULT">디폴트 서브그룹 우선적용</system:String>
 	
     <system:String x:Key="POSITIONAL_TOLERANCE">2D 위치도</system:String>
     <system:String x:Key="CP_CPK">Cp/Cpk</system:String>
@@ -1948,4 +1974,7 @@
 	<system:String x:Key="MSG_EXTERNAL_DB_CON_ERR">외부 DB 연결 정보가 없습니다.</system:String>
 	<system:String x:Key="MSG_SYNC_OK">동기화 성공</system:String>
 	<system:String x:Key="MSG_SYNC_ERR">동기화 실패</system:String>
+	
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_SUCCESS">시리얼 포트 연결 성공</system:String>
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_FAIL">시리얼 포트 연결 실패</system:String>
 </ResourceDictionary>
