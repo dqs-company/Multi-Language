@@ -56,6 +56,7 @@
 	<system:String x:Key="SAVING">保存中...</system:String>
 	<system:String x:Key="LOAD">ロード</system:String>
     <system:String x:Key="LOADING">ロード中...</system:String>
+	<system:String x:Key="API_LOADING">APIロード中...</system:String>
     <system:String x:Key="START">開始</system:String>
     <system:String x:Key="STARTING">起動中・・・</system:String>
     <system:String x:Key="STOP">停止</system:String>

@@ -57,6 +57,7 @@
 	<system:String x:Key="SAVING">저장중...</system:String>
 	<system:String x:Key="LOAD">불러오기</system:String>
 	<system:String x:Key="LOADING">불러오기중...</system:String>
+	<system:String x:Key="API_LOADING">API 불러오기중...</system:String>
     <system:String x:Key="START">시작</system:String>
     <system:String x:Key="STARTING">시작 중...</system:String>
     <system:String x:Key="STOP">중지</system:String>
