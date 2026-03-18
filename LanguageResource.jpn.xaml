@@ -209,7 +209,16 @@
 	<system:String x:Key="CPK_DESC">工程能力指数(Cpk)</system:String>
 	<system:String x:Key="OUT_OF_TOL">公差外</system:String>	
 	<system:String x:Key="TOL_VIOLATION">公差違反</system:String>
+	
 	<system:String x:Key="DISTRIBUTION">分布</system:String>
+	<system:String x:Key="NORMAL_DISTRIBUTION">正規分布</system:String>
+	<system:String x:Key="LOG_NORMAL_DISTRIBUTION">対数正規分布</system:String>
+	<system:String x:Key="FOLDED_NORMAL_DISTRIBUTION">折りたたみ正規分布</system:String>
+	<system:String x:Key="WEIBULL_DISTRIBUTION">ワイブル分布</system:String>
+	<system:String x:Key="RAYLEIGH_DISTRIBUTION">レイリー分布</system:String>
+	<system:String x:Key="MIXTURE_DISTRIBUTION">混合分布</system:String>
+	<system:String x:Key="JOHNSON_DISTRIBUTION">ジョンソン分布</system:String>
+	
 	<system:String x:Key="TREND">トレンド</system:String>	
 	<system:String x:Key="TARGET">対象</system:String>	
 	<system:String x:Key="MODIFICATION">変更</system:String>	
@@ -1669,6 +1678,26 @@
 	<system:String x:Key="CONFIG_SERIALPORT_RTS">RTS 有効化</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_READBUFFERSIZE">バッファサイズ</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_NEWLINE">改行コード</system:String>
+	
+	<!-- Server -->
+	<system:String x:Key="CONFIG_SERVER">サーバー設定</system:String>
+	<system:String x:Key="CONFIG_SERVER_URL">URL</system:String>
+	<system:String x:Key="CONFIG_SERVER_ID">ID</system:String>
+	<system:String x:Key="CONFIG_SERVER_FETCH">フェッチ</system:String>
+	
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO">評価方法</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_SHORT_TERM">短期</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_LONG_TERM">長期</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_CLASS">クラス</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_DEFAULT">デフォルト</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_DESCRIPTION">説明</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_PROCESSCAPABILITY">潜在工程能力指数</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_CENTEREDPROCESSCAPABILITY">限界工程能力指数</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_POSITIONALPROCESSCAPABILITY">位置度の潜在工程能力指数</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_POSITIONALCENTEREDPROCESSCAPABILITY">位置度の限界工程能力指数</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_OVERALL">全般的な要件</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">警戒限界超過</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">公差違反</system:String>
 
 <!--###############################################################################>
 [Database Load]

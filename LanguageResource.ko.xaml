@@ -210,7 +210,16 @@
 	<system:String x:Key="CPK_DESC">공정능력지수(Cpk)</system:String>	
 	<system:String x:Key="OUT_OF_TOL">공차아웃</system:String>	
 	<system:String x:Key="TOL_VIOLATION">공차위반</system:String>
+	
 	<system:String x:Key="DISTRIBUTION">분포</system:String>
+	<system:String x:Key="NORMAL_DISTRIBUTION">정규 분포</system:String>
+	<system:String x:Key="LOG_NORMAL_DISTRIBUTION">로그 정규 분포</system:String>
+	<system:String x:Key="FOLDED_NORMAL_DISTRIBUTION">폴디드 정규 분포</system:String>
+	<system:String x:Key="WEIBULL_DISTRIBUTION">와이블 분포</system:String>
+	<system:String x:Key="RAYLEIGH_DISTRIBUTION">레이리 분포</system:String>
+	<system:String x:Key="MIXTURE_DISTRIBUTION">혼합 분포</system:String>
+	<system:String x:Key="JOHNSON_DISTRIBUTION">존슨 분포</system:String>
+	
 	<system:String x:Key="TREND">경향/추세</system:String>	
 	<system:String x:Key="TARGET">대상</system:String>	
 	<system:String x:Key="MODIFICATION">수정</system:String>	
@@ -1664,7 +1673,26 @@
 	<system:String x:Key="CONFIG_SERIALPORT_RTS">RTS 적용</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_READBUFFERSIZE">버퍼 사이즈</system:String>
 	<system:String x:Key="CONFIG_SERIALPORT_NEWLINE">개행문자</system:String>
-
+	
+	<!-- Server -->
+	<system:String x:Key="CONFIG_SERVER">서버 설정</system:String>
+	<system:String x:Key="CONFIG_SERVER_URL">URL</system:String>
+	<system:String x:Key="CONFIG_SERVER_ID">ID</system:String>
+	<system:String x:Key="CONFIG_SERVER_FETCH">패치</system:String>
+	
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO">평가 정보</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_SHORT_TERM">단기</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_LONG_TERM">장기</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_CLASS">클래스</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_DEFAULT">기본값</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_DESCRIPTION">설명</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_PROCESSCAPABILITY">공정능력지수</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_CENTEREDPROCESSCAPABILITY">중심화 공정능력지수</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_POSITIONALPROCESSCAPABILITY">위치 공정능력지수</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_POSITIONALCENTEREDPROCESSCAPABILITY">위치 중심화 공정능력지수</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_OVERALL">전체 요구사항</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">경고 한계 초과</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">공차 위반</system:String>
 
 <!--###############################################################################>
 [Database Load]
