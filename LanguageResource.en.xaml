@@ -149,6 +149,8 @@
     <system:String x:Key="ENGLISH">English</system:String>
     <system:String x:Key="JAPANESE">Japanese</system:String>
     <system:String x:Key="TAIWAN">ZH-TW</system:String>
+	<system:String x:Key="GERMAN">German</system:String>
+    <system:String x:Key="SPANISH">Spanish</system:String>
 
 	<system:String x:Key="ADDITIONAL_DATA">Additional data</system:String>
     <system:String x:Key="NONE">None</system:String>
@@ -1137,6 +1139,8 @@
     <system:String x:Key="CC_MENU_LANGUAGE_KO">Korean</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_ENG">English</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_JPN">Japanese</system:String>
+	<system:String x:Key="CC_MENU_LANGUAGE_DEU">German</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_SPA">Spanish</system:String>
  
     <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">Upload&#x0d;&#x0a;information</system:String>
     <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">Current&#x0d;&#x0a;information</system:String>
@@ -1299,6 +1303,7 @@
    <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">Max values</system:String>
    
    <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">File Save Path</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_EXTENSION">File Save Extension</system:String>
    <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">File Save Timing</system:String>
    <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">Enable OutofTol Popup</system:String>
    <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">Additonal Popup</system:String>
@@ -1818,7 +1823,7 @@
  
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">Number range</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">Value range</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_APPLY">Range Apply</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_APPLY">Apply</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">Line Thickness</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">Value Sub Group</system:String>
@@ -1897,6 +1902,24 @@
 		
 	<system:String x:Key="PREDICTION_VALUE">Prediction Value</system:String>	
 	
+<!--###############################################################################>
+[Qcc Log]
+#################################################################################-->	
+
+	<system:String x:Key="QCC_LOG_FIELD_PART_ID">Part ID</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_CHAR_ID">Characteristic ID</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VALUE_ID">Value ID</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_DATE">Occurrence Date</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">Location Error</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">Variation Error</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">Warning Percentage</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">Natural Tolerance %</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">Lower Natural Boundary</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_UPPER_BOUNDARY">Upper Natural Boundary</system:String>
+    
+    <system:String x:Key="QCC_LOG_GOOD">Normal</system:String>
+    <system:String x:Key="QCC_LOG_BAD">Error</system:String>
+	
 
 <!--###############################################################################>
 [Message]
@@ -1907,6 +1930,7 @@
 	
 	<system:String x:Key="MSG_CHANGE">Change settings?</system:String>
 	
+	<system:String x:Key="MSG_SAVE_CHK">Do you want to save?</system:String>
     <system:String x:Key="MSG_SAVE_OK">Save complete</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">Save fail</system:String>
 	

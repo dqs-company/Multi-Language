@@ -152,6 +152,8 @@
     <system:String x:Key="ENGLISH">英語</system:String>
     <system:String x:Key="JAPANESE">日本語</system:String>
     <system:String x:Key="TAIWAN">ZH-TW</system:String>
+	<system:String x:Key="GERMAN">ドイツ語</system:String>
+    <system:String x:Key="SPANISH">スペイン語</system:String>
 
 	<system:String x:Key="ADDITIONAL_DATA">付帯データ</system:String>
     <system:String x:Key="NONE">なし</system:String>
@@ -387,7 +389,7 @@
     <system:String x:Key="PRINTER_STATUS_READY">プリンターの準備ができました。</system:String>
 	<system:String x:Key="PRINTING">印刷中...</system:String>
     <system:String x:Key="PRINT">印刷...</system:String>
-	
+
 
 <!--###############################################################################>
  [Data Field]
@@ -1131,6 +1133,8 @@
 	<system:String x:Key="CC_MENU_LANGUAGE_KO">韓国語</system:String>
 	<system:String x:Key="CC_MENU_LANGUAGE_ENG">英語</system:String>
 	<system:String x:Key="CC_MENU_LANGUAGE_JPN">日本語</system:String>
+	<system:String x:Key="CC_MENU_LANGUAGE_DEU">ドイツ語</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_SPA">スペイン語</system:String>
 
     <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">アップロード情報</system:String>
     <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">ステータス</system:String>
@@ -1182,11 +1186,11 @@
 	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">数値の数</system:String>
 
 	
-    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">モニタリングの開始</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_STOP">モニタリングの停止</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">モニタリングの&#xA;開始</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_STOP">モニタリングの&#xA;停止</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_DATA_ACCEPT">データ承認</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_DATA_CANCEL">データキャンセル</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_DATA_ACCEPT">データ&#xA;承認</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_DATA_CANCEL">データ&#xA;キャンセル</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">データ&#xA;一括承認</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">サマリ</system:String>
@@ -1298,6 +1302,7 @@
    
    
    <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">ファイル保存パス</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_EXTENSION">ファイル保存拡張子</system:String>
    <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">ファイル保存タイミング</system:String>
    <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">公差外ポップアップを有効化</system:String>
    <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">追加ポップアップ</system:String>
@@ -1884,7 +1889,23 @@
 	
 	<system:String x:Key="PREDICTION_VALUE">予測値</system:String>	
 	
+<!--###############################################################################>
+[Qcc Log]
+#################################################################################-->	
 	
+	<system:String x:Key="QCC_LOG_FIELD_PART_ID">パーツ番号</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_CHAR_ID">測定項目番号</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VALUE_ID">測定値番号</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_DATE">発生日時</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">ロケーションエラー</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">バリエーションエラー</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">警告パーセント</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">自然公差パーセント</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">下部自然公差</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_UPPER_BOUNDARY">上部自然公差</system:String>
+    
+    <system:String x:Key="QCC_LOG_GOOD">正常</system:String>
+    <system:String x:Key="QCC_LOG_BAD">エラー</system:String>
 	
 	
 <!--###############################################################################>
@@ -1896,6 +1917,7 @@
 	
 	<system:String x:Key="MSG_CHANGE">変更しますか？</system:String>
 	
+	<system:String x:Key="MSG_SAVE_CHK">保存しますか？</system:String>
     <system:String x:Key="MSG_SAVE_OK">保存OK</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">保存失敗</system:String>
 	

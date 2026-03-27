@@ -141,13 +141,13 @@
 	<system:String x:Key="LAYOUT">n x n Layout</system:String>
 	<system:String x:Key="PAGE_LEVEL">Seitenebene</system:String>
 	
-	
-	
     <system:String x:Key="LANGUAGE">Sprache</system:String>
     <system:String x:Key="KOREAN">Koreanisch</system:String>
     <system:String x:Key="ENGLISH">Englisch</system:String>
     <system:String x:Key="JAPANESE">Japanisch</system:String>
     <system:String x:Key="TAIWAN">ZH-TW</system:String>
+	<system:String x:Key="GERMAN">Deutsch</system:String>
+    <system:String x:Key="SPANISH">Spanisch</system:String>
 
     <system:String x:Key="ADDITIONAL_DATA">Zusätzliche Daten</system:String>
     <system:String x:Key="NONE">Keine</system:String>
@@ -1115,6 +1115,8 @@
     <system:String x:Key="CC_MENU_LANGUAGE_KO">Koreanisch</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_ENG">Englisch</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_JPN">Japanisch</system:String>
+	<system:String x:Key="CC_MENU_LANGUAGE_DEU">Deutsch</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_SPA">Spanisch</system:String>
  
     <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">Upload-&#x0d;&#x0a;Informationen</system:String>
     <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">Aktuelle&#x0d;&#x0a;Informationen</system:String>
@@ -1169,8 +1171,8 @@
     <system:String x:Key="SENSE_MAIN_MENU_DATA_CANCEL">Daten abbrechen</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">Mehrfach-&#xA;annahme</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">Zusammenfassungs-&#xA;liste</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">Zusammenfassungs-&#xA;wert</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">Zsf.-&#xA;liste</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">Zsf.-&#xA;wert</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">Werte-&#xA;liste</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_HISTOGRAM_CHART">Histogramm-&#xA;Diagramm</system:String>
@@ -1257,6 +1259,7 @@
     <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">Maximalwerte</system:String>
     
     <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">Dateispeicherpfad</system:String>
+	<system:String x:Key="RC_PLAN_FILE_SAVE_EXTENSION">Dateispeicherung-Erweiterung</system:String>
     <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">Zeitpunkt der Dateispeicherung</system:String>
     <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">Out-of-Tol-Popup aktivieren</system:String>
     <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">Zusätzliches Popup</system:String>
@@ -1681,7 +1684,7 @@
     <system:String x:Key="DATABASE_VALUE_DEL">Wert löschen.</system:String>
 
     <system:String x:Key="DATABASE_VALUE_DELETE">Wert löschen</system:String>
-    <system:String x:Key="DATABASE_CONNECTION">Datenbankverbindung</system:String>
+    <system:String x:Key="DATABASE_CONNECTION">Datenbank&#xA;verbindung</system:String>
 
     <system:String x:Key="DATABASE_CELL_POS_COPY_TITLE">Zelleninformationen kopieren</system:String>
 
@@ -1698,7 +1701,7 @@
 <!--###############################################################################>
 [Value List]
 #################################################################################-->
-    <system:String x:Key="VALUE_COUNT">Werteliste</system:String>
+    <system:String x:Key="VALUE_LIST">Werteliste</system:String>
     <system:String x:Key="VALUE_COUNT">Anzahl der Werte</system:String>
 	
 	
@@ -1756,7 +1759,7 @@
     <system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">Linienstärke</system:String>
     
     <system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">Werte-Untergruppe</system:String>
-    <system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">Untergr. anwenden</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">anwenden</system:String>
     
     <system:String x:Key="VALUE_CHART_SIDE_OUT_TORELENCE">Außerhalb der Toleranz</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_DEVIATION">Abweichung anwenden</system:String>
@@ -1825,6 +1828,24 @@
     <system:String x:Key="LINEAR_REGRESSION">Lineare Regression</system:String>	
         
     <system:String x:Key="PREDICTION_VALUE">Vorhersagewert</system:String>
+	
+<!--###############################################################################>
+[Qcc Log]
+#################################################################################-->	
+
+	<system:String x:Key="QCC_LOG_FIELD_PART_ID">Teilenummer</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_CHAR_ID">Merkmalsnummer</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VALUE_ID">Messwertnummer</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_DATE">Datum</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">Lagefehler</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">Variationsfehler</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">Warnungsprozentsatz</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">Natürliche Toleranz %</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">Untere natürliche Grenze</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_UPPER_BOUNDARY">Obere natürliche Grenze</system:String>
+    
+    <system:String x:Key="QCC_LOG_GOOD">Normal</system:String>
+    <system:String x:Key="QCC_LOG_BAD">Fehler</system:String>
 
 <!--###############################################################################>
 [Message]
@@ -1835,6 +1856,7 @@
 	
     <system:String x:Key="MSG_CHANGE">Einstellungen ändern?</system:String>
 	
+	<system:String x:Key="MSG_SAVE_CHK">Möchten Sie speichern?</system:String>
     <system:String x:Key="MSG_SAVE_OK">Speichern abgeschlossen</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">Speichern fehlgeschlagen</system:String>
 	
