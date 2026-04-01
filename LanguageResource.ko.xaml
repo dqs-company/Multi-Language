@@ -1889,7 +1889,12 @@
 	<system:String x:Key="QCC_LOG_FIELD_VALUE_ID">측정값 번호</system:String>	
 	<system:String x:Key="QCC_LOG_FIELD_DATE">발생일자</system:String>	
 	<system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">로케이션 에러</system:String>	
-	<system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">바리에이션 에러</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">바리에이션 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_TOLERANCE_ERR">공차위반 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_SCRAP_ERR">스크랩 한계 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_ACCEPTANCE_ERR">허용 한계 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_ERR">경고 한계 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_NATURAL_BOUNDARY_ERR">자연공차 에러</system:String>
 	<system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">경고 퍼센트</system:String>	
 	<system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">자연공차 퍼센트</system:String>	
 	<system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">하한 자연공차</system:String>	

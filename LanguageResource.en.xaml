@@ -1912,6 +1912,11 @@
     <system:String x:Key="QCC_LOG_FIELD_DATE">Occurrence Date</system:String>
     <system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">Location Error</system:String>
     <system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">Variation Error</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_TOLERANCE_ERR">Tolerance Violation Error</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_SCRAP_ERR">Scrap Limit Violation Error</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_ACCEPTANCE_ERR">Acceptance Limit Violation Error</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_ERR">Warning Limit Error</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_NATURAL_BOUNDARY_ERR">Natural Boundary Error</system:String>
     <system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">Warning Percentage</system:String>
     <system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">Natural Tolerance %</system:String>
     <system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">Lower Natural Boundary</system:String>
@@ -1920,6 +1925,8 @@
     <system:String x:Key="QCC_LOG_GOOD">Normal</system:String>
     <system:String x:Key="QCC_LOG_BAD">Error</system:String>
 	
+	<system:String x:Key="QCC_LOG_ENABLE">Enabled</system:String>
+	<system:String x:Key="QCC_LOG_DISENABLE">Disabled</system:String>
 
 <!--###############################################################################>
 [Message]

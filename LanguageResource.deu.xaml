@@ -1839,6 +1839,11 @@
     <system:String x:Key="QCC_LOG_FIELD_DATE">Datum</system:String>
     <system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">Lagefehler</system:String>
     <system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">Variationsfehler</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_TOLERANCE_ERR">Toleranzüberschreitungsfehler</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_SCRAP_ERR">Ausschussgrenzfehler</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_ACCEPTANCE_ERR">Annahmegrenzfehler</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_ERR">Warngrenzfehler</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_NATURAL_BOUNDARY_ERR">Fehler der natürlichen Grenze</system:String>
     <system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">Warnungsprozentsatz</system:String>
     <system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">Natürliche Toleranz %</system:String>
     <system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">Untere natürliche Grenze</system:String>
@@ -1846,6 +1851,9 @@
     
     <system:String x:Key="QCC_LOG_GOOD">Normal</system:String>
     <system:String x:Key="QCC_LOG_BAD">Fehler</system:String>
+	
+	<system:String x:Key="QCC_LOG_ENABLE">Aktiviert</system:String>
+	<system:String x:Key="QCC_LOG_DISENABLE">Deaktiviert</system:String>
 
 <!--###############################################################################>
 [Message]

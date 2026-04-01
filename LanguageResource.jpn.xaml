@@ -1899,6 +1899,11 @@
     <system:String x:Key="QCC_LOG_FIELD_DATE">発生日時</system:String>
     <system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">ロケーションエラー</system:String>
     <system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">バリエーションエラー</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_TOLERANCE_ERR">公差外れエラー</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_SCRAP_ERR">廃棄限界エラー</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_ACCEPTANCE_ERR">合格限界エラー</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_ERR">警告限界エラー</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_NATURAL_BOUNDARY_ERR">自然境界エラー</system:String>
     <system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">警告パーセント</system:String>
     <system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">自然公差パーセント</system:String>
     <system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">下部自然公差</system:String>
@@ -1907,6 +1912,8 @@
     <system:String x:Key="QCC_LOG_GOOD">正常</system:String>
     <system:String x:Key="QCC_LOG_BAD">エラー</system:String>
 	
+	<system:String x:Key="QCC_LOG_ENABLE">適用</system:String>
+	<system:String x:Key="QCC_LOG_DISENABLE">未適用</system:String>
 	
 <!--###############################################################################>
 [Message]
