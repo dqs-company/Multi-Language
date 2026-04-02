@@ -201,6 +201,7 @@
 	
 	<system:String x:Key="RESULT">Result</system:String>
 	<system:String x:Key="DEVIATION">Deviation</system:String>	
+	<system:String x:Key="DEVIATION_VALUE">Deviation Value</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">Process Capability Index (Cp)</system:String>
@@ -1656,6 +1657,10 @@
 
     <!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">Graphic</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_TITLE">General</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL">General Settings</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_PART_TITLE">Part Title</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_CHAR_TITLE">Characteristic Title</system:String>
 
     <!-- ==> exceution button -->
     <system:String x:Key="CONFIG_SAVE">Save settings</system:String>
