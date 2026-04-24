@@ -2010,4 +2010,121 @@
 	<system:String x:Key="MSG_SYNC_OK">同期成功</system:String>
 	<system:String x:Key="MSG_SYNC_ERR">同期失敗</system:String>
 	
+	
+	
+<!--###############################################################################
+[i-AlertMgr]
+#################################################################################-->
+	<system:String x:Key="AM_APP_TITLE">i-AlertMgr</system:String>
+	<system:String x:Key="AM_MENU_EXTRACTION_GROUP">抽出</system:String>
+	<system:String x:Key="AM_MENU_SETTINGS_GROUP">設定</system:String>
+	<system:String x:Key="AM_TAB_STATUS">状態</system:String>
+	<system:String x:Key="AM_TAB_LOG">ログ</system:String>
+	<system:String x:Key="AM_STATUS_LICENSE">ライセンス</system:String>
+	<system:String x:Key="AM_STATUS_DATETIME">現在の日時</system:String>
+	<system:String x:Key="AM_STATUS_DATE_RANGE">日付範囲</system:String>
+	<system:String x:Key="AM_STATUS_ALARM_HOURS">アラーム時間</system:String>
+	<system:String x:Key="AM_STATUS_INTERVAL">間隔</system:String>
+	<system:String x:Key="AM_STATUS_BACKEND_URL">バックエンドURL</system:String>
+	<system:String x:Key="AM_STATUS_DATABASE">データベース</system:String>
+	<system:String x:Key="AM_STATUS_EMAIL_TO">メール送信先</system:String>
+	<system:String x:Key="AM_STATUS_LAST_EXTRACTION">最終抽出</system:String>
+	<system:String x:Key="AM_STATUS_LAST_EMAIL">最終メール</system:String>
+	<system:String x:Key="AM_MSG_APP_STARTED">アプリケーションが起動しました。</system:String>
+	<system:String x:Key="AM_MSG_EXTRACTION_STARTED">抽出が開始されました。</system:String>
+	<system:String x:Key="AM_MSG_EXTRACTION_STOPPED">抽出が停止されました。</system:String>
+	<system:String x:Key="AM_MSG_SETTINGS_UPDATED">設定が更新されました。</system:String>
+	<system:String x:Key="AM_MSG_STOP_BEFORE_SETTINGS">設定を変更する前に抽出を停止してください。</system:String>
+	<system:String x:Key="AM_MSG_DB_INIT_FAILED">データベースの初期化に失敗しました。</system:String>
+	<system:String x:Key="AM_MSG_SETTINGS_NOT_LOADED">設定が読み込まれていません。</system:String>
+	<system:String x:Key="AM_MSG_STARTING_EXTRACTION">アラーム抽出を開始しています...</system:String>
+	<system:String x:Key="AM_MSG_EXTRACTION_ERROR">抽出エラー: {0}</system:String>
+	<system:String x:Key="AM_MSG_EXTRACTED_COUNT">{0}件のアラームを抽出しました。</system:String>
+	<system:String x:Key="AM_MSG_SENDING_EMAIL">メールレポートを送信中...</system:String>
+	<system:String x:Key="AM_MSG_EMAIL_SENT">メールが正常に送信されました。</system:String>
+	<system:String x:Key="AM_MSG_EMAIL_FAILED">メールの送信に失敗しました。</system:String>
+	<system:String x:Key="AM_MSG_EMAIL_NOT_CONFIGURED">メールが設定されていません。メール通知をスキップします。</system:String>
+	<system:String x:Key="AM_MSG_NO_ALARMS">アラームが見つかりません。</system:String>
+	<system:String x:Key="AM_MSG_EXTRACTION_COMPLETED">抽出が完了しました。</system:String>
+	<system:String x:Key="AM_MSG_NO_RECIPIENTS">受信者が選択されていません</system:String>
+	<system:String x:Key="AM_MSG_DAYS_FMT">{0}日</system:String>
+	<system:String x:Key="AM_MSG_HOURS_FMT">{0}時間</system:String>
+	<system:String x:Key="AM_MSG_MINUTES_FMT">{0}分</system:String>
+	<system:String x:Key="AM_TRAY_SHOW">表示</system:String>
+	<system:String x:Key="AM_TRAY_EXIT">終了</system:String>
+	<system:String x:Key="AM_MSG_ALREADY_RUNNING">アプリケーションは既に起動しています。</system:String>
+	<system:String x:Key="AM_SETTINGS_TITLE">設定</system:String>
+	<system:String x:Key="AM_SETTINGS_TAB_ALARM">アラーム設定</system:String>
+	<system:String x:Key="AM_SETTINGS_TAB_DATABASE">データベース</system:String>
+	<system:String x:Key="AM_SETTINGS_TAB_BACKEND">バックエンドサーバー</system:String>
+	<system:String x:Key="AM_SETTINGS_TAB_EMAIL">メール</system:String>
+	<system:String x:Key="AM_SETTINGS_DATE_RANGE">日付範囲（日）:</system:String>
+	<system:String x:Key="AM_SETTINGS_ALARM_HOURS">アラーム時間:</system:String>
+	<system:String x:Key="AM_SETTINGS_INTERVAL">間隔（分）:</system:String>
+	<system:String x:Key="AM_SETTINGS_DB_ADDRESS">アドレス:</system:String>
+	<system:String x:Key="AM_SETTINGS_DB_USER_ID">ユーザーID:</system:String>
+	<system:String x:Key="AM_SETTINGS_DB_PASSWORD">パスワード:</system:String>
+	<system:String x:Key="AM_SETTINGS_DB_NAME">データベース名:</system:String>
+	<system:String x:Key="AM_SETTINGS_BACKEND_URL">バックエンドURL:</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_HOST">ホスト</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_PORT">ポート</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_ID">ID</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_PASSWORD">パスワード</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_TIMEOUT">タイムアウト</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_MAIL_GROUP">メール</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_RECIPIENT_GROUP">受信者管理</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_NAME">名前</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_ADDRESS">メールアドレス</system:String>
+	<system:String x:Key="AM_SETTINGS_EMAIL_TEST">テストメール</system:String>
+	<system:String x:Key="AM_SETTINGS_GRID_NAME">名前</system:String>
+	<system:String x:Key="AM_SETTINGS_GRID_EMAIL">メールアドレス</system:String>
+	<system:String x:Key="AM_MSG_SETTINGS_SAVE_FAILED">設定の保存に失敗しました。</system:String>
+	<system:String x:Key="AM_MSG_ENTER_NAME_EMAIL">名前とメールアドレスの両方を入力してください。</system:String>
+	<system:String x:Key="AM_MSG_INVALID_EMAIL">メール形式が無効です。有効なメールアドレスを入力してください。</system:String>
+	<system:String x:Key="AM_MSG_DUPLICATE_EMAIL">'{0}'は既に登録されています。</system:String>
+	<system:String x:Key="AM_MSG_SELECT_RECIPIENT">削除する受信者を選択してください。</system:String>
+	<system:String x:Key="AM_MSG_ENTER_HOST_ID">ホストとIDを入力してください。</system:String>
+	<system:String x:Key="AM_MSG_NO_RECIPIENTS_CHECKED">受信者が選択されていません。少なくとも1人の受信者を選択してください。</system:String>
+	<system:String x:Key="AM_MSG_TEST_MAIL_SUCCESS">テストメールが正常に送信されました: {0}</system:String>
+	<system:String x:Key="AM_MSG_TEST_MAIL_FAILED">テストメールの送信に失敗しました。詳細はログを確認してください。</system:String>
+
+	<!-- [i-AlertMgr] Status Tab -->
+	<system:String x:Key="AM_STATUS_EMAIL_FROM">送信元メール</system:String>
+
+	<!-- [i-AlertMgr] Evaluation Tab -->
+	<system:String x:Key="AM_TAB_EVALUATION">評価</system:String>
+	<system:String x:Key="AM_EVAL_USER">ユーザー</system:String>
+	<system:String x:Key="AM_EVAL_USER_ID">ユーザーID</system:String>
+	<system:String x:Key="AM_EVAL_COMPANY">会社</system:String>
+	<system:String x:Key="AM_EVAL_PLANT">工場</system:String>
+	<system:String x:Key="AM_EVAL_GROUP">グループ</system:String>
+	<system:String x:Key="AM_EVAL_METHOD">方法</system:String>
+	<system:String x:Key="AM_EVAL_DISTRIBUTION">分布</system:String>
+	<system:String x:Key="AM_EVAL_OUTLIER_OPTIONS">外れ値オプション</system:String>
+	<system:String x:Key="AM_EVAL_SIGMA">シグマ</system:String>
+	<system:String x:Key="AM_EVAL_DECIMAL_PLACE">小数点桁数</system:String>
+	<system:String x:Key="AM_EVAL_ALARM">アラーム</system:String>
+	<system:String x:Key="AM_EVAL_OUT_OF_TOLERANCE">公差超過</system:String>
+	<system:String x:Key="AM_EVAL_OUT_OF_WARNING">警告限界超過</system:String>
+	<system:String x:Key="AM_EVAL_OUT_OF_SCRAP">スクラップ限界超過</system:String>
+	<system:String x:Key="AM_EVAL_OUT_OF_ACCEPTANCE">合格限界超過</system:String>
+	<system:String x:Key="AM_EVAL_OUT_OF_CONTROL_QCC">管理限界超過[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_TREND_VIOLATION_QCC">トレンド違反[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_RUN_VIOLATION_QCC">ラン違反[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_SPIKE_DIP_QCC">急上昇 / 急降下[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_OUT_OF_WARNING_QCC">警告限界超過[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_CONSEC_WARNING_QCC">連続警告限界超過[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_SETTING">設定</system:String>
+	<system:String x:Key="AM_EVAL_WARNING_LIMIT">警告限界</system:String>
+	<system:String x:Key="AM_EVAL_WARNING_LIMIT_QCC">警告限界[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_RUN_QCC">ラン[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_TREND_QCC">トレンド[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_SPIKE_DIP_SETTING_QCC">急上昇 / 急降下[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_CONSEC_WARNING_SETTING_QCC">連続警告限界超過[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_CALC_METHOD_QCC">計算方法[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_SUBGROUP_QCC">サブグループ[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_XBAR_CHART_TYPE_QCC">xBar管理図タイプ[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_VARIATION_CHART_TYPE_QCC">ばらつき管理図タイプ[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_INCOMPLETE_SUBGROUP_QCC">不完全サブグループ[QCC]</system:String>
+	<system:String x:Key="AM_EVAL_PRESET_CONTROL_LIMITS_QCC">プリセット管理限界の適用[QCC]</system:String>
 </ResourceDictionary>

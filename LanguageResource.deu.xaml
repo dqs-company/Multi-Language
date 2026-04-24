@@ -1698,7 +1698,7 @@
 <!--###############################################################################>
 [Value List]
 #################################################################################-->
-    <system:String x:Key="VALUE_COUNT">Werteliste</system:String>
+    <system:String x:Key="VALUE_LIST">Werteliste</system:String>
     <system:String x:Key="VALUE_COUNT">Anzahl der Werte</system:String>
 	
 	
