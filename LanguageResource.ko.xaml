@@ -154,6 +154,8 @@
     <system:String x:Key="ENGLISH">영어</system:String>
     <system:String x:Key="JAPANESE">일본어</system:String>
     <system:String x:Key="TAIWAN">대만어</system:String>
+	<system:String x:Key="GERMAN">독일어</system:String>
+	<system:String x:Key="SPANISH">스페인어</system:String>
 	
 	<system:String x:Key="ADDITIONAL_DATA">추가 데이터</system:String>
     <system:String x:Key="NONE">없음</system:String>
@@ -203,7 +205,8 @@
 	<system:String x:Key="NOTES">메모</system:String>
 	
 	<system:String x:Key="RESULT">결과</system:String>	
-	<system:String x:Key="DEVIATION">편차</system:String>		
+	<system:String x:Key="DEVIATION">편차</system:String>	
+	<system:String x:Key="DEVIATION_VALUE">편차치</system:String>		
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">공정능력지수(Cp)</system:String>			
@@ -1131,6 +1134,8 @@
     <system:String x:Key="CC_MENU_LANGUAGE_KO">한국어</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_ENG">영어</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_JPN">일본어</system:String>
+	<system:String x:Key="CC_MENU_LANGUAGE_SPA">스페인어</system:String>
+	<system:String x:Key="CC_MENU_LANGUAGE_DEU">독일어</system:String>
 						 
     <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">업로드 정보</system:String>
     <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">현재 정보</system:String>
@@ -1648,6 +1653,10 @@
 	
     <!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">그래픽</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_TITLE">일반</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL">일반 설정</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_PART_TITLE">파트 제목</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_CHAR_TITLE">측정항목 제목</system:String>
 
     <!-- ==> exceution button -->
     <system:String x:Key="CONFIG_SAVE">설정 저장</system:String>
@@ -1876,7 +1885,31 @@
 	
 	<system:String x:Key="PREDICTION_VALUE">예측 밸류</system:String>	
 	
+<!--###############################################################################>
+[Qcc Log]
+#################################################################################-->	
+
+	<system:String x:Key="QCC_LOG_FIELD_PART_ID">파트 번호</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_CHAR_ID">측정항목 번호</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_VALUE_ID">측정값 번호</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_DATE">발생일자</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">로케이션 에러</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">바리에이션 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_TOLERANCE_ERR">공차위반 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_SCRAP_ERR">스크랩 한계 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_ACCEPTANCE_ERR">허용 한계 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_ERR">경고 한계 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_NATURAL_BOUNDARY_ERR">자연공차 에러</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">경고 퍼센트</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">자연공차 퍼센트</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">하한 자연공차</system:String>	
+	<system:String x:Key="QCC_LOG_FIELD_UPPER_BOUNDARY">상한 자연공차</system:String>	
 	
+	<system:String x:Key="QCC_LOG_GOOD">정상</system:String>
+	<system:String x:Key="QCC_LOG_BAD">오류</system:String>
+	
+	<system:String x:Key="QCC_LOG_ENABLE">적용</system:String>
+	<system:String x:Key="QCC_LOG_DISENABLE">미적용</system:String>
 	
 <!--###############################################################################>
 [Message]
@@ -1887,6 +1920,7 @@
     
 	<system:String x:Key="MSG_CHANGE">변경 하시겠습니까?</system:String>
 	
+	<system:String x:Key="MSG_SAVE_CHK">저장 하시겠습니까?</system:String>
 	<system:String x:Key="MSG_SAVE_OK">저장 성공</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">저장 실패</system:String>
 	

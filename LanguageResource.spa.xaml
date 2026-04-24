@@ -148,6 +148,8 @@
     <system:String x:Key="ENGLISH">Inglés</system:String>
     <system:String x:Key="JAPANESE">Japonés</system:String>
     <system:String x:Key="TAIWAN">ZH-TW</system:String>
+	<system:String x:Key="GERMAN">Alemán</system:String>
+    <system:String x:Key="SPANISH">Español</system:String>
 
     <system:String x:Key="ADDITIONAL_DATA">Datos adicionales</system:String>
     <system:String x:Key="NONE">Ninguno</system:String>
@@ -194,6 +196,7 @@
 	
 	<system:String x:Key="RESULT">Resultado</system:String>
 	<system:String x:Key="DEVIATION">Desviación</system:String>	
+	<system:String x:Key="DEVIATION_VALUE">Valor de desviación</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">Índice de capacidad del proceso (Cp)</system:String>
@@ -1116,6 +1119,8 @@
     <system:String x:Key="CC_MENU_LANGUAGE_KO">Coreano</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_ENG">Inglés</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_JPN">Japonés</system:String>
+	<system:String x:Key="CC_MENU_LANGUAGE_DEU">Alemán</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_SPA">Español</system:String>
  
     <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">Información&#x0d;&#x0a;de carga</system:String>
     <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">Información&#x0d;&#x0a;actual</system:String>
@@ -1258,6 +1263,7 @@
     <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">Valores máximos</system:String>
     
     <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">Ruta de guardado de archivos</system:String>
+	<system:String x:Key="RC_PLAN_FILE_SAVE_EXTENSION">Extensión de guardado de archivo</system:String>
     <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">Momento de guardado de archivos</system:String>
     <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">Habilitar ventana emergente Fuera de Tolerancia</system:String>
     <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">Ventana emergente adicional</system:String>
@@ -1598,6 +1604,10 @@
 
     <!-- Graphic Screen -->
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">Gráficos</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_TITLE">General</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL">Configuración General</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_PART_TITLE">Título de la Parte</system:String>
+	<system:String x:Key="CONFIG_GRAPHIC_NORMAL_CHAR_TITLE">Título de Característica</system:String>
 
     <!-- ==> exceution button -->
     <system:String x:Key="CONFIG_SAVE">Guardar ajustes</system:String>
@@ -1752,7 +1762,7 @@
 
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">Rango numérico</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">Rango de valores</system:String>
-    <system:String x:Key="VALUE_CHART_SIDE_APPLY">Aplicar rango</system:String>
+    <system:String x:Key="VALUE_CHART_SIDE_APPLY">Aplicar</system:String>
     <system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">Grosor de línea</system:String>
     
     <system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">Subgrupo de valores</system:String>
@@ -1825,6 +1835,32 @@
     <system:String x:Key="LINEAR_REGRESSION">Regresión lineal</system:String>	
         
     <system:String x:Key="PREDICTION_VALUE">Valor de predicción</system:String>
+	
+<!--###############################################################################>
+[Qcc Log]
+#################################################################################-->	
+
+	<system:String x:Key="QCC_LOG_FIELD_PART_ID">ID de Pieza</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_CHAR_ID">ID de Característica</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VALUE_ID">ID de Valor</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_DATE">Fecha de Ocurrencia</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">Error de Ubicación</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">Error de Variación</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_TOLERANCE_ERR">Error de Violación de Tolerancia</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_SCRAP_ERR">Error de Límite de Desecho</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_ACCEPTANCE_ERR">Error de Límite de Aceptación</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_ERR">Error de Límite de Advertencia</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_NATURAL_BOUNDARY_ERR">Error de Límite Natural</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">Porcentaje de Advertencia</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">% de Tolerancia Natural</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">Límite Natural Inferior</system:String>
+    <system:String x:Key="QCC_LOG_FIELD_UPPER_BOUNDARY">Límite Natural Superior</system:String>
+    
+    <system:String x:Key="QCC_LOG_GOOD">Normal</system:String>
+    <system:String x:Key="QCC_LOG_BAD">Error</system:String>
+	
+	<system:String x:Key="QCC_LOG_ENABLE">Aplicado</system:String>
+	<system:String x:Key="QCC_LOG_DISENABLE">No aplicado</system:String>
 
 <!--###############################################################################>
 [Message]
@@ -1835,6 +1871,7 @@
 	
     <system:String x:Key="MSG_CHANGE">¿Cambiar ajustes?</system:String>
 	
+	<system:String x:Key="MSG_SAVE_CHK">¿Desea guardar?</system:String>
     <system:String x:Key="MSG_SAVE_OK">Guardado completado</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">Error al guardar</system:String>
 	
