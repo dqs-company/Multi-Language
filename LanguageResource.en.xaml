@@ -394,7 +394,7 @@
     <system:String x:Key="PRINTING">Printing...</system:String>
     <system:String x:Key="PRINT">Print</system:String>
 
-
+	<system:String x:Key="TCP_IP">TCP/IP</system:String>
 <!--###############################################################################>
  [Data Field]
 #################################################################################-->
@@ -1573,7 +1573,8 @@
     <system:String x:Key="CONFIG_ERROR_DIR_DEL">Delete error files</system:String>
     <system:String x:Key="CONFIG_ERROR_DIR_OLD_DEL">Delete past date error files</system:String>
     <system:String x:Key="CONFIG_OUTPUT_DIR">Output directory</system:String>
-
+	<system:String x:Key="CONFIG_OUTPUT_CLIENT_NAME">Client Name</system:String>
+	
     <!-- ==>Database -->
     <system:String x:Key="CONFIG_DB_TITLE">Database</system:String>
     <system:String x:Key="CONFIG_DB">Database Configuration</system:String>
@@ -1932,6 +1933,30 @@
 	
 	<system:String x:Key="QCC_LOG_ENABLE">Enabled</system:String>
 	<system:String x:Key="QCC_LOG_DISENABLE">Disabled</system:String>
+	
+<!--###############################################################################>
+[Installer]
+#################################################################################-->
+	<system:String x:Key="LICENSE_AGREE">License Agreement</system:String>
+	<system:String x:Key="PATH">Path</system:String>
+	<system:String x:Key="REGI_SHORTCUT">Create Shortcut</system:String>
+	<system:String x:Key="REGI_STARTUP">Add to Startup</system:String>
+	<system:String x:Key="INSTALL">Install</system:String>
+	<system:String x:Key="REPAIR">Repair</system:String>
+	<system:String x:Key="INSTALLER">Installer</system:String>
+	<system:String x:Key="AGREE">Agree</system:String>
+	<system:String x:Key="DISAGREE">Disagree</system:String>
+	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">Execute Licensed Program</system:String>
+	<system:String x:Key="UNIFIED">Unified</system:String>
+	
+	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[Software License Agreement]</system:String>
+	<system:String x:Key="ARTICLE_1">Article 1</system:String>
+	<system:String x:Key="ARTICLE_2">Article 2</system:String>
+	<system:String x:Key="ARTICLE_3">Article 3</system:String>
+	<system:String x:Key="ARTICLE_4">Article 4</system:String>
+	<system:String x:Key="ARTICLE_5">Article 5</system:String>
+	<system:String x:Key="ARTICLE_6">Article 6</system:String>
+	<system:String x:Key="SOFTWARE_LICENSE_NAME">Program Name</system:String>
 
 <!--###############################################################################>
 [Message]
@@ -2064,121 +2089,19 @@
 	<system:String x:Key="MSG_SYNC_OK">Synchronization successful</system:String>
 	<system:String x:Key="MSG_SYNC_ERR">Synchronization failed</system:String>
 	
+	<!--installer-->
+	<system:String x:Key="MSG_PROGRAM_RUNNING">The program is already running.</system:String>
+	<system:String x:Key="MSG_SETUPFILE_NOT_EXIST">The setup file does not exist.</system:String>
+	<system:String x:Key="MSG_SETUP_END">Installation has been completed.</system:String>
+	<system:String x:Key="MSG_SETUP_ERROR">An error occurred during installation.</system:String>
+	<system:String x:Key="MSG_SETUP_DELETED">Uninstallation has been completed.</system:String>
+	<system:String x:Key="MSG_SETUP_DELETE_ERROR">An error occurred during uninstallation.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_NOT_EXIST">The repair file does not exist.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_END">Repair has been completed.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_ERROR">An error occurred during repair.</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_FILE_NOT_EXIST">License file is not Exist</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_DOTNET_NOT_EXIST">.NET Framework 4.8 or higher is not installed.</system:String>
 	
-	<!--###############################################################################
-[i-AlertMgr]
-#################################################################################-->
-	<system:String x:Key="AM_APP_TITLE">i-AlertMgr</system:String>
-	<system:String x:Key="AM_MENU_EXTRACTION_GROUP">Extraction</system:String>
-	<system:String x:Key="AM_MENU_SETTINGS_GROUP">Settings</system:String>
-	<system:String x:Key="AM_TAB_STATUS">Status</system:String>
-	<system:String x:Key="AM_TAB_LOG">Log</system:String>
-	<system:String x:Key="AM_STATUS_LICENSE">License</system:String>
-	<system:String x:Key="AM_STATUS_DATETIME">Current Date/Time</system:String>
-	<system:String x:Key="AM_STATUS_DATE_RANGE">Date Range</system:String>
-	<system:String x:Key="AM_STATUS_ALARM_HOURS">Alarm Hours</system:String>
-	<system:String x:Key="AM_STATUS_INTERVAL">Interval</system:String>
-	<system:String x:Key="AM_STATUS_BACKEND_URL">Backend URL</system:String>
-	<system:String x:Key="AM_STATUS_DATABASE">Database</system:String>
-	<system:String x:Key="AM_STATUS_EMAIL_TO">Email To</system:String>
-	<system:String x:Key="AM_STATUS_LAST_EXTRACTION">Last Extraction</system:String>
-	<system:String x:Key="AM_STATUS_LAST_EMAIL">Last Email</system:String>
-	<system:String x:Key="AM_MSG_APP_STARTED">Application started.</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_STARTED">Extraction started.</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_STOPPED">Extraction stopped.</system:String>
-	<system:String x:Key="AM_MSG_SETTINGS_UPDATED">Settings updated.</system:String>
-	<system:String x:Key="AM_MSG_STOP_BEFORE_SETTINGS">Please stop extraction before changing settings.</system:String>
-	<system:String x:Key="AM_MSG_DB_INIT_FAILED">Failed to initialize database.</system:String>
-	<system:String x:Key="AM_MSG_SETTINGS_NOT_LOADED">Settings not loaded.</system:String>
-	<system:String x:Key="AM_MSG_STARTING_EXTRACTION">Starting alarm extraction...</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_ERROR">Extraction error: {0}</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTED_COUNT">Extracted {0} alarm(s).</system:String>
-	<system:String x:Key="AM_MSG_SENDING_EMAIL">Sending email report...</system:String>
-	<system:String x:Key="AM_MSG_EMAIL_SENT">Email sent successfully.</system:String>
-	<system:String x:Key="AM_MSG_EMAIL_FAILED">Failed to send email.</system:String>
-	<system:String x:Key="AM_MSG_EMAIL_NOT_CONFIGURED">Email not configured. Skipping email notification.</system:String>
-	<system:String x:Key="AM_MSG_NO_ALARMS">No alarms found.</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_COMPLETED">Extraction completed.</system:String>
-	<system:String x:Key="AM_MSG_NO_RECIPIENTS">no recipients selected</system:String>
-	<system:String x:Key="AM_MSG_DAYS_FMT">{0} days</system:String>
-	<system:String x:Key="AM_MSG_HOURS_FMT">{0} hours</system:String>
-	<system:String x:Key="AM_MSG_MINUTES_FMT">{0} minutes</system:String>
-	<system:String x:Key="AM_TRAY_SHOW">Show</system:String>
-	<system:String x:Key="AM_TRAY_EXIT">Exit</system:String>
-	<system:String x:Key="AM_MSG_ALREADY_RUNNING">Application already started.</system:String>
-	<system:String x:Key="AM_SETTINGS_TITLE">Settings</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_ALARM">Alarm Settings</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_DATABASE">Database</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_BACKEND">Backend Server</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_EMAIL">Email</system:String>
-	<system:String x:Key="AM_SETTINGS_DATE_RANGE">Date Range (days):</system:String>
-	<system:String x:Key="AM_SETTINGS_ALARM_HOURS">Alarm Hours:</system:String>
-	<system:String x:Key="AM_SETTINGS_INTERVAL">Interval (minutes):</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_ADDRESS">Address:</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_USER_ID">User ID:</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_PASSWORD">Password:</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_NAME">Database Name:</system:String>
-	<system:String x:Key="AM_SETTINGS_BACKEND_URL">Backend URL:</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_HOST">Host</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_PORT">Port</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_ID">ID</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_PASSWORD">Password</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_TIMEOUT">Timeout</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_MAIL_GROUP">Mail</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_RECIPIENT_GROUP">Recipient Management</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_NAME">Name</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_ADDRESS">Email Address</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_TEST">Test Mail</system:String>
-	<system:String x:Key="AM_SETTINGS_GRID_NAME">Name</system:String>
-	<system:String x:Key="AM_SETTINGS_GRID_EMAIL">Email Address</system:String>
-	<system:String x:Key="AM_MSG_SETTINGS_SAVE_FAILED">Failed to save settings.</system:String>
-	<system:String x:Key="AM_MSG_ENTER_NAME_EMAIL">Please enter both Name and Email Address.</system:String>
-	<system:String x:Key="AM_MSG_INVALID_EMAIL">Invalid email format. Please enter a valid email address.</system:String>
-	<system:String x:Key="AM_MSG_DUPLICATE_EMAIL">'{0}' is already registered.</system:String>
-	<system:String x:Key="AM_MSG_SELECT_RECIPIENT">Please select a recipient to delete.</system:String>
-	<system:String x:Key="AM_MSG_ENTER_HOST_ID">Please enter Host and ID.</system:String>
-	<system:String x:Key="AM_MSG_NO_RECIPIENTS_CHECKED">No recipients selected. Please check at least one recipient.</system:String>
-	<system:String x:Key="AM_MSG_TEST_MAIL_SUCCESS">Test mail sent successfully to: {0}</system:String>
-	<system:String x:Key="AM_MSG_TEST_MAIL_FAILED">Failed to send test mail. Check the log for details.</system:String>
-
-	<!-- [i-AlertMgr] Status Tab -->
-	<system:String x:Key="AM_STATUS_EMAIL_FROM">From Email</system:String>
-
-	<!-- [i-AlertMgr] Evaluation Tab -->
-	<system:String x:Key="AM_TAB_EVALUATION">Evaluation</system:String>
-	<system:String x:Key="AM_EVAL_USER">User</system:String>
-	<system:String x:Key="AM_EVAL_USER_ID">User ID</system:String>
-	<system:String x:Key="AM_EVAL_COMPANY">Company</system:String>
-	<system:String x:Key="AM_EVAL_PLANT">Plant</system:String>
-	<system:String x:Key="AM_EVAL_GROUP">Group</system:String>
-	<system:String x:Key="AM_EVAL_METHOD">Method</system:String>
-	<system:String x:Key="AM_EVAL_DISTRIBUTION">Distribution</system:String>
-	<system:String x:Key="AM_EVAL_OUTLIER_OPTIONS">Outlier Options</system:String>
-	<system:String x:Key="AM_EVAL_SIGMA">Sigma</system:String>
-	<system:String x:Key="AM_EVAL_DECIMAL_PLACE">Decimal place</system:String>
-	<system:String x:Key="AM_EVAL_ALARM">Alarm</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_TOLERANCE">Out of tolerance</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_WARNING">Out of warning limits</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_SCRAP">Out of scrap limits</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_ACCEPTANCE">Out of acceptance limits</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_CONTROL_QCC">Out of control limits[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_TREND_VIOLATION_QCC">Trend violation[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_RUN_VIOLATION_QCC">Run violation[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SPIKE_DIP_QCC">Spike / Dip[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_WARNING_QCC">Out of warning limits[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_CONSEC_WARNING_QCC">Con' out of warning limits[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SETTING">Setting</system:String>
-	<system:String x:Key="AM_EVAL_WARNING_LIMIT">Warning Limit</system:String>
-	<system:String x:Key="AM_EVAL_WARNING_LIMIT_QCC">Warning Limit[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_RUN_QCC">Run[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_TREND_QCC">Trend[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SPIKE_DIP_SETTING_QCC">Spike / Dip[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_CONSEC_WARNING_SETTING_QCC">Con' out of warning limits[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_CALC_METHOD_QCC">Calculation Method[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SUBGROUP_QCC">Subgroup[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_XBAR_CHART_TYPE_QCC">xBar Chart Type[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_VARIATION_CHART_TYPE_QCC">Variation Chart Type[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_INCOMPLETE_SUBGROUP_QCC">Incomplete Subgroup[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_PRESET_CONTROL_LIMITS_QCC">Apply preset control limits[QCC]</system:String>
-	
+	<system:String x:Key="MSG_RUNTIME_ERROR">An error occurred while running the program.</system:String>
+	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">The program could not be found.</system:String>
 </ResourceDictionary>

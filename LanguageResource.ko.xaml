@@ -397,7 +397,8 @@
 	<system:String x:Key="SP_PORT_MODEL">모델</system:String>
 	<system:String x:Key="SP_CHANNEL">채널</system:String>
 	<system:String x:Key="SP_TAKEOVER">테이크오버</system:String>
-
+	
+	<system:String x:Key="TCP_IP">TCP/IP</system:String>
 <!--###############################################################################>
  [Data Field]
 #################################################################################-->
@@ -1568,7 +1569,7 @@
     <system:String x:Key="CONFIG_ERROR_DIR_DEL">에러 파일 삭제</system:String>
     <system:String x:Key="CONFIG_ERROR_DIR_OLD_DEL">지난 날짜 에러 파일 삭제</system:String>
     <system:String x:Key="CONFIG_OUTPUT_DIR">출력 디렉토리</system:String>
-	
+	<system:String x:Key="CONFIG_OUTPUT_CLIENT_NAME">클라이언트 명</system:String>
 
     <!-- ==>Database -->
     <system:String x:Key="CONFIG_DB_TITLE">데이터베이스</system:String>
@@ -1912,6 +1913,30 @@
 	<system:String x:Key="QCC_LOG_DISENABLE">미적용</system:String>
 	
 <!--###############################################################################>
+[Installer]
+#################################################################################-->
+	<system:String x:Key="LICENSE_AGREE">라이센스 동의</system:String>
+	<system:String x:Key="PATH">경로</system:String>
+	<system:String x:Key="REGI_SHORTCUT">바로가기 등록</system:String>
+	<system:String x:Key="REGI_STARTUP">시작 프로그램 등록</system:String>
+	<system:String x:Key="INSTALL">설치</system:String>
+	<system:String x:Key="REPAIR">복구</system:String>
+	<system:String x:Key="INSTALLER">인스톨러</system:String>
+	<system:String x:Key="AGREE">동의</system:String>
+	<system:String x:Key="DISAGREE">미동의</system:String>
+	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">라이센스 프로그램 실행</system:String>
+	<system:String x:Key="UNIFIED">통합</system:String>
+	
+	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[소프트웨어 이용약관]</system:String>
+	<system:String x:Key="ARTICLE_1">제1조</system:String>
+	<system:String x:Key="ARTICLE_2">제2조</system:String>
+	<system:String x:Key="ARTICLE_3">제3조</system:String>
+	<system:String x:Key="ARTICLE_4">제4조</system:String>
+	<system:String x:Key="ARTICLE_5">제5조</system:String>
+	<system:String x:Key="ARTICLE_6">제6조</system:String>
+	<system:String x:Key="SOFTWARE_LICENSE_NAME">프로그램 이름</system:String>
+	
+<!--###############################################################################>
 [Message]
 #################################################################################-->
 	<!-- Common -->
@@ -2041,121 +2066,19 @@
 	<system:String x:Key="MSG_SERIALPORT_CONNECTION_SUCCESS">시리얼 포트 연결 성공</system:String>
 	<system:String x:Key="MSG_SERIALPORT_CONNECTION_FAIL">시리얼 포트 연결 실패</system:String>
 	
+	<!--installer-->
+	<system:String x:Key="MSG_PROGRAM_RUNNING">프로그램이 이미 실행 중입니다.</system:String>
+	<system:String x:Key="MSG_SETUPFILE_NOT_EXIST">설치 파일이 존재하지 않습니다.</system:String>
+	<system:String x:Key="MSG_SETUP_END">설치가 완료되었습니다.</system:String>
+	<system:String x:Key="MSG_SETUP_ERROR">설치 중 오류 발생</system:String>
+	<system:String x:Key="MSG_SETUP_DELETED">삭제가 완료되었습니다.</system:String>
+	<system:String x:Key="MSG_SETUP_DELETE_ERROR">삭제 중 오류 발생</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_NOT_EXIST">복구 파일이 존재하지 않습니다.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_END">복구가 완료되었습니다.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_ERROR">복구 중 오류 발생</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_FILE_NOT_EXIST">라이센스 파일이 존재하지 않습니다.</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_DOTNET_NOT_EXIST">NET Framework 4.8 이상이 설치되어 있지 않습니다.</system:String>
 	
-<!--###############################################################################
-[i-AlertMgr]
-#################################################################################-->
-	<system:String x:Key="AM_APP_TITLE">i-AlertMgr</system:String>
-	<system:String x:Key="AM_MENU_EXTRACTION_GROUP">추출</system:String>
-	<system:String x:Key="AM_MENU_SETTINGS_GROUP">설정</system:String>
-	<system:String x:Key="AM_TAB_STATUS">상태</system:String>
-	<system:String x:Key="AM_TAB_LOG">로그</system:String>
-	<system:String x:Key="AM_STATUS_LICENSE">라이센스</system:String>
-	<system:String x:Key="AM_STATUS_DATETIME">현재 날짜/시간</system:String>
-	<system:String x:Key="AM_STATUS_DATE_RANGE">날짜 범위</system:String>
-	<system:String x:Key="AM_STATUS_ALARM_HOURS">알람 시간</system:String>
-	<system:String x:Key="AM_STATUS_INTERVAL">간격</system:String>
-	<system:String x:Key="AM_STATUS_BACKEND_URL">백엔드 URL</system:String>
-	<system:String x:Key="AM_STATUS_DATABASE">데이터베이스</system:String>
-	<system:String x:Key="AM_STATUS_EMAIL_TO">이메일 수신자</system:String>
-	<system:String x:Key="AM_STATUS_LAST_EXTRACTION">마지막 추출</system:String>
-	<system:String x:Key="AM_STATUS_LAST_EMAIL">마지막 이메일</system:String>
-	<system:String x:Key="AM_MSG_APP_STARTED">애플리케이션이 시작되었습니다.</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_STARTED">추출이 시작되었습니다.</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_STOPPED">추출이 중지되었습니다.</system:String>
-	<system:String x:Key="AM_MSG_SETTINGS_UPDATED">설정이 업데이트되었습니다.</system:String>
-	<system:String x:Key="AM_MSG_STOP_BEFORE_SETTINGS">설정 변경 전에 추출을 중지해 주세요.</system:String>
-	<system:String x:Key="AM_MSG_DB_INIT_FAILED">데이터베이스 초기화에 실패했습니다.</system:String>
-	<system:String x:Key="AM_MSG_SETTINGS_NOT_LOADED">설정이 로드되지 않았습니다.</system:String>
-	<system:String x:Key="AM_MSG_STARTING_EXTRACTION">알람 추출 시작 중...</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_ERROR">추출 오류: {0}</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTED_COUNT">{0}개의 알람을 추출했습니다.</system:String>
-	<system:String x:Key="AM_MSG_SENDING_EMAIL">이메일 보고서 전송 중...</system:String>
-	<system:String x:Key="AM_MSG_EMAIL_SENT">이메일이 성공적으로 전송되었습니다.</system:String>
-	<system:String x:Key="AM_MSG_EMAIL_FAILED">이메일 전송에 실패했습니다.</system:String>
-	<system:String x:Key="AM_MSG_EMAIL_NOT_CONFIGURED">이메일이 설정되지 않았습니다. 이메일 알림을 건너뜁니다.</system:String>
-	<system:String x:Key="AM_MSG_NO_ALARMS">알람이 없습니다.</system:String>
-	<system:String x:Key="AM_MSG_EXTRACTION_COMPLETED">추출이 완료되었습니다.</system:String>
-	<system:String x:Key="AM_MSG_NO_RECIPIENTS">수신자가 선택되지 않음</system:String>
-	<system:String x:Key="AM_MSG_DAYS_FMT">{0}일</system:String>
-	<system:String x:Key="AM_MSG_HOURS_FMT">{0}시간</system:String>
-	<system:String x:Key="AM_MSG_MINUTES_FMT">{0}분</system:String>
-	<system:String x:Key="AM_TRAY_SHOW">표시</system:String>
-	<system:String x:Key="AM_TRAY_EXIT">종료</system:String>
-	<system:String x:Key="AM_MSG_ALREADY_RUNNING">애플리케이션이 이미 실행 중입니다.</system:String>
-	<system:String x:Key="AM_SETTINGS_TITLE">설정</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_ALARM">알람 설정</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_DATABASE">데이터베이스</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_BACKEND">백엔드 서버</system:String>
-	<system:String x:Key="AM_SETTINGS_TAB_EMAIL">이메일</system:String>
-	<system:String x:Key="AM_SETTINGS_DATE_RANGE">날짜 범위 (일):</system:String>
-	<system:String x:Key="AM_SETTINGS_ALARM_HOURS">알람 시간:</system:String>
-	<system:String x:Key="AM_SETTINGS_INTERVAL">간격 (분):</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_ADDRESS">주소:</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_USER_ID">사용자 ID:</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_PASSWORD">비밀번호:</system:String>
-	<system:String x:Key="AM_SETTINGS_DB_NAME">데이터베이스 이름:</system:String>
-	<system:String x:Key="AM_SETTINGS_BACKEND_URL">백엔드 URL:</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_HOST">호스트</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_PORT">포트</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_ID">ID</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_PASSWORD">비밀번호</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_TIMEOUT">타임아웃</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_MAIL_GROUP">메일</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_RECIPIENT_GROUP">수신자 관리</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_NAME">이름</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_ADDRESS">이메일 주소</system:String>
-	<system:String x:Key="AM_SETTINGS_EMAIL_TEST">테스트 메일</system:String>
-	<system:String x:Key="AM_SETTINGS_GRID_NAME">이름</system:String>
-	<system:String x:Key="AM_SETTINGS_GRID_EMAIL">이메일 주소</system:String>
-	<system:String x:Key="AM_MSG_SETTINGS_SAVE_FAILED">설정 저장에 실패했습니다.</system:String>
-	<system:String x:Key="AM_MSG_ENTER_NAME_EMAIL">이름과 이메일 주소를 모두 입력해 주세요.</system:String>
-	<system:String x:Key="AM_MSG_INVALID_EMAIL">잘못된 이메일 형식입니다. 올바른 이메일 주소를 입력해 주세요.</system:String>
-	<system:String x:Key="AM_MSG_DUPLICATE_EMAIL">'{0}'은(는) 이미 등록되어 있습니다.</system:String>
-	<system:String x:Key="AM_MSG_SELECT_RECIPIENT">삭제할 수신자를 선택해 주세요.</system:String>
-	<system:String x:Key="AM_MSG_ENTER_HOST_ID">호스트와 ID를 입력해 주세요.</system:String>
-	<system:String x:Key="AM_MSG_NO_RECIPIENTS_CHECKED">선택된 수신자가 없습니다. 최소 한 명의 수신자를 선택해 주세요.</system:String>
-	<system:String x:Key="AM_MSG_TEST_MAIL_SUCCESS">테스트 메일이 성공적으로 전송되었습니다: {0}</system:String>
-	<system:String x:Key="AM_MSG_TEST_MAIL_FAILED">테스트 메일 전송에 실패했습니다. 로그를 확인해 주세요.</system:String>
-
-	<!-- [i-AlertMgr] Status Tab -->
-	<system:String x:Key="AM_STATUS_EMAIL_FROM">발신 이메일</system:String>
-
-	<!-- [i-AlertMgr] Evaluation Tab -->
-	<system:String x:Key="AM_TAB_EVALUATION">평가</system:String>
-	<system:String x:Key="AM_EVAL_USER">사용자</system:String>
-	<system:String x:Key="AM_EVAL_USER_ID">사용자 ID</system:String>
-	<system:String x:Key="AM_EVAL_COMPANY">회사</system:String>
-	<system:String x:Key="AM_EVAL_PLANT">공장</system:String>
-	<system:String x:Key="AM_EVAL_GROUP">그룹</system:String>
-	<system:String x:Key="AM_EVAL_METHOD">방법</system:String>
-	<system:String x:Key="AM_EVAL_DISTRIBUTION">분포</system:String>
-	<system:String x:Key="AM_EVAL_OUTLIER_OPTIONS">이상치 옵션</system:String>
-	<system:String x:Key="AM_EVAL_SIGMA">시그마</system:String>
-	<system:String x:Key="AM_EVAL_DECIMAL_PLACE">소수점 자리</system:String>
-	<system:String x:Key="AM_EVAL_ALARM">알람</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_TOLERANCE">공차 초과</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_WARNING">경고 한계 초과</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_SCRAP">스크랩 한계 초과</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_ACCEPTANCE">합격 한계 초과</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_CONTROL_QCC">관리 한계 초과[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_TREND_VIOLATION_QCC">추세 위반[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_RUN_VIOLATION_QCC">런 위반[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SPIKE_DIP_QCC">급등 / 급락[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_OUT_OF_WARNING_QCC">경고 한계 초과[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_CONSEC_WARNING_QCC">연속 경고 한계 초과[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SETTING">설정</system:String>
-	<system:String x:Key="AM_EVAL_WARNING_LIMIT">경고 한계</system:String>
-	<system:String x:Key="AM_EVAL_WARNING_LIMIT_QCC">경고 한계[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_RUN_QCC">런[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_TREND_QCC">추세[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SPIKE_DIP_SETTING_QCC">급등 / 급락[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_CONSEC_WARNING_SETTING_QCC">연속 경고 한계 초과[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_CALC_METHOD_QCC">계산 방법[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_SUBGROUP_QCC">서브그룹[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_XBAR_CHART_TYPE_QCC">xBar 관리도 유형[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_VARIATION_CHART_TYPE_QCC">산포 관리도 유형[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_INCOMPLETE_SUBGROUP_QCC">불완전 서브그룹[QCC]</system:String>
-	<system:String x:Key="AM_EVAL_PRESET_CONTROL_LIMITS_QCC">사전 설정 관리 한계 적용[QCC]</system:String>
-	
+	<system:String x:Key="MSG_RUNTIME_ERROR">프로그램 실행 중 오류가 발생했습니다.</system:String>
+	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">프로그램을 찾을 수 없습니다.</system:String>
 </ResourceDictionary>

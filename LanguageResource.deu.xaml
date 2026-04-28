@@ -15,7 +15,7 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-Planner</system:String>
+	<system:String x:Key="APP-TESTPLANNER">i-Planner</system:String> 
      
 <!--###############################################################################>
  [Common]
@@ -376,7 +376,7 @@
 	<system:String x:Key="PRINTING">Druckvorgang...</system:String>
 	<system:String x:Key="PRINT">Drucken</system:String>
 
-
+	<system:String x:Key="TCP_IP">TCP/IP</system:String>
 <!--###############################################################################>
  [Data Field]
 #################################################################################-->
@@ -1520,6 +1520,7 @@
     <system:String x:Key="CONFIG_ERROR_DIR_DEL">Fehler-Dateien löschen</system:String>
     <system:String x:Key="CONFIG_ERROR_DIR_OLD_DEL">Alte Fehler-Dateien löschen</system:String>
     <system:String x:Key="CONFIG_OUTPUT_DIR">Ausgabeverzeichnis</system:String>
+	<system:String x:Key="CONFIG_OUTPUT_CLIENT_NAME">Clientname</system:String>
 
     <!-- ==>Database -->
     <system:String x:Key="CONFIG_DB_TITLE">Datenbank</system:String>
@@ -1859,6 +1860,30 @@
 	
 	<system:String x:Key="QCC_LOG_ENABLE">Aktiviert</system:String>
 	<system:String x:Key="QCC_LOG_DISENABLE">Deaktiviert</system:String>
+	
+<!--###############################################################################>
+[Installer]
+#################################################################################-->
+	<system:String x:Key="LICENSE_AGREE">Lizenzvereinbarung</system:String>
+	<system:String x:Key="PATH">Pfad</system:String>
+	<system:String x:Key="REGI_SHORTCUT">Verknüpfung erstellen</system:String>
+	<system:String x:Key="REGI_STARTUP">Zum Autostart hinzufügen</system:String>
+	<system:String x:Key="INSTALL">Installieren</system:String>
+	<system:String x:Key="REPAIR">Reparieren</system:String>
+	<system:String x:Key="INSTALLER">Installer</system:String>
+	<system:String x:Key="AGREE">Zustimmen</system:String>
+	<system:String x:Key="DISAGREE">Ablehnen</system:String>
+	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">Lizenziertes Programm ausführen</system:String>
+	<system:String x:Key="UNIFIED">Einheitlich</system:String>
+	
+	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[Software-Lizenzvereinbarung]</system:String>
+	<system:String x:Key="ARTICLE_1">Paragraf 1</system:String>
+	<system:String x:Key="ARTICLE_2">Paragraf 2</system:String>
+	<system:String x:Key="ARTICLE_3">Paragraf 3</system:String>
+	<system:String x:Key="ARTICLE_4">Paragraf 4</system:String>
+	<system:String x:Key="ARTICLE_5">Paragraf 5</system:String>
+	<system:String x:Key="ARTICLE_6">Paragraf 6</system:String>
+	<system:String x:Key="SOFTWARE_LICENSE_NAME">Programmname</system:String>
 
 <!--###############################################################################>
 [Message]
@@ -1981,4 +2006,20 @@
     <system:String x:Key="MSG_EXTERNAL_DB_CON_ERR">Verbindungsinformationen zur externen Datenbank fehlen.</system:String>
     <system:String x:Key="MSG_SYNC_OK">Synchronisierung erfolgreich</system:String>
     <system:String x:Key="MSG_SYNC_ERR">Synchronisierung fehlgeschlagen</system:String>
+	
+	<!--installer-->
+	<system:String x:Key="MSG_PROGRAM_RUNNING">Das Programm wird bereits ausgeführt.</system:String>
+	<system:String x:Key="MSG_SETUPFILE_NOT_EXIST">Die Installationsdatei existiert nicht.</system:String>
+	<system:String x:Key="MSG_SETUP_END">Die Installation wurde abgeschlossen.</system:String>
+	<system:String x:Key="MSG_SETUP_ERROR">Fehler bei der Installation.</system:String>
+	<system:String x:Key="MSG_SETUP_DELETED">Die Deinstallation wurde abgeschlossen.</system:String>
+	<system:String x:Key="MSG_SETUP_DELETE_ERROR">Fehler bei der Deinstallation.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_NOT_EXIST">Die Reparaturdatei existiert nicht.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_END">Die Reparatur wurde abgeschlossen.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_ERROR">Fehler bei der Reparatur.</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_FILE_NOT_EXIST">Lizenzdatei existiert nicht.</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_DOTNET_NOT_EXIST">.NET Framework 4.8 oder höher ist nicht installiert.</system:String>
+	
+	<system:String x:Key="MSG_RUNTIME_ERROR">Während der Programmausführung ist ein Fehler aufgetreten.</system:String>
+	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">Das Programm konnte nicht gefunden werden.</system:String>
 </ResourceDictionary>

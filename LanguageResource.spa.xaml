@@ -378,7 +378,7 @@
 	<system:String x:Key="PRINTING">Imprimiendo...</system:String>
 	<system:String x:Key="PRINT">Imprimir</system:String>
 
-
+	<system:String x:Key="TCP_IP">TCP/IP</system:String>
 <!--###############################################################################>
  [Data Field]
 #################################################################################-->
@@ -1522,7 +1522,8 @@
     <system:String x:Key="CONFIG_ERROR_DIR_DEL">Eliminar archivos de errores</system:String>
     <system:String x:Key="CONFIG_ERROR_DIR_OLD_DEL">Eliminar archivos de errores de fechas pasadas</system:String>
     <system:String x:Key="CONFIG_OUTPUT_DIR">Directorio de salida</system:String>
-
+	<system:String x:Key="CONFIG_OUTPUT_CLIENT_NAME">Nombre del cliente</system:String>
+	
     <!-- ==>Database -->
     <system:String x:Key="CONFIG_DB_TITLE">Base de datos</system:String>
     <system:String x:Key="CONFIG_DB">Configuración de base de datos</system:String>
@@ -1861,6 +1862,30 @@
 	
 	<system:String x:Key="QCC_LOG_ENABLE">Aplicado</system:String>
 	<system:String x:Key="QCC_LOG_DISENABLE">No aplicado</system:String>
+	
+<!--###############################################################################>
+[Installer]
+#################################################################################-->
+	<system:String x:Key="LICENSE_AGREE">Contrato de licencia</system:String>
+	<system:String x:Key="PATH">Ruta</system:String>
+	<system:String x:Key="REGI_SHORTCUT">Crear acceso directo</system:String>
+	<system:String x:Key="REGI_STARTUP">Agregar al inicio</system:String>
+	<system:String x:Key="INSTALL">Instalar</system:String>
+	<system:String x:Key="REPAIR">Reparar</system:String>
+	<system:String x:Key="INSTALLER">Instalador</system:String>
+	<system:String x:Key="AGREE">Aceptar</system:String>
+	<system:String x:Key="DISAGREE">No aceptar</system:String>
+	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">Ejecutar programa con licencia</system:String>
+	<system:String x:Key="UNIFIED">Unificado</system:String>
+	
+	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[Contrato de Licencia de Software]</system:String>
+	<system:String x:Key="ARTICLE_1">Artículo 1</system:String>
+	<system:String x:Key="ARTICLE_2">Artículo 2</system:String>
+	<system:String x:Key="ARTICLE_3">Artículo 3</system:String>
+	<system:String x:Key="ARTICLE_4">Artículo 4</system:String>
+	<system:String x:Key="ARTICLE_5">Artículo 5</system:String>
+	<system:String x:Key="ARTICLE_6">Artículo 6</system:String>
+	<system:String x:Key="SOFTWARE_LICENSE_NAME">Nombre del Programa</system:String>
 
 <!--###############################################################################>
 [Message]
@@ -1982,4 +2007,20 @@
     <system:String x:Key="MSG_EXTERNAL_DB_CON_ERR">Falta la información de conexión a la base de datos externa.</system:String>
     <system:String x:Key="MSG_SYNC_OK">Sincronización exitosa</system:String>
     <system:String x:Key="MSG_SYNC_ERR">Error en la sincronización</system:String>
+	
+	<!--installer-->
+	<system:String x:Key="MSG_PROGRAM_RUNNING">El programa ya se está ejecutando.</system:String>
+	<system:String x:Key="MSG_SETUPFILE_NOT_EXIST">El archivo de instalación no existe.</system:String>
+	<system:String x:Key="MSG_SETUP_END">La instalación se ha completado.</system:String>
+	<system:String x:Key="MSG_SETUP_ERROR">Error durante la instalación.</system:String>
+	<system:String x:Key="MSG_SETUP_DELETED">La desinstalación se ha completado.</system:String>
+	<system:String x:Key="MSG_SETUP_DELETE_ERROR">Error durante la desinstalación.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_NOT_EXIST">El archivo de reparación no existe.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_END">La reparación se ha completado.</system:String>
+	<system:String x:Key="MSG_SETUP_REPAIR_ERROR">Error durante la reparación.</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_FILE_NOT_EXIST">El archivo de licencia no existe.</system:String>
+	<system:String x:Key="MSG_SETUP_LICENSE_DOTNET_NOT_EXIST">No se ha encontrado instalado .NET Framework 4.8 o superior.</system:String>
+	
+	<system:String x:Key="MSG_RUNTIME_ERROR">Se produjo un error al ejecutar el programa.</system:String>
+	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">No se pudo encontrar el programa.</system:String>
 </ResourceDictionary>
