@@ -197,6 +197,7 @@
 	<system:String x:Key="RESULT">Resultado</system:String>
 	<system:String x:Key="DEVIATION">Desviación</system:String>	
 	<system:String x:Key="DEVIATION_VALUE">Valor de desviación</system:String>
+    <system:String x:Key="DISPLAY_DEVIATION">Desviación de pantalla</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">Índice de capacidad del proceso (Cp)</system:String>

@@ -206,6 +206,7 @@
 	<system:String x:Key="RESULT">結果</system:String>	
 	<system:String x:Key="DEVIATION">偏差</system:String>	
 	<system:String x:Key="DEVIATION_VALUE">偏差値</system:String>
+    <system:String x:Key="DISPLAY_DEVIATION">表示偏差</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>		
 	<system:String x:Key="CP_DESC">工程能力指数(Cp)</system:String>

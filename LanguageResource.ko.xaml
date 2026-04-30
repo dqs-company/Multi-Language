@@ -206,8 +206,9 @@
 	
 	<system:String x:Key="RESULT">결과</system:String>	
 	<system:String x:Key="DEVIATION">편차</system:String>	
-	<system:String x:Key="DEVIATION_VALUE">편차치</system:String>		
-	<system:String x:Key="CP">Cp</system:String>			
+	<system:String x:Key="DEVIATION_VALUE">편차치</system:String>
+    <system:String x:Key="DISPLAY_DEVIATION">표시 편차</system:String>
+    <system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">공정능력지수(Cp)</system:String>			
 	<system:String x:Key="CPK_DESC">공정능력지수(Cpk)</system:String>	
@@ -1470,9 +1471,11 @@
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">데이터베이스 파트 로드 수 제한</system:String>
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">최신 파트</system:String>	
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">데이터베이스 측정값 로드 수 제한</system:String>
-	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">최신 벨류</system:String>	
-	
-	<!-- ==>Auto -->
+	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">최신 벨류</system:String>
+    <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">추가 데이터 팝업 사용</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP">이벤트 팝업 사용</system:String>
+
+    <!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_ADDRESS">서버 주소</system:String>
     <system:String x:Key="CONFIG_SERVER_AUTO_START">자동 실행 - 서버</system:String>
     <system:String x:Key="CONFIG_SERVER_PORT">서버 포트</system:String>
@@ -1703,6 +1706,11 @@
 	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_OVERALL">전체 요구사항</system:String>
 	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">경고 한계 초과</system:String>
 	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">공차 위반</system:String>
+    
+    <!-- Additional Data -->
+    <system:String x:Key="CONFIG_ADDITIONALDATA">추가 데이터 설정</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_INIT">추가 데이터 초기값</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_SEL">추가 데이터 선택</system:String>
 
 <!--###############################################################################>
 [Database Load]

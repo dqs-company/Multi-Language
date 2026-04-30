@@ -202,6 +202,7 @@
 	<system:String x:Key="RESULT">Result</system:String>
 	<system:String x:Key="DEVIATION">Deviation</system:String>	
 	<system:String x:Key="DEVIATION_VALUE">Deviation Value</system:String>
+    <system:String x:Key="DISPLAY_DEVIATION">Display Deviation</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">Process Capability Index (Cp)</system:String>
