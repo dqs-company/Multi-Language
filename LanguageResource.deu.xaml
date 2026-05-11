@@ -196,6 +196,7 @@
 	<system:String x:Key="DEVIATION">Abweichung</system:String>	
 	<system:String x:Key="DEVIATION_VALUE">Abweichungswert</system:String>
     <system:String x:Key="DISPLAY_DEVIATION">Anzeigeabweichung</system:String>
+    <system:String x:Key="TOL_MID_DEVIATION">Tol.-Mitte Abw.</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">Prozessfähigkeitsindex (Cp)</system:String>
@@ -1423,6 +1424,7 @@
     <system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">Letztes Teil</system:String>
     <system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">Limit für aus Datenbank geladene Werte</system:String>
     <system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">Letzte Werte</system:String>
+    <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">Zusatzdaten-Popup verwenden</system:String>
 	
 	<!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Automatischer Start - Server</system:String>

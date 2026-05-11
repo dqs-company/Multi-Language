@@ -208,6 +208,7 @@
 	<system:String x:Key="DEVIATION">편차</system:String>	
 	<system:String x:Key="DEVIATION_VALUE">편차치</system:String>
     <system:String x:Key="DISPLAY_DEVIATION">표시 편차</system:String>
+    <system:String x:Key="TOL_MID_DEVIATION">공차 중심 편차</system:String>
     <system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">공정능력지수(Cp)</system:String>			
