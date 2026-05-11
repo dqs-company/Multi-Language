@@ -1710,7 +1710,12 @@
 	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">Warning Limit Violation</system:String>
 	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">Tolerance Violation</system:String>
 
-<!--###############################################################################>
+    <!-- Additional Data -->
+    <system:String x:Key="CONFIG_ADDITIONALDATA">Additional Data Settings</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_INIT">Initial Value of Additional Data</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_SEL">Select Additional Data</system:String>
+
+    <!--###############################################################################>
 [Database Load]
 #################################################################################-->
 	<system:String x:Key="DATABASE_FILTER_ARRANGE">ARRANGE BY</system:String>

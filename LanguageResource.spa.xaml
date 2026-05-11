@@ -1658,9 +1658,14 @@
     <system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">Violación del límite de advertencia</system:String>
     <system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">Violación de tolerancia</system:String>
 
-<!--###############################################################################>
-[Database Load]
-#################################################################################-->
+    <!-- Additional Data -->
+    <system:String x:Key="CONFIG_ADDITIONALDATA">Ajustes de datos adicionales</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_INIT">Valor inicial de datos adicionales</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_SEL">Selección de datos adicionales</system:String>
+
+    <!--###############################################################################>
+    [Database Load]
+    #################################################################################-->
 	<system:String x:Key="DATABASE_FILTER_ARRANGE">ORGANIZAR POR</system:String>
     <system:String x:Key="DATABASE_FILTER_ARRANGE_NO">No</system:String>
     <system:String x:Key="DATABASE_FILTER_ARRANGE_DATETIME">Fecha/Hora</system:String>

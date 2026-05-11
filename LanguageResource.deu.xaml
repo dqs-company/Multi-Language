@@ -1656,7 +1656,12 @@
     <system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">Warngrenzenverletzung</system:String>
     <system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">Toleranzverletzung</system:String>
 
-<!--###############################################################################>
+    <!-- Additional Data -->
+    <system:String x:Key="CONFIG_ADDITIONALDATA">Zusatzdaten-Einstellungen</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_INIT">Initialwert der Zusatzdaten</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_SEL">Zusatzdaten auswählen</system:String>
+
+    <!--###############################################################################>
 [Database Load]
 #################################################################################-->
 	<system:String x:Key="DATABASE_FILTER_ARRANGE">ANORDNEN NACH</system:String>
