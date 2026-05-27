@@ -205,6 +205,7 @@
 	<system:String x:Key="DEVIATION">Deviation</system:String>	
 	<system:String x:Key="DEVIATION_VALUE">Deviation Value</system:String>
     <system:String x:Key="DISPLAY_DEVIATION">Display Deviation</system:String>
+    <system:String x:Key="TOL_MID_DEVIATION">Tol. Mid Dev.</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">Process Capability Index (Cp)</system:String>
@@ -1473,9 +1474,9 @@
 	<system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">Last Part</system:String>
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">Limit Values Loaded from Database</system:String>
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">Last Values</system:String>
+    <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">Use Additional Data Popup</system:String>
 
-	
-	<!-- ==>Auto -->
+    <!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Auto Start - Server</system:String>
     <system:String x:Key="CONFIG_SERVER_ADDRESS">Server Address</system:String>
     <system:String x:Key="CONFIG_SERVER_PORT">Server Port</system:String>
@@ -1711,7 +1712,12 @@
 	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">Warning Limit Violation</system:String>
 	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">Tolerance Violation</system:String>
 
-<!--###############################################################################>
+    <!-- Additional Data -->
+    <system:String x:Key="CONFIG_ADDITIONALDATA">Additional Data Settings</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_INIT">Initial Value of Additional Data</system:String>
+    <system:String x:Key="CONFIG_ADDITIONALDATA_SEL">Select Additional Data</system:String>
+
+    <!--###############################################################################>
 [Database Load]
 #################################################################################-->
 	<system:String x:Key="DATABASE_FILTER_ARRANGE">ARRANGE BY</system:String>
@@ -1951,6 +1957,38 @@
 	<system:String x:Key="DISAGREE">Disagree</system:String>
 	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">Execute Licensed Program</system:String>
 	<system:String x:Key="UNIFIED">Unified</system:String>
+
+	<!-- Store-style installer UI -->
+	<system:String x:Key="INSTALLED">Installed</system:String>
+	<system:String x:Key="NOT_INSTALLED">Not Installed</system:String>
+	<system:String x:Key="UPDATE_AVAILABLE">Update Available</system:String>
+	<system:String x:Key="INSTALLING">Installing...</system:String>
+	<system:String x:Key="UNINSTALLING">Uninstalling...</system:String>
+	<system:String x:Key="REPAIRING">Repairing...</system:String>
+	<system:String x:Key="FAILED">Failed</system:String>
+    <system:String x:Key="BIN_MISSING">Unavailable</system:String>
+    <system:String x:Key="UNAVAILABLE">Unavailable</system:String>
+	<system:String x:Key="OPEN_FOLDER">Open</system:String>
+	<system:String x:Key="OPTIONS">Options</system:String>
+	<system:String x:Key="APP_SUBTITLE">Install, update, or repair your iNDEQS products.</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE">Force common SW update</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE_TOOLTIP">If checked, fastAPI and i-UpdateTool will be reinstalled even if already present in C:\Users\Public\DQS\App.</system:String>
+	<system:String x:Key="BULK_INSTALL">Install Selected</system:String>
+	<system:String x:Key="SELECT_ALL">Select All</system:String>
+	<system:String x:Key="CLEAR_SELECTION">Clear</system:String>
+	<system:String x:Key="N_SELECTED">{0} selected</system:String>
+	<system:String x:Key="BULK_INSTALLING">Installing {0}...</system:String>
+	<system:String x:Key="BULK_DONE">Bulk install finished: {0} ok, {1} failed</system:String>
+	<system:String x:Key="LOG">Log</system:String>
+	<system:String x:Key="COPY">Copy</system:String>
+	<system:String x:Key="CLEAR">Clear</system:String>
+	<system:String x:Key="PREFLIGHT_FAILED">Pre-flight check failed</system:String>
+	<system:String x:Key="MSG_LICENSE_REQUIRED">Please accept the license agreement first.</system:String>
+	<system:String x:Key="MSG_LICENSE_ACCEPTED">License accepted.</system:String>
+	<system:String x:Key="MSG_LICENSE_APPLIED">License applied:</system:String>
+	<system:String x:Key="MSG_CONFIRM_UNINSTALL">Uninstall {0}?</system:String>
+	<system:String x:Key="MSG_COPIED">Copied to clipboard</system:String>
+	<system:String x:Key="MSG_SAVED">Saved</system:String>
 	
 	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[Software License Agreement]</system:String>
 	<system:String x:Key="ARTICLE_1">Article 1</system:String>
