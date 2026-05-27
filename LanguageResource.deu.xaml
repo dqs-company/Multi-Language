@@ -15,9 +15,10 @@
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
 	<system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
-	<system:String x:Key="APP-TESTPLANNER">i-Planner</system:String> 
-     
-<!--###############################################################################>
+	<system:String x:Key="APP-TESTPLANNER">i-Planner</system:String>
+    <system:String x:Key="APP-BOARD-ALERT">i-Board Alert</system:String>
+
+    <!--###############################################################################>
  [Common]
 #################################################################################--> 
 	<system:String x:Key="LICENSE">LIZENZ</system:String>
@@ -2023,4 +2024,7 @@
 	
 	<system:String x:Key="MSG_RUNTIME_ERROR">Während der Programmausführung ist ein Fehler aufgetreten.</system:String>
 	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">Das Programm konnte nicht gefunden werden.</system:String>
+
+	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV-Speicherpfad</system:String>
+	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">Ordner zum Speichern der Alarminformationen als CSV beim E-Mail-Versand</system:String>
 </ResourceDictionary>

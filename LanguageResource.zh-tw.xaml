@@ -14,9 +14,12 @@
     <system:String x:Key="APP-INTERFACE">i-Interface</system:String>
     <system:String x:Key="APP-SENSE">i-Sense</system:String>
     <system:String x:Key="APP-RECORD">i-Record</system:String>
- 
-     
-<!--###############################################################################>
+    <system:String x:Key="APP-AUTOREP">i-AutoRep</system:String>
+    <system:String x:Key="APP-TESTPLANNER">i-Planner</system:String>
+    <system:String x:Key="APP-BOARD-ALERT">i-Board Alert</system:String>
+
+
+    <!--###############################################################################>
  [Common]
 #################################################################################--> 
 	<system:String x:Key="LICENSE">授權</system:String>
@@ -1284,5 +1287,8 @@
 	<system:String x:Key="MSG_PROGRAM_ERROR_0001">Please contact the program manager.</system:String>
 
 	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">Alarm priority duplication error.</system:String>
+
+	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV 儲存路徑</system:String>
+	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">傳送郵件時將警報資訊儲存為 CSV 的資料夾</system:String>
 
 </ResourceDictionary>
