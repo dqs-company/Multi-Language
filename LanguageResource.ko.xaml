@@ -209,6 +209,7 @@
 	<system:String x:Key="DEVIATION">편차</system:String>	
 	<system:String x:Key="DEVIATION_VALUE">편차치</system:String>
     <system:String x:Key="DISPLAY_DEVIATION">표시 편차</system:String>
+    <system:String x:Key="TOL_MID_DEVIATION">공차 중심 편차</system:String>
     <system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>	
 	<system:String x:Key="CP_DESC">공정능력지수(Cp)</system:String>			
@@ -1935,6 +1936,38 @@
 	<system:String x:Key="DISAGREE">미동의</system:String>
 	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">라이센스 프로그램 실행</system:String>
 	<system:String x:Key="UNIFIED">통합</system:String>
+
+	<!-- Store-style installer UI -->
+	<system:String x:Key="INSTALLED">설치됨</system:String>
+	<system:String x:Key="NOT_INSTALLED">미설치</system:String>
+	<system:String x:Key="UPDATE_AVAILABLE">업데이트 가능</system:String>
+	<system:String x:Key="INSTALLING">설치 중...</system:String>
+	<system:String x:Key="UNINSTALLING">제거 중...</system:String>
+	<system:String x:Key="REPAIRING">복구 중...</system:String>
+	<system:String x:Key="FAILED">실패</system:String>
+	<system:String x:Key="BIN_MISSING">사용 불가</system:String>
+	<system:String x:Key="UNAVAILABLE">사용 불가</system:String>
+	<system:String x:Key="OPEN_FOLDER">열기</system:String>
+	<system:String x:Key="OPTIONS">옵션</system:String>
+	<system:String x:Key="APP_SUBTITLE">iNDEQS 제품을 설치, 업데이트, 복구합니다.</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE">공통 SW 강제 업데이트</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE_TOOLTIP">체크 시 C:\Users\Public\DQS\App에 이미 설치된 fastAPI / i-UpdateTool도 덮어쓰기 합니다.</system:String>
+	<system:String x:Key="BULK_INSTALL">선택 항목 설치</system:String>
+	<system:String x:Key="SELECT_ALL">전체 선택</system:String>
+	<system:String x:Key="CLEAR_SELECTION">선택 해제</system:String>
+	<system:String x:Key="N_SELECTED">{0}개 선택됨</system:String>
+	<system:String x:Key="BULK_INSTALLING">{0} 설치 중...</system:String>
+	<system:String x:Key="BULK_DONE">일괄 설치 완료: 성공 {0}, 실패 {1}</system:String>
+	<system:String x:Key="LOG">로그</system:String>
+	<system:String x:Key="COPY">복사</system:String>
+	<system:String x:Key="CLEAR">지우기</system:String>
+	<system:String x:Key="PREFLIGHT_FAILED">사전 점검 실패</system:String>
+	<system:String x:Key="MSG_LICENSE_REQUIRED">라이센스에 먼저 동의해 주세요.</system:String>
+	<system:String x:Key="MSG_LICENSE_ACCEPTED">라이센스 동의 완료</system:String>
+	<system:String x:Key="MSG_LICENSE_APPLIED">라이센스 적용됨:</system:String>
+	<system:String x:Key="MSG_CONFIRM_UNINSTALL">{0}을(를) 제거하시겠습니까?</system:String>
+	<system:String x:Key="MSG_COPIED">클립보드에 복사됨</system:String>
+	<system:String x:Key="MSG_SAVED">저장됨</system:String>
 	
 	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[소프트웨어 이용약관]</system:String>
 	<system:String x:Key="ARTICLE_1">제1조</system:String>
