@@ -2039,4 +2039,35 @@
 
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">Ruta de guardado CSV</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">Carpeta para guardar la información de alarma como CSV al enviar correo</system:String>
+    <!-- Mail / Report (added) -->
+    <system:String x:Key="CONFIG_MAIL_TITLE">Correo</system:String>
+    <system:String x:Key="CONFIG_MAIL_HEADER">Configuración de correo (SMTP)</system:String>
+    <system:String x:Key="CONFIG_MAIL_ENABLE">Habilitar envío de correo</system:String>
+    <system:String x:Key="CONFIG_MAIL_SSL">Usar SSL/TLS</system:String>
+    <system:String x:Key="CONFIG_MAIL_AUTH">Autenticación</system:String>
+    <system:String x:Key="CONFIG_MAIL_USER">Usuario</system:String>
+    <system:String x:Key="CONFIG_MAIL_PASSWORD">Contraseña</system:String>
+    <system:String x:Key="CONFIG_MAIL_SENDER">Remitente / Destinatario</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM">Dirección de remitente</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM_NAME">Nombre para mostrar</system:String>
+    <system:String x:Key="CONFIG_MAIL_TO">Para (; separado)</system:String>
+    <system:String x:Key="CONFIG_MAIL_CC">Cc (; separado)</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEMPLATE">Plantilla de mensaje ( {P1001}, {P1002}, {Date} disponibles )</system:String>
+    <system:String x:Key="CONFIG_MAIL_SUBJECT">Asunto</system:String>
+    <system:String x:Key="CONFIG_MAIL_BODY">Cuerpo</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_BTN">Enviar correo de prueba</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_HINT">Envía un correo de prueba a la dirección Para con la configuración actual (no se guarda).</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MODIFY">Modificar</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_DELETE">Eliminar</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MAIL">Enviar correo</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NOT_CONFIGURED">El envío de correo no está configurado.\nConfigúrelo en Configuración (pestaña Correo).</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_OK">Correo enviado correctamente.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_FAIL">Error al enviar el correo. Revise el registro y la configuración.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_FAIL">Error al enviar el correo de prueba. Revise la configuración y el registro.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_HOST">Introduzca el host SMTP.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">Introduzca una dirección Para (o dirección de remitente).</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">No hay página de informe para enviar.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">Introduzca un nombre de informe.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">¿Eliminar el informe seleccionado?</system:String>
+    <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">Los informes predeterminados no se pueden eliminar.</system:String>
 </ResourceDictionary>

@@ -2106,4 +2106,35 @@
 
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV保存パス</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">メール送信時にアラーム情報をCSVで保存するフォルダ</system:String>
+    <!-- Mail / Report (added) -->
+    <system:String x:Key="CONFIG_MAIL_TITLE">メール</system:String>
+    <system:String x:Key="CONFIG_MAIL_HEADER">メール(SMTP)設定</system:String>
+    <system:String x:Key="CONFIG_MAIL_ENABLE">メール送信を有効化</system:String>
+    <system:String x:Key="CONFIG_MAIL_SSL">SSL/TLSを使用</system:String>
+    <system:String x:Key="CONFIG_MAIL_AUTH">認証</system:String>
+    <system:String x:Key="CONFIG_MAIL_USER">ユーザー</system:String>
+    <system:String x:Key="CONFIG_MAIL_PASSWORD">パスワード</system:String>
+    <system:String x:Key="CONFIG_MAIL_SENDER">送信者 / 受信者</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM">送信元アドレス</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM_NAME">送信者表示名</system:String>
+    <system:String x:Key="CONFIG_MAIL_TO">宛先 (; 区切り)</system:String>
+    <system:String x:Key="CONFIG_MAIL_CC">Cc (; 区切り)</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEMPLATE">メッセージテンプレート ( {P1001}, {P1002}, {Date} 使用可 )</system:String>
+    <system:String x:Key="CONFIG_MAIL_SUBJECT">件名</system:String>
+    <system:String x:Key="CONFIG_MAIL_BODY">本文</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_BTN">テストメール送信</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_HINT">現在の設定で宛先にテストメールを送信します(保存しません)。</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MODIFY">編集</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_DELETE">削除</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MAIL">メール送信</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NOT_CONFIGURED">メール送信が設定されていません。\n設定(メールタブ)で設定してください。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_OK">メールを送信しました。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_FAIL">メール送信に失敗しました。ログと設定を確認してください。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_FAIL">テストメール送信に失敗しました。設定とログを確認してください。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_HOST">SMTPホストを入力してください。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">宛先アドレス(または送信元アドレス)を入力してください。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">送信するレポートページがありません。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">レポート名を入力してください。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">選択したレポートを削除しますか？</system:String>
+    <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">既定のレポートは削除できません。</system:String>
 </ResourceDictionary>

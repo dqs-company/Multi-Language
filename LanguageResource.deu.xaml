@@ -2038,4 +2038,35 @@
 
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV-Speicherpfad</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">Ordner zum Speichern der Alarminformationen als CSV beim E-Mail-Versand</system:String>
+    <!-- Mail / Report (added) -->
+    <system:String x:Key="CONFIG_MAIL_TITLE">E-Mail</system:String>
+    <system:String x:Key="CONFIG_MAIL_HEADER">E-Mail-Konfiguration (SMTP)</system:String>
+    <system:String x:Key="CONFIG_MAIL_ENABLE">E-Mail-Versand aktivieren</system:String>
+    <system:String x:Key="CONFIG_MAIL_SSL">SSL/TLS verwenden</system:String>
+    <system:String x:Key="CONFIG_MAIL_AUTH">Authentifizierung</system:String>
+    <system:String x:Key="CONFIG_MAIL_USER">Benutzer</system:String>
+    <system:String x:Key="CONFIG_MAIL_PASSWORD">Kennwort</system:String>
+    <system:String x:Key="CONFIG_MAIL_SENDER">Absender / Empfänger</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM">Absenderadresse</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM_NAME">Anzeigename des Absenders</system:String>
+    <system:String x:Key="CONFIG_MAIL_TO">An (; getrennt)</system:String>
+    <system:String x:Key="CONFIG_MAIL_CC">Cc (; getrennt)</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEMPLATE">Nachrichtenvorlage ( {P1001}, {P1002}, {Date} verwendbar )</system:String>
+    <system:String x:Key="CONFIG_MAIL_SUBJECT">Betreff</system:String>
+    <system:String x:Key="CONFIG_MAIL_BODY">Text</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_BTN">Test-E-Mail senden</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_HINT">Sendet eine Test-E-Mail mit den aktuellen Einstellungen an die An-Adresse (nicht gespeichert).</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MODIFY">Bearbeiten</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_DELETE">Löschen</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MAIL">E-Mail senden</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NOT_CONFIGURED">Der E-Mail-Versand ist nicht konfiguriert.\nBitte unter Einstellungen (Registerkarte E-Mail) einrichten.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_OK">E-Mail erfolgreich gesendet.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_FAIL">E-Mail-Versand fehlgeschlagen. Bitte Protokoll und Einstellungen prüfen.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_FAIL">Test-E-Mail fehlgeschlagen. Bitte Einstellungen und Protokoll prüfen.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_HOST">Bitte SMTP-Host eingeben.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">Bitte eine An-Adresse (oder Absenderadresse) eingeben.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">Keine Berichtsseite zum Senden.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">Bitte einen Berichtsnamen eingeben.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">Ausgewählten Bericht löschen?</system:String>
+    <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">Standardberichte können nicht gelöscht werden.</system:String>
 </ResourceDictionary>
