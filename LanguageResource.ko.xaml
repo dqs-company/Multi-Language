@@ -1258,11 +1258,13 @@
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Out of control limit in variation chart</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
- 
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>
 
- 
+	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">누적 막대</system:String>
+
+
 <!--###############################################################################>
 [Q/i-Record]
 #################################################################################-->
@@ -1476,6 +1478,16 @@
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">최신 벨류</system:String>
     <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">추가 데이터 팝업 사용</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP">이벤트 팝업 사용</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">이벤트 팝업</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">팝업 없음</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NG 팝업</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">항상 팝업</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">이벤트 입력</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">사용 가능한 이벤트</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">선택된 이벤트</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">기타 이벤트</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">알람 발생 측정값</system:String>
+    <system:String x:Key="EVENT_SEARCH">검색</system:String>
 
     <!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_ADDRESS">서버 주소</system:String>

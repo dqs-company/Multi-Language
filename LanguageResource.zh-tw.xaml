@@ -745,6 +745,9 @@
 
     <system:String x:Key="SENSE_MAIN_MENU_ABOUT">About</system:String>
 
+    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">樹狀圖</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">堆疊長條圖</system:String>
+
     <!-- Main -  Status Information -->
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO">Monitoring Info'</system:String>
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_WAITING_FILE">Waiting File</system:String>
@@ -855,7 +858,19 @@
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">QCC location chart type</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
 
-	
+    <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">使用附加資料彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP">使用事件彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">事件彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">無彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NG 彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">永遠彈出視窗</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">事件輸入</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">可用事件</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">已選事件</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">其他事件</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">警報觸發測量值</system:String>
+    <system:String x:Key="EVENT_SEARCH">搜尋</system:String>
+
 	<!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Auto Start - Server</system:String>
     <system:String x:Key="CONFIG_SERVER_ADDRESS">Server Address</system:String>

@@ -1226,9 +1226,13 @@
     <system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Annahmegrenze überschritten</system:String>	
     <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Kontrollgrenze im Lage-Diagramm überschritten</system:String>	
     <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Kontrollgrenze im Streuungs-Diagramm überschritten</system:String>	
-    <system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warngrenzen</system:String>	
+    <system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warngrenzen</system:String>
     <system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warngrenzen mit natürlicher Grenze</system:String>
- 
+
+    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Baumkarte</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Gestapelte Balken</system:String>
+
+
 <!--###############################################################################>
 [Q/i-Record]
 #################################################################################-->

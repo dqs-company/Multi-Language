@@ -1264,10 +1264,13 @@
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Out of control limit in variation chart</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
- 
- 
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>
+
+	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Tree Map</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Stacked Bar</system:String>
+
+
 
 <!--###############################################################################>
 [Q/i-Record]
@@ -1475,6 +1478,17 @@
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">Limit Values Loaded from Database</system:String>
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">Last Values</system:String>
     <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">Use Additional Data Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP">Use Event Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">Event Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">No Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NG Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">Always Popup</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">Event Input</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">Available Events</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">Selected Events</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">Other Event</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">Alarm Trigger Values</system:String>
+    <system:String x:Key="EVENT_SEARCH">Search</system:String>
 
     <!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Auto Start - Server</system:String>

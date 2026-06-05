@@ -1256,11 +1256,13 @@
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">合否限界超過</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">管理限界超過(Xバー)</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">管理限界超過(R)</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">警報限界</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">警報限界(自然限界)</system:String>	
- 
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">警報限界</system:String>
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">警報限界(自然限界)</system:String>
 
- 
+	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">ツリーマップ</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">積み上げ棒</system:String>
+
+
 	
 <!--###############################################################################>
 [Q/i-Record]
@@ -1476,6 +1478,17 @@
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">データベース測定値読み込み数制限</system:String>
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">最新測定値</system:String>
     <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">追加データポップアップを使用</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP">イベントポップアップを使用</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">イベントポップアップ</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">ポップアップなし</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NGポップアップ</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">常にポップアップ</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">イベント入力</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">利用可能イベント</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">選択イベント</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">その他のイベント</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">アラーム発生測定値</system:String>
+    <system:String x:Key="EVENT_SEARCH">検索</system:String>
 
     <!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">i-Collector起動時にインスタンスを開始</system:String>

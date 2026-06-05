@@ -1228,9 +1228,13 @@
     <system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Violación del límite de aceptación</system:String>	
     <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Fuera del límite de control en gráfico de ubicación</system:String>	
     <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Fuera del límite de control en gráfico de variación</system:String>	
-    <system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Límites de advertencia</system:String>	
+    <system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Límites de advertencia</system:String>
     <system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Límites de advertencia con límite natural</system:String>
- 
+
+    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Mapa de árbol</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Barras apiladas</system:String>
+
+
 <!--###############################################################################>
 [Q/i-Record]
 #################################################################################-->
