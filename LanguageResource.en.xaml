@@ -467,12 +467,12 @@
 	<system:String x:Key="DATA_FIELD_2015">Tool wear type (Trend)</system:String>
 	<system:String x:Key="DATA_FIELD_2016">100% Measurement</system:String>
 	<system:String x:Key="DATA_FIELD_2021">Logical Operation Formula</system:String>
-	<system:String x:Key="DATA_FIELD_2022">Decimal Places  </system:String>
+	<system:String x:Key="DATA_FIELD_2022">Decimal Places</system:String>
 	<system:String x:Key="DATA_FIELD_2035">Calibration Date [Date/Time]</system:String>
-	<system:String x:Key="DATA_FIELD_2041">Recording Type </system:String>
+	<system:String x:Key="DATA_FIELD_2041">Recording Type</system:String>
 	<system:String x:Key="DATA_FIELD_2042">Recording Device Number</system:String>
 	<system:String x:Key="DATA_FIELD_2043">Recording Device Name</system:String> 
-	<system:String x:Key="DATA_FIELD_2051">Interface </system:String>
+	<system:String x:Key="DATA_FIELD_2051">Interface</system:String>
 	<system:String x:Key="DATA_FIELD_2091">Characteristic index</system:String>
 	<system:String x:Key="DATA_FIELD_2092">Characteristic text</system:String>
 	<system:String x:Key="DATA_FIELD_2093">Processing status</system:String>
@@ -490,7 +490,7 @@
 	<system:String x:Key="DATA_FIELD_2121">Upper Limit type</system:String>
 	<system:String x:Key="DATA_FIELD_2130">Lower Plausibility Limit</system:String>
 	<system:String x:Key="DATA_FIELD_2131">Upper Plausibility Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2142">Unit Description </system:String>
+	<system:String x:Key="DATA_FIELD_2142">Unit Description</system:String>
 	<system:String x:Key="DATA_FIELD_2161">Re-work cost</system:String>
 	<system:String x:Key="DATA_FIELD_2162">Rejects cost</system:String>
 	<system:String x:Key="DATA_FIELD_2163">Error cost</system:String>
@@ -539,7 +539,7 @@
 	<system:String x:Key="DATA_FIELD_8114">Lower Warning Limit LWL (variation)</system:String>
 	<system:String x:Key="DATA_FIELD_8115">Upper Warning Limit UWL (variation)</system:String>
 	<system:String x:Key="DATA_FIELD_8500">Subgroup size (total)</system:String>
-	<system:String x:Key="DATA_FIELD_8501">Subgroup type </system:String>
+	<system:String x:Key="DATA_FIELD_8501">Subgroup type</system:String>
 	<system:String x:Key="DATA_FIELD_8531">Recorded Process Capability (Cp)</system:String>
 	<system:String x:Key="DATA_FIELD_8532">Recorded Process Capability (Cpk)</system:String>
 	<system:String x:Key="DATA_FIELD_8540">Evaluation</system:String>
@@ -605,7 +605,7 @@
     <system:String x:Key="RE_MENU_STATUS_NO_PART">No load part</system:String>
     <system:String x:Key="RE_MENU_STATUS_NO_CHAR_COUNT">No load char'</system:String>
     <system:String x:Key="RE_MENU_STATUS_NO_DATE_RANGE">No range date</system:String>
-    <system:String x:Key="RE_MENU_FILE_GROUP">File Conversion </system:String>
+    <system:String x:Key="RE_MENU_FILE_GROUP">File Conversion</system:String>
     <system:String x:Key="RE_MENU_FILE_CONVERT_START">Start&#x0d;&#x0a;File Conversion</system:String>
     <system:String x:Key="RE_MENU_FILE_CONVERT_END">End&#x0d;&#x0a;File Conversion</system:String>
     <system:String x:Key="RE_MENU_DB_GROUP">Database</system:String>
@@ -1794,7 +1794,7 @@
 [Value List]
 #################################################################################-->
     <system:String x:Key="VALUE_LIST">Value list</system:String>
-    <system:String x:Key="VALUE_COUNT">Value Count </system:String>
+    <system:String x:Key="VALUE_COUNT">Value Count</system:String>
 	
 	
 <!--###############################################################################>
@@ -1841,7 +1841,7 @@
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">Graphics Settings</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">Postion[2001]</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_CALCULATION">calculation </system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CALCULATION">calculation</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">Marker</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">Marker Visible[OK]</system:String>

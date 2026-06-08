@@ -464,12 +464,12 @@
 	<system:String x:Key="DATA_FIELD_2015">ツール摩耗タイプ(傾向)</system:String>
 	<system:String x:Key="DATA_FIELD_2016">全数検査</system:String>
 	<system:String x:Key="DATA_FIELD_2021">論理演算式</system:String>
-	<system:String x:Key="DATA_FIELD_2022">小数点以下桁数  </system:String>
+	<system:String x:Key="DATA_FIELD_2022">小数点以下桁数</system:String>
 	<system:String x:Key="DATA_FIELD_2035">校正日[Date/Time]</system:String>
 	<system:String x:Key="DATA_FIELD_2041">記録タイプ</system:String>
 	<system:String x:Key="DATA_FIELD_2042">記録デバイス番号</system:String>
 	<system:String x:Key="DATA_FIELD_2043">記録デバイス名</system:String> 
-	<system:String x:Key="DATA_FIELD_2051">インターフェース </system:String>
+	<system:String x:Key="DATA_FIELD_2051">インターフェース</system:String>
 	<system:String x:Key="DATA_FIELD_2091">特性インデックス</system:String>
 	<system:String x:Key="DATA_FIELD_2092">特性テキスト</system:String>
 	<system:String x:Key="DATA_FIELD_2093">処理状態</system:String>
@@ -1784,7 +1784,7 @@
 [Value List]
 #################################################################################-->
     <system:String x:Key="VALUE_LIST">測定値リスト</system:String>
-    <system:String x:Key="VALUE_COUNT">測定値カウント </system:String>
+    <system:String x:Key="VALUE_COUNT">測定値カウント</system:String>
 
 <!--###############################################################################>
 [Select Value]

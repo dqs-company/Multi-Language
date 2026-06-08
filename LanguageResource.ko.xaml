@@ -704,7 +704,7 @@
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_CONFIG_SAVE">출력 설정 저장</system:String>
 	
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_ENTER">출력 엑셀</system:String>
-    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_AUTO_ENTER">출력 엑셀 자동 </system:String>
+    <system:String x:Key="RE_TAB_EXCEL_OUTPUT_AUTO_ENTER">출력 엑셀 자동</system:String>
     <system:String x:Key="RE_TAB_EXCEL_ACTUAL">실측값</system:String>
     <system:String x:Key="RE_TAB_EXCEL_DEVIATION">편차</system:String>
     <system:String x:Key="RE_TAB_EXCEL_DEVIATION_CARBODY">편차(CARBODY-LH)</system:String>
@@ -1789,7 +1789,7 @@
 [Value List]
 #################################################################################-->
     <system:String x:Key="VALUE_LIST">측정값 리스트</system:String>
-    <system:String x:Key="VALUE_COUNT">측정값 개수 </system:String>
+    <system:String x:Key="VALUE_COUNT">측정값 개수</system:String>
 
 <!--###############################################################################>
 [Select Value]

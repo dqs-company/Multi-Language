@@ -309,12 +309,12 @@
 	<system:String x:Key="DATA_FIELD_2015">Tool wear type (Trend)</system:String>
 	<system:String x:Key="DATA_FIELD_2016">100% Measurement</system:String>
 	<system:String x:Key="DATA_FIELD_2021">Logical Operation Formula</system:String>
-	<system:String x:Key="DATA_FIELD_2022">Decimal Places  </system:String>
+	<system:String x:Key="DATA_FIELD_2022">Decimal Places</system:String>
 	<system:String x:Key="DATA_FIELD_2035">Calibration Date [Date/Time]</system:String>
-	<system:String x:Key="DATA_FIELD_2041">Recording Type </system:String>
+	<system:String x:Key="DATA_FIELD_2041">Recording Type</system:String>
 	<system:String x:Key="DATA_FIELD_2042">Recording Device Number</system:String>
 	<system:String x:Key="DATA_FIELD_2043">Recording Device Name</system:String> 
-	<system:String x:Key="DATA_FIELD_2051">Interface </system:String>
+	<system:String x:Key="DATA_FIELD_2051">Interface</system:String>
 	<system:String x:Key="DATA_FIELD_2091">Characteristic index</system:String>
 	<system:String x:Key="DATA_FIELD_2092">Characteristic text</system:String>
 	<system:String x:Key="DATA_FIELD_2093">Processing status</system:String>
@@ -332,7 +332,7 @@
 	<system:String x:Key="DATA_FIELD_2121">Upper Limit type</system:String>
 	<system:String x:Key="DATA_FIELD_2130">Lower Plausibility Limit</system:String>
 	<system:String x:Key="DATA_FIELD_2131">Upper Plausibility Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2142">Unit Description </system:String>
+	<system:String x:Key="DATA_FIELD_2142">Unit Description</system:String>
 	<system:String x:Key="DATA_FIELD_2161">Re-work cost</system:String>
 	<system:String x:Key="DATA_FIELD_2162">Rejects cost</system:String>
 	<system:String x:Key="DATA_FIELD_2163">Error cost</system:String>
@@ -381,7 +381,7 @@
 	<system:String x:Key="DATA_FIELD_8114">Lower Warning Limit LWL (variation)</system:String>
 	<system:String x:Key="DATA_FIELD_8115">Upper Warning Limit UWL (variation)</system:String>
 	<system:String x:Key="DATA_FIELD_8500">Subgroup size (total)</system:String>
-	<system:String x:Key="DATA_FIELD_8501">Subgroup type </system:String>
+	<system:String x:Key="DATA_FIELD_8501">Subgroup type</system:String>
 	<system:String x:Key="DATA_FIELD_8531">Recorded Process Capability (Cp)</system:String>
 	<system:String x:Key="DATA_FIELD_8532">Recorded Process Capability (Cpk)</system:String>
 	<system:String x:Key="DATA_FIELD_8540">Evaluation</system:String>
@@ -433,7 +433,7 @@
     <system:String x:Key="RE_MENU_STATUS_NO_PART">無零件</system:String>
     <system:String x:Key="RE_MENU_STATUS_NO_CHAR_COUNT">無特徵</system:String>
     <system:String x:Key="RE_MENU_STATUS_NO_DATE_RANGE">無指定日期</system:String>
-    <system:String x:Key="RE_MENU_FILE_GROUP">檔案轉換 </system:String>
+    <system:String x:Key="RE_MENU_FILE_GROUP">檔案轉換</system:String>
     <system:String x:Key="RE_MENU_FILE_CONVERT_START">開始&#x0d;&#x0a;檔案轉換</system:String>
     <system:String x:Key="RE_MENU_FILE_CONVERT_END">結束&#x0d;&#x0a;檔案轉換</system:String>
     <system:String x:Key="RE_MENU_DB_GROUP">資料庫</system:String>
@@ -767,7 +767,7 @@
 #################################################################################-->
    <!-- ==>Q/i-Record -->
    <system:String x:Key="RC_CONFIG">i-Record Configuration</system:String>
-   <system:String x:Key="RC_NO_SWITCH_CHAR">Do not allow switch characteristics </system:String>   
+   <system:String x:Key="RC_NO_SWITCH_CHAR">Do not allow switch characteristics</system:String>   
    <system:String x:Key="RC_NO_CLOSE_END_MEASUREMENT">Do not allow close the application with incomplete measuring</system:String>
     
    <system:String x:Key="RC_PLAN_LIMIT_VALUES_TO_LAST">Limit values to last</system:String>
@@ -1091,7 +1091,7 @@
 [Value List]
 #################################################################################-->
     <system:String x:Key="VALUE_LIST">Value list</system:String>
-    <system:String x:Key="VALUE_COUNT">Value Count </system:String>
+    <system:String x:Key="VALUE_COUNT">Value Count</system:String>
 	
 	
 <!--###############################################################################>
