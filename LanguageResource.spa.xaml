@@ -1222,7 +1222,9 @@
     <!-- Main - Log -->
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Valor seleccionado</system:String>
     <system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">No seleccionado</system:String>
+
     <system:String x:Key="SENSE_ALARM_CHART">Gráfico de alarmas</system:String>
+    
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">Mapa de árbol</system:String>
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">Barras apiladas</system:String>
 

@@ -1256,8 +1256,10 @@
 	<system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Not selected</system:String>
 	<system:String x:Key="SENSE_ALARM_CHART">Alarm Chart</system:String>
 
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">TreeMap</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">Bar Chart</system:String>
 
-	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>
+    <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>
 	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Scrap limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	

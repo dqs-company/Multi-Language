@@ -1247,6 +1247,8 @@
 
 
     <system:String x:Key="SENSE_ALARM_CHART">アラーム一覧</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">ツリーマップ</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">棒グラフ</system:String>
     <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">公差超過</system:String>
 	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">廃棄限界超過</system:String>	
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">合否限界超過</system:String>	
