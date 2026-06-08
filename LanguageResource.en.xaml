@@ -1256,10 +1256,12 @@
 
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Selected Value</system:String>
 	<system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Not selected</system:String>
-	<system:String x:Key="SENSE_ALARM_CHART">Alarm Chart</system:String>	
-	
-	
-	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_CHART">Alarm Chart</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Tree Map</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Stacked Bar</system:String>
+
+
+	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>
 	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Scrap limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
@@ -1291,6 +1293,12 @@
 
 	<system:String x:Key="RC_TEST_WAITING_DATA">D: Waiting Data</system:String>
 	<system:String x:Key="RC_TEST_PENDING_DATA">D: Pending Data</system:String>
+	<!--[NEW] hodo20260528-->
+	<system:String x:Key="RC_TEST_BADGE_PENDING">○ PENDING</system:String>
+	<system:String x:Key="RC_TEST_BADGE_WAITING">● WAITING</system:String>
+	<system:String x:Key="RC_TEST_BADGE_DONE">✓ DONE</system:String>
+	<system:String x:Key="RC_TEST_BADGE_SKIPPED">↪ SKIP</system:String>
+	<system:String x:Key="RC_TEST_BADGE_OOT">⚠ OOT</system:String>
  
  
 

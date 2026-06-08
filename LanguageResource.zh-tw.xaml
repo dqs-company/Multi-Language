@@ -723,6 +723,9 @@
     <system:String x:Key="SENSE_MAIN_MENU_QCC_CHART">QCC&#xA;Chart</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_ANALYSIS">Analysis</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_ALARM">Alarm</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART">警報圖</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">樹狀圖</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">堆疊長條圖</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_LAYOUT">Layout</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_SAVEVIEW">Save View</system:String>

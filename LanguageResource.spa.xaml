@@ -1221,9 +1221,11 @@
     <!-- Main - Log -->
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Valor seleccionado</system:String>
     <system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">No seleccionado</system:String>
-    <system:String x:Key="SENSE_ALARM_CHART">Gráfico de alarmas</system:String>	
-	
-    <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Violación de tolerancia</system:String>	
+    <system:String x:Key="SENSE_ALARM_CHART">Gráfico de alarmas</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Mapa de árbol</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Barras apiladas</system:String>
+
+    <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Violación de tolerancia</system:String>
     <system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Violación del límite de desecho</system:String>	
     <system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Violación del límite de aceptación</system:String>	
     <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Fuera del límite de control en gráfico de ubicación</system:String>	
@@ -1251,6 +1253,12 @@
 
 	<system:String x:Key="RC_TEST_WAITING_DATA">D: Datos en espera</system:String>
 	<system:String x:Key="RC_TEST_PENDING_DATA">D: Datos pendientes</system:String>
+	<!--[NEW] hodo20260528-->
+	<system:String x:Key="RC_TEST_BADGE_PENDING">○ PENDIENTE</system:String>
+	<system:String x:Key="RC_TEST_BADGE_WAITING">● EN ESPERA</system:String>
+	<system:String x:Key="RC_TEST_BADGE_DONE">✓ HECHO</system:String>
+	<system:String x:Key="RC_TEST_BADGE_SKIPPED">↪ OMITIDO</system:String>
+	<system:String x:Key="RC_TEST_BADGE_OOT">⚠ F.TOLER.</system:String>
  
 <!--###############################################################################>
 [Config]

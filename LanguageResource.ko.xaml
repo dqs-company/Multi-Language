@@ -1251,9 +1251,11 @@
 	<system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">선택 되지 않음</system:String>
 	
 	
-	<system:String x:Key="SENSE_ALARM_CHART">알람 차트</system:String>	
-	
-	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>	
+	<system:String x:Key="SENSE_ALARM_CHART">알람 차트</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">누적 막대</system:String>
+
+	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>
 	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Scrap limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
@@ -1287,6 +1289,12 @@
 
 	<system:String x:Key="RC_TEST_WAITING_DATA">D: 대기중 데이터</system:String>
 	<system:String x:Key="RC_TEST_PENDING_DATA">D: 보류 데이터</system:String>
+	<!--[NEW] hodo20260528-->
+	<system:String x:Key="RC_TEST_BADGE_PENDING">○ 대기</system:String>
+	<system:String x:Key="RC_TEST_BADGE_WAITING">● 입력대기</system:String>
+	<system:String x:Key="RC_TEST_BADGE_DONE">✓ 완료</system:String>
+	<system:String x:Key="RC_TEST_BADGE_SKIPPED">↪ 건너뜀</system:String>
+	<system:String x:Key="RC_TEST_BADGE_OOT">⚠ 공차벗어남</system:String>
 
 
 

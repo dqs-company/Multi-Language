@@ -1219,9 +1219,11 @@
     <!-- Main - Log -->
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Ausgewählter Wert</system:String>
     <system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Nicht ausgewählt</system:String>
-    <system:String x:Key="SENSE_ALARM_CHART">Alarm-Diagramm</system:String>	
-	
-    <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Toleranzverletzung</system:String>	
+    <system:String x:Key="SENSE_ALARM_CHART">Alarm-Diagramm</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Baumkarte</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Gestapelte Balken</system:String>
+
+    <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Toleranzverletzung</system:String>
     <system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Ausschussgrenze überschritten</system:String>	
     <system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Annahmegrenze überschritten</system:String>	
     <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Kontrollgrenze im Lage-Diagramm überschritten</system:String>	
@@ -1249,6 +1251,12 @@
 
 	<system:String x:Key="RC_TEST_WAITING_DATA">D: Wartende Daten</system:String>
 	<system:String x:Key="RC_TEST_PENDING_DATA">D: Ausstehende Daten</system:String>
+	<!--[NEW] hodo20260528-->
+	<system:String x:Key="RC_TEST_BADGE_PENDING">○ AUSSTEHEND</system:String>
+	<system:String x:Key="RC_TEST_BADGE_WAITING">● WARTEN</system:String>
+	<system:String x:Key="RC_TEST_BADGE_DONE">✓ FERTIG</system:String>
+	<system:String x:Key="RC_TEST_BADGE_SKIPPED">↪ ÜBERSPR.</system:String>
+	<system:String x:Key="RC_TEST_BADGE_OOT">⚠ TOL.ÜBER</system:String>
 	
 <!--###############################################################################>
 [Config]
