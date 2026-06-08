@@ -319,6 +319,7 @@
 	<system:String x:Key="ROUGHNESS">Rauheit</system:String>		
 	<system:String x:Key="LENGTH">Länge</system:String>
 
+
 	<!--DWG Parameters-->
 	<system:String x:Key="RA">Arithmetischer Mittenrauwert</system:String>
 	<system:String x:Key="RZ">Gemittelte Rauhtiefe</system:String>

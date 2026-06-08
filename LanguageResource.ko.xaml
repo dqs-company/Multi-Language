@@ -327,9 +327,9 @@
 	<system:String x:Key="ANGLE">각도</system:String>		
 	<system:String x:Key="RADIUS">반지름</system:String>		
 	<system:String x:Key="ROUGHNESS">거칠기</system:String>		
-	<system:String x:Key="LENGTH">길이</system:String>	
+	<system:String x:Key="LENGTH">길이</system:String>
 
-	<!--DWG Parameters-->
+    <!--DWG Parameters-->
 	<system:String x:Key="RA">산술 평균 거칠기</system:String>
 	<system:String x:Key="RZ">평균 거칠기</system:String>
 	<system:String x:Key="RT">최대 높이</system:String>
@@ -1252,8 +1252,8 @@
 	
 	
 	<system:String x:Key="SENSE_ALARM_CHART">알람 차트</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">누적 막대</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">누적 막대</system:String>
 
 	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>
 	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Scrap limit violation</system:String>	

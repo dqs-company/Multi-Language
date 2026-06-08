@@ -321,6 +321,7 @@
 	<system:String x:Key="ROUGHNESS">Rugosidad</system:String>		
 	<system:String x:Key="LENGTH">Longitud</system:String>
 
+
 	<!--DWG Parameters-->
 	<system:String x:Key="RA">Rugosidad media aritmética</system:String>
 	<system:String x:Key="RZ">Rugosidad media</system:String>
@@ -1222,8 +1223,8 @@
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Valor seleccionado</system:String>
     <system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">No seleccionado</system:String>
     <system:String x:Key="SENSE_ALARM_CHART">Gráfico de alarmas</system:String>
-    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Mapa de árbol</system:String>
-    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Barras apiladas</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">Mapa de árbol</system:String>
+    <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">Barras apiladas</system:String>
 
     <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Violación de tolerancia</system:String>
     <system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">Violación del límite de desecho</system:String>	

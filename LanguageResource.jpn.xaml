@@ -330,9 +330,10 @@
 	<system:String x:Key="ANGLE">角度</system:String>		
 	<system:String x:Key="RADIUS">半径</system:String>		
 	<system:String x:Key="ROUGHNESS">面粗さ</system:String>		
-	<system:String x:Key="LENGTH">長さ</system:String>		
-	
-	<!--DWG Parameters-->
+	<system:String x:Key="LENGTH">長さ</system:String>
+
+
+    <!--DWG Parameters-->
 	<system:String x:Key="RA">算術平均粗さ</system:String>
 	<system:String x:Key="RZ">平均粗さ</system:String>
 	<system:String x:Key="RT">最大高さ</system:String>
@@ -1241,19 +1242,12 @@
 
 
     <!-- Main - Log -->
-
-
-
-
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">選択した値</system:String>
 	<system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">未選択</system:String>
-	
-	
-	<system:String x:Key="SENSE_ALARM_CHART">アラーム一覧</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">ツリーマップ</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">積み上げ棒</system:String>
 
-	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">公差超過</system:String>
+
+    <system:String x:Key="SENSE_ALARM_CHART">アラーム一覧</system:String>
+    <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">公差超過</system:String>
 	<system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">廃棄限界超過</system:String>	
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">合否限界超過</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">管理限界超過(Xバー)</system:String>	
