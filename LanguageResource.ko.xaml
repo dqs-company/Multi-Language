@@ -1253,7 +1253,6 @@
 	
 	<system:String x:Key="SENSE_ALARM_CHART">알람 차트</system:String>
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
-    <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">바 차트</system:String>
 
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">바차트</system:String>
