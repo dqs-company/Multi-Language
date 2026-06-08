@@ -1261,10 +1261,6 @@
 	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">警報限界</system:String>
 	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">警報限界(自然限界)</system:String>
 
-	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">ツリーマップ</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">積み上げ棒</system:String>
-
-
 	
 <!--###############################################################################>
 [Q/i-Record]

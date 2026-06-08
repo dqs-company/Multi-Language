@@ -748,8 +748,6 @@
 
     <system:String x:Key="SENSE_MAIN_MENU_ABOUT">About</system:String>
 
-    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">樹狀圖</system:String>
-    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">堆疊長條圖</system:String>
 
     <!-- Main -  Status Information -->
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO">Monitoring Info'</system:String>

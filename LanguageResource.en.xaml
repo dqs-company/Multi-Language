@@ -1251,14 +1251,10 @@
 
 
     <!-- Main - Log -->
-
-
-
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Selected Value</system:String>
 	<system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Not selected</system:String>
 	<system:String x:Key="SENSE_ALARM_CHART">Alarm Chart</system:String>
 	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Tree Map</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Stacked Bar</system:String>
 
 
 	<system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Tolerance violation</system:String>
@@ -1268,11 +1264,6 @@
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Out of control limit in variation chart</system:String>	
 	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>
 	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>
-
-	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Tree Map</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Stacked Bar</system:String>
-
-
 
 <!--###############################################################################>
 [Q/i-Record]

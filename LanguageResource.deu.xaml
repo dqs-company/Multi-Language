@@ -1220,7 +1220,6 @@
 	<system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">Ausgewählter Wert</system:String>
     <system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Nicht ausgewählt</system:String>
     <system:String x:Key="SENSE_ALARM_CHART">Alarm-Diagramm</system:String>
-    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Baumkarte</system:String>
     <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Gestapelte Balken</system:String>
 
     <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">Toleranzverletzung</system:String>
@@ -1230,9 +1229,6 @@
     <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Kontrollgrenze im Streuungs-Diagramm überschritten</system:String>	
     <system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warngrenzen</system:String>
     <system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warngrenzen mit natürlicher Grenze</system:String>
-
-    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Baumkarte</system:String>
-    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Gestapelte Balken</system:String>
 
 
 <!--###############################################################################>

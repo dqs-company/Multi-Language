@@ -1263,8 +1263,6 @@
 	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>
 	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>
 
-	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
-	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">누적 막대</system:String>
 
 
 <!--###############################################################################>
