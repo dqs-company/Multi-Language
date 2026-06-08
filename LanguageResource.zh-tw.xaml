@@ -748,6 +748,9 @@
 
     <system:String x:Key="SENSE_MAIN_MENU_ABOUT">About</system:String>
 
+    <system:String x:Key="ALARM_CHART_TYPE_TREEMAP">樹狀圖</system:String>
+    <system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">堆疊長條圖</system:String>
+
     <!-- Main -  Status Information -->
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO">Monitoring Info'</system:String>
     <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_WAITING_FILE">Waiting File</system:String>
@@ -858,7 +861,19 @@
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">QCC location chart type</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
 
-	
+    <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">使用附加資料彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP">使用事件彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">事件彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">無彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NG 彈出視窗</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">永遠彈出視窗</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">事件輸入</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">可用事件</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">已選事件</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">其他事件</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">警報觸發測量值</system:String>
+    <system:String x:Key="EVENT_SEARCH">搜尋</system:String>
+
 	<!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Auto Start - Server</system:String>
     <system:String x:Key="CONFIG_SERVER_ADDRESS">Server Address</system:String>
@@ -1294,4 +1309,39 @@
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV 儲存路徑</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">傳送郵件時將警報資訊儲存為 CSV 的資料夾</system:String>
 
+    <!-- Mail / Report (added) -->
+    <system:String x:Key="CONFIG_MAIL_TITLE">郵件</system:String>
+    <system:String x:Key="CONFIG_MAIL_HEADER">郵件(SMTP)設定</system:String>
+    <system:String x:Key="CONFIG_MAIL_ENABLE">啟用郵件傳送</system:String>
+    <system:String x:Key="CONFIG_MAIL_HOST">SMTP 主機</system:String>
+    <system:String x:Key="CONFIG_MAIL_PORT">SMTP 連接埠</system:String>
+    <system:String x:Key="CONFIG_MAIL_SSL">使用 SSL/TLS</system:String>
+    <system:String x:Key="CONFIG_MAIL_AUTH">驗證</system:String>
+    <system:String x:Key="CONFIG_MAIL_USER">使用者</system:String>
+    <system:String x:Key="CONFIG_MAIL_PASSWORD">密碼</system:String>
+    <system:String x:Key="CONFIG_MAIL_SENDER">寄件者 / 收件者</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM">寄件地址</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM_NAME">寄件者顯示名稱</system:String>
+    <system:String x:Key="CONFIG_MAIL_TO">收件者 (; 分隔)</system:String>
+    <system:String x:Key="CONFIG_MAIL_CC">副本 (; 分隔)</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEMPLATE">訊息範本 ( 可用 {P1001}, {P1002}, {Date} )</system:String>
+    <system:String x:Key="CONFIG_MAIL_SUBJECT">主旨</system:String>
+    <system:String x:Key="CONFIG_MAIL_BODY">內容</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_BTN">傳送測試郵件</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_HINT">使用目前設定傳送測試郵件至收件者(不儲存)。</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_NEW">新增</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MODIFY">修改</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_DELETE">刪除</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MAIL">傳送郵件</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NOT_CONFIGURED">尚未設定郵件傳送。\n請至 設定(郵件頁籤) 進行設定。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_OK">郵件已成功傳送。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_FAIL">郵件傳送失敗。請檢查記錄與設定。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_OK">測試郵件已成功傳送。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_FAIL">測試郵件傳送失敗。請檢查設定與記錄。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_HOST">請輸入 SMTP 主機。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">請輸入收件者地址(或寄件地址)。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">沒有可傳送的報表頁面。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">請輸入報表名稱。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">確定刪除所選報表嗎？</system:String>
+    <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">預設報表無法刪除。</system:String>
 </ResourceDictionary>

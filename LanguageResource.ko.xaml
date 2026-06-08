@@ -1260,11 +1260,13 @@
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Out of control limit in variation chart</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
- 
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>
 
- 
+	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">트리맵</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">누적 막대</system:String>
+
+
 <!--###############################################################################>
 [Q/i-Record]
 #################################################################################-->
@@ -1484,6 +1486,16 @@
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">최신 벨류</system:String>
     <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">추가 데이터 팝업 사용</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP">이벤트 팝업 사용</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">이벤트 팝업</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">팝업 없음</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NG 팝업</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">항상 팝업</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">이벤트 입력</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">사용 가능한 이벤트</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">선택된 이벤트</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">기타 이벤트</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">알람 발생 측정값</system:String>
+    <system:String x:Key="EVENT_SEARCH">검색</system:String>
 
     <!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_ADDRESS">서버 주소</system:String>
@@ -2134,4 +2146,35 @@
 
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV 저장 경로</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">메일 전송 시 알람 정보를 CSV로 저장할 폴더</system:String>
+    <!-- Mail / Report (added) -->
+    <system:String x:Key="CONFIG_MAIL_TITLE">메일</system:String>
+    <system:String x:Key="CONFIG_MAIL_HEADER">메일(SMTP) 설정</system:String>
+    <system:String x:Key="CONFIG_MAIL_ENABLE">메일 전송 사용</system:String>
+    <system:String x:Key="CONFIG_MAIL_SSL">SSL/TLS 사용</system:String>
+    <system:String x:Key="CONFIG_MAIL_AUTH">인증</system:String>
+    <system:String x:Key="CONFIG_MAIL_USER">사용자</system:String>
+    <system:String x:Key="CONFIG_MAIL_PASSWORD">비밀번호</system:String>
+    <system:String x:Key="CONFIG_MAIL_SENDER">발신자 / 수신자</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM">발신 주소</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM_NAME">발신자 표시 이름</system:String>
+    <system:String x:Key="CONFIG_MAIL_TO">받는 사람 (; 구분)</system:String>
+    <system:String x:Key="CONFIG_MAIL_CC">참조 (; 구분)</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEMPLATE">메시지 템플릿 ( {P1001}, {P1002}, {Date} 사용 가능 )</system:String>
+    <system:String x:Key="CONFIG_MAIL_SUBJECT">제목</system:String>
+    <system:String x:Key="CONFIG_MAIL_BODY">본문</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_BTN">테스트 메일 전송</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_HINT">현재 설정으로 받는 사람 주소에 테스트 메일을 보냅니다(저장 안 함).</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MODIFY">수정</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_DELETE">삭제</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MAIL">메일 전송</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NOT_CONFIGURED">메일 전송이 설정되지 않았습니다.\n설정(메일 탭)에서 설정하세요.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_OK">메일을 전송했습니다.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_FAIL">메일 전송에 실패했습니다. 로그와 설정을 확인하세요.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_FAIL">테스트 메일 전송에 실패했습니다. 설정과 로그를 확인하세요.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_HOST">SMTP 호스트를 입력하세요.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">받는 사람 주소(또는 발신 주소)를 입력하세요.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">전송할 보고서 페이지가 없습니다.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">보고서 이름을 입력하세요.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">선택한 보고서를 삭제하시겠습니까?</system:String>
+    <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">기본 보고서는 삭제할 수 없습니다.</system:String>
 </ResourceDictionary>

@@ -1266,10 +1266,13 @@
 	<system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">Acceptance limit violation</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">Out of control limit in location chart</system:String>	
 	<system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">Out of control limit in variation chart</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>	
-	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>	
- 
- 
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS">Warning limits</system:String>
+	<system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">Warning limits with natural boundary</system:String>
+
+	<system:String x:Key="ALARM_CHART_TYPE_TREEMAP">Tree Map</system:String>
+	<system:String x:Key="ALARM_CHART_TYPE_STACKED_BAR">Stacked Bar</system:String>
+
+
 
 <!--###############################################################################>
 [Q/i-Record]
@@ -1483,6 +1486,17 @@
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">Limit Values Loaded from Database</system:String>
 	<system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">Last Values</system:String>
     <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">Use Additional Data Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP">Use Event Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">Event Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">No Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NG Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">Always Popup</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">Event Input</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">Available Events</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">Selected Events</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">Other Event</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">Alarm Trigger Values</system:String>
+    <system:String x:Key="EVENT_SEARCH">Search</system:String>
 
     <!-- ==>Auto -->
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Auto Start - Server</system:String>
@@ -2277,4 +2291,35 @@
     <system:String x:Key="AM_EVAL_INCOMPLETE_SUBGROUP_QCC">Incomplete Subgroup[QCC]</system:String>
     <system:String x:Key="AM_EVAL_PRESET_CONTROL_LIMITS_QCC">Apply preset control limits[QCC]</system:String>
 
+    <!-- Mail / Report (added) -->
+    <system:String x:Key="CONFIG_MAIL_TITLE">Mail</system:String>
+    <system:String x:Key="CONFIG_MAIL_HEADER">Mail (SMTP) Configuration</system:String>
+    <system:String x:Key="CONFIG_MAIL_ENABLE">Enable mail sending</system:String>
+    <system:String x:Key="CONFIG_MAIL_SSL">Use SSL/TLS</system:String>
+    <system:String x:Key="CONFIG_MAIL_AUTH">Authentication</system:String>
+    <system:String x:Key="CONFIG_MAIL_USER">User</system:String>
+    <system:String x:Key="CONFIG_MAIL_PASSWORD">Password</system:String>
+    <system:String x:Key="CONFIG_MAIL_SENDER">Sender / Recipient</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM">From Address</system:String>
+    <system:String x:Key="CONFIG_MAIL_FROM_NAME">From Display Name</system:String>
+    <system:String x:Key="CONFIG_MAIL_TO">To (; separated)</system:String>
+    <system:String x:Key="CONFIG_MAIL_CC">Cc (; separated)</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEMPLATE">Message Template ( {P1001}, {P1002}, {Date} usable )</system:String>
+    <system:String x:Key="CONFIG_MAIL_SUBJECT">Subject</system:String>
+    <system:String x:Key="CONFIG_MAIL_BODY">Body</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_BTN">Send Test Mail</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST_HINT">Sends a test email to the To address using current settings (not saved).</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MODIFY">Modify</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_DELETE">Delete</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MAIL">Send Mail</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NOT_CONFIGURED">Mail sending is not configured.\nPlease set it in Config (Mail tab).</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_OK">Mail sent successfully.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_FAIL">Mail send failed. Please check the log and settings.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_FAIL">Test mail failed. Please check the settings and log.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_HOST">Please enter the SMTP host.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">Please enter a To address (or From address).</system:String>
+    <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">No report page to send.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">Please enter a report name.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">Delete the selected report?</system:String>
+    <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">Default reports cannot be deleted.</system:String>
 </ResourceDictionary>
