@@ -1288,6 +1288,12 @@
     
     <system:String x:Key="RC_PLAN_SETTING_LOAD">Einstellungen laden (JSON)</system:String>
     <system:String x:Key="RC_PLAN_SETTING_SAVE">Einstellungen speichern (JSON)</system:String>
+
+    <system:String x:Key="RC_PLAN_CREATE_CONFIRM">Möchten Sie den Plan erstellen?</system:String>
+    <system:String x:Key="RC_PLAN_MODE_NEW">(neuer Plan)</system:String>
+    <system:String x:Key="RC_PLAN_MODE_EDIT">(Plan bearbeiten)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">Plan-Einstellungen als Standard speichern?</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">Plan-Einstellungen in der Datenbank (pro Teil) speichern?</system:String>
     
     <system:String x:Key="RC_PLAN_DWG_FILE">CAD-Datei</system:String>    
     <system:String x:Key="RC_PLAN_INPUT_TYPE">Eingabetyp</system:String>       
@@ -1929,6 +1935,19 @@
     <system:String x:Key="MSG_NETWORK_CHECK">Netzwerkverbindungsstatus prüfen.</system:String>
 	
     <system:String x:Key="MSG_SELECT_CHARACTERISTIC">Bitte Merkmalswert auswählen.</system:String>
+    <system:String x:Key="MSG_PLAN_NO_CHAR">Zum Erstellen eines Plans ist mindestens ein Merkmal erforderlich.</system:String>
+    <system:String x:Key="MSG_FIELD_ALREADY_ADDED">Dieses Feld wurde bereits hinzugefügt.</system:String>
+    <system:String x:Key="MSG_NO_PLAN_INFO">Keine Plandaten vorhanden.</system:String>
+    <system:String x:Key="MSG_SAVE_PLAN_FIRST">Speichern Sie zuerst den Plan, bevor Sie die Einstellungen in der Datenbank speichern.</system:String>
+    <system:String x:Key="MSG_CONTINUE_PROCEED">Möchten Sie fortfahren?</system:String>
+    <system:String x:Key="MSG_EXIT_WINDOW">Fenster schließen?</system:String>
+    <system:String x:Key="MSG_ENTER_PART_FIELD">Bitte geben Sie das Teilefeld ein.</system:String>
+    <system:String x:Key="MSG_ENTER_CHAR_FIELD">Bitte geben Sie das Merkmalsfeld ein.</system:String>
+    <system:String x:Key="MSG_JSON_LOAD_FAIL">JSON konnte nicht geladen werden</system:String>
+    <system:String x:Key="MSG_CHAR_LAYOUT_SAVE_FAIL">Merkmalslayout konnte nicht gespeichert werden</system:String>
+    <system:String x:Key="MSG_CHAR_LAYOUT_LOAD_FAIL">Merkmalslayout konnte nicht geladen werden</system:String>
+    <system:String x:Key="MSG_DB_SAVE_ERROR">Fehler beim Speichern in der Datenbank</system:String>
+    <system:String x:Key="MSG_SAVE_DEFAULT_ERROR">Fehler beim Speichern der Standardwerte</system:String>
     <system:String x:Key="MSG_PROGRAM_EXIT">Möchten Sie das Programm beenden?</system:String>
     <system:String x:Key="MSG_SETTING_PROGRAM_EXIT">Möchten Sie das Programm beenden?</system:String>
 

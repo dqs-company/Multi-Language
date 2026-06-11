@@ -782,6 +782,12 @@
    <system:String x:Key="RC_PLAN_CHAR_ADD_ITEM">Add Characteristic Item</system:String>
    <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">Remove Characteristic Item</system:String>
    <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">Save Characteristic Item</system:String>
+
+   <system:String x:Key="RC_PLAN_CREATE_CONFIRM">要建立計畫嗎？</system:String>
+   <system:String x:Key="RC_PLAN_MODE_NEW">(新計畫)</system:String>
+   <system:String x:Key="RC_PLAN_MODE_EDIT">(編輯計畫)</system:String>
+   <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">要將計畫設定儲存為預設值嗎？</system:String>
+   <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">要將計畫設定儲存到資料庫（依零件）嗎？</system:String>
 	
 	
 	
@@ -1219,6 +1225,19 @@
 	<system:String x:Key="MSG_VALUE_DELETE_OK">值 刪除OK</system:String>
 	<system:String x:Key="MSG_DATABASE_CHECK">檢查資料庫連線狀態</system:String>
 	<system:String x:Key="MSG_SELECT_CHARACTERISTIC">選擇特徵</system:String>
+	<system:String x:Key="MSG_PLAN_NO_CHAR">建立計畫至少需要一個量測項目。</system:String>
+	<system:String x:Key="MSG_FIELD_ALREADY_ADDED">此欄位已新增。</system:String>
+	<system:String x:Key="MSG_NO_PLAN_INFO">沒有計畫資訊。</system:String>
+	<system:String x:Key="MSG_SAVE_PLAN_FIRST">請先儲存計畫，再將設定儲存到資料庫。</system:String>
+	<system:String x:Key="MSG_CONTINUE_PROCEED">要繼續嗎？</system:String>
+	<system:String x:Key="MSG_EXIT_WINDOW">要關閉視窗嗎？</system:String>
+	<system:String x:Key="MSG_ENTER_PART_FIELD">請輸入零件欄位。</system:String>
+	<system:String x:Key="MSG_ENTER_CHAR_FIELD">請輸入量測項目欄位。</system:String>
+	<system:String x:Key="MSG_JSON_LOAD_FAIL">JSON 載入失敗</system:String>
+	<system:String x:Key="MSG_CHAR_LAYOUT_SAVE_FAIL">量測項目版面儲存失敗</system:String>
+	<system:String x:Key="MSG_CHAR_LAYOUT_LOAD_FAIL">量測項目版面載入失敗</system:String>
+	<system:String x:Key="MSG_DB_SAVE_ERROR">資料庫儲存錯誤</system:String>
+	<system:String x:Key="MSG_SAVE_DEFAULT_ERROR">預設儲存錯誤</system:String>
     <system:String x:Key="MSG_PROGRAM_EXIT">是否要退出程式?</system:String>
 	<system:String x:Key="MSG_SETTING_PROGRAM_EXIT">是否要退出程式?</system:String>
 

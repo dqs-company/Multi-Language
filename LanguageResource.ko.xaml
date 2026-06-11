@@ -1332,6 +1332,12 @@
    <system:String x:Key="RC_PLAN_SETTING_LOAD">설정 불러오기(JSON)</system:String>
    <system:String x:Key="RC_PLAN_SETTING_SAVE">설정 저장하기(JSON)</system:String>
 
+   <system:String x:Key="RC_PLAN_CREATE_CONFIRM">플랜을 생성 하시겠습니까?</system:String>
+   <system:String x:Key="RC_PLAN_MODE_NEW">(신규 플랜)</system:String>
+   <system:String x:Key="RC_PLAN_MODE_EDIT">(편집 플랜)</system:String>
+   <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">플랜 설정을 디폴트 저장 하시겠습니까?</system:String>
+   <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">플랜 설정을 디비(파트별)에 저장 하시겠습니까?</system:String>
+
    <system:String x:Key="RC_PLAN_INPUT_TYPE">입력 타입</system:String>	   
    <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">파트 측정</system:String>
    <system:String x:Key="RC_PLAN_INPUT_ITEM_GROUP">그룹 측정</system:String>
@@ -2020,6 +2026,19 @@
     <system:String x:Key="MSG_VALUE_DELETE_OK">측정 값 삭제 완료.</system:String>
     <system:String x:Key="MSG_DATABASE_CHECK">데이터베이스 연결 상태 확인.</system:String>
     <system:String x:Key="MSG_SELECT_CHARACTERISTIC">측정 항목 선택 해주세요.</system:String>
+    <system:String x:Key="MSG_PLAN_NO_CHAR">측정 항목이 1개 이상 있어야 플랜을 생성할 수 있습니다.</system:String>
+    <system:String x:Key="MSG_FIELD_ALREADY_ADDED">이미 추가된 필드입니다.</system:String>
+    <system:String x:Key="MSG_NO_PLAN_INFO">플랜 정보가 없습니다.</system:String>
+    <system:String x:Key="MSG_SAVE_PLAN_FIRST">DB에 설정을 저장하려면 먼저 플랜을 저장하세요.</system:String>
+    <system:String x:Key="MSG_CONTINUE_PROCEED">계속 진행할까요?</system:String>
+    <system:String x:Key="MSG_EXIT_WINDOW">창을 종료하시겠습니까?</system:String>
+    <system:String x:Key="MSG_ENTER_PART_FIELD">파트 필드를 입력하세요.</system:String>
+    <system:String x:Key="MSG_ENTER_CHAR_FIELD">측정 항목 필드를 입력하세요.</system:String>
+    <system:String x:Key="MSG_JSON_LOAD_FAIL">JSON 로드 실패</system:String>
+    <system:String x:Key="MSG_CHAR_LAYOUT_SAVE_FAIL">측정 항목 레이아웃 저장 실패</system:String>
+    <system:String x:Key="MSG_CHAR_LAYOUT_LOAD_FAIL">측정 항목 레이아웃 불러오기 실패</system:String>
+    <system:String x:Key="MSG_DB_SAVE_ERROR">DB 저장 오류</system:String>
+    <system:String x:Key="MSG_SAVE_DEFAULT_ERROR">디폴트 저장 오류</system:String>
     <system:String x:Key="MSG_PROGRAM_EXIT">프로그램 종료 하시겠습니까?</system:String>
     <system:String x:Key="MSG_SETTING_PROGRAM_EXIT">프로그램 종료 하시겠습니까?</system:String>
 	

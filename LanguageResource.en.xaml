@@ -1326,6 +1326,12 @@
    
    <system:String x:Key="RC_PLAN_SETTING_LOAD">Load Settings(JSON)</system:String>
    <system:String x:Key="RC_PLAN_SETTING_SAVE">Save Settings(JSON)</system:String>
+
+   <system:String x:Key="RC_PLAN_CREATE_CONFIRM">Do you want to create the plan?</system:String>
+   <system:String x:Key="RC_PLAN_MODE_NEW">(new plan)</system:String>
+   <system:String x:Key="RC_PLAN_MODE_EDIT">(edit plan)</system:String>
+   <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">Save plan settings as default?</system:String>
+   <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">Save plan settings to database (per part)?</system:String>
    
    <system:String x:Key="RC_PLAN_DWG_FILE">CAD File</system:String>	
    <system:String x:Key="RC_PLAN_INPUT_TYPE">Input Type</system:String>	   
@@ -2038,6 +2044,19 @@
 	<system:String x:Key="MSG_NETWORK_CHECK">Check network connection status.</system:String>
 	
 	<system:String x:Key="MSG_SELECT_CHARACTERISTIC">Please select characteristic item.</system:String>
+	<system:String x:Key="MSG_PLAN_NO_CHAR">At least one characteristic is required to create a plan.</system:String>
+	<system:String x:Key="MSG_FIELD_ALREADY_ADDED">This field has already been added.</system:String>
+	<system:String x:Key="MSG_NO_PLAN_INFO">No plan information.</system:String>
+	<system:String x:Key="MSG_SAVE_PLAN_FIRST">Save the plan first before saving settings to the database.</system:String>
+	<system:String x:Key="MSG_CONTINUE_PROCEED">Do you want to continue?</system:String>
+	<system:String x:Key="MSG_EXIT_WINDOW">Exit window?</system:String>
+	<system:String x:Key="MSG_ENTER_PART_FIELD">Please enter part field.</system:String>
+	<system:String x:Key="MSG_ENTER_CHAR_FIELD">Please enter characteristics field.</system:String>
+	<system:String x:Key="MSG_JSON_LOAD_FAIL">Failed to load JSON</system:String>
+	<system:String x:Key="MSG_CHAR_LAYOUT_SAVE_FAIL">Failed to save characteristic layout</system:String>
+	<system:String x:Key="MSG_CHAR_LAYOUT_LOAD_FAIL">Failed to load characteristic layout</system:String>
+	<system:String x:Key="MSG_DB_SAVE_ERROR">Database save error</system:String>
+	<system:String x:Key="MSG_SAVE_DEFAULT_ERROR">Default save error</system:String>
     <system:String x:Key="MSG_PROGRAM_EXIT">Do you want to exit program?</system:String>
 	<system:String x:Key="MSG_SETTING_PROGRAM_EXIT">Do you want to exit program?</system:String>
 

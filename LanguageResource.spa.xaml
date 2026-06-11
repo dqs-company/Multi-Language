@@ -1292,6 +1292,12 @@
     
     <system:String x:Key="RC_PLAN_SETTING_LOAD">Cargar ajustes (JSON)</system:String>
     <system:String x:Key="RC_PLAN_SETTING_SAVE">Guardar ajustes (JSON)</system:String>
+
+    <system:String x:Key="RC_PLAN_CREATE_CONFIRM">¿Desea crear el plan?</system:String>
+    <system:String x:Key="RC_PLAN_MODE_NEW">(plan nuevo)</system:String>
+    <system:String x:Key="RC_PLAN_MODE_EDIT">(editar plan)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">¿Guardar la configuración del plan como predeterminada?</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">¿Guardar la configuración del plan en la base de datos (por pieza)?</system:String>
     
     <system:String x:Key="RC_PLAN_DWG_FILE">Archivo CAD</system:String>    
     <system:String x:Key="RC_PLAN_INPUT_TYPE">Tipo de entrada</system:String>       
@@ -1932,6 +1938,19 @@
     <system:String x:Key="MSG_NETWORK_CHECK">Verifique el estado de la conexión de red.</system:String>
 	
     <system:String x:Key="MSG_SELECT_CHARACTERISTIC">Por favor, seleccione un elemento de característica.</system:String>
+    <system:String x:Key="MSG_PLAN_NO_CHAR">Se requiere al menos una característica para crear el plan.</system:String>
+    <system:String x:Key="MSG_FIELD_ALREADY_ADDED">Este campo ya ha sido añadido.</system:String>
+    <system:String x:Key="MSG_NO_PLAN_INFO">No hay información del plan.</system:String>
+    <system:String x:Key="MSG_SAVE_PLAN_FIRST">Guarde primero el plan antes de guardar la configuración en la base de datos.</system:String>
+    <system:String x:Key="MSG_CONTINUE_PROCEED">¿Desea continuar?</system:String>
+    <system:String x:Key="MSG_EXIT_WINDOW">¿Cerrar la ventana?</system:String>
+    <system:String x:Key="MSG_ENTER_PART_FIELD">Por favor, introduzca el campo de pieza.</system:String>
+    <system:String x:Key="MSG_ENTER_CHAR_FIELD">Por favor, introduzca el campo de característica.</system:String>
+    <system:String x:Key="MSG_JSON_LOAD_FAIL">Error al cargar JSON</system:String>
+    <system:String x:Key="MSG_CHAR_LAYOUT_SAVE_FAIL">Error al guardar el diseño de características</system:String>
+    <system:String x:Key="MSG_CHAR_LAYOUT_LOAD_FAIL">Error al cargar el diseño de características</system:String>
+    <system:String x:Key="MSG_DB_SAVE_ERROR">Error al guardar en la base de datos</system:String>
+    <system:String x:Key="MSG_SAVE_DEFAULT_ERROR">Error al guardar valores predeterminados</system:String>
     <system:String x:Key="MSG_PROGRAM_EXIT">¿Desea salir del programa?</system:String>
     <system:String x:Key="MSG_SETTING_PROGRAM_EXIT">¿Desea salir del programa?</system:String>
 
