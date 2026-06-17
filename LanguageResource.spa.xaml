@@ -418,7 +418,9 @@
 	<system:String x:Key="DATA_FIELD_1104">Turno</system:String>
 	<system:String x:Key="DATA_FIELD_1203">Motivo de prueba</system:String>
 	<system:String x:Key="DATA_FIELD_1206">Ubicación de prueba</system:String>
-	<system:String x:Key="DATA_FIELD_1303">Planta</system:String>
+	<system:String x:Key="DATA_FIELD_1342">Test Plan Name</system:String>
+    <system:String x:Key="DATA_FIELD_1344">Gauge Manufacturer / Type</system:String>
+    <system:String x:Key="DATA_FIELD_1303">Planta</system:String>
 	<system:String x:Key="DATA_FIELD_1802">Campo de usuario 1</system:String>
 	<system:String x:Key="DATA_FIELD_1812">Campo de usuario 2</system:String>
 	<system:String x:Key="DATA_FIELD_1822">Campo de usuario 3</system:String>
@@ -491,7 +493,14 @@
 	<system:String x:Key="DATA_FIELD_2245">Punto de referencia del dibujo Y</system:String>
 	<system:String x:Key="DATA_FIELD_2246">Punto de referencia del dibujo Z</system:String>
 	<system:String x:Key="DATA_FIELD_2302">Descripción de máquina</system:String>
-	<system:String x:Key="DATA_FIELD_2402">Descripción de calibre</system:String>
+	<system:String x:Key="DATA_FIELD_2019">Ordinal Classes Catalog</system:String>
+    <system:String x:Key="DATA_FIELD_2030">Group Number</system:String>
+    <system:String x:Key="DATA_FIELD_2031">Group Element Number</system:String>
+    <system:String x:Key="DATA_FIELD_2203">Axis Conversion Control</system:String>
+    <system:String x:Key="DATA_FIELD_2311">Tool Number</system:String>
+    <system:String x:Key="DATA_FIELD_2401">Gauge Number</system:String>
+    <system:String x:Key="DATA_FIELD_2404">Gauge Resolution</system:String>
+    <system:String x:Key="DATA_FIELD_2402">Descripción de calibre</system:String>
 	<system:String x:Key="DATA_FIELD_2410">Ubicación de prueba</system:String>
 	<system:String x:Key="DATA_FIELD_2413">Gráfico de calibre</system:String>
 	<system:String x:Key="DATA_FIELD_2415">Número de serie del calibre</system:String>
@@ -2131,6 +2140,7 @@
     <system:String x:Key="MS_RMAIL_COL_SCOPE">Alcance</system:String>
     <system:String x:Key="MS_RMAIL_COL_RECIPIENTS">Destinatarios</system:String>
     <system:String x:Key="MS_RMAIL_TRIG_COLLECT">Recopilar</system:String>
+    <system:String x:Key="MS_RMAIL_TRIG_FILE">Salida de archivo</system:String>
     <system:String x:Key="MS_RMAIL_TRIG_APPROVE">Aprobar</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL_SHORT">Todos</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ERROR_SHORT">Error</system:String>
