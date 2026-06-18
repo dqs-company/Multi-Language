@@ -2119,8 +2119,8 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">Enviar al aprobar datos</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">Alcance de datos (filtro de contenido)</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">Todos los datos</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Cuando existan datos con error</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Solo datos buenos</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Solo datos NG</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Solo datos OK</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">Asunto del correo</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">Nombre de archivo adjunto</system:String>
     <system:String x:Key="MS_RMAIL_BODY">Cuerpo del correo</system:String>
@@ -2237,7 +2237,7 @@
     <system:String x:Key="AM_SETTINGS_TAB_EMAIL">Correo</system:String>
     <system:String x:Key="AM_SETTINGS_TITLE">Configuración</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">Detalle del valor de medición</system:String>
-    <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_INCLUDE">Incluir en correo/CSV</system:String>
+    <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_INCLUDE">Incluir valores del disparador [correo/CSV]</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_LIMIT">Filas máximas</system:String>
     <system:String x:Key="AM_STATUS_ALARM_HOURS">Horas de alarma</system:String>
     <system:String x:Key="AM_STATUS_BACKEND_URL">URL del backend</system:String>
@@ -2287,4 +2287,6 @@
     <system:String x:Key="RC_PLAN_CHAR_DRAWING">Plano de característica</system:String>
     <system:String x:Key="RC_PLAN_LAYOUT_SAVED">diseño guardado</system:String>
     <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">diseño restaurado</system:String>
+    <system:String x:Key="DATA_FIELD_1081">Número de máquina</system:String>
+    <system:String x:Key="AM_SETTINGS_DATE_RANGE_TIME">Hora base:</system:String>
 </ResourceDictionary>

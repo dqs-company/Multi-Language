@@ -2216,8 +2216,8 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">데이터 승인 시 전송</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">데이터 범위 (리포트 내용 필터)</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">전체 데이터</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">에러 데이터 있을 경우</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">양품 데이터만</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">NG 데이터만</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">OK 데이터만</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">메일 제목</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">첨부 파일 이름</system:String>
     <system:String x:Key="MS_RMAIL_BODY">메일 본문</system:String>
@@ -2334,7 +2334,7 @@
     <system:String x:Key="AM_SETTINGS_TAB_EMAIL">이메일</system:String>
     <system:String x:Key="AM_SETTINGS_TITLE">설정</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">측정값 상세</system:String>
-    <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_INCLUDE">메일/CSV에 포함</system:String>
+    <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_INCLUDE">트리거 값 포함 [메일/CSV]</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_LIMIT">최대 행 수</system:String>
     <system:String x:Key="AM_STATUS_ALARM_HOURS">알람 시간</system:String>
     <system:String x:Key="AM_STATUS_BACKEND_URL">백엔드 URL</system:String>
@@ -2384,4 +2384,6 @@
     <system:String x:Key="RC_PLAN_CHAR_DRAWING">특성 도면</system:String>
     <system:String x:Key="RC_PLAN_LAYOUT_SAVED">레이아웃 저장됨</system:String>
     <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">레이아웃 복원됨</system:String>
+    <system:String x:Key="DATA_FIELD_1081">기계번호</system:String>
+    <system:String x:Key="AM_SETTINGS_DATE_RANGE_TIME">기준 시각:</system:String>
 </ResourceDictionary>

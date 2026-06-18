@@ -2178,8 +2178,8 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">データ承認時に送信</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">データ範囲（レポート内容フィルター）</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">すべてのデータ</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">エラーデータがある場合</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">良品データのみ</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">NGデータのみ</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">OKデータのみ</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">メール件名</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">添付ファイル名</system:String>
     <system:String x:Key="MS_RMAIL_BODY">メール本文</system:String>
@@ -2296,7 +2296,7 @@
     <system:String x:Key="AM_SETTINGS_TAB_EMAIL">メール</system:String>
     <system:String x:Key="AM_SETTINGS_TITLE">設定</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">測定値詳細</system:String>
-    <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_INCLUDE">メール/CSVに含める</system:String>
+    <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_INCLUDE">トリガー値を含む [メール/CSV]</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_LIMIT">最大行数</system:String>
     <system:String x:Key="AM_STATUS_ALARM_HOURS">アラーム時間</system:String>
     <system:String x:Key="AM_STATUS_BACKEND_URL">バックエンドURL</system:String>
@@ -2346,4 +2346,6 @@
     <system:String x:Key="RC_PLAN_CHAR_DRAWING">特性図面</system:String>
     <system:String x:Key="RC_PLAN_LAYOUT_SAVED">レイアウトを保存しました</system:String>
     <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">レイアウトを復元しました</system:String>
+    <system:String x:Key="DATA_FIELD_1081">機械番号</system:String>
+    <system:String x:Key="AM_SETTINGS_DATE_RANGE_TIME">基準時刻:</system:String>
 </ResourceDictionary>
