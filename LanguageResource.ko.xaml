@@ -2216,7 +2216,7 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">데이터 승인 시 전송</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">데이터 범위 (리포트 내용 필터)</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">전체 데이터</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">에러 데이터만</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">에러 데이터 있을 경우</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">양품 데이터만</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">메일 제목</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">첨부 파일 이름</system:String>

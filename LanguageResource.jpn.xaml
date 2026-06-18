@@ -2178,7 +2178,7 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">データ承認時に送信</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">データ範囲（レポート内容フィルター）</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">すべてのデータ</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">エラーデータのみ</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">エラーデータがある場合</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">良品データのみ</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">メール件名</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">添付ファイル名</system:String>

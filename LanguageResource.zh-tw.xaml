@@ -1383,7 +1383,7 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">資料核准時傳送</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">資料範圍 (報表內容篩選)</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">全部資料</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">僅錯誤資料</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">有錯誤資料時</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">僅良品資料</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">郵件標題</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">附件檔名</system:String>

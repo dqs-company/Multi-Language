@@ -2119,7 +2119,7 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">Enviar al aprobar datos</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">Alcance de datos (filtro de contenido)</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">Todos los datos</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Solo datos con error</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Cuando existan datos con error</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Solo datos buenos</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">Asunto del correo</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">Nombre de archivo adjunto</system:String>

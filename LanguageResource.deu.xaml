@@ -2117,7 +2117,7 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">Bei Datenfreigabe senden</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">Datenbereich (Inhaltsfilter)</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">Alle Daten</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Nur Fehlerdaten</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Wenn Fehlerdaten vorhanden</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Nur Gutdaten</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">Mail-Betreff</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">Anhang-Dateiname</system:String>

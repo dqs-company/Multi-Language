@@ -2356,7 +2356,7 @@
     <system:String x:Key="MS_RMAIL_ON_APPROVE">Send on data approval</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">Data Scope (report content filter)</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">All data</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Error data only</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">When error data exists</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Good data only</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">Mail Title</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">Attached File Name</system:String>
