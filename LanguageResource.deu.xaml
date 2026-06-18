@@ -2273,4 +2273,16 @@
     <system:String x:Key="AM_SETTINGS_EMAIL_SSL">SSL</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_FIELD_HINT">Feld eingeben [1001~1999]</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_DATA_HINT">Filterdaten eingeben</system:String>
+    <!-- i-Record Plan Management (mehrsprachig) lth -->
+    <system:String x:Key="RC_PLAN_CREATE">Plan erstellen</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_CURRENT_PART">Aktuelles Teil speichern (DB)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_AS_DEFAULT">Als Standard speichern</system:String>
+    <system:String x:Key="RC_PLAN_IMPORT_SETTING">Einstellungsdatei importieren</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_FILE">In Datei exportieren</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_DFQ">DFQ exportieren</system:String>
+    <system:String x:Key="RC_PLAN_TAB_MAIN">Haupt</system:String>
+    <system:String x:Key="RC_PLAN_PART_DRAWING">Teilzeichnung</system:String>
+    <system:String x:Key="RC_PLAN_CHAR_DRAWING">Merkmalzeichnung</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_SAVED">Layout gespeichert</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">Layout wiederhergestellt</system:String>
 </ResourceDictionary>

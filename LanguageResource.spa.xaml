@@ -2275,4 +2275,16 @@
     <system:String x:Key="AM_SETTINGS_EMAIL_SSL">SSL</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_FIELD_HINT">Introduzca campo [1001~1999]</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_DATA_HINT">Introduzca datos de filtro</system:String>
+    <!-- i-Record Plan Management (multi-idioma) lth -->
+    <system:String x:Key="RC_PLAN_CREATE">Crear plan</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_CURRENT_PART">Guardar pieza actual (BD)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_AS_DEFAULT">Guardar como predeterminado</system:String>
+    <system:String x:Key="RC_PLAN_IMPORT_SETTING">Importar archivo de configuración</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_FILE">Exportar a archivo</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_DFQ">Exportar DFQ</system:String>
+    <system:String x:Key="RC_PLAN_TAB_MAIN">Principal</system:String>
+    <system:String x:Key="RC_PLAN_PART_DRAWING">Plano de pieza</system:String>
+    <system:String x:Key="RC_PLAN_CHAR_DRAWING">Plano de característica</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_SAVED">diseño guardado</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">diseño restaurado</system:String>
 </ResourceDictionary>

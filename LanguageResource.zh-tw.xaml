@@ -1540,4 +1540,16 @@
     <system:String x:Key="AM_SETTINGS_EMAIL_SSL">SSL</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_FIELD_HINT">輸入欄位 [1001~1999]</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_DATA_HINT">輸入篩選資料</system:String>
+    <!-- i-Record Plan Management (多語) lth -->
+    <system:String x:Key="RC_PLAN_CREATE">建立計畫</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_CURRENT_PART">儲存目前零件(DB)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_AS_DEFAULT">另存為預設</system:String>
+    <system:String x:Key="RC_PLAN_IMPORT_SETTING">匯入設定檔</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_FILE">匯出至檔案</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_DFQ">匯出 DFQ</system:String>
+    <system:String x:Key="RC_PLAN_TAB_MAIN">主要</system:String>
+    <system:String x:Key="RC_PLAN_PART_DRAWING">零件圖面</system:String>
+    <system:String x:Key="RC_PLAN_CHAR_DRAWING">特性圖面</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_SAVED">版面已儲存</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">版面已還原</system:String>
 </ResourceDictionary>

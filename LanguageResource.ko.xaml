@@ -2372,4 +2372,16 @@
     <system:String x:Key="AM_SETTINGS_EMAIL_SSL">SSL</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_FIELD_HINT">필드 입력 [1001~1999]</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_DATA_HINT">필터 데이터 입력</system:String>
+    <!-- i-Record Plan Management (다국어) lth -->
+    <system:String x:Key="RC_PLAN_CREATE">플랜 생성</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_CURRENT_PART">현재 파트 저장(DB)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_AS_DEFAULT">기본값으로 저장</system:String>
+    <system:String x:Key="RC_PLAN_IMPORT_SETTING">설정 파일 가져오기</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_FILE">파일로 내보내기</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_DFQ">DFQ 내보내기</system:String>
+    <system:String x:Key="RC_PLAN_TAB_MAIN">메인</system:String>
+    <system:String x:Key="RC_PLAN_PART_DRAWING">파트 도면</system:String>
+    <system:String x:Key="RC_PLAN_CHAR_DRAWING">특성 도면</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_SAVED">레이아웃 저장됨</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">레이아웃 복원됨</system:String>
 </ResourceDictionary>

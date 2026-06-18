@@ -2407,4 +2407,16 @@
     <system:String x:Key="AM_SETTINGS_EMAIL_SSL">SSL</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_FIELD_HINT">Enter field [1001~1999]</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_DATA_HINT">Enter filter data</system:String>
+    <!-- i-Record Plan Management (multi-language) lth -->
+    <system:String x:Key="RC_PLAN_CREATE">Create Plan</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_CURRENT_PART">Save Current part(DB)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_AS_DEFAULT">Save as Default</system:String>
+    <system:String x:Key="RC_PLAN_IMPORT_SETTING">Import Setting File</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_FILE">Export to File</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_DFQ">Export DFQ</system:String>
+    <system:String x:Key="RC_PLAN_TAB_MAIN">Main</system:String>
+    <system:String x:Key="RC_PLAN_PART_DRAWING">Part Drawing</system:String>
+    <system:String x:Key="RC_PLAN_CHAR_DRAWING">Char Drawing</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_SAVED">layout saved</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">layout restored</system:String>
 </ResourceDictionary>

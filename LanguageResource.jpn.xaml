@@ -2334,4 +2334,16 @@
     <system:String x:Key="AM_SETTINGS_EMAIL_SSL">SSL</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_FIELD_HINT">フィールド入力 [1001~1999]</system:String>
     <system:String x:Key="AM_SETTINGS_FILTER_DATA_HINT">フィルターデータ入力</system:String>
+    <!-- i-Record Plan Management (多言語) lth -->
+    <system:String x:Key="RC_PLAN_CREATE">プラン作成</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_CURRENT_PART">現在のパートを保存(DB)</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_AS_DEFAULT">既定として保存</system:String>
+    <system:String x:Key="RC_PLAN_IMPORT_SETTING">設定ファイルの取込</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_FILE">ファイルに出力</system:String>
+    <system:String x:Key="RC_PLAN_EXPORT_DFQ">DFQ出力</system:String>
+    <system:String x:Key="RC_PLAN_TAB_MAIN">メイン</system:String>
+    <system:String x:Key="RC_PLAN_PART_DRAWING">パート図面</system:String>
+    <system:String x:Key="RC_PLAN_CHAR_DRAWING">特性図面</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_SAVED">レイアウトを保存しました</system:String>
+    <system:String x:Key="RC_PLAN_LAYOUT_RESTORED">レイアウトを復元しました</system:String>
 </ResourceDictionary>
