@@ -1305,6 +1305,7 @@
     <system:String x:Key="RC_PLAN_CREATE_CONFIRM">¿Desea crear el plan?</system:String>
     <system:String x:Key="RC_PLAN_MODE_NEW">(plan nuevo)</system:String>
     <system:String x:Key="RC_PLAN_MODE_EDIT">(editar plan)</system:String>
+    <system:String x:Key="RC_PLAN_MANAGEMENT">Gestión de planes</system:String>
     <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">¿Guardar la configuración del plan como predeterminada?</system:String>
     <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">¿Guardar la configuración del plan en la base de datos (por pieza)?</system:String>
     

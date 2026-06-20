@@ -795,6 +795,7 @@
    <system:String x:Key="RC_PLAN_CREATE_CONFIRM">要建立計畫嗎？</system:String>
    <system:String x:Key="RC_PLAN_MODE_NEW">(新計畫)</system:String>
    <system:String x:Key="RC_PLAN_MODE_EDIT">(編輯計畫)</system:String>
+   <system:String x:Key="RC_PLAN_MANAGEMENT">計畫管理</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">要將計畫設定儲存為預設值嗎？</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">要將計畫設定儲存到資料庫（依零件）嗎？</system:String>
 	

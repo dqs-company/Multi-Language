@@ -1301,6 +1301,7 @@
     <system:String x:Key="RC_PLAN_CREATE_CONFIRM">Möchten Sie den Plan erstellen?</system:String>
     <system:String x:Key="RC_PLAN_MODE_NEW">(neuer Plan)</system:String>
     <system:String x:Key="RC_PLAN_MODE_EDIT">(Plan bearbeiten)</system:String>
+    <system:String x:Key="RC_PLAN_MANAGEMENT">Planverwaltung</system:String>
     <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">Plan-Einstellungen als Standard speichern?</system:String>
     <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">Plan-Einstellungen in der Datenbank (pro Teil) speichern?</system:String>
     

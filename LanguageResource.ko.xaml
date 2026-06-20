@@ -1344,6 +1344,7 @@
    <system:String x:Key="RC_PLAN_CREATE_CONFIRM">플랜을 생성 하시겠습니까?</system:String>
    <system:String x:Key="RC_PLAN_MODE_NEW">(신규 플랜)</system:String>
    <system:String x:Key="RC_PLAN_MODE_EDIT">(편집 플랜)</system:String>
+   <system:String x:Key="RC_PLAN_MANAGEMENT">플랜 관리</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">플랜 설정을 디폴트 저장 하시겠습니까?</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">플랜 설정을 디비(파트별)에 저장 하시겠습니까?</system:String>
 

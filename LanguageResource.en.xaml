@@ -1339,6 +1339,7 @@
    <system:String x:Key="RC_PLAN_CREATE_CONFIRM">Do you want to create the plan?</system:String>
    <system:String x:Key="RC_PLAN_MODE_NEW">(new plan)</system:String>
    <system:String x:Key="RC_PLAN_MODE_EDIT">(edit plan)</system:String>
+   <system:String x:Key="RC_PLAN_MANAGEMENT">Plan Management</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">Save plan settings as default?</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">Save plan settings to database (per part)?</system:String>
    

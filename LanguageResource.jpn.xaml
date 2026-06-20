@@ -1337,6 +1337,7 @@
    <system:String x:Key="RC_PLAN_CREATE_CONFIRM">プランを作成しますか？</system:String>
    <system:String x:Key="RC_PLAN_MODE_NEW">(新規プラン)</system:String>
    <system:String x:Key="RC_PLAN_MODE_EDIT">(編集プラン)</system:String>
+   <system:String x:Key="RC_PLAN_MANAGEMENT">プラン管理</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DEFAULT_CONFIRM">プラン設定をデフォルトとして保存しますか？</system:String>
    <system:String x:Key="RC_PLAN_SAVE_DB_CONFIRM">プラン設定をデータベース（パート別）に保存しますか？</system:String>
 
