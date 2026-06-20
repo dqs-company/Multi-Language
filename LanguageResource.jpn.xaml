@@ -1053,6 +1053,7 @@
 	<system:String x:Key="TP_NEW">新規</system:String>
 	<system:String x:Key="TP_EXIST">既存</system:String>
 	<system:String x:Key="TP_EXPORTED">エクスポート</system:String>
+	<system:String x:Key="TP_EDITED">編集済み</system:String>
 	<system:String x:Key="TP_SYNC">同期</system:String>
 
 	<system:String x:Key="TP_STATUS">状態</system:String>

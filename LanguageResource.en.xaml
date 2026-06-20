@@ -1062,6 +1062,7 @@
 	<system:String x:Key="TP_NEW">New</system:String>
 	<system:String x:Key="TP_EXIST">Imported</system:String>
 	<system:String x:Key="TP_EXPORTED">Export</system:String>
+	<system:String x:Key="TP_EDITED">Edited</system:String>
 	<system:String x:Key="TP_SYNC">Sync</system:String>
 
 	<system:String x:Key="TP_STATUS">Status</system:String>

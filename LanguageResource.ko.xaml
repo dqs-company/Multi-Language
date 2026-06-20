@@ -1068,6 +1068,7 @@
 	<system:String x:Key="TP_NEW">신규</system:String>
 	<system:String x:Key="TP_EXIST">임포트</system:String>
 	<system:String x:Key="TP_EXPORTED">익스포트</system:String>
+	<system:String x:Key="TP_EDITED">수정됨</system:String>
 	<system:String x:Key="TP_SYNC">동기화</system:String>
 	
 	<system:String x:Key="TP_STATUS">상태</system:String>

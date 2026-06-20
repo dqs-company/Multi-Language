@@ -1044,6 +1044,7 @@
     <system:String x:Key="TP_NEW">Nuevo</system:String>
     <system:String x:Key="TP_EXIST">Importado</system:String>
     <system:String x:Key="TP_EXPORTED">Exportar</system:String>
+    <system:String x:Key="TP_EDITED">Editado</system:String>
     <system:String x:Key="TP_SYNC">Sincronizar</system:String>
 
     <system:String x:Key="TP_STATUS">Estado</system:String>
