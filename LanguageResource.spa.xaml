@@ -1113,6 +1113,10 @@
 
     <system:String x:Key="CS_MAIN_SERVER_LOG">Registro del servidor</system:String>
     <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">Eliminar registro del servidor</system:String>
+    <system:String x:Key="CS_MAIN_LOG_LEVEL">Nivel</system:String>
+    <system:String x:Key="CS_MAIN_LOG_SEARCH">Buscar</system:String>
+    <system:String x:Key="CS_MAIN_LOG_COPY">Copiar</system:String>
+    <system:String x:Key="CS_MAIN_LOG_EXPORT">Exportar</system:String>
 
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">Nombre de archivo</system:String>
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DATE_TIME">Fecha/Hora del error</system:String>
@@ -2257,6 +2261,10 @@
     <system:String x:Key="AM_TRAY_EXIT">Salir</system:String>
     <system:String x:Key="AM_TRAY_SHOW">Mostrar</system:String>
     <system:String x:Key="AM_BTN_DELETE_LOG">Eliminar registro</system:String>
+    <system:String x:Key="AM_LOG_LEVEL">Nivel</system:String>
+    <system:String x:Key="AM_LOG_SEARCH">Buscar</system:String>
+    <system:String x:Key="AM_LOG_COPY">Copiar</system:String>
+    <system:String x:Key="AM_LOG_EXPORT">Exportar</system:String>
     <system:String x:Key="AM_SETTINGS_RUN_AT_STARTUP">Ejecutar al inicio</system:String>
     <system:String x:Key="AM_SETTINGS_DATETIME_RANGE">Fecha/Hora - Rango</system:String>
     <system:String x:Key="AM_SETTINGS_SUBGROUP_FIXED_HINT">* Tipo de subgrupo fijo : 00:00:00~Ahora</system:String>

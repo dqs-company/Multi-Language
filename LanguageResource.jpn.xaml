@@ -1125,6 +1125,10 @@
     <system:String x:Key="CS_MAIN_DELETE_ERR_LOG">エラーログの削除</system:String>
     <system:String x:Key="CS_MAIN_SERVER_LOG">サーバログ</system:String>
     <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">サーバログの削除</system:String>
+    <system:String x:Key="CS_MAIN_LOG_LEVEL">レベル</system:String>
+    <system:String x:Key="CS_MAIN_LOG_SEARCH">検索</system:String>
+    <system:String x:Key="CS_MAIN_LOG_COPY">コピー</system:String>
+    <system:String x:Key="CS_MAIN_LOG_EXPORT">エクスポート</system:String>
 
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">ファイル名</system:String>
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DATE_TIME">エラー日付/時間</system:String>
@@ -2316,6 +2320,10 @@
     <system:String x:Key="AM_TRAY_EXIT">終了</system:String>
     <system:String x:Key="AM_TRAY_SHOW">表示</system:String>
     <system:String x:Key="AM_BTN_DELETE_LOG">ログ削除</system:String>
+    <system:String x:Key="AM_LOG_LEVEL">レベル</system:String>
+    <system:String x:Key="AM_LOG_SEARCH">検索</system:String>
+    <system:String x:Key="AM_LOG_COPY">コピー</system:String>
+    <system:String x:Key="AM_LOG_EXPORT">エクスポート</system:String>
     <system:String x:Key="AM_SETTINGS_RUN_AT_STARTUP">起動時に実行</system:String>
     <system:String x:Key="AM_SETTINGS_DATETIME_RANGE">日時 - 範囲</system:String>
     <system:String x:Key="AM_SETTINGS_SUBGROUP_FIXED_HINT">* サブグループタイプ固定 : 00:00:00~現在</system:String>

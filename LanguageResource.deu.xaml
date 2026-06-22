@@ -1110,6 +1110,10 @@
 
     <system:String x:Key="CS_MAIN_SERVER_LOG">Serverprotokoll</system:String>
     <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">Serverprotokoll löschen</system:String>
+    <system:String x:Key="CS_MAIN_LOG_LEVEL">Stufe</system:String>
+    <system:String x:Key="CS_MAIN_LOG_SEARCH">Suchen</system:String>
+    <system:String x:Key="CS_MAIN_LOG_COPY">Kopieren</system:String>
+    <system:String x:Key="CS_MAIN_LOG_EXPORT">Exportieren</system:String>
 
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">Dateiname</system:String>
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DATE_TIME">Fehlerdatum/-zeit</system:String>
@@ -2255,6 +2259,10 @@
     <system:String x:Key="AM_TRAY_EXIT">Beenden</system:String>
     <system:String x:Key="AM_TRAY_SHOW">Anzeigen</system:String>
     <system:String x:Key="AM_BTN_DELETE_LOG">Protokoll löschen</system:String>
+    <system:String x:Key="AM_LOG_LEVEL">Stufe</system:String>
+    <system:String x:Key="AM_LOG_SEARCH">Suchen</system:String>
+    <system:String x:Key="AM_LOG_COPY">Kopieren</system:String>
+    <system:String x:Key="AM_LOG_EXPORT">Exportieren</system:String>
     <system:String x:Key="AM_SETTINGS_RUN_AT_STARTUP">Beim Start ausführen</system:String>
     <system:String x:Key="AM_SETTINGS_DATETIME_RANGE">Datum/Uhrzeit - Bereich</system:String>
     <system:String x:Key="AM_SETTINGS_SUBGROUP_FIXED_HINT">* Untergruppentyp fest : 00:00:00~Jetzt</system:String>

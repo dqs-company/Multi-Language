@@ -1127,6 +1127,10 @@
 
     <system:String x:Key="CS_MAIN_SERVER_LOG">서버 로그</system:String>
     <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">삭제 서버 로그</system:String>
+    <system:String x:Key="CS_MAIN_LOG_LEVEL">레벨</system:String>
+    <system:String x:Key="CS_MAIN_LOG_SEARCH">검색</system:String>
+    <system:String x:Key="CS_MAIN_LOG_COPY">복사</system:String>
+    <system:String x:Key="CS_MAIN_LOG_EXPORT">내보내기</system:String>
 
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">파일 이름</system:String>
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DATE_TIME">에러 날짜/시간</system:String>
@@ -2354,6 +2358,10 @@
     <system:String x:Key="AM_TRAY_EXIT">종료</system:String>
     <system:String x:Key="AM_TRAY_SHOW">보기</system:String>
     <system:String x:Key="AM_BTN_DELETE_LOG">로그 삭제</system:String>
+    <system:String x:Key="AM_LOG_LEVEL">레벨</system:String>
+    <system:String x:Key="AM_LOG_SEARCH">검색</system:String>
+    <system:String x:Key="AM_LOG_COPY">복사</system:String>
+    <system:String x:Key="AM_LOG_EXPORT">내보내기</system:String>
     <system:String x:Key="AM_SETTINGS_RUN_AT_STARTUP">시작 시 실행</system:String>
     <system:String x:Key="AM_SETTINGS_DATETIME_RANGE">날짜/시간 - 범위</system:String>
     <system:String x:Key="AM_SETTINGS_SUBGROUP_FIXED_HINT">* 부분군 유형 고정 : 00:00:00~현재</system:String>

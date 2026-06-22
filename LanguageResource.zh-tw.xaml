@@ -635,6 +635,10 @@
 
     <system:String x:Key="CS_MAIN_SERVER_LOG">Server Log</system:String>
     <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">Delete server log</system:String>
+    <system:String x:Key="CS_MAIN_LOG_LEVEL">層級</system:String>
+    <system:String x:Key="CS_MAIN_LOG_SEARCH">搜尋</system:String>
+    <system:String x:Key="CS_MAIN_LOG_COPY">複製</system:String>
+    <system:String x:Key="CS_MAIN_LOG_EXPORT">匯出</system:String>
 
 
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">File name</system:String>
@@ -1521,6 +1525,10 @@
     <system:String x:Key="AM_TRAY_SHOW">顯示</system:String>
     <system:String x:Key="STOP">停止</system:String>
     <system:String x:Key="AM_BTN_DELETE_LOG">刪除日誌</system:String>
+    <system:String x:Key="AM_LOG_LEVEL">層級</system:String>
+    <system:String x:Key="AM_LOG_SEARCH">搜尋</system:String>
+    <system:String x:Key="AM_LOG_COPY">複製</system:String>
+    <system:String x:Key="AM_LOG_EXPORT">匯出</system:String>
     <system:String x:Key="AM_SETTINGS_RUN_AT_STARTUP">開機時執行</system:String>
     <system:String x:Key="AM_SETTINGS_DATETIME_RANGE">日期/時間 - 範圍</system:String>
     <system:String x:Key="AM_SETTINGS_SUBGROUP_FIXED_HINT">* 子群類型固定 : 00:00:00~現在</system:String>

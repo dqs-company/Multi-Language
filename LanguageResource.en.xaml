@@ -1134,6 +1134,10 @@
 
     <system:String x:Key="CS_MAIN_SERVER_LOG">Server Log</system:String>
     <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">Delete server log</system:String>
+    <system:String x:Key="CS_MAIN_LOG_LEVEL">Level</system:String>
+    <system:String x:Key="CS_MAIN_LOG_SEARCH">Search</system:String>
+    <system:String x:Key="CS_MAIN_LOG_COPY">Copy</system:String>
+    <system:String x:Key="CS_MAIN_LOG_EXPORT">Export</system:String>
 
 
     <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">File name</system:String>
@@ -2389,6 +2393,10 @@
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_INCLUDE">Include Trigger Values [mail/CSV]</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL_LIMIT">Max rows</system:String>
     <system:String x:Key="AM_BTN_DELETE_LOG">Delete Log</system:String>
+    <system:String x:Key="AM_LOG_LEVEL">Level</system:String>
+    <system:String x:Key="AM_LOG_SEARCH">Search</system:String>
+    <system:String x:Key="AM_LOG_COPY">Copy</system:String>
+    <system:String x:Key="AM_LOG_EXPORT">Export</system:String>
     <system:String x:Key="AM_SETTINGS_RUN_AT_STARTUP">Run at startup</system:String>
     <system:String x:Key="AM_SETTINGS_DATETIME_RANGE">Date/Time - Range</system:String>
     <system:String x:Key="AM_SETTINGS_SUBGROUP_FIXED_HINT">* SubGroup Type Fixed : 00:00:00~Now</system:String>
