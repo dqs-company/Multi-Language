@@ -399,6 +399,14 @@
     <system:String x:Key="PRINTING">Printing...</system:String>
     <system:String x:Key="PRINT">Print</system:String>
 
+	<system:String x:Key="SP_PORT_NAME">Port Name</system:String>
+	<system:String x:Key="SP_BAUDRATE">Baud Rate</system:String>
+	<system:String x:Key="SP_DATABITS">Data Bits</system:String>
+	<system:String x:Key="SP_STOPBITS">Stop Bits</system:String>
+	<system:String x:Key="SP_PARITY">Parity</system:String>
+	<system:String x:Key="SP_PORT_MODEL">Model</system:String>
+	<system:String x:Key="SP_CHANNEL">Channel</system:String>
+	<system:String x:Key="SP_TAKEOVER">Takeover</system:String>
 	<system:String x:Key="TCP_IP">TCP/IP</system:String>
 <!--###############################################################################>
  [Data Field]
@@ -834,6 +842,7 @@
 	<system:String x:Key="MS_JOB_LIST_CYCLE_WEEK">Weekly</system:String>
 	<system:String x:Key="MS_JOB_LIST_CYCLE_DAY">Daily</system:String>
 
+	<system:String x:Key="MS_JOB_LIST_CYCLE_DATE">Day</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_FIRST">Start of Month</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_LAST">End of Month</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_SEL">Select Date</system:String>
@@ -1677,6 +1686,7 @@
 	<system:String x:Key="CONFIG_MAIL_ID">ID</system:String>
 	<system:String x:Key="CONFIG_MAIL_PW">Password</system:String>
 	<system:String x:Key="CONFIG_MAIL_TIMEOUT">Timeout</system:String>
+	<system:String x:Key="CONFIG_MAIL_TIMEOUT_SECOND">(milliseconds)</system:String>
 	<system:String x:Key="CONFIG_MAIL_RECI">Recipient Management</system:String>
 	<system:String x:Key="CONFIG_MAIL_RECI_NAME">Name</system:String>
 	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">Email Address</system:String>
@@ -1688,6 +1698,7 @@
 	<system:String x:Key="CONFIG_REPORT_LOGO_PATH">Logo Path</system:String>
 	
 	<!--Box Plot-->
+	<system:String x:Key="CONFIG_REPORT_LOGO_SELECT">Select logo file</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT">Box Plot</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT_CAL">Calculation</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT_X_AXIS">X-Axis</system:String>
@@ -1823,6 +1834,7 @@
 <!--###############################################################################>
 [Select Value]
 #################################################################################-->
+    <system:String x:Key="VALUE_SELECT_TITLE">Select Value</system:String>
     <system:String x:Key="VALUE_SELECT">Select value</system:String>
 	
 	<system:String x:Key="VALUE_SELECT_PART_NAME">Part Name</system:String>
@@ -1931,6 +1943,7 @@
 	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG Count</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_FILE">File</system:String>
 
+	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ File</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">Date/Time Start</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">Date/Time End</system:String>
 	
@@ -2015,6 +2028,12 @@
 	<system:String x:Key="N_SELECTED">{0} selected</system:String>
 	<system:String x:Key="BULK_INSTALLING">Installing {0}...</system:String>
 	<system:String x:Key="BULK_DONE">Bulk install finished: {0} ok, {1} failed</system:String>
+	<system:String x:Key="BULK_UNINSTALL">Uninstall Selected</system:String>
+	<system:String x:Key="BULK_UNINSTALLING">Uninstalling {0}...</system:String>
+	<system:String x:Key="BULK_UNINSTALL_DONE">Bulk uninstall finished: {0} ok, {1} failed</system:String>
+	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">Uninstall {0} selected product(s)?</system:String>
+	<system:String x:Key="OVERLAY_APP_COUNT">App {0} / {1}</system:String>
+	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateTool is running.&#x0a;Please close it before installing.</system:String>
 	<system:String x:Key="LOG">Log</system:String>
 	<system:String x:Key="COPY">Copy</system:String>
 	<system:String x:Key="CLEAR">Clear</system:String>
@@ -2054,6 +2073,7 @@
 	<system:String x:Key="MSG_UPLOAD_OK">Upload complete</system:String>
     <system:String x:Key="MSG_UPLOAD_FAIL">Upload fail</system:String>	
 	
+	<system:String x:Key="MSG_NOT_ENOUGH_DATA">Insufficient number of data.</system:String>
 	<system:String x:Key="MSG_VALUE_DELETE_OK">Value Delete OK.</system:String>
 	<system:String x:Key="MSG_DATABASE_CHECK">Check database connection status.</system:String>
 	<system:String x:Key="MSG_NETWORK_CHECK">Check network connection status.</system:String>
@@ -2180,6 +2200,8 @@
 	<system:String x:Key="MSG_SYNC_ERR">Synchronization failed</system:String>
 	
 	<!--installer-->
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_SUCCESS">Serial port connection successful</system:String>
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_FAIL">Serial port connection failed</system:String>
 	<system:String x:Key="MSG_PROGRAM_RUNNING">The program is already running.</system:String>
 	<system:String x:Key="MSG_SETUPFILE_NOT_EXIST">The setup file does not exist.</system:String>
 	<system:String x:Key="MSG_SETUP_END">Installation has been completed.</system:String>
@@ -2200,7 +2222,7 @@
 
 
 <!--###############################################################################
-[i-AlertMgr]
+[i-Board Alert]
 #################################################################################-->
     <system:String x:Key="AM_STATUS_SELECT_EVALUATION">Evaluation</system:String>
     
@@ -2278,10 +2300,10 @@
     <system:String x:Key="AM_MSG_TEST_MAIL_SUCCESS">Test mail sent successfully to: {0}</system:String>
     <system:String x:Key="AM_MSG_TEST_MAIL_FAILED">Failed to send test mail. Check the log for details.</system:String>
 
-    <!-- [i-AlertMgr] Status Tab -->
+    <!-- [i-Board Alert] Status Tab -->
     <system:String x:Key="AM_STATUS_EMAIL_FROM">From Email</system:String>
 
-    <!-- [i-AlertMgr] Evaluation Tab -->
+    <!-- [i-Board Alert] Evaluation Tab -->
     <system:String x:Key="AM_EVAL_EVALUATION">Evaluation</system:String>
     <system:String x:Key="AM_EVAL_USER">User</system:String>
     <system:String x:Key="AM_EVAL_USER_ID">User ID</system:String>
@@ -2361,9 +2383,9 @@
     <system:String x:Key="MS_RMAIL_ON_COLLECT">Send on file collection</system:String>
     <system:String x:Key="MS_RMAIL_ON_APPROVE">Send on data approval</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GROUP">Data Scope (report content filter)</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ALL">All data</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">NG data only</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">OK data only</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ALL">All Chars</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Alarm Chars only</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Good Chars only</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">Mail Title</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">Attached File Name</system:String>
     <system:String x:Key="MS_RMAIL_BODY">Mail Body</system:String>
@@ -2386,7 +2408,7 @@
     <system:String x:Key="MS_RMAIL_TRIG_FILE">File output</system:String>
     <system:String x:Key="MS_RMAIL_TRIG_APPROVE">Approve</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ALL_SHORT">All</system:String>
-    <system:String x:Key="MS_RMAIL_SCOPE_ERROR_SHORT">Error</system:String>
+    <system:String x:Key="MS_RMAIL_SCOPE_ERROR_SHORT">Alarm</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD_SHORT">Good</system:String>
     <system:String x:Key="MS_RMAIL_OFF">OFF</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">Measurement Value Detail</system:String>

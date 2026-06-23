@@ -395,6 +395,14 @@
 	<system:String x:Key="PRINTING">印刷中...</system:String>
     <system:String x:Key="PRINT">印刷...</system:String>
 
+	<system:String x:Key="SP_PORT_NAME">ポート名</system:String>
+	<system:String x:Key="SP_BAUDRATE">ボーレート</system:String>
+	<system:String x:Key="SP_DATABITS">データビット</system:String>
+	<system:String x:Key="SP_STOPBITS">ストップビット</system:String>
+	<system:String x:Key="SP_PARITY">パリティ</system:String>
+	<system:String x:Key="SP_PORT_MODEL">モデル</system:String>
+	<system:String x:Key="SP_CHANNEL">チャンネル</system:String>
+	<system:String x:Key="SP_TAKEOVER">テイクオーバー</system:String>
 	<system:String x:Key="TCP_IP">TCP/IP</system:String>
 <!--###############################################################################>
  [Data Field]
@@ -827,6 +835,7 @@
 	<system:String x:Key="MS_JOB_LIST_CYCLE_WEEK">週別</system:String>
 	<system:String x:Key="MS_JOB_LIST_CYCLE_DAY">日別</system:String>
 
+	<system:String x:Key="MS_JOB_LIST_CYCLE_DATE">日</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_FIRST">月初</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_LAST">月末</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_SEL">日付選択</system:String>
@@ -1121,6 +1130,7 @@
 
  
     <!-- Main - Log -->
+    <system:String x:Key="CS_MAIN_STATUS_UPLOAD_TIME">アップロード時間</system:String>
     <system:String x:Key="CS_MAIN_ERR_LOG">エラーログ</system:String>
     <system:String x:Key="CS_MAIN_DELETE_ERR_LOG">エラーログの削除</system:String>
     <system:String x:Key="CS_MAIN_SERVER_LOG">サーバログ</system:String>
@@ -1674,6 +1684,7 @@
 	<system:String x:Key="CONFIG_MAIL_ID">ID</system:String>
 	<system:String x:Key="CONFIG_MAIL_PW">パスワード</system:String>
 	<system:String x:Key="CONFIG_MAIL_TIMEOUT">タイムアウト</system:String>
+	<system:String x:Key="CONFIG_MAIL_TIMEOUT_SECOND">(ミリ秒)</system:String>
 	<system:String x:Key="CONFIG_MAIL_RECI">受信者管理</system:String>
 	<system:String x:Key="CONFIG_MAIL_RECI_NAME">名前</system:String>
 	<system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">メールアドレス</system:String>
@@ -1685,6 +1696,7 @@
 	<system:String x:Key="CONFIG_REPORT_LOGO_PATH">ロゴのパス</system:String>
 	
 	<!--Box Plot-->
+	<system:String x:Key="CONFIG_REPORT_LOGO_SELECT">ロゴファイルを選択</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT">ボックス プロット</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT_CAL">計算</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT_X_AXIS">X軸</system:String>
@@ -1812,6 +1824,7 @@
 <!--###############################################################################>
 [Select Value]
 #################################################################################-->
+	<system:String x:Key="VALUE_SELECT_TITLE">測定値選択</system:String>
 	<system:String x:Key="VALUE_SELECT">測定値選択</system:String>
 	<system:String x:Key="VALUE_SELECT_PART_NAME">部品名</system:String>
     <system:String x:Key="VALUE_SELECT_VALUE_FEATURE">付帯情報</system:String>
@@ -1911,6 +1924,7 @@
 	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG数</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQファイル</system:String>
 
+	<system:String x:Key="SENSE_DATA_MULTI_FILE">ファイル</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">日付/時間開始</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">日付/時間終了</system:String>
 
@@ -1976,6 +1990,42 @@
 	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">ライセンスプログラムの実行</system:String>
 	<system:String x:Key="UNIFIED">統合</system:String>
 	
+	<system:String x:Key="INSTALLED">インストール済み</system:String>
+	<system:String x:Key="NOT_INSTALLED">未インストール</system:String>
+	<system:String x:Key="UPDATE_AVAILABLE">アップデート可能</system:String>
+	<system:String x:Key="INSTALLING">インストール中...</system:String>
+	<system:String x:Key="UNINSTALLING">アンインストール中...</system:String>
+	<system:String x:Key="REPAIRING">修復中...</system:String>
+	<system:String x:Key="FAILED">失敗</system:String>
+	<system:String x:Key="BIN_MISSING">使用不可</system:String>
+	<system:String x:Key="UNAVAILABLE">使用不可</system:String>
+	<system:String x:Key="OPEN_FOLDER">開く</system:String>
+	<system:String x:Key="OPTIONS">オプション</system:String>
+	<system:String x:Key="APP_SUBTITLE">iNDEQS製品をインストール、アップデート、修復します。</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE">共通SWを強制アップデート</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE_TOOLTIP">チェックすると、C:\Users\Public\DQS\Appに既に存在する場合でもfastAPIとi-UpdateToolを再インストールします。</system:String>
+	<system:String x:Key="BULK_INSTALL">選択項目をインストール</system:String>
+	<system:String x:Key="SELECT_ALL">すべて選択</system:String>
+	<system:String x:Key="CLEAR_SELECTION">クリア</system:String>
+	<system:String x:Key="N_SELECTED">{0}個選択済み</system:String>
+	<system:String x:Key="BULK_INSTALLING">{0}をインストール中...</system:String>
+	<system:String x:Key="BULK_DONE">一括インストール完了: 成功 {0}、失敗 {1}</system:String>
+	<system:String x:Key="BULK_UNINSTALL">選択項目をアンインストール</system:String>
+	<system:String x:Key="BULK_UNINSTALLING">{0}をアンインストール中...</system:String>
+	<system:String x:Key="BULK_UNINSTALL_DONE">一括アンインストール完了: 成功 {0}、失敗 {1}</system:String>
+	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">選択した製品 {0} 個をアンインストールしますか？</system:String>
+	<system:String x:Key="OVERLAY_APP_COUNT">アプリ {0} / {1}</system:String>
+	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateToolが実行中です。&#x0a;インストール前に終了してください。</system:String>
+	<system:String x:Key="LOG">ログ</system:String>
+	<system:String x:Key="COPY">コピー</system:String>
+	<system:String x:Key="CLEAR">クリア</system:String>
+	<system:String x:Key="PREFLIGHT_FAILED">事前チェック失敗</system:String>
+	<system:String x:Key="MSG_LICENSE_REQUIRED">先にライセンスに同意してください。</system:String>
+	<system:String x:Key="MSG_LICENSE_ACCEPTED">ライセンス同意完了</system:String>
+	<system:String x:Key="MSG_LICENSE_APPLIED">ライセンス適用済み:</system:String>
+	<system:String x:Key="MSG_CONFIRM_UNINSTALL">{0}をアンインストールしますか？</system:String>
+	<system:String x:Key="MSG_COPIED">クリップボードにコピーしました</system:String>
+	<system:String x:Key="MSG_SAVED">保存しました</system:String>
 	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[ソフトウェア使用許諾契約書]</system:String>
 	<system:String x:Key="ARTICLE_1">第1条</system:String>
 	<system:String x:Key="ARTICLE_2">第2条</system:String>
@@ -2005,6 +2055,7 @@
     <system:String x:Key="MSG_UPLOAD_FAIL">アップロード失敗</system:String>
 	
 	
+	<system:String x:Key="MSG_NOT_ENOUGH_DATA">データ数が不足しています。</system:String>
 	<system:String x:Key="MSG_VALUE_DELETE_OK">削除完了</system:String>
     <system:String x:Key="MSG_DATABASE_CHECK">データベースの接続状態を確認してください。</system:String>
 	<system:String x:Key="MSG_NETWORK_CHECK">ネットワークの接続状態を確認してください。</system:String>
@@ -2123,6 +2174,8 @@
 	<system:String x:Key="MSG_SYNC_ERR">同期失敗</system:String>
 	
 	<!--installer-->
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_SUCCESS">シリアルポート接続成功</system:String>
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_FAIL">シリアルポート接続失敗</system:String>
 	<system:String x:Key="MSG_PROGRAM_RUNNING">プログラムは既に実行中です。</system:String>
 	<system:String x:Key="MSG_SETUPFILE_NOT_EXIST">セットアップファイルが存在しません。</system:String>
 	<system:String x:Key="MSG_SETUP_END">インストールが完了しました。</system:String>
@@ -2137,6 +2190,11 @@
 	
 	<system:String x:Key="MSG_RUNTIME_ERROR">プログラムの実行中にエラーが発生しました。</system:String>
 	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">プログラムが見つかりません。</system:String>
+
+
+<!--###############################################################################
+[i-Board Alert]
+#################################################################################-->
 
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV保存パス</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">メール送信時にアラーム情報をCSVで保存するフォルダ</system:String>
@@ -2257,6 +2315,7 @@
     <system:String x:Key="AM_MSG_EMAIL_NOT_CONFIGURED">メールが設定されていません。メール通知をスキップします。</system:String>
     <system:String x:Key="AM_MSG_EMAIL_SENT">メールを正常に送信しました。</system:String>
     <system:String x:Key="AM_MSG_ENTER_HOST_ID">ホストとIDを入力してください。</system:String>
+    <system:String x:Key="AM_MSG_SETTINGS_SAVE_FAILED">設定の保存に失敗しました。</system:String>
     <system:String x:Key="AM_MSG_ENTER_NAME_EMAIL">名前とメールアドレスの両方を入力してください。</system:String>
     <system:String x:Key="AM_MSG_EXTRACTED_COUNT">{0}件のアラームを抽出しました。</system:String>
     <system:String x:Key="AM_MSG_EXTRACTION_COMPLETED">抽出が完了しました。</system:String>
@@ -2299,6 +2358,7 @@
     <system:String x:Key="AM_SETTINGS_INTERVAL">間隔(分):</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_ALARM">アラーム設定</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_DATABASE">データベース</system:String>
+    <system:String x:Key="AM_SETTINGS_TAB_BACKEND">バックエンドサーバー</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_EMAIL">メール</system:String>
     <system:String x:Key="AM_SETTINGS_TITLE">設定</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">測定値詳細</system:String>
@@ -2309,6 +2369,7 @@
     <system:String x:Key="AM_STATUS_DATETIME">現在の日時</system:String>
     <system:String x:Key="AM_STATUS_DATE_RANGE">日付範囲</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_FROM">送信元メール</system:String>
+    <system:String x:Key="AM_STATUS_DATABASE">データベース</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_TO">宛先メール</system:String>
     <system:String x:Key="AM_STATUS_INTERVAL">間隔</system:String>
     <system:String x:Key="AM_STATUS_LAST_EMAIL">最終メール</system:String>

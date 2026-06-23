@@ -232,6 +232,7 @@
 	<system:String x:Key="ROLE">역활</system:String>	
 	<system:String x:Key="REFRESH">갱신</system:String>	
 	<system:String x:Key="UPDATE">업데이트</system:String>	
+	<system:String x:Key="USE">USE</system:String>
 	<system:String x:Key="NOT_USED">사용 안함</system:String>		
 
     <system:String x:Key="VISIBLE">표시</system:String>
@@ -263,7 +264,7 @@
 
   	<system:String x:Key="ENTER_VALUE">입력 측정값</system:String>
 
-   	<system:String x:Key="REPORTING">レポート</system:String>
+   	<system:String x:Key="REPORTING">레포트</system:String>
 	<system:String x:Key="REPORT">보고서</system:String>
 	
    	<system:String x:Key="FILE">파일</system:String>	
@@ -1106,6 +1107,11 @@
 	<system:String x:Key="CS_MAIN_STATUS_JOBLIST">잡리스트</system:String>
     <system:String x:Key="CS_MAIN_STATUS_INFO">상태 정보</system:String>
 	
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_ENABLE">활성화</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_DISEBLE">비활성화</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_ADD">작업 추가</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_EDIT">작업 편집</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_DEL">작업 삭제</system:String>
     <system:String x:Key="CS_MAIN_STATUS_DATABASE">데이터베이스</system:String>
     <system:String x:Key="CS_MAIN_STATUS_CONVERSION_MODULE">변환 모듈</system:String>
     <system:String x:Key="CS_MAIN_STATUS_PART_KEY_FIELD">파트 키 필드</system:String>
@@ -1122,6 +1128,7 @@
 
  
     <!-- Main - Log -->
+    <system:String x:Key="CS_MAIN_STATUS_UPLOAD_TIME">업로드 시간</system:String>
     <system:String x:Key="CS_MAIN_ERR_LOG">에러 로그</system:String>
     <system:String x:Key="CS_MAIN_DELETE_ERR_LOG">삭제 에러 로그</system:String>
 
@@ -1669,6 +1676,8 @@
     <system:String x:Key="CONFIG_CATALOG_SOURCE_FILE">카탈로그 데이터 파일</system:String>
 	
 	<!--Mail-->
+	<system:String x:Key="CONFIG_CATALOG_FROM_DATABASE">데이터베이스의 카탈로그 데이터</system:String>
+	<system:String x:Key="CONFIG_CATALOG_NO">카탈로그 없음</system:String>
 	<system:String x:Key="CONFIG_MAIL">메일</system:String>
 	<system:String x:Key="CONFIG_MAIL_HOST">호스트</system:String>
 	<system:String x:Key="CONFIG_MAIL_PORT">포트</system:String>
@@ -1816,6 +1825,7 @@
 [Select Value]
 #################################################################################-->
     <system:String x:Key="VALUE_SELECT_TITLE">측정값 선택</system:String>
+	<system:String x:Key="VALUE_SELECT">값 선택</system:String>
 	<system:String x:Key="VALUE_SELECT_PART_NAME">파트 이름</system:String>
     <system:String x:Key="VALUE_SELECT_VALUE_FEATURE">측정값 특징</system:String>
     <system:String x:Key="VALUE_SELECT_VALUE_DATE_TIME">시간 날짜</system:String>
@@ -1912,6 +1922,7 @@
 	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG 개수</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_FILE">파일</system:String>
 
+	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ 파일</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">날짜/시간 시작</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">날짜/시간 종료</system:String>
 
@@ -1997,6 +2008,12 @@
 	<system:String x:Key="N_SELECTED">{0}개 선택됨</system:String>
 	<system:String x:Key="BULK_INSTALLING">{0} 설치 중...</system:String>
 	<system:String x:Key="BULK_DONE">일괄 설치 완료: 성공 {0}, 실패 {1}</system:String>
+	<system:String x:Key="BULK_UNINSTALL">선택 항목 제거</system:String>
+	<system:String x:Key="BULK_UNINSTALLING">{0} 제거 중...</system:String>
+	<system:String x:Key="BULK_UNINSTALL_DONE">일괄 제거 완료: 성공 {0}, 실패 {1}</system:String>
+	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">선택한 제품 {0}개를 제거하시겠습니까?</system:String>
+	<system:String x:Key="OVERLAY_APP_COUNT">앱 {0} / {1}</system:String>
+	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateTool이 실행 중입니다.&#x0a;설치 전에 종료해 주세요.</system:String>
 	<system:String x:Key="LOG">로그</system:String>
 	<system:String x:Key="COPY">복사</system:String>
 	<system:String x:Key="CLEAR">지우기</system:String>
@@ -2040,6 +2057,7 @@
 		
     <system:String x:Key="MSG_VALUE_DELETE_OK">측정 값 삭제 완료.</system:String>
     <system:String x:Key="MSG_DATABASE_CHECK">데이터베이스 연결 상태 확인.</system:String>
+    <system:String x:Key="MSG_NETWORK_CHECK">네트워크 연결 상태를 확인하세요.</system:String>
     <system:String x:Key="MSG_SELECT_CHARACTERISTIC">측정 항목 선택 해주세요.</system:String>
     <system:String x:Key="MSG_PLAN_NO_CHAR">측정 항목이 1개 이상 있어야 플랜을 생성할 수 있습니다.</system:String>
     <system:String x:Key="MSG_FIELD_ALREADY_ADDED">이미 추가된 필드입니다.</system:String>
@@ -2176,6 +2194,11 @@
 	<system:String x:Key="MSG_RUNTIME_ERROR">프로그램 실행 중 오류가 발생했습니다.</system:String>
 	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">프로그램을 찾을 수 없습니다.</system:String>
 
+
+<!--###############################################################################
+[i-Board Alert]
+#################################################################################-->
+
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV 저장 경로</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">메일 전송 시 알람 정보를 CSV로 저장할 폴더</system:String>
     <!-- Mail / Report (added) -->
@@ -2295,6 +2318,7 @@
     <system:String x:Key="AM_MSG_EMAIL_NOT_CONFIGURED">이메일이 설정되지 않았습니다. 이메일 알림을 건너뜁니다.</system:String>
     <system:String x:Key="AM_MSG_EMAIL_SENT">이메일을 성공적으로 전송했습니다.</system:String>
     <system:String x:Key="AM_MSG_ENTER_HOST_ID">호스트와 ID를 입력하세요.</system:String>
+    <system:String x:Key="AM_MSG_SETTINGS_SAVE_FAILED">설정 저장에 실패했습니다.</system:String>
     <system:String x:Key="AM_MSG_ENTER_NAME_EMAIL">이름과 이메일 주소를 모두 입력하세요.</system:String>
     <system:String x:Key="AM_MSG_EXTRACTED_COUNT">{0}건의 알람을 추출했습니다.</system:String>
     <system:String x:Key="AM_MSG_EXTRACTION_COMPLETED">추출이 완료되었습니다.</system:String>
@@ -2337,6 +2361,7 @@
     <system:String x:Key="AM_SETTINGS_INTERVAL">간격(분):</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_ALARM">알람 설정</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_DATABASE">데이터베이스</system:String>
+    <system:String x:Key="AM_SETTINGS_TAB_BACKEND">백엔드 서버</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_EMAIL">이메일</system:String>
     <system:String x:Key="AM_SETTINGS_TITLE">설정</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">측정값 상세</system:String>
@@ -2347,6 +2372,7 @@
     <system:String x:Key="AM_STATUS_DATETIME">현재 날짜/시간</system:String>
     <system:String x:Key="AM_STATUS_DATE_RANGE">날짜 범위</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_FROM">보내는 이메일</system:String>
+    <system:String x:Key="AM_STATUS_DATABASE">데이터베이스</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_TO">받는 이메일</system:String>
     <system:String x:Key="AM_STATUS_INTERVAL">간격</system:String>
     <system:String x:Key="AM_STATUS_LAST_EMAIL">마지막 이메일</system:String>

@@ -36,15 +36,29 @@
     <system:String x:Key="OFF">Off</system:String>
     <system:String x:Key="YES">是</system:String>
     <system:String x:Key="NO">否</system:String>
+	<system:String x:Key="WIDTH">寬度</system:String>
+	<system:String x:Key="HEIGHT">高度</system:String>
+	<system:String x:Key="CAD_SIZE">CAD 尺寸</system:String>
+	<system:String x:Key="BALLOONING_SIZE">氣球標註尺寸</system:String>
+	<system:String x:Key="PREVIEW">預覽</system:String>
+	<system:String x:Key="SELECT_LAYOUT">選擇版面</system:String>
+	<system:String x:Key="MODE">模式</system:String>
+	<system:String x:Key="GENERAL_MODE">一般模式</system:String>
+	<system:String x:Key="MAPPING_MODE">對應模式</system:String>
+	<system:String x:Key="LATEST">最新</system:String>
+	<system:String x:Key="OLDEST">最舊</system:String>
+	<system:String x:Key="ID_MODE">ID 模式</system:String>
 	<system:String x:Key="SERVER">Server</system:String>	
 	
 	<system:String x:Key="SAVE">儲存</system:String>
 	<system:String x:Key="SAVING">儲存中</system:String>
 	<system:String x:Key="LOAD">載入</system:String>
 	<system:String x:Key="LOADING">載入中..</system:String>
+    <system:String x:Key="API_LOADING">載入中..</system:String>
     <system:String x:Key="START">開始</system:String>
     <system:String x:Key="STARTING">啟動中..</system:String>
 
+    <system:String x:Key="INPUT_EVENT">輸入事件</system:String>
     <system:String x:Key="UPLOADING">上傳中..</system:String>
     <system:String x:Key="UPLOAD">上傳</system:String>
 	
@@ -55,6 +69,8 @@
     <system:String x:Key="ALL_SELECT">全部選取</system:String>
     <system:String x:Key="ALL_DESELECT">取消全部選取</system:String>
 
+    <system:String x:Key="SHOW_ALL_COLUMNS">顯示所有欄位</system:String>
+    <system:String x:Key="HIDE_ALL_COLUMNS">隱藏所有欄位</system:String>
     <system:String x:Key="ORDER">順序</system:String>
     <system:String x:Key="SELECT">選擇</system:String>
     <system:String x:Key="DATE">日期</system:String>
@@ -64,6 +80,8 @@
     <system:String x:Key="SECONDS">秒</system:String>
     <system:String x:Key="MINUTES">分</system:String>
 
+    <system:String x:Key="GRID_LINE">格線</system:String>
+    <system:String x:Key="LABEL_AUTO_TICKS">標籤自動刻度</system:String>
     <system:String x:Key="CELL">儲存格</system:String>
     <system:String x:Key="SHEET">工作表</system:String>
     <system:String x:Key="CELL_USED">已輸入</system:String>
@@ -76,21 +94,27 @@
 	<system:String x:Key="LSL">LSL下規格界限</system:String>
 	
 	
+    <system:String x:Key="TOOLTIP">工具提示</system:String>
+    <system:String x:Key="FONT_SIZE">字型大小</system:String>
     <system:String x:Key="UNKNOWN">未知</system:String>
     <system:String x:Key="VALID_VALUE">有效值</system:String>
     <system:String x:Key="INVALID_VALUE">無效值</system:String>
+    <system:String x:Key="INVALID_DIRCTORY">無效目錄</system:String>
     <system:String x:Key="ADD">新增</system:String>
     <system:String x:Key="DELETE">刪除</system:String>
     <system:String x:Key="INSERT">插入</system:String>
 
 
 
+    <system:String x:Key="ACTIVE">啟用中</system:String>
     <system:String x:Key="STACKED_BAR_CHART_TEXT">直條圖文字</system:String>
     <system:String x:Key="TREEMAP_CHART_TEXT">樹狀圖文字</system:String>
     <system:String x:Key="DATE_TIME_RANGE">日期/時間範圍</system:String>
     
 
     
+    <system:String x:Key="X_AXIS">X 軸</system:String>
+    <system:String x:Key="Y_AXIS">Y 軸</system:String>
     <system:String x:Key="SELECTION">選擇</system:String>
     <system:String x:Key="NAME">名稱</system:String>
     <system:String x:Key="MODULE">模組</system:String>
@@ -119,7 +143,10 @@
     <system:String x:Key="ENGLISH">英文</system:String>
     <system:String x:Key="JAPANESE">日文</system:String>
 
-	<system:String x:Key="ADDITIONAL DATA">附加資料</system:String>
+	<system:String x:Key="TAIWAN">ZH-TW</system:String>
+	<system:String x:Key="GERMAN">德文</system:String>
+	<system:String x:Key="SPANISH">西班牙文</system:String>
+	<system:String x:Key="ADDITIONAL_DATA">附加資料</system:String>
     <system:String x:Key="NONE">無</system:String>
     
     <system:String x:Key="EXPORT">匯出</system:String>
@@ -149,6 +176,7 @@
     <system:String x:Key="ERROR">錯誤</system:String>
     <system:String x:Key="OUTPUT">輸出</system:String>
 
+    <system:String x:Key="INPUT">輸入</system:String>
     <system:String x:Key="PASSWORD">密碼</system:String>
 
 
@@ -166,9 +194,23 @@
 	
 	<system:String x:Key="RESULT">結果</system:String>
 	<system:String x:Key="DEVIATION">偏差</system:String>	
+	<system:String x:Key="DEVIATION_VALUE">差值</system:String>
+	<system:String x:Key="DISPLAY_DEVIATION">顯示差</system:String>
+	<system:String x:Key="TOL_MID_DEVIATION">公差中心偏差</system:String>
 	<system:String x:Key="CP">Cp</system:String>			
 	<system:String x:Key="CPK">Cpk</system:String>			
+	<system:String x:Key="CP_DESC">製程能力指標 (Cp)</system:String>
+	<system:String x:Key="CPK_DESC">製程能力指標 (Cpk)</system:String>
 	<system:String x:Key="OUT_OF_TOL">超出公差</system:String>	
+	<system:String x:Key="TOL_VIOLATION">公差違反</system:String>
+	<system:String x:Key="DISTRIBUTION">分布</system:String>
+	<system:String x:Key="NORMAL_DISTRIBUTION">常態分布</system:String>
+	<system:String x:Key="LOG_NORMAL_DISTRIBUTION">對數常態分布</system:String>
+	<system:String x:Key="FOLDED_NORMAL_DISTRIBUTION">摺疊常態分布</system:String>
+	<system:String x:Key="WEIBULL_DISTRIBUTION">韋伯分布</system:String>
+	<system:String x:Key="RAYLEIGH_DISTRIBUTION">瑞利分布</system:String>
+	<system:String x:Key="MIXTURE_DISTRIBUTION">混合分布</system:String>
+	<system:String x:Key="JOHNSON_DISTRIBUTION">Johnson 分布</system:String>
 	<system:String x:Key="TREND">趨勢</system:String>	
 	<system:String x:Key="TARGET">目標</system:String>		
 
@@ -197,33 +239,96 @@
 	
 	<system:String x:Key="DRAWING_IMAGE">Drawing Image</system:String>
 	
+	<system:String x:Key="PART_IMAGE">零件圖片</system:String>
 	<system:String x:Key="OPTION">Option</system:String>
  
  	<system:String x:Key="FIXED">Fixed</system:String>
  	<system:String x:Key="MOVING">Moving</system:String>	
 	
-	<system:String x:Key="TEST">テスト</system:String>	
+	<system:String x:Key="MONTH">月</system:String>
+	<system:String x:Key="WEEK">週</system:String>
+	<system:String x:Key="DAY">日</system:String>
+	<system:String x:Key="TEST">測試</system:String>	
 	
-  	<system:String x:Key="ENTER_VALUE">値を入力</system:String>
+  	<system:String x:Key="ENTER_VALUE">請輸入值</system:String>
 
 	
-   	<system:String x:Key="REPORTING">レポート</system:String>
+   	<system:String x:Key="REPORTING">報告</system:String>
 
-	<system:String x:Key="FILE">ファイル</system:String>	
+	<system:String x:Key="REPORT">報告</system:String>
+	<system:String x:Key="FILE">檔案</system:String>	
 	
    	<system:String x:Key="AVERAGE">平均</system:String>		
 	
+	<system:String x:Key="SCRAP">報廢</system:String>
+	<system:String x:Key="ACCEPTANCE">允收</system:String>
 	<system:String x:Key="MEDIAN">中央値</system:String>		
+	<system:String x:Key="UACL">UAcl</system:String>
+	<system:String x:Key="LACL">LAcl</system:String>
+	<system:String x:Key="URL">URL</system:String>
+	<system:String x:Key="LRL">LRL</system:String>
+	<system:String x:Key="RANGE">範圍</system:String>
 	<system:String x:Key="STANDARD_DEVIATION">標準偏差</system:String>			 
 	<system:String x:Key="MINIMUM">最小値</system:String>		
 	<system:String x:Key="MAXIMUM">最大値</system:String>			
 	<system:String x:Key="COLOR">色</system:String>		
+	<system:String x:Key="TEXT_COLOR">文字顏色</system:String>
+	<system:String x:Key="LINE">線</system:String>
 	<system:String x:Key="PRIORITY">優先度</system:String>		
 	
 	<system:String x:Key="CONDITION">Condition</system:String>			
 	<system:String x:Key="INSUFFICIENT_DATA">Insufficient data</system:String>		
 		
 	<!--Print Dialog-->
+	<system:String x:Key="LINEAR_TRANSFORMATION">線性轉換</system:String>
+	<system:String x:Key="ACCMULATING_CONSTANT">累積常數</system:String>
+	<system:String x:Key="MULTIPLICATION_FACTOR">乘法因子</system:String>
+	<system:String x:Key="LIST">清單</system:String>
+	<system:String x:Key="OPEN">開啟</system:String>
+	<system:String x:Key="CLOSE">關閉</system:String>
+	<system:String x:Key="DELETE_FIELD">刪除 field</system:String>
+	<system:String x:Key="PART_CHAR_LIST">零件/特性清單</system:String>
+	<system:String x:Key="CHAR_LIST">特性清單</system:String>
+	<system:String x:Key="SAVE_TO_FILE_JSON">儲存 to file(json)</system:String>
+	<system:String x:Key="SAVE_TO_DATABASE">儲存 to database</system:String>
+	<system:String x:Key="AVERAGE_CHART">平均圖</system:String>
+	<system:String x:Key="RAW_CHART">原始圖</system:String>
+	<system:String x:Key="INDEQS_JSON_FILE">INDEQS JSON 檔案</system:String>
+	<system:String x:Key="DFQ_FILE">DFQ 檔案</system:String>
+	<system:String x:Key="ALARM_TABLE">警報表</system:String>
+	<system:String x:Key="ALL_DATA">全部資料</system:String>
+	<system:String x:Key="CANCELING_UPLOAD">正在取消上傳...</system:String>
+	<system:String x:Key="DIAMETER">直徑</system:String>
+	<system:String x:Key="ANGLE">角度</system:String>
+	<system:String x:Key="RADIUS">半徑</system:String>
+	<system:String x:Key="ROUGHNESS">粗糙度</system:String>
+	<system:String x:Key="LENGTH">長度</system:String>
+	<system:String x:Key="RA">Arithmetic 平均粗糙度</system:String>
+	<system:String x:Key="RZ">平均粗糙度</system:String>
+	<system:String x:Key="RT">最大高度</system:String>
+	<system:String x:Key="RQ">均方根平均平方粗糙度</system:String>
+	<system:String x:Key="RSM">平均間距</system:String>
+	<system:String x:Key="SK">偏度</system:String>
+	<system:String x:Key="KU">峰度</system:String>
+	<system:String x:Key="RK">核心粗糙度深度</system:String>
+	<system:String x:Key="RPK">降低峰值高度</system:String>
+	<system:String x:Key="RVK">降低谷值深度</system:String>
+	<system:String x:Key="DGT_Straightness">真直度</system:String>
+	<system:String x:Key="DGT_Flatness">平面度</system:String>
+	<system:String x:Key="DGT_Circularity">圓度</system:String>
+	<system:String x:Key="DGT_Cylindricity">圓柱度</system:String>
+	<system:String x:Key="DGT_Angularity">傾斜度</system:String>
+	<system:String x:Key="DGT_Perpendicularity">垂直度</system:String>
+	<system:String x:Key="DGT_Parallelism">平行度</system:String>
+	<system:String x:Key="DGT_Position">位置</system:String>
+	<system:String x:Key="DGT_Concentricity">同心度</system:String>
+	<system:String x:Key="DGT_Symmetry">對稱度</system:String>
+	<system:String x:Key="DGT_CircularRunout">圓跳動</system:String>
+	<system:String x:Key="DGT_TotalRunout">總計跳動</system:String>
+	<system:String x:Key="DGT_ProfileOfALine">線輪廓</system:String>
+	<system:String x:Key="DGT_ProfileOfASurface">表面輪廓</system:String>
+	<system:String x:Key="SPEC_LIMITS">規格 limits</system:String>
+	<system:String x:Key="INIT">初始化</system:String>
 	<system:String x:Key="PAGE">頁碼</system:String>
 	<system:String x:Key="PRINTER">印表機</system:String>
     <system:String x:Key="STATUS">狀態</system:String>
@@ -248,6 +353,15 @@
 <!--###############################################################################>
  [Data Field]
 #################################################################################-->
+    <system:String x:Key="SP_PORT_NAME">連接埠名稱</system:String>
+    <system:String x:Key="SP_BAUDRATE">鮑率</system:String>
+    <system:String x:Key="SP_DATABITS">資料位元</system:String>
+    <system:String x:Key="SP_STOPBITS">停止位元</system:String>
+    <system:String x:Key="SP_PARITY">同位檢查</system:String>
+    <system:String x:Key="SP_PORT_MODEL">型號</system:String>
+    <system:String x:Key="SP_CHANNEL">通道</system:String>
+    <system:String x:Key="SP_TAKEOVER">接管</system:String>
+    <system:String x:Key="TCP_IP">TCP/IP</system:String>
     <system:String x:Key="DATA_FIELD_1001">零件號碼</system:String>
     <system:String x:Key="DATA_FIELD_1002">零件描述</system:String>
     <system:String x:Key="DATA_FIELD_1003">零件簡稱</system:String>
@@ -299,8 +413,11 @@
  
 	
 	<system:String x:Key="DATA_FIELD_2001">特徵號碼</system:String>
+	<system:String x:Key="DATA_FIELD_2001_ABBR">特性'-編號</system:String>
 	<system:String x:Key="DATA_FIELD_2002">特徵描述</system:String>
+	<system:String x:Key="DATA_FIELD_2002_ABBR">特性'-Descr</system:String>
 	<system:String x:Key="DATA_FIELD_2003">特徵簡稱</system:String>
+	<system:String x:Key="DATA_FIELD_2003_ABBR">特性'-Abbr</system:String>
 	<system:String x:Key="DATA_FIELD_2004">Characteristic Type</system:String>
 	<system:String x:Key="DATA_FIELD_2005">特徵類別</system:String>
 	<system:String x:Key="DATA_FIELD_2006">Control Item</system:String>
@@ -439,6 +556,17 @@
 [Q/i-Report]
 #################################################################################-->
    <!--Ribbon Menu-->
+    <system:String x:Key="DATA_FIELD_2004_VARIABLE">變數</system:String>
+    <system:String x:Key="DATA_FIELD_2004_ATTRIBUTE">屬性</system:String>
+    <system:String x:Key="DATA_FIELD_2008_NO_GROUP">編號 group/coordinate</system:String>
+    <system:String x:Key="DATA_FIELD_2008_POSITIONAL_TOLERANCE">位置公差</system:String>
+    <system:String x:Key="DATA_FIELD_2008_BEST_FIT_MOVE">BestFitMove 群組</system:String>
+    <system:String x:Key="DATA_FIELD_2008_3D_POSITIONAL_TOLERANCE">3D 位置公差</system:String>
+    <system:String x:Key="DATA_FIELD_2015_UNDEFINED">未定義</system:String>
+    <system:String x:Key="DATA_FIELD_2015_ASCENDING">升冪</system:String>
+    <system:String x:Key="DATA_FIELD_2015_DESCENDING">降冪</system:String>
+    <system:String x:Key="DATA_FIELD_2020_NO_LIMIT">未定義</system:String>
+    <system:String x:Key="DATA_FIELD_2020_NATURAL_LIMIT">自然 limit</system:String>
     <system:String x:Key="RE_MENU_STATUS_NO_PART">無零件</system:String>
     <system:String x:Key="RE_MENU_STATUS_NO_CHAR_COUNT">無特徵</system:String>
     <system:String x:Key="RE_MENU_STATUS_NO_DATE_RANGE">無指定日期</system:String>
@@ -496,6 +624,20 @@
     <system:String x:Key="RE_TAB_EXCEL_CELL_SETUP">儲存格設定</system:String>
 
     <!--Output Tab -->
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIRECTION">搜尋 Direction</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_GARO">線[hor.]</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_SEARCH_DIR_CELL_SERO">儲存格[Ver.]</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_INFORMATION_SETUP">資訊設定 [欄/列]</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_SET">設定儲存格</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_NOMINAL_SETUP">Nominal 儲存格/線設定</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_LH_POS">LH 儲存格 Pos'</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_RH_POS">RH 儲存格 Pos'</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_ROW_POS">列(N)</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_COLUMN_POS">欄(A)</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT_SETUP">輸出儲存格設定</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_MAX_COLUMN">最大搜尋欄</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_MAX_ROW">最大搜尋列</system:String>
+    <system:String x:Key="RE_TAB_EXCEL_CELL_OUTPUT">輸出儲存格</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_TITEL">輸出設定</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_SIZE">輸出數量</system:String>
     <system:String x:Key="RE_TAB_EXCEL_OUTPUT_VALUE">輸出值</system:String>
@@ -592,6 +734,55 @@
 #################################################################################-->
 
     <!--Main - Top Ribbon Menu-->
+    <system:String x:Key="MS_MSG_MAIL_TEST_ERR1">輸入 SMTP information and recipient address.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_TEST_ERR2">郵件傳送失敗。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NOT_REPORT">沒有report exists。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_NOT_REPORT_CONTROL">找不到報告 control。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_OK">郵件傳送成功。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_ERR1">沒有可用的 SMTP 資訊。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_ERR2">郵件傳送失敗。</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_START">郵件 sending schedule check started.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_END">郵件 sending schedule check complete.</system:String>
+    <system:String x:Key="MS_MSG_MAIL_SEND_SCHEDULE_STOP">郵件 sending schedule check stopped.</system:String>
+    <system:String x:Key="MS_MSG_DB_TEST_OK">測試 connection 成功</system:String>
+    <system:String x:Key="MS_MSG_DB_TEST_NG">測試 connection 失敗</system:String>
+    <system:String x:Key="MS_MSG_PROCESS_DB_INPUT">取得中 external database information</system:String>
+    <system:String x:Key="MS_MSG_PROCESS_DB_END">外部 database terminated</system:String>
+    <system:String x:Key="MS_MSG_PROCESS_PDF">正在建立 PDF</system:String>
+    <system:String x:Key="MS_MSG_PROCESS_PDF_PAGE">正在建立 PDF page</system:String>
+    <system:String x:Key="MS_MSG_PROCESS_PDF_NO">郵件 delivery is suspended because the PDF file is missing.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_SETTING_ERR1">高度 cannot exceed 100 in total.</system:String>
+    <system:String x:Key="TP_CONFIG_TITLE">i-Planner</system:String>
+    <system:String x:Key="TP_CONFIG">i-Planner 設定</system:String>
+    <system:String x:Key="TP_CONFIG_PART_TP_STATUS">零件狀態</system:String>
+    <system:String x:Key="TP_CONFIG_CHAR_TP_STATUS">特性狀態</system:String>
+    <system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_BACKGROUND">背景</system:String>
+    <system:String x:Key="TP_CONFIG_CHAR_TP_STATUS_FONT">字型</system:String>
+    <system:String x:Key="TP_MENU_TRANS_MENU">傳輸</system:String>
+    <system:String x:Key="TP_MENU_TRANS_MENU_IMPORT">匯入</system:String>
+    <system:String x:Key="TP_MENU_TRANS_MENU_EXPORT">匯出</system:String>
+    <system:String x:Key="TP_MENU_TRANS_MENU_SYNC">同步</system:String>
+    <system:String x:Key="TP_MENU_CUR_TIME">目前時間</system:String>
+    <system:String x:Key="TP_MENU_SYNC_TIME">同步 Time</system:String>
+    <system:String x:Key="TP_EXPLORER_CONTEXT_SETTING">設定</system:String>
+    <system:String x:Key="TP_EXPLORER_CONTEXT_EXPORT">匯出 Part</system:String>
+    <system:String x:Key="TP_EXPLORER_CONTEXT_PART_DELETE">刪除 Part</system:String>
+    <system:String x:Key="TP_EXPLORER_CONTEXT_NEXT_STATUS">變更狀態</system:String>
+    <system:String x:Key="TP_IS_NEW">類型</system:String>
+    <system:String x:Key="TP_NEW">新增</system:String>
+    <system:String x:Key="TP_EXIST">已匯入</system:String>
+    <system:String x:Key="TP_EXPORTED">匯出</system:String>
+    <system:String x:Key="TP_EDITED">已編輯</system:String>
+    <system:String x:Key="TP_SYNC">同步</system:String>
+    <system:String x:Key="TP_STATUS">狀態</system:String>
+    <system:String x:Key="TP_STATUS_CREATED">已建立</system:String>
+    <system:String x:Key="TP_STATUS_REVIEWED">已審核</system:String>
+    <system:String x:Key="TP_STATUS_CHECKED">已勾選</system:String>
+    <system:String x:Key="TP_STATUS_APPROVED">已核准</system:String>
+    <system:String x:Key="TP_EDIT_TYPE">編輯類型</system:String>
+    <system:String x:Key="TP_EDIT_TYPE_EDIT">編輯</system:String>
+    <system:String x:Key="TP_EDIT_TYPE_SYNC">同步</system:String>
+    <system:String x:Key="TP_MSG_EXPORT_STATUS_ERR">部分 values to be exported have not been approved.</system:String>
     <system:String x:Key="CS_MENU_SERVER_GROUP">Server</system:String>
     <system:String x:Key="CS_MENU_SERVER_LISTENING_START">Listening Start</system:String>
     <system:String x:Key="CS_MENU_SERVER_LISTENING_END">Listening End</system:String>
@@ -609,9 +800,15 @@
     <!-- Main -  Status Information -->
     <system:String x:Key="CS_MAIN_STATUS_LICENSE">License</system:String>
     <system:String x:Key="CS_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST">作業 list</system:String>
     <system:String x:Key="CS_MAIN_STATUS_INFO">Status Information</system:String>
 
 
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_ENABLE">啟用</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_DISEBLE">停用</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_ADD">新增作業</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_EDIT">編輯作業</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_JOBLIST_DEL">刪除作業</system:String>
     <system:String x:Key="CS_MAIN_STATUS_DATABASE">Database</system:String>
     <system:String x:Key="CS_MAIN_STATUS_CONVERSION_MODULE">Conversion Module</system:String>
     <system:String x:Key="CS_MAIN_STATUS_PART_KEY_FIELD">Part Key Field</system:String>
@@ -663,6 +860,8 @@
     <system:String x:Key="CC_MENU_LANGUAGE_ENG">English</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_JPN">Japanese</system:String>
  
+    <system:String x:Key="CC_MENU_LANGUAGE_DEU">德文</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_SPA">西班牙文</system:String>
     <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">Upload&#x0d;&#x0a;information</system:String>
     <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">Current&#x0d;&#x0a;information</system:String>
 
@@ -736,6 +935,8 @@
     <system:String x:Key="SENSE_MAIN_MENU_QCC_CHART">QCC&#xA;Chart</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_ANALYSIS">Analysis</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_ALARM">Alarm</system:String>
+    <system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">選取值</system:String>
+    <system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Not 個已選擇</system:String>
     <system:String x:Key="SENSE_ALARM_CHART">警報圖</system:String>
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">樹狀圖</system:String>
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">堆疊長條圖</system:String>
@@ -779,12 +980,38 @@
 [Config]
 #################################################################################-->
    <!-- ==>Q/i-Record -->
+   <system:String x:Key="SENSE_ALARM_TOLERANCE_VIOLATION">公差違反</system:String>
+   <system:String x:Key="SENSE_ALARM_SCRAP_VIOLATION">報廢限違反</system:String>
+   <system:String x:Key="SENSE_ALARM_ACCEPTANCE_VIOLATION">允收限違反</system:String>
+   <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_LOCATION">超出 of control limit in location chart</system:String>
+   <system:String x:Key="SENSE_ALARM_CONTROL_LIMIT_VARIATION">超出 of control limit in variation chart</system:String>
+   <system:String x:Key="SENSE_ALARM_WARNING_LIMITS">警告限</system:String>
+   <system:String x:Key="SENSE_ALARM_WARNING_LIMITS_NATURAL_BOUNDARY">警告 limits with natural boundary</system:String>
+   <system:String x:Key="RC_MAIN_MENU_NEW_EDIT">新增/編輯</system:String>
+   <system:String x:Key="RC_MAIN_MENU_NEW_PLAN">新增計畫</system:String>
+   <system:String x:Key="RC_MAIN_MENU_EDIT_PLAN">編輯計畫</system:String>
+   <system:String x:Key="RC_MAIN_MENU_CLOSE_PLAN">Close 計畫</system:String>
+   <system:String x:Key="RC_MAIN_MENU_TEST_LIST">輸入值</system:String>
+   <system:String x:Key="RC_MAIN_MENU_DWG_VIEW">CAD 檢視</system:String>
+   <system:String x:Key="RC_MAIN_MENU_TEST_IMAGE">圖面</system:String>
+   <system:String x:Key="RC_MAIN_NEW_PLAN">新增計畫</system:String>
+   <system:String x:Key="RC_MAIN_CHANGE_PLAN">變更計畫</system:String>
+   <system:String x:Key="RC_CONFIG_DASHBOARD">儀表板</system:String>
+   <system:String x:Key="RC_TEST_WAITING_DATA">D: 等待資料</system:String>
+   <system:String x:Key="RC_TEST_PENDING_DATA">D: 待處理資料</system:String>
+   <system:String x:Key="RC_TEST_BADGE_PENDING">○ 待處理</system:String>
+   <system:String x:Key="RC_TEST_BADGE_WAITING">● 等待中</system:String>
+   <system:String x:Key="RC_TEST_BADGE_DONE">✓ 完成</system:String>
+   <system:String x:Key="RC_TEST_BADGE_SKIPPED">↪ 略過</system:String>
+   <system:String x:Key="RC_TEST_BADGE_OOT">⚠ 超出公差</system:String>
    <system:String x:Key="RC_CONFIG">i-Record Configuration</system:String>
    <system:String x:Key="RC_NO_SWITCH_CHAR">Do not allow switch characteristics</system:String>   
    <system:String x:Key="RC_NO_CLOSE_END_MEASUREMENT">Do not allow close the application with incomplete measuring</system:String>
     
    <system:String x:Key="RC_PLAN_LIMIT_VALUES_TO_LAST">Limit values to last</system:String>
+   <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">最大 values</system:String>
    <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">File Save Path</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_EXTENSION">檔案儲存 Extension</system:String>
    <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">File Save Timing</system:String>
    <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">Enable OutofTol Popup</system:String>
    <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">Additonal Popup</system:String>
@@ -806,6 +1033,39 @@
 	
 	
 	<!-- ==>Q/i-Collector Server -->
+    <system:String x:Key="RC_PLAN_SETTING_LOAD">Load 設定(JSON)</system:String>
+    <system:String x:Key="RC_PLAN_SETTING_SAVE">儲存設定(JSON)</system:String>
+    <system:String x:Key="RC_PLAN_DWG_FILE">CAD 檔案</system:String>
+    <system:String x:Key="RC_PLAN_INPUT_TYPE">輸入類型</system:String>
+    <system:String x:Key="RC_PLAN_INPUT_ITEM_PART">零件量測</system:String>
+    <system:String x:Key="RC_PLAN_INPUT_ITEM_GROUP">群組 Measurement</system:String>
+    <system:String x:Key="RC_PLAN_LIMIT_ITEM_VALUES">值</system:String>
+    <system:String x:Key="RC_PLAN_LIMIT_ITEM_DAYS">天</system:String>
+    <system:String x:Key="RC_PLAN_LIMIT_ITEM_WEEKS">週</system:String>
+    <system:String x:Key="RC_PLAN_LIMIT_ITEM_MONTHS">月</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_TIMING_PART">儲存 after every part</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_TIMING_VALUE">儲存 after every value</system:String>
+    <system:String x:Key="RC_PLAN_SAVE_TIMING_GROUP">儲存 after every group</system:String>
+    <system:String x:Key="RC_PLAN_POPUP_NO">無彈出視窗</system:String>
+    <system:String x:Key="RC_PLAN_POPUP_PART_START">Part 開始</system:String>
+    <system:String x:Key="RC_PLAN_POPUP_PART_END">Part 結束</system:String>
+    <system:String x:Key="RC_PLAN_POPUP_GROUP_START">群組開始</system:String>
+    <system:String x:Key="RC_PLAN_POPUP_GROUP_END">群組結束</system:String>
+    <system:String x:Key="RC_CATALOG_SAVE_FILE_JSON">儲存 to file(JSON)</system:String>
+    <system:String x:Key="RC_CATALOG_SAVE_DB">儲存 to database</system:String>
+    <system:String x:Key="RC_CATALOG_TYPE">目錄類型</system:String>
+    <system:String x:Key="RC_CATALOG_ADD_ROW">新增列</system:String>
+    <system:String x:Key="RC_CATALOG_DEL_ROW">Del 列</system:String>
+    <system:String x:Key="RC_CATALOG_LIST_CONST_NO">常數編號.</system:String>
+    <system:String x:Key="RC_CATALOG_LIST_DESCRIPTION">說明</system:String>
+    <system:String x:Key="RC_CATALOG_LIST_SUB_CONST_NO">子常數編號.</system:String>
+    <system:String x:Key="RC_CATALOG_LIST_SUB_DESCRIPTION">子說明</system:String>
+    <system:String x:Key="RC_ALARM_TABLE">警報表</system:String>
+    <system:String x:Key="RC_ALARM_TABLE_CLICK_TO_CHART">點擊 To 圖表</system:String>
+    <system:String x:Key="RC_BAR_CHART_COLOR">長條圖</system:String>
+    <system:String x:Key="RC_BAR_CHART_CLASS_RANGE_COLOR">等級 range</system:String>
+    <system:String x:Key="RC_BAR_CHART_SIGMA_COLOR">Sigma</system:String>
+    <system:String x:Key="RC_BAR_CHART_DIST_CURVE_COLOR">分布曲線</system:String>
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector Server</system:String>
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector Server Configuration</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector Server</system:String>
@@ -823,7 +1083,10 @@
     <system:String x:Key="BO_CONFIG_DATE_BASETIME">Day - BaseTime</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL">Out of tolerance</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_PERCENT">Warning Percent</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_OPACITY">透明度</system:String>
+    <system:String x:Key="BO_CONFIG_OUT_OF_TOL_WARNNING_LIMIT_NATURAL_BOUNDARY">警告 limits with natural boundary</system:String>
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_PERCENT">Error Percent</system:String>
+	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_ERROR_OPACITY">透明度</system:String>
 	<system:String x:Key="BO_CONFIG_OUT_OF_TOL_SCRAPE_LIMIT_LINE">Scrap limits line</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_ACCEPTANCE_LIMIT_LINE">Acceptance limits line</system:String>	
     <system:String x:Key="BO_CONFIG_OUT_OF_TOL_IGNORE_VALUES_ENABLE">Ignore values enable</system:String>
@@ -836,6 +1099,8 @@
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_BAD">Bad</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_WARNING">Warning</system:String>
     <system:String x:Key="BO_CONFIG_GRAPHIC_COLOR_GOOD">Good</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_BAD">不良(out of control limits)</system:String>
+    <system:String x:Key="BO_CONFIG_GRAPHIC_QCC_COLOR_GOOD">良好</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT">Font</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_SIZE">Size</system:String>
     <system:String x:Key="BO_CONFIG_CHART_FONT_COLOR">Color</system:String>
@@ -865,6 +1130,24 @@
 	<system:String x:Key="BO_CONFIG_LAST_FIELD">Last Field</system:String>
 	
     <!-- ==>Q/i-Sense -->
+    <system:String x:Key="BO_CONFIG_AVERAGE_LINE_COLOR">平均線顏色</system:String>
+    <system:String x:Key="BO_CONFIG_NULL_CHECK">包含 NULL</system:String>
+    <system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_1">包含 NULL</system:String>
+    <system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_2">排除 NULL</system:String>
+    <system:String x:Key="BO_CONFIG_NULL_CHECK_SEL_3">排除 NULL 子群組</system:String>
+    <system:String x:Key="BO_CONFIG_AVERAGE_LINE_THICK">平均線粗細</system:String>
+    <system:String x:Key="CONFIG_QCC_CAL_METHOD">QCC 計算方法</system:String>
+    <system:String x:Key="CONFIG_QCC_CAL_METHOD_NORMAL">常態</system:String>
+    <system:String x:Key="CONFIG_QCC_CAL_METHOD_TV">延伸 limit (TV)</system:String>
+    <system:String x:Key="CONFIG_QCC_CAL_METHOD_ANOVA">延伸 limit (ANOVA)</system:String>
+    <system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_EMPIRICAL">分位數經驗</system:String>
+    <system:String x:Key="CONFIG_QCC_CAL_METHOD_QUANTILE_NORMAL">分位數常態</system:String>
+    <system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP">Incomplete 子群組 Handling</system:String>
+    <system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_CAL">包含子群組</system:String>
+    <system:String x:Key="CONFIG_QCC_IMCOM_SUBGROUP_DEL">排除子群組</system:String>
+    <system:String x:Key="CONFIG_QCC_VARIANTION_TYPE">變異圖表類型</system:String>
+    <system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_RANGE">範圍</system:String>
+    <system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_STD">標準差</system:String>
     <system:String x:Key="SENSE_CONFIG">i-Sense Configuration</system:String>
 	
 	<system:String x:Key="SENSE_LOGIN_NO_WINDOW">Log in without window</system:String>
@@ -874,11 +1157,16 @@
 	<system:String x:Key="SENSE_FILLUP_DATA">Fill up incomplete measurement</system:String>	
     <system:String x:Key="SENSE_AUTO_ACCEPT">Automatic acception</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">Decimal point</system:String>
+    <system:String x:Key="SENSE_FILE_ACCEPT">檔案 acceptance</system:String>
     <system:String x:Key="SENSE_LATEST_DATA">Accept latest data set</system:String>	
 	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">Take over QCC from dataset</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">QCC location chart type</system:String>
 	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
 
+    <system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">限值 parts loaded from 資料庫</system:String>
+    <system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">最後 Part</system:String>
+    <system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT">限值 Values 已載入 from 資料庫</system:String>
+    <system:String x:Key="SENSE_DB_VALUE_LOAD_LIMIT_LAST_VALUE">最後 Values</system:String>
     <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">使用附加資料彈出視窗</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP">使用事件彈出視窗</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_MODE">事件彈出視窗</system:String>
@@ -908,6 +1196,7 @@
 	
 
     <!-- ==>Client -->
+    <system:String x:Key="CONFIG_REQUIREMENTS_ALARMS">警報</system:String>
     <system:String x:Key="CONFIG_CLIENT_TITLE">Client</system:String>
     <system:String x:Key="CONFIG_CLIENT">Client Configuration</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">Active</system:String>
@@ -922,6 +1211,9 @@
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_MITUTOYO">Mitutoyo CMM</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_DELIMITER">特徵區隔符號(分隔特徵或屬性之間的符號)</system:String>
 
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_DELIMITER">分隔符號</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_POS">特性' 線開始</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_DEVICE_CHAR_REPEAT">特性' 重複</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_ROW_INDEX">欄位索引</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_LINE">資料行(表格中的數據或資訊)</system:String>
     <system:String x:Key="CONFIG_CONVERSION_DEVICE_LIST_DATA_SYMBOL">資料符號</system:String>
@@ -944,6 +1236,8 @@
  
 
     <!-- ==>Key Field-->
+    <system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_DEPTH">子目錄深度</system:String>
+    <system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_NAME">層級 of subfolder name for</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD_TITLE">關鍵欄位</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">關鍵欄位設定</system:String>
 
@@ -974,6 +1268,7 @@
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK">資料預設值/區塊</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_NUMBER">欄位號碼</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_BLOCK">欄位區塊</system:String>
+    <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_FIELD_OVERWRITE">覆寫</system:String>
     <system:String x:Key="CONFIG_DATA_DEFAULT_BLOCK_DATA">欄位預設資料</system:String>
 
 
@@ -991,6 +1286,7 @@
     <system:String x:Key="CONFIG_OUTPUT_DIR">輸出目錄</system:String>
 
     <!-- ==>Database -->
+    <system:String x:Key="CONFIG_OUTPUT_CLIENT_NAME">用戶端名稱</system:String>
     <system:String x:Key="CONFIG_DB_TITLE">資料庫</system:String>
     <system:String x:Key="CONFIG_DB">資料庫設定</system:String>
 	<system:String x:Key="CONFIG_DB_SERVER">資料庫伺服器</system:String>
@@ -999,9 +1295,12 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">密碼</system:String>
     <system:String x:Key="CONFIG_DB_LIST">資料庫</system:String>
+    <system:String x:Key="CONFIG_DB_PORT">連接埠</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">本地資料庫</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">刪除選定的部分</system:String>
 
+    <system:String x:Key="CONFIG_EXTERNAL_DWG_FILE_PATH">外部 DWG 檔案路徑</system:String>
+    <system:String x:Key="CONFIG_EXTERNAL_CAD_FILE_PATH">外部 CAD 檔案路徑</system:String>
     <system:String x:Key="CONFIG_DB_SQLITE_FILE">Sqlite檔案</system:String>
     <system:String x:Key="CONFIG_DB_SQLITE_VACUUM">Sqlite整理</system:String>
 	
@@ -1044,12 +1343,36 @@
 
 
     <!-- Graphic Screen -->
+    <system:String x:Key="CONFIG_MAIL_ID">ID</system:String>
+    <system:String x:Key="CONFIG_MAIL_PW">密碼</system:String>
+    <system:String x:Key="CONFIG_MAIL_TIMEOUT">逾時</system:String>
+    <system:String x:Key="CONFIG_MAIL_TIMEOUT_SECOND">(毫秒)</system:String>
+    <system:String x:Key="CONFIG_MAIL_RECI">收件者管理</system:String>
+    <system:String x:Key="CONFIG_MAIL_RECI_NAME">名稱</system:String>
+    <system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">電子郵件位址</system:String>
+    <system:String x:Key="CONFIG_MAIL_TEST">測試郵件</system:String>
+    <system:String x:Key="CONFIG_REPORT">報告</system:String>
+    <system:String x:Key="CONFIG_REPORT_USE_LOGO">使用特定標誌</system:String>
+    <system:String x:Key="CONFIG_REPORT_LOGO_PATH">標誌路徑</system:String>
+    <system:String x:Key="CONFIG_REPORT_LOGO_SELECT">選擇標誌檔案</system:String>
+    <system:String x:Key="CONFIG_BOXPLOT">盒鬚圖</system:String>
+    <system:String x:Key="CONFIG_BOXPLOT_CAL">計算</system:String>
+    <system:String x:Key="CONFIG_BOXPLOT_X_AXIS">X 軸</system:String>
+    <system:String x:Key="CONFIG_BOXPLOT_COLOR">顏色</system:String>
+    <system:String x:Key="CONFIG_BOXPLOT_NORMALIZATION">正規化</system:String>
+    <system:String x:Key="CONFIG_BOXPLOT_X_TYPE">X-Axis 類型</system:String>
+    <system:String x:Key="CONFIG_BOXPLOT_BOX_INNER_COLOR">框顏色</system:String>
     <system:String x:Key="CONFIG_GRAPHIC_TITLE">Graphic</system:String>
 
 
 	
     <!-- ==> exceution button -->
+    <system:String x:Key="CONFIG_GRAPHIC_NORMAL_TITLE">一般</system:String>
+    <system:String x:Key="CONFIG_GRAPHIC_NORMAL">一般設定</system:String>
+    <system:String x:Key="CONFIG_GRAPHIC_NORMAL_PART_TITLE">零件標題</system:String>
+    <system:String x:Key="CONFIG_GRAPHIC_NORMAL_CHAR_TITLE">特性標題</system:String>
     <system:String x:Key="CONFIG_SAVE">儲存設定</system:String>
+    <system:String x:Key="CONFIG_SAVE_ALL">儲存全部設定</system:String>
     <system:String x:Key="CONFIG_EXE_CONTROL_PANEL">控制面板</system:String>
     <system:String x:Key="CONFIG_EXE_NETWORK">網絡設定</system:String>
     <system:String x:Key="CONFIG_EXE_FIREWALL">防火牆設定</system:String>
@@ -1061,6 +1384,40 @@
 <!--###############################################################################>
 [Database Load]
 #################################################################################-->
+	<system:String x:Key="CONFIG_ISO">ISO 模式</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT">序列連接埠設定</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_TITLE">序列連接埠</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PORTNAME">連接埠名稱</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_BAUDRATE">鮑率速率</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_HANDSHAKE">握手</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_PARITY">同位</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DATABITS">資料 Bits</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_STOPBITS">停止位元</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READTIMEOUT">讀取逾時</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_DTR">DTR 啟用</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_RTS">RTS 啟用</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_READBUFFERSIZE">讀取緩衝區 Size</system:String>
+	<system:String x:Key="CONFIG_SERIALPORT_NEWLINE">換行字元</system:String>
+	<system:String x:Key="CONFIG_SERVER">伺服器設定</system:String>
+	<system:String x:Key="CONFIG_SERVER_URL">URL</system:String>
+	<system:String x:Key="CONFIG_SERVER_ID">ID</system:String>
+	<system:String x:Key="CONFIG_SERVER_FETCH">擷取</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO">評估資訊</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_SHORT_TERM">短期</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_LONG_TERM">長期</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_CLASS">等級</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_DEFAULT">預設</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_DESCRIPTION">說明</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_PROCESSCAPABILITY">製程能力指標</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_CENTEREDPROCESSCAPABILITY">置中製程能力指標</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_POSITIONALPROCESSCAPABILITY">位置製程能力指標</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_POSITIONALCENTEREDPROCESSCAPABILITY">位置置中製程能力指標</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_OVERALL">整體需求</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_WARNINGLIMITVIOLATION">警告限違反</system:String>
+	<system:String x:Key="CONFIG_SERVER_EVAL_INFO_TOLERANCEVIOLATION">公差違反</system:String>
+	<system:String x:Key="CONFIG_ADDITIONALDATA">附加資料設定</system:String>
+	<system:String x:Key="CONFIG_ADDITIONALDATA_INIT">初始值 of 附加資料</system:String>
+	<system:String x:Key="CONFIG_ADDITIONALDATA_SEL">選擇附加資料</system:String>
 	<system:String x:Key="DATABASE_FILTER_ARRANGE">排列依據</system:String>
     <system:String x:Key="DATABASE_FILTER_ARRANGE_NO">No</system:String>
     <system:String x:Key="DATABASE_FILTER_ARRANGE_DATETIME">日期/時間</system:String>
@@ -1090,6 +1447,10 @@
     <system:String x:Key="DATABASE_PART_DEL_MESSAGE">要刪除零件嗎 ?</system:String>
     <system:String x:Key="DATABASE_PART_DEL">刪除零件</system:String>
 
+    <system:String x:Key="DATABASE_CHAR_DEL_MESSAGE">是否要刪除特性資料？[特性/量測值資料將被移除。]</system:String>
+    <system:String x:Key="DATABASE_CHAR_DEL">特性已刪除。</system:String>
+    <system:String x:Key="DATABASE_VALUE_DEL_MESSAGE">是否要delete the value data?</system:String>
+    <system:String x:Key="DATABASE_VALUE_DEL">值 delete.</system:String>
     <system:String x:Key="DATABASE_VALUE_DELETE">刪除數值</system:String>
     <system:String x:Key="DATABASE_CONNECTION">資料庫連線</system:String>
 
@@ -1117,6 +1478,7 @@
 <!--###############################################################################>
 [Select Value]
 #################################################################################-->
+    <system:String x:Key="VALUE_SELECT_TITLE">選擇量測值</system:String>
     <system:String x:Key="VALUE_SELECT">Select value</system:String>
 	
 	<system:String x:Key="VALUE_SELECT_PART_NAME">Part Name</system:String>
@@ -1141,9 +1503,11 @@
 	<system:String x:Key="QCC_SUB_GROUP_SIZE">QCC-Subgroup Size</system:String>
 
 
+    <system:String x:Key="QCC_SUB_GROUP_DEFAULT">預設子群組覆寫</system:String>
     <system:String x:Key="POSITIONAL_TOLERANCE">2D Positional Tolerance</system:String>
     <system:String x:Key="CP_CPK">Cp/Cpk</system:String>
 
+	<system:String x:Key="LINE_THICK">厚度</system:String>
 	<system:String x:Key="VALUE_CHART_PRED_TYPE">Prediction Type</system:String>
 	<system:String x:Key="VALUE_CHART_PRED_SIZE">Prediction Size</system:String>
 	
@@ -1155,12 +1519,19 @@
 
 	
 	<system:String x:Key="VALUE_CHART_SIDE_SETTING">Graphics Settings</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">位置[2001]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CALCULATION">計算 </system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER">Marker</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible/ Size</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">標記可見[OK]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_WARNING">標記可見[WARNING]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">標記可見[NG]</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">標記 Size</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">Number range</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">Value range</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_APPLY">Range Apply</system:String>
 	
+	<system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">線條粗細</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">Value Sub Group</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">Sub G' Apply</system:String>
 	
@@ -1169,6 +1540,21 @@
 	<system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">Zoom Default</system:String>
 	
 	
+	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">線條顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LEGEND">圖例</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_LEGEND">顯示圖例</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_VERTICAL_LEGEND">垂直</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_CHECKBOXES">顯示核取方塊</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SHOW_MARKERS">顯示標記</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_CENTER_TEXT_COLOR">平均文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_USL_TEXT_COLOR">USL 文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LSL_TEXT_COLOR">LSL 文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_UWL_TEXT_COLOR">UWL 文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LWL_TEXT_COLOR">LWL 文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_UCL_TEXT_COLOR">UCL 文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCL 文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SCRAP_TEXT_COLOR">報廢文字顏色</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_ACCEPTANCE_TEXT_COLOR">允收文字顏色</system:String>
 	<system:String x:Key="VALUE_CHART_MARKER_SIZE">Marker Size</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_COLOR">Marker Color</system:String>
     <system:String x:Key="VALUE_CHART_MARKER_UPLOADED_DATA">Uploaded Data</system:String>
@@ -1197,6 +1583,7 @@
 	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG Count</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_FILE">File</system:String>
 
+	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ 檔案</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">Date/Time Start</system:String>
 	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">Date/Time End</system:String>
 	
@@ -1224,9 +1611,85 @@
 [Message]
 #################################################################################-->
 	<!-- Common -->
+	<system:String x:Key="QCC_LOG_FIELD_PART_ID">零件 ID</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_CHAR_ID">特性 ID</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_VALUE_ID">值 ID</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_DATE">發生日期</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_LOCATION_ERR">位置錯誤</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_VARIATION_ERR">Variation 錯誤</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_TOLERANCE_ERR">公差違反錯誤</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_SCRAP_ERR">報廢限違反錯誤</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_ACCEPTANCE_ERR">允收限違反錯誤</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_ERR">警告限錯誤</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_NATURAL_BOUNDARY_ERR">自然邊界錯誤</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_PERCENT">警告 Percentage</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_WARNING_BOUNDARY_PERCENT">自然公差 %</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_LOWER_BOUNDARY">下限自然邊界</system:String>
+	<system:String x:Key="QCC_LOG_FIELD_UPPER_BOUNDARY">上限自然邊界</system:String>
+	<system:String x:Key="QCC_LOG_GOOD">常態</system:String>
+	<system:String x:Key="QCC_LOG_BAD">錯誤</system:String>
+	<system:String x:Key="QCC_LOG_ENABLE">已啟用</system:String>
+	<system:String x:Key="QCC_LOG_DISENABLE">已停用</system:String>
+	<system:String x:Key="LICENSE_AGREE">授權合約</system:String>
+	<system:String x:Key="PATH">路徑</system:String>
+	<system:String x:Key="REGI_SHORTCUT">建立捷徑</system:String>
+	<system:String x:Key="REGI_STARTUP">新增 to 啟動</system:String>
+	<system:String x:Key="INSTALL">安裝</system:String>
+	<system:String x:Key="REPAIR">修復</system:String>
+	<system:String x:Key="INSTALLER">安裝程式</system:String>
+	<system:String x:Key="AGREE">同意</system:String>
+	<system:String x:Key="DISAGREE">不同意</system:String>
+	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">執行授權程式</system:String>
+	<system:String x:Key="UNIFIED">統合</system:String>
+	<system:String x:Key="INSTALLED">已安裝</system:String>
+	<system:String x:Key="NOT_INSTALLED">未安裝</system:String>
+	<system:String x:Key="UPDATE_AVAILABLE">可更新</system:String>
+	<system:String x:Key="INSTALLING">安裝中...</system:String>
+	<system:String x:Key="UNINSTALLING">解除安裝中...</system:String>
+	<system:String x:Key="REPAIRING">修復中...</system:String>
+	<system:String x:Key="FAILED">失敗</system:String>
+	<system:String x:Key="BIN_MISSING">不可用</system:String>
+	<system:String x:Key="UNAVAILABLE">不可用</system:String>
+	<system:String x:Key="OPEN_FOLDER">開啟</system:String>
+	<system:String x:Key="OPTIONS">選項</system:String>
+	<system:String x:Key="APP_SUBTITLE">安裝、更新或修復 iNDEQS 產品。</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE">強制更新共用 SW</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE_TOOLTIP">若勾選，即使 fastAPI 和 i-UpdateTool 已存在於 C:\Users\Public\DQS\App，也會重新安裝。</system:String>
+	<system:String x:Key="BULK_INSTALL">安裝選取項目</system:String>
+	<system:String x:Key="SELECT_ALL">選擇全部</system:String>
+	<system:String x:Key="CLEAR_SELECTION">清除</system:String>
+	<system:String x:Key="N_SELECTED">{0} 個已選擇</system:String>
+	<system:String x:Key="BULK_INSTALLING">正在安裝 {0}...</system:String>
+	<system:String x:Key="BULK_DONE">批次安裝完成: 成功 {0}, 失敗 {1}</system:String>
+	<system:String x:Key="BULK_UNINSTALL">解除安裝選取項目</system:String>
+	<system:String x:Key="BULK_UNINSTALLING">正在解除安裝 {0}...</system:String>
+	<system:String x:Key="BULK_UNINSTALL_DONE">批次解除安裝完成: 成功 {0}, 失敗 {1}</system:String>
+	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">是否解除安裝選取的 {0} 個產品?</system:String>
+	<system:String x:Key="OVERLAY_APP_COUNT">應用程式 {0} / {1}</system:String>
+	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateTool 正在執行。&#x0a;請先關閉後再安裝。</system:String>
+	<system:String x:Key="LOG">日誌</system:String>
+	<system:String x:Key="COPY">複製</system:String>
+	<system:String x:Key="CLEAR">清除</system:String>
+	<system:String x:Key="PREFLIGHT_FAILED">事前檢查失敗</system:String>
+	<system:String x:Key="MSG_LICENSE_REQUIRED">請先同意授權合約。</system:String>
+	<system:String x:Key="MSG_LICENSE_ACCEPTED">授權已同意。</system:String>
+	<system:String x:Key="MSG_LICENSE_APPLIED">授權已套用:</system:String>
+	<system:String x:Key="MSG_CONFIRM_UNINSTALL">是否解除安裝 {0}?</system:String>
+	<system:String x:Key="MSG_COPIED">已複製到剪貼簿</system:String>
+	<system:String x:Key="MSG_SAVED">已儲存</system:String>
+	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[軟體授權合約]</system:String>
+	<system:String x:Key="ARTICLE_1">第1條</system:String>
+	<system:String x:Key="ARTICLE_2">第2條</system:String>
+	<system:String x:Key="ARTICLE_3">第3條</system:String>
+	<system:String x:Key="ARTICLE_4">第4條</system:String>
+	<system:String x:Key="ARTICLE_5">第5條</system:String>
+	<system:String x:Key="ARTICLE_6">第6條</system:String>
+	<system:String x:Key="SOFTWARE_LICENSE_NAME">程式名稱</system:String>
 	<system:String x:Key="MSG_LOAD_FAIL">載入失敗</system:String>
     <system:String x:Key="MSG_LOAD_OK">載入OK</system:String>
 	
+    <system:String x:Key="MSG_CHANGE">變更 settings?</system:String>
+    <system:String x:Key="MSG_SAVE_CHK">是否要save?</system:String>
     <system:String x:Key="MSG_SAVE_OK">儲存完成</system:String>
     <system:String x:Key="MSG_SAVE_FAIL">儲存失敗</system:String>
 	
@@ -1236,8 +1699,10 @@
 	<system:String x:Key="MSG_UPLOAD_OK">上傳完成</system:String>
     <system:String x:Key="MSG_UPLOAD_FAIL">上傳失敗</system:String>	
 	
+	<system:String x:Key="MSG_NOT_ENOUGH_DATA">資料數量不足。</system:String>
 	<system:String x:Key="MSG_VALUE_DELETE_OK">值 刪除OK</system:String>
 	<system:String x:Key="MSG_DATABASE_CHECK">檢查資料庫連線狀態</system:String>
+	<system:String x:Key="MSG_NETWORK_CHECK">請檢查網路連線狀態。</system:String>
 	<system:String x:Key="MSG_SELECT_CHARACTERISTIC">選擇特徵</system:String>
 	<system:String x:Key="MSG_PLAN_NO_CHAR">建立計畫至少需要一個量測項目。</system:String>
 	<system:String x:Key="MSG_FIELD_ALREADY_ADDED">此欄位已新增。</system:String>
@@ -1268,6 +1733,7 @@
 	<system:String x:Key="MSG_DB_MESSAGE_0006">清理成功</system:String>
 	<system:String x:Key="MSG_DB_MESSAGE_0007">清理失敗</system:String>
 
+    <system:String x:Key="MSG_DB_MESSAGE_0008">目前資料庫零件項目顯示限制為 [{0}] 項。是否要在此限制狀態下檢視?</system:String>
     <system:String x:Key="MSG_DB_ERROR_0001">選擇項目錯誤</system:String>
     <system:String x:Key="MSG_DB_ERROR_0002">資料庫未連線</system:String>
     <system:String x:Key="MSG_DB_ERROR_0003">沒有符合的值。</system:String>
@@ -1289,6 +1755,7 @@
 
 	
 	<!-- Q/i Report -->
+	<system:String x:Key="MSG_THEME_MESSAGE_0001">主題將在重新啟動後套用。</system:String>
 	<system:String x:Key="MSG_SELECT_CELL">是否選擇儲存格?</system:String>
 	<system:String x:Key="MSG_RELEASE_CELL">是否取消指定儲存格?</system:String>
 	<system:String x:Key="MSG_1SELECT_CELL">請選擇單個儲存格/特徵</system:String>
@@ -1337,6 +1804,11 @@
 
 	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">Alarm priority duplication error.</system:String>
 
+
+<!--###############################################################################
+[i-Board Alert]
+#################################################################################-->
+
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV 儲存路徑</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">傳送郵件時將警報資訊儲存為 CSV 的資料夾</system:String>
 
@@ -1344,6 +1816,7 @@
     <system:String x:Key="CONFIG_MAIL_TITLE">郵件</system:String>
     <system:String x:Key="CONFIG_MAIL_HEADER">郵件(SMTP)設定</system:String>
     <system:String x:Key="CONFIG_MAIL_ENABLE">啟用郵件傳送</system:String>
+    <system:String x:Key="CONFIG_MAIL">郵件</system:String>
     <system:String x:Key="CONFIG_MAIL_HOST">SMTP 主機</system:String>
     <system:String x:Key="CONFIG_MAIL_PORT">SMTP 連接埠</system:String>
     <system:String x:Key="CONFIG_MAIL_SSL">使用 SSL/TLS</system:String>
@@ -1360,6 +1833,127 @@
     <system:String x:Key="CONFIG_MAIL_BODY">內容</system:String>
     <system:String x:Key="CONFIG_MAIL_TEST_BTN">傳送測試郵件</system:String>
     <system:String x:Key="CONFIG_MAIL_TEST_HINT">使用目前設定傳送測試郵件至收件者(不儲存)。</system:String>
+    <system:String x:Key="MS_MENU_START">開始</system:String>
+    <system:String x:Key="MS_MENU_END">結束</system:String>
+    <system:String x:Key="MS_MAIN_LOG">日誌</system:String>
+    <system:String x:Key="MS_MAIN_DELETE_LOG">刪除 Log</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_LICENSE">授權</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_DATETIME">目前日期/時間</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST">作業 list</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_STATE_ENABLE">已啟用</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_DATABASE_DESC">資料庫</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_FILTER_DESC">篩選</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_REPORT_DESC">報告</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CYCLE_DESC">傳送週期</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_GRID_SEND_CUR_DATE">最後 Sent</system:String>
+    <system:String x:Key="MS_CONFIG_MAIL">電子郵件設定</system:String>
+    <system:String x:Key="MS_CONFIG_MAIL_TIMEOUT_SECOND">(秒)</system:String>
+    <system:String x:Key="MS_CONFIG_MAIL_BTN_SAVE">儲存</system:String>
+    <system:String x:Key="MS_CONFIG_MAIL_BTN_DEL">刪除</system:String>
+    <system:String x:Key="MS_CONFIG_MAIL_BTN_NEW">新增</system:String>
+    <system:String x:Key="MS_VIEW_JOBLIST">作業 Setting</system:String>
+    <system:String x:Key="MS_VIEW_FILTERLIST">篩選設定</system:String>
+    <system:String x:Key="MS_VIEW_DBLIST">資料庫設定</system:String>
+    <system:String x:Key="MS_VIEW_REPORTLIST">報告設定</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_ENABLE">啟用</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_DISEBLE">停用</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ENABLE">啟用</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DISEBLE">停用</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_ADD">新增作業</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_EDIT">編輯作業</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_DEL">刪除作業</system:String>
+    <system:String x:Key="MS_MAIN_STATUS_JOBLIST_CONTEXT_SEND">傳送郵件</system:String>
+    <system:String x:Key="MS_JOB_LIST_NAME">作業名稱</system:String>
+    <system:String x:Key="MS_JOB_LIST_DB">資料庫</system:String>
+    <system:String x:Key="MS_JOB_LIST_FILTER">篩選</system:String>
+    <system:String x:Key="MS_JOB_LIST_REPORT">報告</system:String>
+    <system:String x:Key="MS_JOB_LIST_CYCLE">傳送週期</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING">傳送 Time</system:String>
+    <system:String x:Key="MS_JOB_LIST_MAIL_TITLE">郵件標題</system:String>
+    <system:String x:Key="MS_JOB_LIST_MAIL_BODY">郵件內容</system:String>
+    <system:String x:Key="MS_JOB_LIST_FILE_NAME">附加檔案名稱</system:String>
+    <system:String x:Key="MS_JOB_LIST_SEL_BUTTON">選擇</system:String>
+    <system:String x:Key="MS_JOB_LIST_CYCLE_MONTH">每月</system:String>
+    <system:String x:Key="MS_JOB_LIST_CYCLE_WEEK">每週</system:String>
+    <system:String x:Key="MS_JOB_LIST_CYCLE_DAY">每日</system:String>
+    <system:String x:Key="MS_JOB_LIST_CYCLE_DATE">日</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_MONTH_FIRST">開始 of Month</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_MONTH_LAST">結束 of Month</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_MONTH_SEL">選擇日期</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_WEEK_MON">星期一</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_WEEK_TUE">星期二</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_WEEK_WED">星期三</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_WEEK_THU">星期四</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_WEEK_FRI">星期五</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SAT">星期六</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_WEEK_SUN">星期日</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_DATE">輸入日期</system:String>
+    <system:String x:Key="MS_JOB_LIST_TIMING_TIME">輸入 Time</system:String>
+    <system:String x:Key="MS_JOB_SEND_LIST">收件者</system:String>
+    <system:String x:Key="MS_JOB_SEND_LIST_SEL">選擇</system:String>
+    <system:String x:Key="MS_JOB_SEND_LIST_MAIL">電子郵件</system:String>
+    <system:String x:Key="MS_JOB_SEND_LIST_NAME">名稱</system:String>
+    <system:String x:Key="MS_JOB_REF_LIST">CC</system:String>
+    <system:String x:Key="MS_JOB_REF_LIST_SEL">選擇</system:String>
+    <system:String x:Key="MS_JOB_REF_LIST_MAIL">電子郵件</system:String>
+    <system:String x:Key="MS_JOB_REF_LIST_NAME">名稱</system:String>
+    <system:String x:Key="MS_JOB_FILE_NAME_DATE">日期</system:String>
+    <system:String x:Key="MS_JOB_LIST_SAVE_BUTTON">儲存</system:String>
+    <system:String x:Key="MS_JOB_LIST_CANCEL_BUTTON">取消</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_GRID_NAME">篩選名稱</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_BTN_SEL">選擇</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_BTN_SAVE">儲存</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_BTN_DEL">刪除</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_BTN_CANCEL">新增</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_BTN_APPLY">套用篩選</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_NAME">篩選名稱</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY">陣列</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_NONE">無</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_DATE">日期/時間</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_PARTID">零件 ID</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_ARRAY_ORDER">順序 (工作編號)</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_SORT">排序</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_NONE">無</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_ASC">升冪 (最新)</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_SORT_DESC">降冪 (最舊)</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE">日期/時間</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR">設定日期/Time</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_DAY">最近 n Day(s)</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_WEEK">最近 n Week(s)</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_CUR_MON">最近 n Month(s)</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_MON">月</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_WEEK">週</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_DAY">日</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_START">開始日期/時間</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_END">結束日期/時間</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT">重複週期</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_SEL">選擇週期</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STANDARD">值</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_REPEAT_STAND">選擇標準</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_DATE_NONE">無</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_PART">零件</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_CHAR">特性</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE">值</system:String>
+    <system:String x:Key="MS_FILTER_VIEW_SETTING_VALUE_1">值數量</system:String>
+    <system:String x:Key="MS_DB_VIEW_GRID_NAME">資料庫名稱</system:String>
+    <system:String x:Key="MS_DB_VIEW_SETTING_NAME">資料庫名稱</system:String>
+    <system:String x:Key="MS_DB_VIEW_SETTING_TYPE">SQL 資料庫伺服器</system:String>
+    <system:String x:Key="MS_DB_VIEW_SETTING_ADDRESS">位址 (IPS/DNS)</system:String>
+    <system:String x:Key="MS_DB_VIEW_SETTING_PORT">連接埠</system:String>
+    <system:String x:Key="MS_DB_VIEW_SETTING_ID">ID</system:String>
+    <system:String x:Key="MS_DB_VIEW_SETTING_PASSWORD">密碼</system:String>
+    <system:String x:Key="MS_DB_VIEW_SETTING_DATABASE">資料庫</system:String>
+    <system:String x:Key="MS_DB_VIEW_BTN_SEL">選擇</system:String>
+    <system:String x:Key="MS_DB_VIEW_SAVE_BUTTON">儲存</system:String>
+    <system:String x:Key="MS_DB_VIEW_BTN_DEL">刪除</system:String>
+    <system:String x:Key="MS_DB_VIEW_CANCEL_BUTTON">新增</system:String>
+    <system:String x:Key="MS_DB_VIEW_BTN_TEST">測試連線</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_GRID_NAME">報告名稱</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_PREVIEW">預覽</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM1">1頁</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_PREVIEW_ITEM2">全部</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_SEL">選擇</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_FILE">檔案</system:String>
     <system:String x:Key="MS_REPORT_VIEW_BTN_NEW">新增</system:String>
     <system:String x:Key="MS_REPORT_VIEW_BTN_MODIFY">修改</system:String>
     <system:String x:Key="MS_REPORT_VIEW_BTN_DELETE">刪除</system:String>
@@ -1367,6 +1961,72 @@
     <system:String x:Key="MS_MSG_MAIL_NOT_CONFIGURED">尚未設定郵件傳送。\n請至 設定(郵件頁籤) 進行設定。</system:String>
     <system:String x:Key="MS_MSG_MAIL_SEND_OK">郵件已成功傳送。</system:String>
     <system:String x:Key="MS_MSG_MAIL_SEND_FAIL">郵件傳送失敗。請檢查記錄與設定。</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_MOD">編輯</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_DEL">刪除</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_PREV">上一個</system:String>
+    <system:String x:Key="MS_REPORT_VIEW_BTN_NEXT">下一個</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION">報告工作階段</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_COUNT">工作階段 Count</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_SESSION_SELECT">選擇工作階段</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE">報告類型</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_0">個別</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_TYPE_1">集合</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT">報告版面</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_0">直向</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_LAYOUT_1">橫向</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_NAME">報告名稱</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT">元素版面</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_ROWHEIGHT">列高度</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LAYOUT_SELCT_ELEMENT">選擇元素</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_ADD_BTN">新增</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_REGISTERED_ITEM">已註冊項目</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_TITLE">標題</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_HIDE_FIELD">隱藏 Field 名稱</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_COLLECTIVE_LIST">清單</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_LIST_COUNT">已顯示頁面</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_SAVE_BTN">儲存</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_IMPORT_BTN">匯入</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_EXPORT_BTN">匯出</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_CANCEL_BTN">取消</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_VIEW_ELEMENT_PREVIEW">預覽</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_PART_NAME">零件名稱</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NO">Feature 無.</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CHAR_NAME">Feature 名稱</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_AVERAGE">平均</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MEDIAN">中位數</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_STD_DEV">標準差</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MIN">最小值</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_MAX">最大值</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_NOMINAL">名義值</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_USL">USL</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LSL">LSL</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_UPPER_LIMIT">上限 Allowance</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_LOWER_LIMIT">下限 Allowance</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CP">Cp</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_CPK">Cpk</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_RESULT">結果</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TOL_VIOATION">公差違反</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_COLLECTIVE_LIST_TREND">趨勢</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_NUMBER">零件編號</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PART_DESC">零件說明</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_NO">特性編號</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_DESC">特性</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CHAR_INFO">特性資訊</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_VALUE_INFO">值資訊</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_STATIC_INFO">統計資訊</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_NOMINAL">名義值</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_TOTVALUE">總計值</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_INTOL">內公差</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_OUTTOL">超出公差</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MEDIAN">中位數</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MIN">最小值</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CLASS">等級</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_MAX">最大值</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_RANGE">範圍</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CAL_METHOD">計算方法</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_REQ_STATIC">需求 are 滿足</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_PROCESS_CAP_INDEX">製程能力指標</system:String>
+    <system:String x:Key="MS_REPORT_SETTING_RESULT_LIST_CENTERED_PROCESS_CAP_INDEX">置中製程能力指標</system:String>
     <system:String x:Key="MS_MSG_MAIL_TEST_OK">測試郵件已成功傳送。</system:String>
     <system:String x:Key="MS_MSG_MAIL_TEST_FAIL">測試郵件傳送失敗。請檢查設定與記錄。</system:String>
     <system:String x:Key="MS_MSG_MAIL_NO_HOST">請輸入 SMTP 主機。</system:String>
@@ -1461,6 +2121,7 @@
     <system:String x:Key="AM_MSG_EMAIL_NOT_CONFIGURED">未設定郵件，略過郵件通知。</system:String>
     <system:String x:Key="AM_MSG_EMAIL_SENT">郵件傳送成功。</system:String>
     <system:String x:Key="AM_MSG_ENTER_HOST_ID">請輸入主機與ID。</system:String>
+    <system:String x:Key="AM_MSG_SETTINGS_SAVE_FAILED">save settings失敗。</system:String>
     <system:String x:Key="AM_MSG_ENTER_NAME_EMAIL">請輸入姓名與電子郵件地址。</system:String>
     <system:String x:Key="AM_MSG_EXTRACTED_COUNT">已擷取 {0} 筆警報。</system:String>
     <system:String x:Key="AM_MSG_EXTRACTION_COMPLETED">擷取完成。</system:String>
@@ -1503,6 +2164,7 @@
     <system:String x:Key="AM_SETTINGS_INTERVAL">間隔(分鐘):</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_ALARM">警報設定</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_DATABASE">資料庫</system:String>
+    <system:String x:Key="AM_SETTINGS_TAB_BACKEND">後端伺服器</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_EMAIL">電子郵件</system:String>
     <system:String x:Key="AM_SETTINGS_TITLE">設定</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">量測值明細</system:String>
@@ -1513,11 +2175,40 @@
     <system:String x:Key="AM_STATUS_DATETIME">目前日期/時間</system:String>
     <system:String x:Key="AM_STATUS_DATE_RANGE">日期範圍</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_FROM">寄件郵件</system:String>
+    <system:String x:Key="AM_STATUS_DATABASE">資料庫</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_TO">收件郵件</system:String>
     <system:String x:Key="AM_STATUS_INTERVAL">間隔</system:String>
     <system:String x:Key="AM_STATUS_LAST_EMAIL">上次郵件</system:String>
     <system:String x:Key="AM_STATUS_LAST_EXTRACTION">上次擷取</system:String>
     <system:String x:Key="AM_STATUS_LICENSE">授權</system:String>
+    <system:String x:Key="MSG_FILE_ACCEPT_ERROR_0001">多重 approval are not supported in file accept mode.</system:String>
+    <system:String x:Key="MSG_PLAN_0001">是否要close the current plan?</system:String>
+    <system:String x:Key="MSG_PLAN_DUPL_CHAR_NUM">重複 Characteristic 編號 found</system:String>
+    <system:String x:Key="MSG_PLAN_ALL_DEL">儲存中 in the current state will delete all content.</system:String>
+    <system:String x:Key="MSG_PART_DUPLICATE">零件重複。</system:String>
+    <system:String x:Key="MSG_OVERWRITE">是否要overwrite it?</system:String>
+    <system:String x:Key="MSG_PART_NOT_SELECT">沒有part is 個已選擇。</system:String>
+    <system:String x:Key="MSG_CHAR_NOT_SELECT">沒有measurement item is 個已選擇。</system:String>
+    <system:String x:Key="MSG_PLAN_OVERWRITE">A part is 已選擇. Do you want to import this format?</system:String>
+    <system:String x:Key="MSG_NO_SYNC_DATA">沒有data to update。</system:String>
+    <system:String x:Key="MSG_EXTERNAL_DB_CON_ERR">外部 DB 連線資訊遺失。</system:String>
+    <system:String x:Key="MSG_SYNC_OK">同步成功</system:String>
+    <system:String x:Key="MSG_SYNC_ERR">同步失敗</system:String>
+    <system:String x:Key="MSG_SERIALPORT_CONNECTION_SUCCESS">序列埠連線成功</system:String>
+    <system:String x:Key="MSG_SERIALPORT_CONNECTION_FAIL">序列埠連線失敗</system:String>
+    <system:String x:Key="MSG_PROGRAM_RUNNING">程式已在執行中。</system:String>
+    <system:String x:Key="MSG_SETUPFILE_NOT_EXIST">安裝檔不存在。</system:String>
+    <system:String x:Key="MSG_SETUP_END">安裝已完成。</system:String>
+    <system:String x:Key="MSG_SETUP_ERROR">安裝時發生錯誤。</system:String>
+    <system:String x:Key="MSG_SETUP_DELETED">Uninstallation已完成。</system:String>
+    <system:String x:Key="MSG_SETUP_DELETE_ERROR">解除安裝時發生錯誤。</system:String>
+    <system:String x:Key="MSG_SETUP_REPAIR_NOT_EXIST">修復檔不存在。</system:String>
+    <system:String x:Key="MSG_SETUP_REPAIR_END">修復已完成。</system:String>
+    <system:String x:Key="MSG_SETUP_REPAIR_ERROR">修復時發生錯誤。</system:String>
+    <system:String x:Key="MSG_SETUP_LICENSE_FILE_NOT_EXIST">授權 file is not Exist</system:String>
+    <system:String x:Key="MSG_SETUP_LICENSE_DOTNET_NOT_EXIST">未安裝 .NET Framework 4.8 或更高版本。</system:String>
+    <system:String x:Key="MSG_RUNTIME_ERROR">執行程式時發生錯誤。</system:String>
+    <system:String x:Key="MSG_PROGRAM_NOT_FOUND">找不到程式。</system:String>
     <system:String x:Key="AM_STATUS_SELECT_EVALUATION">評估</system:String>
     <system:String x:Key="AM_TAB_LOG">日誌</system:String>
     <system:String x:Key="AM_TAB_STATUS">狀態</system:String>

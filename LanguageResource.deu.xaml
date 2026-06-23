@@ -345,7 +345,7 @@
 
     <!-- Location Tolerances -->
     <system:String x:Key="DGT_Position">Position</system:String>
-    <system:String x:Key="DGT_Konzentrizität">Konzentrizität</system:String>
+    <system:String x:Key="DGT_Concentricity">Konzentrizität</system:String>
     <system:String x:Key="DGT_Symmetry">Symmetrie</system:String>
 
     <!-- Run-out Tolerances -->
@@ -380,6 +380,14 @@
 	<system:String x:Key="PRINTING">Druckvorgang...</system:String>
 	<system:String x:Key="PRINT">Drucken</system:String>
 
+	<system:String x:Key="SP_PORT_NAME">Portname</system:String>
+	<system:String x:Key="SP_BAUDRATE">Baudrate</system:String>
+	<system:String x:Key="SP_DATABITS">Datenbits</system:String>
+	<system:String x:Key="SP_STOPBITS">Stoppbits</system:String>
+	<system:String x:Key="SP_PARITY">Parität</system:String>
+	<system:String x:Key="SP_PORT_MODEL">Modell</system:String>
+	<system:String x:Key="SP_CHANNEL">Kanal</system:String>
+	<system:String x:Key="SP_TAKEOVER">Übernahme</system:String>
 	<system:String x:Key="TCP_IP">TCP/IP</system:String>
 <!--###############################################################################>
  [Data Field]
@@ -814,6 +822,7 @@
 	<system:String x:Key="MS_JOB_LIST_CYCLE_WEEK">Wöchentlich</system:String>
 	<system:String x:Key="MS_JOB_LIST_CYCLE_DAY">Täglich</system:String>
 
+	<system:String x:Key="MS_JOB_LIST_CYCLE_DATE">Tag</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_FIRST">Monatsanfang</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_LAST">Monatsende</system:String>
 	<system:String x:Key="MS_JOB_LIST_TIMING_MONTH_SEL">Datum auswählen</system:String>
@@ -1460,7 +1469,18 @@
     <system:String x:Key="SENSE_ADDITIONAL_DATA_POPUP">Zusatzdaten-Popup verwenden</system:String>
 	
 	<!-- ==>Auto -->
+    <system:String x:Key="SENSE_EVENT_POPUP_MODE">Ereignis-Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NONE">Kein Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_NG">NG-Popup</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">Popup immer anzeigen</system:String>
+    <system:String x:Key="EVENT_POPUP_TITLE">Ereigniseingabe</system:String>
+    <system:String x:Key="EVENT_AVAILABLE_LIST">Verfügbare Ereignisse</system:String>
+    <system:String x:Key="EVENT_SELECTED_LIST">Ausgewählte Ereignisse</system:String>
+    <system:String x:Key="EVENT_OTHER_EVENT">Anderes Ereignis</system:String>
+    <system:String x:Key="EVENT_TRIGGER_LIST">Alarm-Auslösewerte</system:String>
+    <system:String x:Key="EVENT_SEARCH">Suchen</system:String>
     <system:String x:Key="CONFIG_SERVER_AUTO_START">Automatischer Start - Server</system:String>
+    <system:String x:Key="SENSE_EVENT_POPUP">Ereignis-Popup verwenden</system:String>
     <system:String x:Key="CONFIG_SERVER_ADDRESS">Server-Adresse</system:String>
     <system:String x:Key="CONFIG_SERVER_PORT">Server-Port</system:String>
     <system:String x:Key="CONFIG_SERVER_UPDATE_TIME">Server-Aktualisierungszeit</system:String>
@@ -1618,6 +1638,7 @@
     <system:String x:Key="CONFIG_MAIL_ID">ID</system:String>
     <system:String x:Key="CONFIG_MAIL_PW">Passwort</system:String>
     <system:String x:Key="CONFIG_MAIL_TIMEOUT">Zeitüberschreitung</system:String>
+    <system:String x:Key="CONFIG_MAIL_TIMEOUT_SECOND">(Millisekunden)</system:String>
     <system:String x:Key="CONFIG_MAIL_RECI">Empfängerverwaltung</system:String>
     <system:String x:Key="CONFIG_MAIL_RECI_NAME">Name</system:String>
     <system:String x:Key="CONFIG_MAIL_RECI_ADDRESS">E-Mail-Adresse</system:String>
@@ -1629,6 +1650,7 @@
     <system:String x:Key="CONFIG_REPORT_LOGO_PATH">Logopfad</system:String>
 	
 	<!--Box Plot-->
+	<system:String x:Key="CONFIG_REPORT_LOGO_SELECT">Logo-Datei auswählen</system:String>
 	<system:String x:Key="CONFIG_BOXPLOT">Boxplot</system:String>
     <system:String x:Key="CONFIG_BOXPLOT_CAL">Berechnung</system:String>
     <system:String x:Key="CONFIG_BOXPLOT_X_AXIS">X-Achse</system:String>
@@ -1755,6 +1777,7 @@
 <!--###############################################################################>
 [Select Value]
 #################################################################################-->
+    <system:String x:Key="VALUE_SELECT_TITLE">Wert auswählen</system:String>
     <system:String x:Key="VALUE_SELECT">Wert auswählen</system:String>
 	
     <system:String x:Key="VALUE_SELECT_PART_NAME">Teilename</system:String>
@@ -1855,6 +1878,7 @@
     <system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">Anzahl NG</system:String>
     <system:String x:Key="SENSE_DATA_MULTI_FILE">Datei</system:String>
 
+    <system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ-Datei</system:String>
     <system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">Startdatum/-uhrzeit</system:String>
     <system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">Enddatum/-uhrzeit</system:String>
 	
@@ -1917,6 +1941,42 @@
 	<system:String x:Key="LICENSE_PROGRAM_EXECUTE">Lizenziertes Programm ausführen</system:String>
 	<system:String x:Key="UNIFIED">Einheitlich</system:String>
 	
+	<system:String x:Key="INSTALLED">Installiert</system:String>
+	<system:String x:Key="NOT_INSTALLED">Nicht installiert</system:String>
+	<system:String x:Key="UPDATE_AVAILABLE">Update verfügbar</system:String>
+	<system:String x:Key="INSTALLING">Installation läuft...</system:String>
+	<system:String x:Key="UNINSTALLING">Deinstallation läuft...</system:String>
+	<system:String x:Key="REPAIRING">Reparatur läuft...</system:String>
+	<system:String x:Key="FAILED">Fehlgeschlagen</system:String>
+	<system:String x:Key="BIN_MISSING">Nicht verfügbar</system:String>
+	<system:String x:Key="UNAVAILABLE">Nicht verfügbar</system:String>
+	<system:String x:Key="OPEN_FOLDER">Öffnen</system:String>
+	<system:String x:Key="OPTIONS">Optionen</system:String>
+	<system:String x:Key="APP_SUBTITLE">Installiert, aktualisiert oder repariert Ihre iNDEQS-Produkte.</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE">Gemeinsame SW zwangsweise aktualisieren</system:String>
+	<system:String x:Key="FORCE_COMMON_UPDATE_TOOLTIP">Wenn aktiviert, werden fastAPI und i-UpdateTool erneut installiert, auch wenn sie bereits in C:\Users\Public\DQS\App vorhanden sind.</system:String>
+	<system:String x:Key="BULK_INSTALL">Ausgewählte installieren</system:String>
+	<system:String x:Key="SELECT_ALL">Alle auswählen</system:String>
+	<system:String x:Key="CLEAR_SELECTION">Löschen</system:String>
+	<system:String x:Key="N_SELECTED">{0} ausgewählt</system:String>
+	<system:String x:Key="BULK_INSTALLING">{0} wird installiert...</system:String>
+	<system:String x:Key="BULK_DONE">Masseninstallation abgeschlossen: {0} erfolgreich, {1} fehlgeschlagen</system:String>
+	<system:String x:Key="BULK_UNINSTALL">Ausgewählte deinstallieren</system:String>
+	<system:String x:Key="BULK_UNINSTALLING">{0} wird deinstalliert...</system:String>
+	<system:String x:Key="BULK_UNINSTALL_DONE">Massendeinstallation abgeschlossen: {0} erfolgreich, {1} fehlgeschlagen</system:String>
+	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">{0} ausgewählte Produkte deinstallieren?</system:String>
+	<system:String x:Key="OVERLAY_APP_COUNT">App {0} / {1}</system:String>
+	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateTool wird ausgeführt.&#x0a;Bitte schließen Sie es vor der Installation.</system:String>
+	<system:String x:Key="LOG">Protokoll</system:String>
+	<system:String x:Key="COPY">Kopieren</system:String>
+	<system:String x:Key="CLEAR">Löschen</system:String>
+	<system:String x:Key="PREFLIGHT_FAILED">Vorabprüfung fehlgeschlagen</system:String>
+	<system:String x:Key="MSG_LICENSE_REQUIRED">Bitte akzeptieren Sie zuerst die Lizenzvereinbarung.</system:String>
+	<system:String x:Key="MSG_LICENSE_ACCEPTED">Lizenz akzeptiert.</system:String>
+	<system:String x:Key="MSG_LICENSE_APPLIED">Lizenz angewendet:</system:String>
+	<system:String x:Key="MSG_CONFIRM_UNINSTALL">{0} deinstallieren?</system:String>
+	<system:String x:Key="MSG_COPIED">In die Zwischenablage kopiert</system:String>
+	<system:String x:Key="MSG_SAVED">Gespeichert</system:String>
 	<system:String x:Key="SOFTWARE_LICENSE_AGREEMENT">[Software-Lizenzvereinbarung]</system:String>
 	<system:String x:Key="ARTICLE_1">Paragraf 1</system:String>
 	<system:String x:Key="ARTICLE_2">Paragraf 2</system:String>
@@ -1945,6 +2005,7 @@
     <system:String x:Key="MSG_UPLOAD_OK">Upload abgeschlossen</system:String>
     <system:String x:Key="MSG_UPLOAD_FAIL">Upload fehlgeschlagen</system:String>	
 	
+    <system:String x:Key="MSG_NOT_ENOUGH_DATA">Unzureichende Anzahl von Daten.</system:String>
     <system:String x:Key="MSG_VALUE_DELETE_OK">Löschen der Werte erfolgreich.</system:String>
     <system:String x:Key="MSG_DATABASE_CHECK">Datenbankverbindungsstatus prüfen.</system:String>
     <system:String x:Key="MSG_NETWORK_CHECK">Netzwerkverbindungsstatus prüfen.</system:String>
@@ -2062,6 +2123,8 @@
     <system:String x:Key="MSG_SYNC_ERR">Synchronisierung fehlgeschlagen</system:String>
 	
 	<!--installer-->
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_SUCCESS">Verbindung zum seriellen Port erfolgreich</system:String>
+	<system:String x:Key="MSG_SERIALPORT_CONNECTION_FAIL">Verbindung zum seriellen Port fehlgeschlagen</system:String>
 	<system:String x:Key="MSG_PROGRAM_RUNNING">Das Programm wird bereits ausgeführt.</system:String>
 	<system:String x:Key="MSG_SETUPFILE_NOT_EXIST">Die Installationsdatei existiert nicht.</system:String>
 	<system:String x:Key="MSG_SETUP_END">Die Installation wurde abgeschlossen.</system:String>
@@ -2076,6 +2139,11 @@
 	
 	<system:String x:Key="MSG_RUNTIME_ERROR">Während der Programmausführung ist ein Fehler aufgetreten.</system:String>
 	<system:String x:Key="MSG_PROGRAM_NOT_FOUND">Das Programm konnte nicht gefunden werden.</system:String>
+
+
+<!--###############################################################################
+[i-Board Alert]
+#################################################################################-->
 
 	<system:String x:Key="AM_SETTINGS_CSV_PATH">CSV-Speicherpfad</system:String>
 	<system:String x:Key="AM_SETTINGS_CSV_PATH_HINT">Ordner zum Speichern der Alarminformationen als CSV beim E-Mail-Versand</system:String>
@@ -2196,6 +2264,7 @@
     <system:String x:Key="AM_MSG_EMAIL_NOT_CONFIGURED">E-Mail nicht konfiguriert. E-Mail-Benachrichtigung wird übersprungen.</system:String>
     <system:String x:Key="AM_MSG_EMAIL_SENT">E-Mail erfolgreich gesendet.</system:String>
     <system:String x:Key="AM_MSG_ENTER_HOST_ID">Bitte Host und ID eingeben.</system:String>
+    <system:String x:Key="AM_MSG_SETTINGS_SAVE_FAILED">Speichern der Einstellungen fehlgeschlagen.</system:String>
     <system:String x:Key="AM_MSG_ENTER_NAME_EMAIL">Bitte Name und E-Mail-Adresse eingeben.</system:String>
     <system:String x:Key="AM_MSG_EXTRACTED_COUNT">{0} Alarm(e) extrahiert.</system:String>
     <system:String x:Key="AM_MSG_EXTRACTION_COMPLETED">Extraktion abgeschlossen.</system:String>
@@ -2238,6 +2307,7 @@
     <system:String x:Key="AM_SETTINGS_INTERVAL">Intervall (Minuten):</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_ALARM">Alarmeinstellungen</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_DATABASE">Datenbank</system:String>
+    <system:String x:Key="AM_SETTINGS_TAB_BACKEND">Backend-Server</system:String>
     <system:String x:Key="AM_SETTINGS_TAB_EMAIL">E-Mail</system:String>
     <system:String x:Key="AM_SETTINGS_TITLE">Einstellungen</system:String>
     <system:String x:Key="AM_SETTINGS_VALUE_DETAIL">Messwertdetails</system:String>
@@ -2248,6 +2318,7 @@
     <system:String x:Key="AM_STATUS_DATETIME">Aktuelles Datum/Uhrzeit</system:String>
     <system:String x:Key="AM_STATUS_DATE_RANGE">Datumsbereich</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_FROM">Absender-E-Mail</system:String>
+    <system:String x:Key="AM_STATUS_DATABASE">Datenbank</system:String>
     <system:String x:Key="AM_STATUS_EMAIL_TO">Empfänger-E-Mail</system:String>
     <system:String x:Key="AM_STATUS_INTERVAL">Intervall</system:String>
     <system:String x:Key="AM_STATUS_LAST_EMAIL">Letzte E-Mail</system:String>
