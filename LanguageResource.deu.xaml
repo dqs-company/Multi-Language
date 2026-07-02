@@ -1200,6 +1200,7 @@
     <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">Mehrfach-&#xA;annahme</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">Zsf.-&#xA;liste</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_CALC">Zsf.&#xA;berech.</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">Zsf.-&#xA;wert</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">Werte-&#xA;liste</system:String>
@@ -1552,6 +1553,7 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">Schreibgeschützte Dateien/Versteckte Dateien ignorieren</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">Datums-/Zeitformat</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">Länder-Codepage</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">Dokumentübertragung</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">Alle Daten erfassen (Attribute ignorieren)</system:String>
  
     <system:String x:Key="CONFIG_DATA_HEXAGON_EQUAL_OPTION">Hexagon-Option (Gleichen Wert ignorieren, Nominal, für dfq-Datei)</system:String>

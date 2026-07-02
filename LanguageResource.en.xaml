@@ -1231,6 +1231,7 @@
     <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">Data&#xA;Multi Accept</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">Summary&#xA;List</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_CALC">Summary&#xA;Calc</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">Summary&#xA;Value</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">Value&#xA;List</system:String>
@@ -1597,6 +1598,7 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">Write-protected file/Ignore hidden files</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">Date/time format</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">Country code page</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">Document Transfer</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">Data All Collect(Ignore attribute)</system:String>
  
     <system:String x:Key="CONFIG_DATA_HEXAGON_EQUAL_OPTION">Hexagon Option (Ignoring equal value,nominal, for dfq file)</system:String>

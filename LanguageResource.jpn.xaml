@@ -1223,6 +1223,7 @@
     <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">データ&#xA;一括承認</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">サマリ</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_CALC">サマリ&#xA;計算</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">測定値&#xA;概要</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">測定値&#xA;リスト</system:String>
@@ -1595,6 +1596,7 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">書込み禁止/隠しファイル無視</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">日付/時刻形式</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">エンコード</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">ドキュメント転送</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">全データ収集(属性無視)</system:String>
 
     <system:String x:Key="CONFIG_DATA_HEXAGON_EQUAL_OPTION">HXオプション(無視 - 同等 規格値,出力値)</system:String>

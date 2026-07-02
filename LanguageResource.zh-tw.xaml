@@ -922,6 +922,7 @@
     <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">Data&#xA;Multi Accept</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">Summary&#xA;List</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_CALC">摘要&#xA;計算</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">Summary&#xA;Value</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">Value&#xA;List</system:String>
@@ -1259,6 +1260,7 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">無法新增、修改檔案/忽略隱藏檔案</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">日期/時間格式</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">編碼</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">文件傳輸</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">所有資料收集(忽略屬性)</system:String>
  
     <system:String x:Key="CONFIG_DATA_HEXAGON_EQUAL_OPTION">HEXAGON選項(忽略-同等標準值、輸出值，用於dfq檔案)</system:String>

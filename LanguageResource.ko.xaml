@@ -1221,6 +1221,7 @@
     <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">데이터&#xA;멀티 승인</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">요약&#xA;리스트</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_CALC">요약&#xA;계산</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">요약&#xA;밸류</system:String>
 
     <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">밸류&#xA;리스트</system:String>
@@ -1595,6 +1596,7 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">쓰기 금지 파일/숨김 파일 무시</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">날짜/시간 형식</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">국가 코드페이지</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">문서 전송</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">데이터 모두 수집(상태 값 무시)</system:String>
 
     <system:String x:Key="CONFIG_DATA_HEXAGON_EQUAL_OPTION">헥사곤 옵션(노미널, 측정값 같은 경우 무시, DFQ용)</system:String>
