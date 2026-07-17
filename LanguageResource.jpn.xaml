@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">				
 					
@@ -1408,6 +1408,13 @@
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector サーバ構成</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">i-Collector サーバ</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">i-Collector サーバ構成</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">データ管理方式</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MODE_FILE">ファイル方式 - 中央DBへ直接アップロード</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MODE_DB">DB方式 - ローカルDBに保存し、定期的に中央DBへ同期</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MODE_RESTART_NOTE">* DBアップロード再起動(停止 - 開始)後に適用されます</system:String>
+    <system:String x:Key="CS_CONFIG_SYNC_INTERVAL">中央同期間隔</system:String>
+    <system:String x:Key="CS_CONFIG_OUTBOX_PURGE_DAYS">同期済み履歴の保存期間</system:String>
+    <system:String x:Key="CS_CONFIG_DB_CONNECTION_CHECK">接続確認</system:String>
 
 
     <!-- ==>Q/i-Board -->
@@ -1539,6 +1546,9 @@
 	
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_CLIENT_TITLE">インスタンス</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH">取得</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">サーバーからクライアント一覧を取得できませんでした。</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">サーバーに登録されたクライアントがありません。</system:String>
     <system:String x:Key="CONFIG_CLIENT">インスタンス設定</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">アクティブ</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">フォルダ共有モード</system:String>
@@ -1576,6 +1586,11 @@
 
     <!-- ==>Key Field-->
     <system:String x:Key="CONFIG_KEY_FIELD_TITLE">キーフィールド</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_TITLE">スキーマガード</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LEN_POLICY">長さ違反ポリシー</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">型違反ポリシー</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">カラム長の例外（現場別拡張）</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">次回DBアップロード開始時に適用（接続時に自動拡張・縮小なし）</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">キーフィールド設定</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">部品キーフィールド</system:String>

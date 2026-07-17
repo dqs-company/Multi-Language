@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">				
 					
@@ -1411,6 +1411,13 @@
     <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector 서버 설정</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector 서버</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">I-Collector 서버 설정</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">데이터 관리 방식</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MODE_FILE">파일 방식 - 중앙 DB로 직접 업로드</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MODE_DB">DB 방식 - 로컬 DB 저장 후 주기적으로 중앙 DB 동기화</system:String>
+    <system:String x:Key="CS_CONFIG_DATA_MODE_RESTART_NOTE">* DB 업로드 재시작(중지 - 시작) 후 적용됩니다</system:String>
+    <system:String x:Key="CS_CONFIG_SYNC_INTERVAL">중앙 동기화 주기</system:String>
+    <system:String x:Key="CS_CONFIG_OUTBOX_PURGE_DAYS">동기화 완료 이력 보존 기간</system:String>
+    <system:String x:Key="CS_CONFIG_DB_CONNECTION_CHECK">연결 확인</system:String>
 
     <!-- ==>Q/i-Board -->
 	<system:String x:Key="BO_CONFIG_DASHBOARD">대시보드</system:String>
@@ -1541,6 +1548,9 @@
 	
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_CLIENT_TITLE">클라이언트</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH">가져오기</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">서버에서 클라이언트 목록을 가져오지 못했습니다.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">서버에 등록된 클라이언트가 없습니다.</system:String>
     <system:String x:Key="CONFIG_CLIENT">클라이언트 설정</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">활성화</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">공유 폴더 모드</system:String>
@@ -1576,6 +1586,11 @@
 	
     <!-- ==>Key Field-->
     <system:String x:Key="CONFIG_KEY_FIELD_TITLE">키 필드</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_TITLE">스키마 가드</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LEN_POLICY">길이 위반 정책</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">타입 위반 정책</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">컬럼 길이 예외 (현장별 확장)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">다음 DB 업로드 시작 시 적용됩니다 (접속 시 자동 확대, 축소 없음)</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">키 필드 설정</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">파트 키 필드</system:String>
