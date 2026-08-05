@@ -1366,9 +1366,9 @@
     <system:String x:Key="RC_BAR_CHART_DIST_CURVE_COLOR">Curva de distribución</system:String>
 
 	<!-- ==>Q/i-Collector Server -->
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector Server</system:String>
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Configuración de Q-Collector Server</system:String>
-    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector Server</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">i-Collector Server</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Configuración de i-Collector Server</system:String>
+    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">i-Collector Server</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">Configuración de I-Collector Server</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">Modo de gestión de datos</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MODE_FILE">Modo archivo - subir directamente a la BD central</system:String>

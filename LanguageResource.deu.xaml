@@ -1362,8 +1362,8 @@
     <system:String x:Key="RC_BAR_CHART_DIST_CURVE_COLOR">Verteilungskurve</system:String>
 	
 	<!-- ==>Q/i-Collector Server -->
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector Server</system:String>
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector Server Konfiguration</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">i-Collector Server</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">i-Collector Server Konfiguration</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector Server</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">I-Collector Server Konfiguration</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">Datenverwaltungsmodus</system:String>

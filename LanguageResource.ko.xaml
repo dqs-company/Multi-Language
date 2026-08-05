@@ -1407,10 +1407,10 @@
 	<system:String x:Key="RC_BAR_CHART_DIST_CURVE_COLOR">분포 커브</system:String>		
 	
 	<!-- ==>Q/i-Collector Server -->
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector 서버</system:String>
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector 서버 설정</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">i-Collector 서버</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">i-Collector 서버 설정</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector 서버</system:String>
-    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">I-Collector 서버 설정</system:String>
+    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">i-Collector 서버 설정</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">데이터 관리 방식</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MODE_FILE">파일 방식 - 중앙 DB로 직접 업로드</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MODE_DB">DB 방식 - 로컬 DB 저장 후 주기적으로 중앙 DB 동기화</system:String>

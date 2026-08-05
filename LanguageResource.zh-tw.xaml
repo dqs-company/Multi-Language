@@ -48,7 +48,7 @@
 	<system:String x:Key="LATEST">最新</system:String>
 	<system:String x:Key="OLDEST">最舊</system:String>
 	<system:String x:Key="ID_MODE">ID 模式</system:String>
-	<system:String x:Key="SERVER">Server</system:String>	
+	<system:String x:Key="SERVER">伺服器</system:String>	
 	
 	<system:String x:Key="SAVE">儲存</system:String>
 	<system:String x:Key="SAVING">儲存中</system:String>
@@ -130,7 +130,7 @@
     <system:String x:Key="ENABLE">啟用</system:String>	
     <system:String x:Key="COUNT">個</system:String>
     <system:String x:Key="DATA">資料</system:String>
-    <system:String x:Key="NUMBER">No</system:String>	
+    <system:String x:Key="NUMBER">編號</system:String>	
     <system:String x:Key="LABEL">標籤</system:String>
     <system:String x:Key="VIEW">檢視</system:String>
     <system:String x:Key="LAYOUT">n x n 佈局</system:String>
@@ -230,20 +230,20 @@
 	<system:String x:Key="OUT_OF_TOL_NG_DOWN">NG(-)</system:String>
 	
 	
-	<system:String x:Key="CONNECTED">Connected</system:String>
-	<system:String x:Key="NOT_CONNECTED">Not connected</system:String>
+	<system:String x:Key="CONNECTED">已連線</system:String>
+	<system:String x:Key="NOT_CONNECTED">未連線</system:String>
 	
-	<system:String x:Key="PART_FIELD">Part Field</system:String>
-	<system:String x:Key="CHARACTERISTIC_FIELD">Characteristic Field</system:String>
-	<system:String x:Key="VALUE_FIELD">Value Field</system:String>
+	<system:String x:Key="PART_FIELD">零件欄位</system:String>
+	<system:String x:Key="CHARACTERISTIC_FIELD">特性欄位</system:String>
+	<system:String x:Key="VALUE_FIELD">數值欄位</system:String>
 	
-	<system:String x:Key="DRAWING_IMAGE">Drawing Image</system:String>
+	<system:String x:Key="DRAWING_IMAGE">圖面影像</system:String>
 	
 	<system:String x:Key="PART_IMAGE">零件圖片</system:String>
-	<system:String x:Key="OPTION">Option</system:String>
+	<system:String x:Key="OPTION">選項</system:String>
  
- 	<system:String x:Key="FIXED">Fixed</system:String>
- 	<system:String x:Key="MOVING">Moving</system:String>	
+ 	<system:String x:Key="FIXED">固定</system:String>
+ 	<system:String x:Key="MOVING">移動</system:String>	
 	
 	<system:String x:Key="MONTH">月</system:String>
 	<system:String x:Key="WEEK">週</system:String>
@@ -276,8 +276,8 @@
 	<system:String x:Key="LINE">線</system:String>
 	<system:String x:Key="PRIORITY">優先度</system:String>		
 	
-	<system:String x:Key="CONDITION">Condition</system:String>			
-	<system:String x:Key="INSUFFICIENT_DATA">Insufficient data</system:String>		
+	<system:String x:Key="CONDITION">狀態</system:String>			
+	<system:String x:Key="INSUFFICIENT_DATA">資料不足</system:String>		
 		
 	<!--Print Dialog-->
 	<system:String x:Key="LINEAR_TRANSFORMATION">線性轉換</system:String>
@@ -366,32 +366,32 @@
     <system:String x:Key="DATA_FIELD_1002">零件描述</system:String>
     <system:String x:Key="DATA_FIELD_1003">零件簡稱</system:String>
     <system:String x:Key="DATA_FIELD_1005">產品</system:String>
-	<system:String x:Key="DATA_FIELD_1007">Part number-short description</system:String>
-	<system:String x:Key="DATA_FIELD_1008">Part type</system:String>
-	<system:String x:Key="DATA_FIELD_1009">Part code</system:String>	
-	<system:String x:Key="DATA_FIELD_1011">Version</system:String>
-	<system:String x:Key="DATA_FIELD_1012">ID Number Annex</system:String>
-	<system:String x:Key="DATA_FIELD_1013">ID Numbeer Index</system:String>
-	<system:String x:Key="DATA_FIELD_1014">Part Ident</system:String>
-	<system:String x:Key="DATA_FIELD_1015">Type of Study</system:String>
-	<system:String x:Key="DATA_FIELD_1022">Manufacturer Description</system:String>
-	<system:String x:Key="DATA_FIELD_1032">Material Description</system:String>
-	<system:String x:Key="DATA_FIELD_1046">Drawing Description</system:String>
-	<system:String x:Key="DATA_FIELD_1052">Contractor Description</system:String>
+	<system:String x:Key="DATA_FIELD_1007">零件編號（簡稱）</system:String>
+	<system:String x:Key="DATA_FIELD_1008">零件類型</system:String>
+	<system:String x:Key="DATA_FIELD_1009">零件代碼</system:String>	
+	<system:String x:Key="DATA_FIELD_1011">版本</system:String>
+	<system:String x:Key="DATA_FIELD_1012">ID編號附錄</system:String>
+	<system:String x:Key="DATA_FIELD_1013">ID編號索引</system:String>
+	<system:String x:Key="DATA_FIELD_1014">零件識別</system:String>
+	<system:String x:Key="DATA_FIELD_1015">分析類型</system:String>
+	<system:String x:Key="DATA_FIELD_1022">製造商說明</system:String>
+	<system:String x:Key="DATA_FIELD_1032">材料說明</system:String>
+	<system:String x:Key="DATA_FIELD_1046">圖面說明</system:String>
+	<system:String x:Key="DATA_FIELD_1052">承包商說明</system:String>
 	<system:String x:Key="DATA_FIELD_1053">訂單</system:String>
     <system:String x:Key="DATA_FIELD_1062">客戶名稱</system:String>
     <system:String x:Key="DATA_FIELD_1072">供應商名稱</system:String>
     <system:String x:Key="DATA_FIELD_1082">機器描述</system:String>
-	<system:String x:Key="DATA_FIELD_1085">Machine Location</system:String>
-	<system:String x:Key="DATA_FIELD_1086">Work Cycle/Operation</system:String>
-	<system:String x:Key="DATA_FIELD_1087">Work Cycle Description</system:String>
-	<system:String x:Key="DATA_FIELD_1091">Line Number</system:String>
+	<system:String x:Key="DATA_FIELD_1085">機台位置</system:String>
+	<system:String x:Key="DATA_FIELD_1086">工序</system:String>
+	<system:String x:Key="DATA_FIELD_1087">工序說明</system:String>
+	<system:String x:Key="DATA_FIELD_1091">產線編號</system:String>
     <system:String x:Key="DATA_FIELD_1092">生產線描述</system:String>
-	<system:String x:Key="DATA_FIELD_1100">Area/Plant sector</system:String>
+	<system:String x:Key="DATA_FIELD_1100">區域/廠區</system:String>
     <system:String x:Key="DATA_FIELD_1101">部門</system:String>
-	<system:String x:Key="DATA_FIELD_1102">Workshop</system:String>
-	<system:String x:Key="DATA_FIELD_1103">Cost centre</system:String>
-	<system:String x:Key="DATA_FIELD_1104">Shift</system:String>
+	<system:String x:Key="DATA_FIELD_1102">廠房</system:String>
+	<system:String x:Key="DATA_FIELD_1103">成本中心</system:String>
+	<system:String x:Key="DATA_FIELD_1104">班別</system:String>
     <system:String x:Key="DATA_FIELD_1203">檢測原因</system:String>
     <system:String x:Key="DATA_FIELD_1206">檢測地點</system:String>
     <system:String x:Key="DATA_FIELD_1342">Test Plan Name</system:String>
@@ -418,57 +418,57 @@
 	<system:String x:Key="DATA_FIELD_2002_ABBR">特性'-Descr</system:String>
 	<system:String x:Key="DATA_FIELD_2003">特徵簡稱</system:String>
 	<system:String x:Key="DATA_FIELD_2003_ABBR">特性'-Abbr</system:String>
-	<system:String x:Key="DATA_FIELD_2004">Characteristic Type</system:String>
+	<system:String x:Key="DATA_FIELD_2004">特性類型</system:String>
 	<system:String x:Key="DATA_FIELD_2005">特徵類別</system:String>
-	<system:String x:Key="DATA_FIELD_2006">Control Item</system:String>
-	<system:String x:Key="DATA_FIELD_2007">Control Type</system:String>
-	<system:String x:Key="DATA_FIELD_2008">Group type</system:String>
-	<system:String x:Key="DATA_FIELD_2009">Measured quantity</system:String>
-	<system:String x:Key="DATA_FIELD_2011">Saved distribution</system:String>
-	<system:String x:Key="DATA_FIELD_2015">Tool wear type (Trend)</system:String>
-	<system:String x:Key="DATA_FIELD_2016">100% Measurement</system:String>
-	<system:String x:Key="DATA_FIELD_2021">Logical Operation Formula</system:String>
-	<system:String x:Key="DATA_FIELD_2022">Decimal Places</system:String>
-	<system:String x:Key="DATA_FIELD_2035">Calibration Date [Date/Time]</system:String>
-	<system:String x:Key="DATA_FIELD_2041">Recording Type</system:String>
-	<system:String x:Key="DATA_FIELD_2042">Recording Device Number</system:String>
-	<system:String x:Key="DATA_FIELD_2043">Recording Device Name</system:String> 
-	<system:String x:Key="DATA_FIELD_2051">Interface</system:String>
-	<system:String x:Key="DATA_FIELD_2091">Characteristic index</system:String>
-	<system:String x:Key="DATA_FIELD_2092">Characteristic text</system:String>
-	<system:String x:Key="DATA_FIELD_2093">Processing status</system:String>
-	<system:String x:Key="DATA_FIELD_2100">Target Value</system:String>
+	<system:String x:Key="DATA_FIELD_2006">管制項目</system:String>
+	<system:String x:Key="DATA_FIELD_2007">管制類型</system:String>
+	<system:String x:Key="DATA_FIELD_2008">群組類型</system:String>
+	<system:String x:Key="DATA_FIELD_2009">測量量</system:String>
+	<system:String x:Key="DATA_FIELD_2011">儲存的分布</system:String>
+	<system:String x:Key="DATA_FIELD_2015">刀具磨耗類型（趨勢）</system:String>
+	<system:String x:Key="DATA_FIELD_2016">全數檢驗</system:String>
+	<system:String x:Key="DATA_FIELD_2021">邏輯運算公式</system:String>
+	<system:String x:Key="DATA_FIELD_2022">小數位數</system:String>
+	<system:String x:Key="DATA_FIELD_2035">校正日期[Date/Time]</system:String>
+	<system:String x:Key="DATA_FIELD_2041">記錄類型</system:String>
+	<system:String x:Key="DATA_FIELD_2042">記錄裝置編號</system:String>
+	<system:String x:Key="DATA_FIELD_2043">記錄裝置名稱</system:String> 
+	<system:String x:Key="DATA_FIELD_2051">介面</system:String>
+	<system:String x:Key="DATA_FIELD_2091">特性索引</system:String>
+	<system:String x:Key="DATA_FIELD_2092">特性文字</system:String>
+	<system:String x:Key="DATA_FIELD_2093">處理狀態</system:String>
+	<system:String x:Key="DATA_FIELD_2100">目標值</system:String>
 	<system:String x:Key="DATA_FIELD_2101">標準值</system:String> 
 	<system:String x:Key="DATA_FIELD_2110">規格下限</system:String>
 	<system:String x:Key="DATA_FIELD_2111">規格上限</system:String>
 	<system:String x:Key="DATA_FIELD_2112">公差下限</system:String>
 	<system:String x:Key="DATA_FIELD_2113">公差上限</system:String>
-	<system:String x:Key="DATA_FIELD_2114">Lower Scrap Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2115">Upper Scrap Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2116">Lower acceptance limit</system:String>
-	<system:String x:Key="DATA_FIELD_2117">Upper acceptance limit</system:String>
-	<system:String x:Key="DATA_FIELD_2120">Lower Limit type</system:String>
-	<system:String x:Key="DATA_FIELD_2121">Upper Limit type</system:String>
-	<system:String x:Key="DATA_FIELD_2130">Lower Plausibility Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2131">Upper Plausibility Limit</system:String>
-	<system:String x:Key="DATA_FIELD_2142">Unit Description</system:String>
-	<system:String x:Key="DATA_FIELD_2161">Re-work cost</system:String>
-	<system:String x:Key="DATA_FIELD_2162">Rejects cost</system:String>
-	<system:String x:Key="DATA_FIELD_2163">Error cost</system:String>
-	<system:String x:Key="DATA_FIELD_2202">Evaluation Type</system:String>
-	<system:String x:Key="DATA_FIELD_2205">Number of parts Number of standards</system:String>
-	<system:String x:Key="DATA_FIELD_2213">Master Actual Value</system:String>
-	<system:String x:Key="DATA_FIELD_2220">Number of Operators</system:String>
-	<system:String x:Key="DATA_FIELD_2221">Number of Trials</system:String>
-	<system:String x:Key="DATA_FIELD_2222">No. of Reference Measurements</system:String>
-	<system:String x:Key="DATA_FIELD_2225">Determined Cg value</system:String>
-	<system:String x:Key="DATA_FIELD_2226">Determined Cgk value</system:String>
-	<system:String x:Key="DATA_FIELD_2227">Deviation GC Type 3 – GC Type 1</system:String>
-	<system:String x:Key="DATA_FIELD_2243">Drawing file name</system:String>
-	<system:String x:Key="DATA_FIELD_2244">Drawing Reference point X</system:String>
-	<system:String x:Key="DATA_FIELD_2245">Drawing Reference point Y</system:String>
-	<system:String x:Key="DATA_FIELD_2246">Drawing Reference point Z</system:String>
-	<system:String x:Key="DATA_FIELD_2302">Machine Description</system:String>
+	<system:String x:Key="DATA_FIELD_2114">報廢下限</system:String>
+	<system:String x:Key="DATA_FIELD_2115">報廢上限</system:String>
+	<system:String x:Key="DATA_FIELD_2116">允收下限</system:String>
+	<system:String x:Key="DATA_FIELD_2117">允收上限</system:String>
+	<system:String x:Key="DATA_FIELD_2120">下限類型</system:String>
+	<system:String x:Key="DATA_FIELD_2121">上限類型</system:String>
+	<system:String x:Key="DATA_FIELD_2130">合理性下限</system:String>
+	<system:String x:Key="DATA_FIELD_2131">合理性上限</system:String>
+	<system:String x:Key="DATA_FIELD_2142">單位說明</system:String>
+	<system:String x:Key="DATA_FIELD_2161">重工成本</system:String>
+	<system:String x:Key="DATA_FIELD_2162">報廢成本</system:String>
+	<system:String x:Key="DATA_FIELD_2163">錯誤成本</system:String>
+	<system:String x:Key="DATA_FIELD_2202">評估類型</system:String>
+	<system:String x:Key="DATA_FIELD_2205">零件數</system:String>
+	<system:String x:Key="DATA_FIELD_2213">標準件實測值</system:String>
+	<system:String x:Key="DATA_FIELD_2220">操作員人數</system:String>
+	<system:String x:Key="DATA_FIELD_2221">試驗次數</system:String>
+	<system:String x:Key="DATA_FIELD_2222">基準測量次數</system:String>
+	<system:String x:Key="DATA_FIELD_2225">測定Cg值</system:String>
+	<system:String x:Key="DATA_FIELD_2226">測定Cgk值</system:String>
+	<system:String x:Key="DATA_FIELD_2227">偏差 GC Type 3 - GC Type 1</system:String>
+	<system:String x:Key="DATA_FIELD_2243">圖面檔案名稱</system:String>
+	<system:String x:Key="DATA_FIELD_2244">圖面基準點X</system:String>
+	<system:String x:Key="DATA_FIELD_2245">圖面基準點Y</system:String>
+	<system:String x:Key="DATA_FIELD_2246">圖面基準點Z</system:String>
+	<system:String x:Key="DATA_FIELD_2302">機台說明</system:String>
 	<system:String x:Key="DATA_FIELD_2019">Ordinal Classes Catalog</system:String>
     <system:String x:Key="DATA_FIELD_2030">Group Number</system:String>
     <system:String x:Key="DATA_FIELD_2031">Group Element Number</system:String>
@@ -476,10 +476,10 @@
     <system:String x:Key="DATA_FIELD_2311">Tool Number</system:String>
     <system:String x:Key="DATA_FIELD_2401">Gauge Number</system:String>
     <system:String x:Key="DATA_FIELD_2404">Gauge Resolution</system:String>
-    <system:String x:Key="DATA_FIELD_2402">Gage Description</system:String>
-	<system:String x:Key="DATA_FIELD_2410">Test location</system:String>
-	<system:String x:Key="DATA_FIELD_2413">Gage graphic</system:String>
-	<system:String x:Key="DATA_FIELD_2415">Gage serial number</system:String>
+    <system:String x:Key="DATA_FIELD_2402">量具說明</system:String>
+	<system:String x:Key="DATA_FIELD_2410">測試位置</system:String>
+	<system:String x:Key="DATA_FIELD_2413">量具圖形</system:String>
+	<system:String x:Key="DATA_FIELD_2415">量具序號</system:String>
 	<system:String x:Key="DATA_FIELD_2802">user field contents 1</system:String>
  	<system:String x:Key="DATA_FIELD_2812">user field contents 2</system:String>
  	<system:String x:Key="DATA_FIELD_2822">user field contents 3</system:String>
@@ -490,27 +490,27 @@
  	<system:String x:Key="DATA_FIELD_2872">user field contents 8</system:String>
  	<system:String x:Key="DATA_FIELD_2882">user field contents 9</system:String>
  	<system:String x:Key="DATA_FIELD_2892">user field contents 10</system:String>
-	<system:String x:Key="DATA_FIELD_2900">Remark</system:String>
-	<system:String x:Key="DATA_FIELD_2999">Char Select</system:String>
-	<system:String x:Key="DATA_FIELD_8006">Lower alarm limit (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8007">Upper alarm limit (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8011">Central Position (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8012">Lower Control Limit LCL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8013">Upper Control Limit UCL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8014">Lower Warning Limit LWL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8015">Upper Warning Limit UWL (location)</system:String>
-	<system:String x:Key="DATA_FIELD_8106">Lower Alarm limit (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8107">Upper Alarm limit (variation)</system:String>
- 	<system:String x:Key="DATA_FIELD_8111">Central Position (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8112">Lower Control limit LCL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8113">Upper Control Limit UCL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8114">Lower Warning Limit LWL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8115">Upper Warning Limit UWL (variation)</system:String>
-	<system:String x:Key="DATA_FIELD_8500">Subgroup size (total)</system:String>
-	<system:String x:Key="DATA_FIELD_8501">Subgroup type</system:String>
-	<system:String x:Key="DATA_FIELD_8531">Recorded Process Capability (Cp)</system:String>
-	<system:String x:Key="DATA_FIELD_8532">Recorded Process Capability (Cpk)</system:String>
-	<system:String x:Key="DATA_FIELD_8540">Evaluation</system:String>
+	<system:String x:Key="DATA_FIELD_2900">備註</system:String>
+	<system:String x:Key="DATA_FIELD_2999">特性選擇</system:String>
+	<system:String x:Key="DATA_FIELD_8006">警報下限（位置）</system:String>
+	<system:String x:Key="DATA_FIELD_8007">警報上限（位置）</system:String>
+	<system:String x:Key="DATA_FIELD_8011">中心位置（位置）</system:String>
+	<system:String x:Key="DATA_FIELD_8012">管制下限LCL（位置）</system:String>
+	<system:String x:Key="DATA_FIELD_8013">管制上限UCL（位置）</system:String>
+	<system:String x:Key="DATA_FIELD_8014">警告下限LWL（位置）</system:String>
+	<system:String x:Key="DATA_FIELD_8015">警告上限UWL（位置）</system:String>
+	<system:String x:Key="DATA_FIELD_8106">警報下限（變異）</system:String>
+	<system:String x:Key="DATA_FIELD_8107">警報上限（變異）</system:String>
+ 	<system:String x:Key="DATA_FIELD_8111">中心位置（變異）</system:String>
+	<system:String x:Key="DATA_FIELD_8112">管制下限LCL（變異）</system:String>
+	<system:String x:Key="DATA_FIELD_8113">管制上限UCL（變異）</system:String>
+	<system:String x:Key="DATA_FIELD_8114">警告下限LWL（變異）</system:String>
+	<system:String x:Key="DATA_FIELD_8115">警告上限UWL（變異）</system:String>
+	<system:String x:Key="DATA_FIELD_8500">子組大小（總計）</system:String>
+	<system:String x:Key="DATA_FIELD_8501">子組類型</system:String>
+	<system:String x:Key="DATA_FIELD_8531">記錄的製程能力(Cp)</system:String>
+	<system:String x:Key="DATA_FIELD_8532">記錄的製程能力(Cpk)</system:String>
+	<system:String x:Key="DATA_FIELD_8540">評估</system:String>
 	
 	
 	
@@ -783,25 +783,25 @@
     <system:String x:Key="TP_EDIT_TYPE_EDIT">編輯</system:String>
     <system:String x:Key="TP_EDIT_TYPE_SYNC">同步</system:String>
     <system:String x:Key="TP_MSG_EXPORT_STATUS_ERR">部分 values to be exported have not been approved.</system:String>
-    <system:String x:Key="CS_MENU_SERVER_GROUP">Server</system:String>
-    <system:String x:Key="CS_MENU_SERVER_LISTENING_START">Listening Start</system:String>
-    <system:String x:Key="CS_MENU_SERVER_LISTENING_END">Listening End</system:String>
+    <system:String x:Key="CS_MENU_SERVER_GROUP">伺服器</system:String>
+    <system:String x:Key="CS_MENU_SERVER_LISTENING_START">伺服器&#x0d;&#x0a;開始接收</system:String>
+    <system:String x:Key="CS_MENU_SERVER_LISTENING_END">伺服器&#x0d;&#x0a;停止接收</system:String>
 
-    <system:String x:Key="CS_MENU_DATABASE_GROUP">Database</system:String>
-    <system:String x:Key="CS_MENU_DATABASE_UPLOAD_START">DB Upload Start</system:String>
-    <system:String x:Key="CS_MENU_DATABASE_UPLOAD_STOP">DB Upload Stop</system:String>
-    <system:String x:Key="CS_MENU_SETTING_GRUOP">Settings</system:String>
+    <system:String x:Key="CS_MENU_DATABASE_GROUP">資料庫</system:String>
+    <system:String x:Key="CS_MENU_DATABASE_UPLOAD_START">DB上傳開始</system:String>
+    <system:String x:Key="CS_MENU_DATABASE_UPLOAD_STOP">DB上傳停止</system:String>
+    <system:String x:Key="CS_MENU_SETTING_GRUOP">設定</system:String>
 
 
-    <system:String x:Key="CS_MENU_INFO">Information</system:String>
-    <system:String x:Key="CS_MENU_THEME_GROUP">Theme</system:String>
+    <system:String x:Key="CS_MENU_INFO">資訊</system:String>
+    <system:String x:Key="CS_MENU_THEME_GROUP">佈景主題</system:String>
 
 
     <!-- Main -  Status Information -->
-    <system:String x:Key="CS_MAIN_STATUS_LICENSE">License</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_LICENSE">授權</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_DATETIME">目前日期/時間</system:String>
     <system:String x:Key="CS_MAIN_STATUS_JOBLIST">作業 list</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_INFO">Status Information</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_INFO">狀態資訊</system:String>
 
 
     <system:String x:Key="CS_MAIN_STATUS_JOBLIST_ENABLE">啟用</system:String>
@@ -809,40 +809,40 @@
     <system:String x:Key="CS_MAIN_STATUS_JOBLIST_ADD">新增作業</system:String>
     <system:String x:Key="CS_MAIN_STATUS_JOBLIST_EDIT">編輯作業</system:String>
     <system:String x:Key="CS_MAIN_STATUS_JOBLIST_DEL">刪除作業</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_DATABASE">Database</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_CONVERSION_MODULE">Conversion Module</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_PART_KEY_FIELD">Part Key Field</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_CHAR_KEY_FIELD">Characteristics Key Field</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE">Data Source</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_DATABASE">資料庫</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_CONVERSION_MODULE">轉換模組</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_PART_KEY_FIELD">零件關鍵欄位</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_CHAR_KEY_FIELD">特性關鍵欄位</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE">資料來源</system:String>
 
-    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE_SERVER_MODE">Server data mode</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE_SHARE_FOLDER_MODE">Shared folder mode</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE_SERVER_MODE">伺服器資料模式</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE_SHARE_FOLDER_MODE">資料夾共用模式</system:String>
 
-    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE_OPTION">Data Source Option</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_DATETIME_FORMAT">Date/Time Format</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_COUNTRY_CODE_PAGE">Country Code Page</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_BACKUP_DIR">Backup Directory</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_ERROR_DIR">Error Directory</system:String>
-    <system:String x:Key="CS_MAIN_STATUS_UPLOAD_TIME">Upload Time</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_DATA_SOURCE_OPTION">資料來源選項</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_DATETIME_FORMAT">日期/時間格式</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_COUNTRY_CODE_PAGE">檔案編碼</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_BACKUP_DIR">備份目錄</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_ERROR_DIR">錯誤目錄</system:String>
+    <system:String x:Key="CS_MAIN_STATUS_UPLOAD_TIME">上傳時間</system:String>
 
  
     <!-- Main - Log -->
-    <system:String x:Key="CS_MAIN_ERR_LOG">Error Log</system:String>
-    <system:String x:Key="CS_MAIN_DELETE_ERR_LOG">Delete error log</system:String>
+    <system:String x:Key="CS_MAIN_ERR_LOG">錯誤記錄</system:String>
+    <system:String x:Key="CS_MAIN_DELETE_ERR_LOG">刪除錯誤記錄</system:String>
 
-    <system:String x:Key="CS_MAIN_SERVER_LOG">Server Log</system:String>
-    <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">Delete server log</system:String>
+    <system:String x:Key="CS_MAIN_SERVER_LOG">伺服器記錄</system:String>
+    <system:String x:Key="CS_MAIN_DELETE_SERVER_LOG">刪除伺服器記錄</system:String>
     <system:String x:Key="CS_MAIN_LOG_LEVEL">層級</system:String>
     <system:String x:Key="CS_MAIN_LOG_SEARCH">搜尋</system:String>
     <system:String x:Key="CS_MAIN_LOG_COPY">複製</system:String>
     <system:String x:Key="CS_MAIN_LOG_EXPORT">匯出</system:String>
 
 
-    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">File name</system:String>
-    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DATE_TIME">Error Date/Time</system:String>
-    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_NUMBER">Error number</system:String>
-    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DESCRIPTION">Error description</system:String>
-    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_PART_NAME">Part Name</system:String>
+    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_FILE_NAME">檔案名稱</system:String>
+    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DATE_TIME">錯誤日期/時間</system:String>
+    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_NUMBER">錯誤編號</system:String>
+    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_DESCRIPTION">錯誤說明</system:String>
+    <system:String x:Key="CS_MAIN_ERR_LOG_LIST_PART_NAME">零件名稱</system:String>
 
 
 
@@ -850,56 +850,56 @@
 [Q/i-Collector Client]
 #################################################################################-->
     <!--Main - Top Ribbon Menu-->
-    <system:String x:Key="CC_MENU_CLIENT_GROUP">Client</system:String>
-    <system:String x:Key="CC_MENU_CLIENT_UPLOAD_START">Start&#x0d;&#x0a;Client</system:String>
-    <system:String x:Key="CC_MENU_CLEINT_UPLOAD_END">End&#x0d;&#x0a;Client</system:String>
+    <system:String x:Key="CC_MENU_CLIENT_GROUP">用戶端</system:String>
+    <system:String x:Key="CC_MENU_CLIENT_UPLOAD_START">開始&#x0d;&#x0a;用戶端</system:String>
+    <system:String x:Key="CC_MENU_CLEINT_UPLOAD_END">停止&#x0d;&#x0a;用戶端</system:String>
 
-    <system:String x:Key="CC_MENU_SETTING_GRUOP">Setting</system:String>
-    <system:String x:Key="CC_MENU_LANGUAGE">Language</system:String>
-    <system:String x:Key="CC_MENU_LANGUAGE_KO">Korean</system:String>
-    <system:String x:Key="CC_MENU_LANGUAGE_ENG">English</system:String>
-    <system:String x:Key="CC_MENU_LANGUAGE_JPN">Japanese</system:String>
+    <system:String x:Key="CC_MENU_SETTING_GRUOP">設定</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE">語言</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_KO">韓文</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_ENG">英文</system:String>
+    <system:String x:Key="CC_MENU_LANGUAGE_JPN">日文</system:String>
  
     <system:String x:Key="CC_MENU_LANGUAGE_DEU">德文</system:String>
     <system:String x:Key="CC_MENU_LANGUAGE_SPA">西班牙文</system:String>
-    <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">Upload&#x0d;&#x0a;information</system:String>
-    <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">Current&#x0d;&#x0a;information</system:String>
+    <system:String x:Key="CC_MENU_MEASURE_INFO_GROUP">上傳&#x0d;&#x0a;資訊</system:String>
+    <system:String x:Key="CC_MENU_STATUS_INFO_GROUP">目前&#x0d;&#x0a;資訊</system:String>
 
 
     <!-- Main -  Status Information -->
-    <system:String x:Key="CC_MAIN_STATUS_LICENSE">License</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_DATETIME">Current Date/Time</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_INFO">Status Information</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_LICENSE">授權</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_DATETIME">目前日期/時間</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INFO">狀態資訊</system:String>
 
-    <system:String x:Key="CC_MAIN_STATUS_AUTO_START">Run-Auto Start</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_INPUT_DIR">Input Directory</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_FILE_EXTENSION">File Extension</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_FILE_CODE_PAGE">File Country Code page</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_SERVER_ADDRESS_PORT">Server Address/Port</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_SERVER_TARGET_CLIENT">Server Target Client</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_SERVER_CONVERTER_MODULE">Server Converter Module</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_BACKUP_DIR">Backup Directory</system:String>
-    <system:String x:Key="CC_MAIN_STATUS_ERROR_DIR">Error Directory</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_AUTO_START">執行-自動啟動</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_INPUT_DIR">輸入目錄</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_EXTENSION">副檔名</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_FILE_CODE_PAGE">檔案編碼</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_ADDRESS_PORT">伺服器位址/連接埠</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_TARGET_CLIENT">伺服器目標用戶端</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_SERVER_CONVERTER_MODULE">伺服器轉換模組</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_BACKUP_DIR">備份目錄</system:String>
+    <system:String x:Key="CC_MAIN_STATUS_ERROR_DIR">錯誤目錄</system:String>
 
 
     <!-- Main - Log -->
-    <system:String x:Key="CC_MAIN_ERR_LOG">Error Log</system:String>
-    <system:String x:Key="CC_MAIN_DELETE_ERR_LOG">Delete error log</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG">錯誤記錄</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_ERR_LOG">刪除錯誤記錄</system:String>
 
-    <system:String x:Key="CC_MAIN_CLIENT_LOG">Client Log</system:String>
-    <system:String x:Key="CC_MAIN_DELETE_CLIENT_LOG">Delete client log</system:String>
+    <system:String x:Key="CC_MAIN_CLIENT_LOG">用戶端記錄</system:String>
+    <system:String x:Key="CC_MAIN_DELETE_CLIENT_LOG">刪除用戶端記錄</system:String>
 
 
-    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_FILE_NAME">File name</system:String>
-    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DATE_TIME">Error Date/Time</system:String>
-    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_NUMBER">Error number</system:String>
-    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DESCRIPTION">Error description</system:String>
-    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_PART_NAME">Part Name</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_FILE_NAME">檔案名稱</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DATE_TIME">錯誤日期/時間</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_NUMBER">錯誤編號</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_DESCRIPTION">錯誤說明</system:String>
+    <system:String x:Key="CC_MAIN_ERR_LOG_LIST_PART_NAME">零件名稱</system:String>
 	
 	<!-- ==>Config Client -->
-    <system:String x:Key="CC_CONFIG_CLIENT_TITLE">i-Collector Client</system:String>
-    <system:String x:Key="CC_CONFIG_CLIENT">i-Collector Client Configuration</system:String>
-    <system:String x:Key="CC_CONFIG_CLIENT_AUTO_START">Auto Start - Client</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT_TITLE">i-Collector 用戶端</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT">i-Collector 用戶端設定</system:String>
+    <system:String x:Key="CC_CONFIG_CLIENT_AUTO_START">自動啟動 - 用戶端</system:String>
     
 
 
@@ -908,67 +908,67 @@
 [Q/i-Sense]
 #################################################################################-->
     <!--Main - Top Ribbon Menu-->
-	<system:String x:Key="SENSE_MAIN_MENU_DATA_INFORMATION">Data Information</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_INFORMATION">資料資訊</system:String>
 	<system:String x:Key="SENSE_MAIN_MENU_DATA_WAITING">Waiting Data</system:String>
-	<system:String x:Key="SENSE_MAIN_MENU_DATA_PART_COUNT">Part Count</system:String>
-	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">Value Count</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_PART_COUNT">零件數</system:String>
+	<system:String x:Key="SENSE_MAIN_MENU_DATA_VALUE_COUNT">測量值數</system:String>
 	
 	
-    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">Monitoring Start</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_STOP">Monitoring Stop</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_START">開始&#xA;監控</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_MONITORING_STOP">停止&#xA;監控</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_DATA_ACCEPT">Data Accept</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_DATA_CANCEL">Data Cancel</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">Data&#xA;Multi Accept</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_DATA_ACCEPT">資料核可</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_DATA_CANCEL">資料取消</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_DATA_MULTI_ACCEPT">資料&#xA;批次核可</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">Summary&#xA;List</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_LIST">摘要&#xA;清單</system:String>
     <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_CALC">摘要&#xA;計算</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">Summary&#xA;Value</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_SUMMARY_VALUE">測量值&#xA;摘要</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">Value&#xA;List</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_HISTOGRAM_CHART">Histogram&#xA;Chart</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_VALUE_CHART">Value&#xA;Chart</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_BOX_PLOT">Box&#xA;Plot</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_POSITIONAL">Positional&#xA;tolerances</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_POSITIONAL2D">2D x-y Plot Positional Tolerances</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_VALUE_LIST">測量值&#xA;清單</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_HISTOGRAM_CHART">直方圖</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_VALUE_CHART">數值圖</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_BOX_PLOT">盒鬚圖</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_POSITIONAL">位置&#xA;公差</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_POSITIONAL2D">2D位置公差</system:String>
 
 
-    <system:String x:Key="SENSE_MAIN_MENU_QCC_CHART">QCC&#xA;Chart</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_ANALYSIS">Analysis</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_ALARM">Alarm</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_QCC_CHART">管制圖</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_ANALYSIS">分析</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_ALARM">警報</system:String>
     <system:String x:Key="SENS_VALUE_CHART_SELECTED_VALUE">選取值</system:String>
     <system:String x:Key="SENS_VALUE_CHART_NOT_SELECTED">Not 個已選擇</system:String>
     <system:String x:Key="SENSE_ALARM_CHART">警報圖</system:String>
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_TREEMAP">樹狀圖</system:String>
     <system:String x:Key="SENSE_ALARM_CHART_TYPE_STACKED_BAR">堆疊長條圖</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT">Layout</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_SAVEVIEW">Save View</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_LOADVIEW">Load View</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_CLEARVIEW">Clear View</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT">版面配置</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_SAVEVIEW">儲存版面</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_LOADVIEW">載入版面</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_CLEARVIEW">清除版面</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_ALLVIEW">All View</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_CURRENTVIEW">Current View</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_ALLVIEW">全部檢視</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_LAYOUT_CURRENTVIEW">目前檢視</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_CONIFG">Config</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_CONIFG">設定</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_DATABASE_LOAD">Database&#xA;Load</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_DATABASE_SAVE">Database&#xA;Save</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_DATABASE_LOAD">資料庫&#xA;載入</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_DATABASE_SAVE">資料庫&#xA;儲存</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_FILE_LOAD">File&#xA;Load</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_FILE_SAVE">File&#xA;Save</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_FILE_LOAD">檔案&#xA;載入</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_FILE_SAVE">檔案&#xA;儲存</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_USER">User</system:String>
-    <system:String x:Key="SENSE_MAIN_MENU_USER_MANAGEMENT">User Management</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_USER">使用者</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_USER_MANAGEMENT">使用者管理</system:String>
 
-    <system:String x:Key="SENSE_MAIN_MENU_ABOUT">About</system:String>
+    <system:String x:Key="SENSE_MAIN_MENU_ABOUT">關於</system:String>
 
 
     <!-- Main -  Status Information -->
-    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO">Monitoring Info'</system:String>
-    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_WAITING_FILE">Waiting File</system:String>
-    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_COMPLETED_FILE">Completed File</system:String>
-    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_FAILED_FILE">Failed File</system:String>
+    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO">監控資訊</system:String>
+    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_WAITING_FILE">等待檔案</system:String>
+    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_COMPLETED_FILE">完成檔案</system:String>
+    <system:String x:Key="SENSE_MAIN_STATUS_MONITORING_INFO_FAILED_FILE">失敗檔案</system:String>
 
 
 
@@ -1005,24 +1005,24 @@
    <system:String x:Key="RC_TEST_BADGE_DONE">✓ 完成</system:String>
    <system:String x:Key="RC_TEST_BADGE_SKIPPED">↪ 略過</system:String>
    <system:String x:Key="RC_TEST_BADGE_OOT">⚠ 超出公差</system:String>
-   <system:String x:Key="RC_CONFIG">i-Record Configuration</system:String>
-   <system:String x:Key="RC_NO_SWITCH_CHAR">Do not allow switch characteristics</system:String>   
-   <system:String x:Key="RC_NO_CLOSE_END_MEASUREMENT">Do not allow close the application with incomplete measuring</system:String>
+   <system:String x:Key="RC_CONFIG">i-Record 設定</system:String>
+   <system:String x:Key="RC_NO_SWITCH_CHAR">不允許切換特性</system:String>   
+   <system:String x:Key="RC_NO_CLOSE_END_MEASUREMENT">測量未完成時不允許關閉應用程式</system:String>
     
-   <system:String x:Key="RC_PLAN_LIMIT_VALUES_TO_LAST">Limit values to last</system:String>
+   <system:String x:Key="RC_PLAN_LIMIT_VALUES_TO_LAST">僅顯示最近資料</system:String>
    <system:String x:Key="RC_PLAN_LIMIT_VALUES_MAX">最大 values</system:String>
-   <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">File Save Path</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_PATH">檔案儲存路徑</system:String>
    <system:String x:Key="RC_PLAN_FILE_SAVE_EXTENSION">檔案儲存 Extension</system:String>
-   <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">File Save Timing</system:String>
-   <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">Enable OutofTol Popup</system:String>
-   <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">Additonal Popup</system:String>
-   <system:String x:Key="RC_PLAN_ADDITIONAL_DATA">Additional Data</system:String>
+   <system:String x:Key="RC_PLAN_FILE_SAVE_TIMING">檔案儲存時機</system:String>
+   <system:String x:Key="RC_PLAN_ENABLE_OUTOFTOL_POPUP">啟用超差彈出視窗</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_POPUP">附加彈出視窗</system:String>
+   <system:String x:Key="RC_PLAN_ADDITIONAL_DATA">附加資料</system:String>
 
-   <system:String x:Key="RC_PLAN_RESET_ADDITIONAL_DATA">Reset Additional Data</system:String>
+   <system:String x:Key="RC_PLAN_RESET_ADDITIONAL_DATA">重設附加資料</system:String>
 						  
-   <system:String x:Key="RC_PLAN_CHAR_ADD_ITEM">Add Characteristic Item</system:String>
-   <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">Remove Characteristic Item</system:String>
-   <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">Save Characteristic Item</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_ADD_ITEM">新增特性項目</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_REMOVE_ITEM">移除特性項目</system:String>
+   <system:String x:Key="RC_PLAN_CHAR_SAVE_ITEM">儲存特性項目</system:String>
 
    <system:String x:Key="RC_PLAN_CREATE_CONFIRM">要建立計畫嗎？</system:String>
    <system:String x:Key="RC_PLAN_MODE_NEW">(新計畫)</system:String>
@@ -1067,10 +1067,10 @@
     <system:String x:Key="RC_BAR_CHART_CLASS_RANGE_COLOR">等級 range</system:String>
     <system:String x:Key="RC_BAR_CHART_SIGMA_COLOR">Sigma</system:String>
     <system:String x:Key="RC_BAR_CHART_DIST_CURVE_COLOR">分布曲線</system:String>
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector Server</system:String>
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector Server Configuration</system:String>
-    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector Server</system:String>
-    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">I-Collector Server Configuration</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">i-Collector 伺服器</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">i-Collector 伺服器設定</system:String>
+    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">i-Collector 伺服器</system:String>
+    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">i-Collector 伺服器設定</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">資料管理方式</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MODE_FILE">檔案方式 - 直接上傳至中央資料庫</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MODE_DB">DB方式 - 儲存至本機資料庫後定期同步至中央資料庫</system:String>
@@ -1156,20 +1156,20 @@
     <system:String x:Key="CONFIG_QCC_VARIANTION_TYPE">變異圖表類型</system:String>
     <system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_RANGE">範圍</system:String>
     <system:String x:Key="CONFIG_QCC_VARIANTION_TYPE_STD">標準差</system:String>
-    <system:String x:Key="SENSE_CONFIG">i-Sense Configuration</system:String>
+    <system:String x:Key="SENSE_CONFIG">i-Sense 設定</system:String>
 	
-	<system:String x:Key="SENSE_LOGIN_NO_WINDOW">Log in without window</system:String>
-	<system:String x:Key="SENSE_DEFAULT_ID">Default ID</system:String>
-	<system:String x:Key="SENSE_FILE_SEARCH_TIME">File search time</system:String>	
-	<system:String x:Key="SENSE_AUTO_START">Start automatically</system:String>
-	<system:String x:Key="SENSE_FILLUP_DATA">Fill up incomplete measurement</system:String>	
-    <system:String x:Key="SENSE_AUTO_ACCEPT">Automatic acception</system:String>	
-    <system:String x:Key="SENSE_DECIMAL_POINT">Decimal point</system:String>
+	<system:String x:Key="SENSE_LOGIN_NO_WINDOW">不顯示視窗登入</system:String>
+	<system:String x:Key="SENSE_DEFAULT_ID">預設ID</system:String>
+	<system:String x:Key="SENSE_FILE_SEARCH_TIME">檔案搜尋時間</system:String>	
+	<system:String x:Key="SENSE_AUTO_START">自動啟動</system:String>
+	<system:String x:Key="SENSE_FILLUP_DATA">補齊不完整的測量值</system:String>	
+    <system:String x:Key="SENSE_AUTO_ACCEPT">自動核可資料</system:String>	
+    <system:String x:Key="SENSE_DECIMAL_POINT">小數點</system:String>
     <system:String x:Key="SENSE_FILE_ACCEPT">檔案 acceptance</system:String>
-    <system:String x:Key="SENSE_LATEST_DATA">Accept latest data set</system:String>	
-	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">Take over QCC from dataset</system:String>
+    <system:String x:Key="SENSE_LATEST_DATA">從最新資料核可</system:String>	
+	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">使用資料的管制界限</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">QCC location chart type</system:String>
-	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">Default subgroup</system:String>
+	<system:String x:Key="SENSE_DEFAULT_SUBGROUP">預設子組</system:String>
 
     <system:String x:Key="SENSE_DB_PART_LOAD_LIMIT">限值 parts loaded from 資料庫</system:String>
     <system:String x:Key="SENSE_DB_PART_LOAD_LIMIT_LAST_PART">最後 Part</system:String>
@@ -1189,15 +1189,15 @@
     <system:String x:Key="EVENT_SEARCH">搜尋</system:String>
 
 	<!-- ==>Auto -->
-    <system:String x:Key="CONFIG_SERVER_AUTO_START">Auto Start - Server</system:String>
-    <system:String x:Key="CONFIG_SERVER_ADDRESS">Server Address</system:String>
-    <system:String x:Key="CONFIG_SERVER_PORT">Server Port</system:String>
-    <system:String x:Key="CONFIG_SERVER_UPDATE_TIME">Server Update Time</system:String>
+    <system:String x:Key="CONFIG_SERVER_AUTO_START">自動啟動 - 伺服器</system:String>
+    <system:String x:Key="CONFIG_SERVER_ADDRESS">伺服器位址</system:String>
+    <system:String x:Key="CONFIG_SERVER_PORT">伺服器連接埠</system:String>
+    <system:String x:Key="CONFIG_SERVER_UPDATE_TIME">伺服器更新時間</system:String>
 	
 
     <!-- ==>Menu -->
-    <system:String x:Key="CONFIG_MENU_TITLE">Menu</system:String>
-    <system:String x:Key="CONFIG_MENU">Main Menu Visible/Hidden</system:String>
+    <system:String x:Key="CONFIG_MENU_TITLE">選單</system:String>
+    <system:String x:Key="CONFIG_MENU">主選單顯示/隱藏</system:String>
 	
     <!-- ==>Requirements -->
     <system:String x:Key="CONFIG_REQUIREMENTS_TITLE">Alarm requirements</system:String>
@@ -1205,13 +1205,13 @@
 
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_REQUIREMENTS_ALARMS">警報</system:String>
-    <system:String x:Key="CONFIG_CLIENT_TITLE">Client</system:String>
+    <system:String x:Key="CONFIG_CLIENT_TITLE">用戶端</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH">取得</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">無法從伺服器取得用戶端清單。</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">伺服器上沒有已註冊的用戶端。</system:String>
-    <system:String x:Key="CONFIG_CLIENT">Client Configuration</system:String>
-    <system:String x:Key="CONFIG_CLIENT_ACTIVE">Active</system:String>
-    <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">Share Folder Mode</system:String>
+    <system:String x:Key="CONFIG_CLIENT">用戶端設定</system:String>
+    <system:String x:Key="CONFIG_CLIENT_ACTIVE">啟用</system:String>
+    <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">資料夾共用模式</system:String>
    
     <!-- ==>CONVERSION Screen-->
     <system:String x:Key="CONFIG_CONVERSION_TITLE">轉換</system:String>
@@ -1250,11 +1250,11 @@
     <system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_DEPTH">子目錄深度</system:String>
     <system:String x:Key="CONFIG_CONVERSION_SUB_DIR_OPTION_NAME">層級 of subfolder name for</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD_TITLE">關鍵欄位</system:String>
-	<system:String x:Key="CONFIG_SCHEMA_TITLE">Schema Guard</system:String>
-	<system:String x:Key="CONFIG_SCHEMA_LEN_POLICY">Length violation policy</system:String>
-	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">Type violation policy</system:String>
-	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">Column length overrides (per site)</system:String>
-	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">Applied on next DB Upload start (auto-widen on connect, never shrinks)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_TITLE">結構描述防護</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LEN_POLICY">長度違規原則</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">型別違規原則</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">欄位長度例外（依廠區）</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">於下次開始DB上傳時套用（連線時自動擴充，不會縮小）</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">關鍵欄位設定</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">零件關鍵欄位</system:String>
@@ -1379,7 +1379,7 @@
     <system:String x:Key="CONFIG_BOXPLOT_NORMALIZATION">正規化</system:String>
     <system:String x:Key="CONFIG_BOXPLOT_X_TYPE">X-Axis 類型</system:String>
     <system:String x:Key="CONFIG_BOXPLOT_BOX_INNER_COLOR">框顏色</system:String>
-    <system:String x:Key="CONFIG_GRAPHIC_TITLE">Graphic</system:String>
+    <system:String x:Key="CONFIG_GRAPHIC_TITLE">圖形</system:String>
 
 
 	
@@ -1436,14 +1436,14 @@
 	<system:String x:Key="CONFIG_ADDITIONALDATA_INIT">初始值 of 附加資料</system:String>
 	<system:String x:Key="CONFIG_ADDITIONALDATA_SEL">選擇附加資料</system:String>
 	<system:String x:Key="DATABASE_FILTER_ARRANGE">排列依據</system:String>
-    <system:String x:Key="DATABASE_FILTER_ARRANGE_NO">No</system:String>
+    <system:String x:Key="DATABASE_FILTER_ARRANGE_NO">無</system:String>
     <system:String x:Key="DATABASE_FILTER_ARRANGE_DATETIME">日期/時間</system:String>
     <system:String x:Key="DATABASE_FILTER_ARRANGE_K0014">序號</system:String>
     <system:String x:Key="DATABASE_FILTER_ARRANGE_K0053">批號</system:String>
 
 
     <system:String x:Key="DATABASE_FILTER_SORT">排序方式</system:String>
-    <system:String x:Key="DATABASE_FILTER_SORT_NO">No</system:String>
+    <system:String x:Key="DATABASE_FILTER_SORT_NO">無</system:String>
     <system:String x:Key="DATABASE_FILTER_SORT_DESCENDING">降冪排序 [新→舊]</system:String>
     <system:String x:Key="DATABASE_FILTER_SORT_ASCENDING">升冪排序  [舊→新]</system:String>
     <system:String x:Key="DATABASE_FILTER_ENABLE_DATE_TIME">啟用 日期/時間</system:String>
@@ -1488,73 +1488,73 @@
 <!--###############################################################################>
 [Value List]
 #################################################################################-->
-    <system:String x:Key="VALUE_LIST">Value list</system:String>
-    <system:String x:Key="VALUE_COUNT">Value Count</system:String>
+    <system:String x:Key="VALUE_LIST">測量值清單</system:String>
+    <system:String x:Key="VALUE_COUNT">測量值數</system:String>
 	
 	
 <!--###############################################################################>
 [Select Value]
 #################################################################################-->
     <system:String x:Key="VALUE_SELECT_TITLE">選擇量測值</system:String>
-    <system:String x:Key="VALUE_SELECT">Select value</system:String>
+    <system:String x:Key="VALUE_SELECT">選擇測量值</system:String>
 	
-	<system:String x:Key="VALUE_SELECT_PART_NAME">Part Name</system:String>
-    <system:String x:Key="VALUE_SELECT_VALUE_FEATURE">Value Feature</system:String>
+	<system:String x:Key="VALUE_SELECT_PART_NAME">零件名稱</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_FEATURE">附帶資訊</system:String>
 
-    <system:String x:Key="VALUE_SELECT_VALUE_DATE_TIME">Date/Time</system:String>
-    <system:String x:Key="VALUE_SELECT_VALUE_K0014">Part ID</system:String>
-    <system:String x:Key="VALUE_SELECT_VALUE_K0053">Order(Work Number)</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_DATE_TIME">日期/時間</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_K0014">零件ID</system:String>
+    <system:String x:Key="VALUE_SELECT_VALUE_K0053">工單編號</system:String>
 	
 	
 <!--###############################################################################>
 [Value Chart]
 #################################################################################-->
-	<system:String x:Key="VALUE_CHART">Value Chart</system:String>
-	<system:String x:Key="VALUE_CHART_RANGE">Value Chart Range</system:String>	
+	<system:String x:Key="VALUE_CHART">數值圖</system:String>
+	<system:String x:Key="VALUE_CHART_RANGE">數值圖範圍</system:String>	
 	
-	<system:String x:Key="VALUE_CHART_ALLOCATION_DATA">Allocation Data</system:String>	
+	<system:String x:Key="VALUE_CHART_ALLOCATION_DATA">層別資料</system:String>	
 	
-    <system:String x:Key="QCC_CHART">QCC Chart</system:String>
-    <system:String x:Key="QCC_USEER_MODE">QCC User Mode</system:String>
+    <system:String x:Key="QCC_CHART">管制圖</system:String>
+    <system:String x:Key="QCC_USEER_MODE">管制圖使用者模式</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_TYPE">QCC-Subgroup Type</system:String>
 	<system:String x:Key="QCC_SUB_GROUP_SIZE">QCC-Subgroup Size</system:String>
 
 
     <system:String x:Key="QCC_SUB_GROUP_DEFAULT">預設子群組覆寫</system:String>
-    <system:String x:Key="POSITIONAL_TOLERANCE">2D Positional Tolerance</system:String>
+    <system:String x:Key="POSITIONAL_TOLERANCE">2D位置公差</system:String>
     <system:String x:Key="CP_CPK">Cp/Cpk</system:String>
 
 	<system:String x:Key="LINE_THICK">厚度</system:String>
-	<system:String x:Key="VALUE_CHART_PRED_TYPE">Prediction Type</system:String>
-	<system:String x:Key="VALUE_CHART_PRED_SIZE">Prediction Size</system:String>
+	<system:String x:Key="VALUE_CHART_PRED_TYPE">預測類型</system:String>
+	<system:String x:Key="VALUE_CHART_PRED_SIZE">預測大小</system:String>
 	
 	
-    <system:String x:Key="VALUE_CHART_POPUP_UPDATE_EVENT">Update event</system:String>
-    <system:String x:Key="VALUE_CHART_POPUP_CONFIRM_VALUE">Confirm value</system:String>
-    <system:String x:Key="VALUE_CHART_POPUP_UNCONFIRM_VALUE">Unconfirm value</system:String>
+    <system:String x:Key="VALUE_CHART_POPUP_UPDATE_EVENT">更新事件</system:String>
+    <system:String x:Key="VALUE_CHART_POPUP_CONFIRM_VALUE">確認值</system:String>
+    <system:String x:Key="VALUE_CHART_POPUP_UNCONFIRM_VALUE">取消確認值</system:String>
 
 
 	
-	<system:String x:Key="VALUE_CHART_SIDE_SETTING">Graphics Settings</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SETTING">圖形設定</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CHAR_POSTION">位置[2001]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_CALCULATION">計算 </system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_MARKER">Marker</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_MARKER">標記</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE">Marker Visible/ Size</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_OK">標記可見[OK]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_WARNING">標記可見[WARNING]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_VISIBLE_NG">標記可見[NG]</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_MARKER_SIZE">標記 Size</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">Number range</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">Value range</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_RANGE_NUMBER">範圍（數量）</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_RANGE_VALUE">範圍（測量值）</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_APPLY">Range Apply</system:String>
 	
 	<system:String x:Key="VALUE_CHART_SIDE_STROKE_THICK">線條粗細</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">Value Sub Group</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">Sub G' Apply</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP">子組設定</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_SUB_GROUP_APPLY">套用子組</system:String>
 	
-	<system:String x:Key="VALUE_CHART_SIDE_OUT_TORELENCE">Out of tolerence</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_DEVIATION">Deviation Apply</system:String>
-	<system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">Zoom Default</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_OUT_TORELENCE">超差顯示</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_DEVIATION">套用偏差</system:String>
+	<system:String x:Key="VALUE_CHART_SIDE_ZOOM_DEFAULT">預設縮放</system:String>
 	
 	
 	<system:String x:Key="VALUE_CHART_SIDE_LINE_COLOR">線條顏色</system:String>
@@ -1572,10 +1572,10 @@
 	<system:String x:Key="VALUE_CHART_SIDE_LCL_TEXT_COLOR">LCL 文字顏色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_SCRAP_TEXT_COLOR">報廢文字顏色</system:String>
 	<system:String x:Key="VALUE_CHART_SIDE_ACCEPTANCE_TEXT_COLOR">允收文字顏色</system:String>
-	<system:String x:Key="VALUE_CHART_MARKER_SIZE">Marker Size</system:String>
-    <system:String x:Key="VALUE_CHART_MARKER_COLOR">Marker Color</system:String>
-    <system:String x:Key="VALUE_CHART_MARKER_UPLOADED_DATA">Uploaded Data</system:String>
-    <system:String x:Key="VALUE_CHART_MARKER_WAITING_DATA">Waiting Data</system:String>
+	<system:String x:Key="VALUE_CHART_MARKER_SIZE">標記大小</system:String>
+    <system:String x:Key="VALUE_CHART_MARKER_COLOR">標記顏色</system:String>
+    <system:String x:Key="VALUE_CHART_MARKER_UPLOADED_DATA">已上傳資料</system:String>
+    <system:String x:Key="VALUE_CHART_MARKER_WAITING_DATA">等待資料</system:String>
 
 	
 	
@@ -1583,45 +1583,45 @@
 <!--###############################################################################>
 [Process parameter]
 #################################################################################-->	
-	<system:String x:Key="PROCESS_PARAMETER_VALUES">process parameters values</system:String>
-    <system:String x:Key="PROCESS_PARAMETER_SELECTED">selected process parameters</system:String>
+	<system:String x:Key="PROCESS_PARAMETER_VALUES">製程參數值</system:String>
+    <system:String x:Key="PROCESS_PARAMETER_SELECTED">選取的製程參數</system:String>
 
 
 <!--###############################################################################>
 [Data Multi Accept]
 #################################################################################-->
-	<system:String x:Key="SENSE_DATA_MULTI_ACCEPT">Data Multi-Accept</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DATA_UPLOAD">Data Upload</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DATA_DELETE">Data Delete</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_ACCEPT">資料批次核可</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_DATA_UPLOAD">資料上傳</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_DATA_DELETE">資料刪除</system:String>
 	
-	<system:String x:Key="SENSE_DATA_MULTI_LIST_MODE">List Mode</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_MODE">Date/Time Mode</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_CHAR_COUNT">Char' Count</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG Count</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_FILE">File</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_LIST_MODE">清單模式</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_MODE">日期/時間模式</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_CHAR_COUNT">特性數</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_VALUE_NG_COUNT">NG數</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_FILE">檔案</system:String>
 
 	<system:String x:Key="SENSE_DATA_MULTI_DFQ_FILE">DFQ 檔案</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">Date/Time Start</system:String>
-	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">Date/Time End</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_START">開始日期/時間</system:String>
+	<system:String x:Key="SENSE_DATA_MULTI_DATETIME_END">結束日期/時間</system:String>
 	
 <!--###############################################################################>
 [Anlaysis]
 #################################################################################-->	
-	<system:String x:Key="CORRELATION">Correlation</system:String>
-	<system:String x:Key="CORRELATION_CHART">Correlation Chart</system:String>
-	<system:String x:Key="CORRELATION_TOP5">Top 5</system:String>
-	<system:String x:Key="CORRELATION_TOP10">Top 10</system:String>
-	<system:String x:Key="CORRELATION_ALL">All</system:String>
+	<system:String x:Key="CORRELATION">相關分析</system:String>
+	<system:String x:Key="CORRELATION_CHART">相關分析圖</system:String>
+	<system:String x:Key="CORRELATION_TOP5">前5名</system:String>
+	<system:String x:Key="CORRELATION_TOP10">前10名</system:String>
+	<system:String x:Key="CORRELATION_ALL">全部</system:String>
 	
-	<system:String x:Key="CORRELATION_X_DATA">X-Data</system:String>
-	<system:String x:Key="CORRELATION_Y_DATA">Y-Data</system:String>
-	<system:String x:Key="CORRELATION_Y_SLOPE">Y-Slope</system:String>
-	<system:String x:Key="CORRELATION_Y_INTERCEPT">Y-Intercept</system:String>	
+	<system:String x:Key="CORRELATION_X_DATA">X-資料</system:String>
+	<system:String x:Key="CORRELATION_Y_DATA">Y-資料</system:String>
+	<system:String x:Key="CORRELATION_Y_SLOPE">Y-斜率</system:String>
+	<system:String x:Key="CORRELATION_Y_INTERCEPT">Y軸截距</system:String>	
 	
-	<system:String x:Key="LINEAR_REGRESSION">Linear regression</system:String>	
+	<system:String x:Key="LINEAR_REGRESSION">線性迴歸</system:String>	
 		
 		
-	<system:String x:Key="PREDICTION_VALUE">Prediction Value</system:String>	
+	<system:String x:Key="PREDICTION_VALUE">預測值</system:String>	
 	
 
 <!--###############################################################################>
@@ -1738,7 +1738,7 @@
 	<system:String x:Key="MSG_SETTING_PROGRAM_EXIT">是否要退出程式?</system:String>
 
 	<system:String x:Key="MSG_NOT_EXIST_DFX_FILE">DFX檔案不存在</system:String>
-	<system:String x:Key="MSG_LIC_ERROR">The license does not support.</system:String>
+	<system:String x:Key="MSG_LIC_ERROR">授權不支援此功能。</system:String>
 
 	<system:String x:Key="MSG_CATALOG_MESSAGE_0001">目錄檔案不存在</system:String>
 				
@@ -1798,28 +1798,28 @@
 	<!-- Q/i Board -->
 	<system:String x:Key="MSG_DB_NISSAN_SPECIAL_MODE">Nissan special mode</system:String>
     <system:String x:Key="MSG_DB_NISSAN_SPECIAL_COMMENT">Replaced fields Line[1091] OP[1087] Machine[0006] Follow by above chart order setting</system:String>
-	<system:String x:Key="MSG_GRAPHIC_END_LEVEL">This is end of level.</system:String>
+	<system:String x:Key="MSG_GRAPHIC_END_LEVEL">已到達最後層級。</system:String>
 	
-    <system:String x:Key="MSG_GRAPHIC_CHART_ERROR_0001">Chart Order Error.</system:String>
-    <system:String x:Key="MSG_GRAPHIC_UPDATE_ERROR_0001">Graphic Update Error  *Please check database.</system:String>
-    <system:String x:Key="MSG_DIAGRAM_DELETE_0001">Do you want to delete the selected items?</system:String>
+    <system:String x:Key="MSG_GRAPHIC_CHART_ERROR_0001">圖表順序錯誤。</system:String>
+    <system:String x:Key="MSG_GRAPHIC_UPDATE_ERROR_0001">圖形更新錯誤，請檢查資料庫。</system:String>
+    <system:String x:Key="MSG_DIAGRAM_DELETE_0001">確定要刪除選取的項目嗎？</system:String>
 
-    <system:String x:Key="MSG_FIELD_ERROR_0001">The above must have CHAR item.</system:String>
-    <system:String x:Key="MSG_FIELD_ERROR_0002">The above must have PART item.</system:String>
-    <system:String x:Key="MSG_FIELD_ERROR_0003">field exist.</system:String>
+    <system:String x:Key="MSG_FIELD_ERROR_0001">上方必須有CHAR項目。</system:String>
+    <system:String x:Key="MSG_FIELD_ERROR_0002">上方必須有PART項目。</system:String>
+    <system:String x:Key="MSG_FIELD_ERROR_0003">欄位已存在。</system:String>
 	
 	
 	<!-- Q/i Sense -->	
-	<system:String x:Key="MSG_UPLOAD_STOP">Do you want to stop upload?</system:String>
-	<system:String x:Key="MSG_MULTI_DATA_DELETE_ITEM">Do you want to delete data or item?</system:String>
-	<system:String x:Key="MSG_MULTI_DATA_UPLOAD_ITEM">Do you want to upload data or item?</system:String>
+	<system:String x:Key="MSG_UPLOAD_STOP">要停止上傳嗎？</system:String>
+	<system:String x:Key="MSG_MULTI_DATA_DELETE_ITEM">要刪除資料或項目嗎？</system:String>
+	<system:String x:Key="MSG_MULTI_DATA_UPLOAD_ITEM">要上傳資料或項目嗎？</system:String>
 	
-	<system:String x:Key="MSG_VALUE_CHART_SPLIT_DATA">Do you want to split up data?</system:String>
+	<system:String x:Key="MSG_VALUE_CHART_SPLIT_DATA">要分割資料嗎？</system:String>
 
 		
-	<system:String x:Key="MSG_PROGRAM_ERROR_0001">Please contact the program manager.</system:String>
+	<system:String x:Key="MSG_PROGRAM_ERROR_0001">請聯絡程式管理員。</system:String>
 
-	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">Alarm priority duplication error.</system:String>
+	<system:String x:Key="MSG_ALARM_PRIORITY_ERROR_0001">警報優先順序重複錯誤。</system:String>
 
 
 <!--###############################################################################

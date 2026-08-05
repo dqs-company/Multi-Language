@@ -1404,8 +1404,8 @@
 	
 	
 	<!-- ==>Q/i-Collector Server -->
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector サーバ</system:String>
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector サーバ構成</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">i-Collector サーバ</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">i-Collector サーバ構成</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">i-Collector サーバ</system:String>
     <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">i-Collector サーバ構成</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">データ管理方式</system:String>

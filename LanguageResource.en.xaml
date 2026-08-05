@@ -1404,10 +1404,10 @@
 
 	
 	<!-- ==>Q/i-Collector Server -->
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">Q-Collector Server</system:String>
-    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">Q-Collector Server Configuration</system:String>
-    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">I-Collector Server</system:String>
-    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">I-Collector Server Configuration</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER_TITLE">i-Collector Server</system:String>
+    <system:String x:Key="CS_CONFIG_Q_COLLECTOR_SERVER">i-Collector Server Configuration</system:String>
+    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER_TITLE">i-Collector Server</system:String>
+    <system:String x:Key="CS_CONFIG_I_COLLECTOR_SERVER">i-Collector Server Configuration</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MANAGE_MODE">Data Manage Mode</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MODE_FILE">File mode - upload directly to the central DB</system:String>
     <system:String x:Key="CS_CONFIG_DATA_MODE_DB">DB mode - store to the local DB, then sync to the central DB periodically</system:String>
