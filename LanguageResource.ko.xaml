@@ -2028,6 +2028,9 @@
 	<system:String x:Key="BULK_UNINSTALL">선택 항목 제거</system:String>
 	<system:String x:Key="BULK_UNINSTALLING">{0} 제거 중...</system:String>
 	<system:String x:Key="BULK_UNINSTALL_DONE">일괄 제거 완료: 성공 {0}, 실패 {1}</system:String>
+	<system:String x:Key="MSG_DOTNET48_REQUIRED">.NET Framework 4.6.2 이상이 필요합니다.</system:String>
+	<system:String x:Key="MSG_LICENSE_DB_OPEN_FAILED">라이선스 데이터베이스를 열지 못했습니다.</system:String>
+	<system:String x:Key="PREPARING">준비 중...</system:String>
 	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">선택한 제품 {0}개를 제거하시겠습니까?</system:String>
 	<system:String x:Key="OVERLAY_APP_COUNT">앱 {0} / {1}</system:String>
 	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateTool이 실행 중입니다.&#x0a;설치 전에 종료해 주세요.</system:String>

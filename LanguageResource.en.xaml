@@ -2048,6 +2048,9 @@
 	<system:String x:Key="BULK_UNINSTALL">Uninstall Selected</system:String>
 	<system:String x:Key="BULK_UNINSTALLING">Uninstalling {0}...</system:String>
 	<system:String x:Key="BULK_UNINSTALL_DONE">Bulk uninstall finished: {0} ok, {1} failed</system:String>
+	<system:String x:Key="MSG_DOTNET48_REQUIRED">.NET Framework 4.6.2 or higher is required.</system:String>
+	<system:String x:Key="MSG_LICENSE_DB_OPEN_FAILED">Failed to open the license database.</system:String>
+	<system:String x:Key="PREPARING">Preparing...</system:String>
 	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">Uninstall {0} selected product(s)?</system:String>
 	<system:String x:Key="OVERLAY_APP_COUNT">App {0} / {1}</system:String>
 	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateTool is running.&#x0a;Please close it before installing.</system:String>

@@ -2030,6 +2030,9 @@
 	<system:String x:Key="BULK_UNINSTALL">選択項目をアンインストール</system:String>
 	<system:String x:Key="BULK_UNINSTALLING">{0}をアンインストール中...</system:String>
 	<system:String x:Key="BULK_UNINSTALL_DONE">一括アンインストール完了: 成功 {0}、失敗 {1}</system:String>
+	<system:String x:Key="MSG_DOTNET48_REQUIRED">.NET Framework 4.6.2 以上が必要です。</system:String>
+	<system:String x:Key="MSG_LICENSE_DB_OPEN_FAILED">ライセンスデータベースを開けませんでした。</system:String>
+	<system:String x:Key="PREPARING">準備中...</system:String>
 	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">選択した製品 {0} 個をアンインストールしますか？</system:String>
 	<system:String x:Key="OVERLAY_APP_COUNT">アプリ {0} / {1}</system:String>
 	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateToolが実行中です。&#x0a;インストール前に終了してください。</system:String>

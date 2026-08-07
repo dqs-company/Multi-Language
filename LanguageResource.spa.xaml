@@ -1984,6 +1984,9 @@
 	<system:String x:Key="BULK_UNINSTALL">Desinstalar seleccionados</system:String>
 	<system:String x:Key="BULK_UNINSTALLING">Desinstalando {0}...</system:String>
 	<system:String x:Key="BULK_UNINSTALL_DONE">Desinstalación masiva finalizada: {0} correctos, {1} fallidos</system:String>
+	<system:String x:Key="MSG_DOTNET48_REQUIRED">Se requiere .NET Framework 4.6.2 o superior.</system:String>
+	<system:String x:Key="MSG_LICENSE_DB_OPEN_FAILED">No se pudo abrir la base de datos de licencias.</system:String>
+	<system:String x:Key="PREPARING">Preparando...</system:String>
 	<system:String x:Key="MSG_CONFIRM_BULK_UNINSTALL">¿Desea desinstalar {0} producto(s) seleccionado(s)?</system:String>
 	<system:String x:Key="OVERLAY_APP_COUNT">Aplicación {0} / {1}</system:String>
 	<system:String x:Key="MSG_UPDATETOOL_RUNNING">i-UpdateTool está en ejecución.&#x0a;Ciérrelo antes de instalar.</system:String>
