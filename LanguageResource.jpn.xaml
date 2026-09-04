@@ -410,6 +410,7 @@
 	<system:String x:Key="DATA_FIELD_1001">部品番号</system:String>
     <system:String x:Key="DATA_FIELD_1002">部品の説明</system:String>
     <system:String x:Key="DATA_FIELD_1003">部品略称</system:String>
+    <system:String x:Key="DATA_FIELD_1004">変更状態</system:String>
     <system:String x:Key="DATA_FIELD_1005">製品</system:String>
 	<system:String x:Key="DATA_FIELD_1007">部品番号（短縮）</system:String>
 	<system:String x:Key="DATA_FIELD_1008">部品タイプ</system:String>
@@ -437,8 +438,13 @@
 	<system:String x:Key="DATA_FIELD_1102">ワークショップ</system:String>
 	<system:String x:Key="DATA_FIELD_1103">コストセンタ</system:String>
 	<system:String x:Key="DATA_FIELD_1104">シフト</system:String>
+    <system:String x:Key="DATA_FIELD_1201">検査設備番号</system:String>
+    <system:String x:Key="DATA_FIELD_1202">検査設備の説明</system:String>
     <system:String x:Key="DATA_FIELD_1203">検査の理由</system:String>
     <system:String x:Key="DATA_FIELD_1206">検査場所</system:String>
+    <system:String x:Key="DATA_FIELD_1222">検査員名</system:String>
+    <system:String x:Key="DATA_FIELD_1231">測定プログラム番号</system:String>
+    <system:String x:Key="DATA_FIELD_1232">測定プログラムバージョン</system:String>
     <system:String x:Key="DATA_FIELD_1342">Test Plan Name</system:String>
     <system:String x:Key="DATA_FIELD_1344">Gauge Manufacturer / Type</system:String>
     <system:String x:Key="DATA_FIELD_1303">工場</system:String>
@@ -1546,8 +1552,10 @@
 	
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_CLIENT_TITLE">インスタンス</system:String>
+    <system:String x:Key="CONFIG_CLIENT_COPY">クライアントを複製</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH">取得</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">サーバーからクライアント一覧を取得できませんでした。</system:String>
+    <system:String x:Key="CONFIG_CLIENT_LAST">最後のクライアントは削除できません。一時的に止めるには削除ではなく無効にしてください。</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">サーバーに登録されたクライアントがありません。</system:String>
     <system:String x:Key="CONFIG_CLIENT">インスタンス設定</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">アクティブ</system:String>
@@ -1591,6 +1599,12 @@
 	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">型違反ポリシー</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">カラム長の例外（現場別拡張）</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">次回DBアップロード開始時に適用（接続時に自動拡張・縮小なし）</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE">実DBカラムサイズ（今すぐ適用）</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_TABLES">テーブル読込</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_LOAD">カラム読込</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_APPLY">今すぐ適用</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTTEXT">文字列型ではないためサイズを変更できません</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTE">拡大のみ可能です。実行中テーブルがロックされるため、大きなテーブルは保守時間に実施してください。</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">キーフィールド設定</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">部品キーフィールド</system:String>
@@ -1608,6 +1622,19 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR">入力ディレクトリ</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR_LIST">ディレクトリリスト</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_SUBDIR">サブディレクトリを含む</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TITLE">共有フォルダのアカウント</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TAB">Account</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NOTE">他のコンピューターの共有フォルダにログオンが必要な場合のみ登録します。アカウントに名前を付け、上のフォルダの「アカウント」欄でその名前を選びます。アドレスが違っても同じアカウントなら1つで足ります。</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NAME">名前</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USER">ユーザー</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_PW">パスワード</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USED">このアカウントを使うフォルダ</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_CHECK">接続テスト</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NONE">(アカウントなし)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_SAVE_HINT">保存は下の[設定保存]ボタンで行います。</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_LOCAL_NA">(ローカル - アカウント不要)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_ASSIGN_FIRST">先にこのアカウントを共有フォルダに指定してからテストしてください</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">このアカウントを使うフォルダはありません</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">書込み禁止/隠しファイル無視</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">日付/時刻形式</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">エンコード</system:String>
@@ -2247,6 +2274,11 @@
     <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">宛先アドレス(または送信元アドレス)を入力してください。</system:String>
     <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">送信するレポートページがありません。</system:String>
     <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">レポート名を入力してください。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_INVALID">レポートテンプレートファイルではありません。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_MIXED">混合（個別＋集合）テンプレートは取り込めません。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_DROPPED">複数ページのテンプレートです。1ページ目のみ取り込みました。（{0} ページ除外）</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_UNSUPPORTED">この製品で対応していない要素は除外しました : {0}</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_SIZE">この製品は A4 のみ出力します。用紙サイズ {0} は A4 に置き換えます。</system:String>
     <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">選択したレポートを削除しますか？</system:String>
     <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">既定のレポートは削除できません。</system:String>
     <!--REPORT EMAIL SETTING (event-driven mail)-->
@@ -2264,6 +2296,12 @@
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">すべてのデータ</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ERROR">NGデータのみ</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">OKデータのみ</system:String>
+    <system:String x:Key="MS_RMAIL_INCLUDE_ALARM">アラーム種別を本文に記載</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TITLE">アラーム概要</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TYPE">アラーム</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_NONE">本レポートの測定項目に発生中のアラームはありません。</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TOTAL">全{1}項目中{0}項目でアラームが発生しました。</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_FOOTER">詳細な測定データは添付のレポートをご参照ください。</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">メール件名</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">添付ファイル名</system:String>
     <system:String x:Key="MS_RMAIL_BODY">メール本文</system:String>

@@ -395,6 +395,7 @@
     <system:String x:Key="DATA_FIELD_1001">Teilenummer</system:String>
 	<system:String x:Key="DATA_FIELD_1002">Teilebezeichnung</system:String>
 	<system:String x:Key="DATA_FIELD_1003">Teilekurzbezeichnung</system:String>
+	<system:String x:Key="DATA_FIELD_1004">Änderungsstand</system:String>
 	<system:String x:Key="DATA_FIELD_1005">Produkt</system:String>
 	<system:String x:Key="DATA_FIELD_1007">Teilenummer-Kurztext</system:String>
 	<system:String x:Key="DATA_FIELD_1008">Teiletyp</system:String>
@@ -422,8 +423,13 @@
 	<system:String x:Key="DATA_FIELD_1102">Werkstatt</system:String>
 	<system:String x:Key="DATA_FIELD_1103">Kostenstelle</system:String>
 	<system:String x:Key="DATA_FIELD_1104">Schicht</system:String>
+	<system:String x:Key="DATA_FIELD_1201">Prüfeinrichtungsnummer</system:String>
+	<system:String x:Key="DATA_FIELD_1202">Prüfeinrichtungsbezeichnung</system:String>
 	<system:String x:Key="DATA_FIELD_1203">Prüfgrund</system:String>
 	<system:String x:Key="DATA_FIELD_1206">Prüfort</system:String>
+	<system:String x:Key="DATA_FIELD_1222">Prüfername</system:String>
+	<system:String x:Key="DATA_FIELD_1231">Messprogrammnummer</system:String>
+	<system:String x:Key="DATA_FIELD_1232">Messprogrammversion</system:String>
 	<system:String x:Key="DATA_FIELD_1342">Test Plan Name</system:String>
     <system:String x:Key="DATA_FIELD_1344">Gauge Manufacturer / Type</system:String>
     <system:String x:Key="DATA_FIELD_1303">Werk</system:String>
@@ -1504,8 +1510,10 @@
 
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_CLIENT_TITLE">Client</system:String>
+    <system:String x:Key="CONFIG_CLIENT_COPY">Client kopieren</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH">Abrufen</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">Die Client-Liste konnte nicht vom Server abgerufen werden.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_LAST">Der letzte Client kann nicht entfernt werden. Zum Pausieren deaktivieren statt löschen.</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">Auf dem Server sind keine Clients registriert.</system:String>
     <system:String x:Key="CONFIG_CLIENT">Client-Konfiguration</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">Aktiv</system:String>
@@ -1549,6 +1557,12 @@
 	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">Type violation policy</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">Column length overrides (per site)</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">Applied on next DB Upload start (auto-widen on connect, never shrinks)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE">Aktuelle Spaltengröße (jetzt anwenden)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_TABLES">Tabellen laden</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_LOAD">Spalten laden</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_APPLY">Jetzt anwenden</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTTEXT">Keine Textspalte - Größe nicht änderbar</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTE">Nur Vergrößern. Die Tabelle ist während der Ausführung gesperrt - bei großen Tabellen ein Wartungsfenster nutzen.</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">Schlüsselfeld-Konfiguration</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">Teile-Schlüsselfeld</system:String>
@@ -1565,6 +1579,19 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR">Eingabeverzeichnis</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR_LIST">Verzeichnisliste</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_SUBDIR">Unterverzeichnisse einschließen</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TITLE">Freigabe-Konten</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TAB">Account</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NOTE">Nur nötig für Ordner auf einem anderen Computer, die eine Anmeldung verlangen. Geben Sie jedem Konto einen Namen und wählen Sie ihn in der Spalte Konto des Ordners. Ein Konto kann Ordner auf verschiedenen Servern bedienen.</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NAME">Name</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USER">Benutzer</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_PW">Kennwort</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USED">Ordner, die es nutzen</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_CHECK">Testen</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NONE">(kein Konto)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_SAVE_HINT">Zum Speichern die Schaltfläche [Einstellungen speichern] unten verwenden.</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_LOCAL_NA">(lokal - kein Konto nötig)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_ASSIGN_FIRST">Weisen Sie dieses Konto zuerst einem freigegebenen Ordner zu</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">kein Ordner nutzt dieses Konto</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">Schreibgeschützte Dateien/Versteckte Dateien ignorieren</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">Datums-/Zeitformat</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">Länder-Codepage</system:String>
@@ -2196,6 +2223,11 @@
     <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">Bitte eine An-Adresse (oder Absenderadresse) eingeben.</system:String>
     <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">Keine Berichtsseite zum Senden.</system:String>
     <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">Bitte einen Berichtsnamen eingeben.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_INVALID">Diese Datei ist keine Berichtsvorlage.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_MIXED">Gemischte Vorlagen (einzeln + gesammelt) können nicht importiert werden.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_DROPPED">Mehrseitige Vorlage. Nur die erste Seite wurde importiert. ({0} Seite(n) verworfen)</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_UNSUPPORTED">Von diesem Produkt nicht unterstützte Elemente wurden ausgeschlossen : {0}</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_SIZE">Dieses Produkt druckt nur A4. Papiergröße {0} wird durch A4 ersetzt.</system:String>
     <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">Ausgewählten Bericht löschen?</system:String>
     <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">Standardberichte können nicht gelöscht werden.</system:String>
     <!--REPORT EMAIL SETTING (event-driven mail)-->
@@ -2213,6 +2245,12 @@
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">Alle Daten</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Nur NG-Daten</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Nur OK-Daten</system:String>
+    <system:String x:Key="MS_RMAIL_INCLUDE_ALARM">Alarmtypen im Mailtext angeben</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TITLE">Alarmübersicht</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TYPE">Alarm</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_NONE">Für die Merkmale dieses Berichts wurden keine aktiven Alarme festgestellt.</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TOTAL">{0} von {1} Merkmal(en) haben Alarm(e) ausgelöst.</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_FOOTER">Details entnehmen Sie bitte dem beigefügten Bericht.</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">Mail-Betreff</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">Anhang-Dateiname</system:String>
     <system:String x:Key="MS_RMAIL_BODY">Mail-Text</system:String>

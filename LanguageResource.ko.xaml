@@ -409,6 +409,7 @@
 	<system:String x:Key="DATA_FIELD_1001">품번</system:String>
     <system:String x:Key="DATA_FIELD_1002">품명</system:String>
     <system:String x:Key="DATA_FIELD_1003">품명(약어)</system:String>
+    <system:String x:Key="DATA_FIELD_1004">변경상태</system:String>
     <system:String x:Key="DATA_FIELD_1005">제품</system:String>
 	<system:String x:Key="DATA_FIELD_1007">품번(약식)</system:String>
 	<system:String x:Key="DATA_FIELD_1008">부품 타입</system:String>
@@ -436,8 +437,13 @@
 	<system:String x:Key="DATA_FIELD_1102">작업장</system:String>
 	<system:String x:Key="DATA_FIELD_1103">코스트센터</system:String>
 	<system:String x:Key="DATA_FIELD_1104">시프트</system:String>
+    <system:String x:Key="DATA_FIELD_1201">검사설비 번호</system:String>
+    <system:String x:Key="DATA_FIELD_1202">검사설비 명</system:String>
     <system:String x:Key="DATA_FIELD_1203">시험사유</system:String>
     <system:String x:Key="DATA_FIELD_1206">시험장소</system:String>
+    <system:String x:Key="DATA_FIELD_1222">검사원 이름</system:String>
+    <system:String x:Key="DATA_FIELD_1231">측정 프로그램 번호</system:String>
+    <system:String x:Key="DATA_FIELD_1232">측정 프로그램 버전</system:String>
     <system:String x:Key="DATA_FIELD_1342">Test Plan Name</system:String>
     <system:String x:Key="DATA_FIELD_1344">Gauge Manufacturer / Type</system:String>
     <system:String x:Key="DATA_FIELD_1303">공장</system:String>
@@ -1548,8 +1554,10 @@
 	
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_CLIENT_TITLE">클라이언트</system:String>
+    <system:String x:Key="CONFIG_CLIENT_COPY">클라이언트 복사</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH">가져오기</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">서버에서 클라이언트 목록을 가져오지 못했습니다.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_LAST">마지막 클라이언트는 지울 수 없습니다. 잠시 멈추려면 삭제 대신 사용을 끄세요.</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">서버에 등록된 클라이언트가 없습니다.</system:String>
     <system:String x:Key="CONFIG_CLIENT">클라이언트 설정</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">활성화</system:String>
@@ -1591,6 +1599,12 @@
 	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">타입 위반 정책</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">컬럼 길이 예외 (현장별 확장)</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">다음 DB 업로드 시작 시 적용됩니다 (접속 시 자동 확대, 축소 없음)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE">실제 DB 컬럼 크기 (지금 적용)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_TABLES">테이블 불러오기</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_LOAD">컬럼 불러오기</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_APPLY">지금 적용</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTTEXT">문자열이 아니라 크기를 바꿀 수 없습니다</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTE">확대만 됩니다. 실행 중 테이블이 잠기므로 큰 테이블은 점검 시간에 하세요.</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">키 필드 설정</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">파트 키 필드</system:String>
@@ -1608,6 +1622,19 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR">입력 디렉토리</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR_LIST">디렉토리 리스트</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_SUBDIR">하위 디렉토리 포함</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TITLE">공유 폴더 계정</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TAB">Account</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NOTE">다른 컴퓨터의 공유 폴더에 로그인이 필요할 때만 등록하세요. 계정에 이름을 붙여 두고, 위 폴더의 '계정' 칸에서 그 이름을 고르면 됩니다. 주소가 달라도 같은 계정이면 하나만 만들어 여러 폴더에 쓰면 됩니다.</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NAME">이름</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USER">사용자</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_PW">비밀번호</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USED">이 계정을 쓰는 폴더</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_CHECK">연결 테스트</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NONE">(계정 없음)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_SAVE_HINT">저장은 아래 [설정 저장] 버튼으로 합니다.</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_LOCAL_NA">(로컬 - 계정 불필요)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_ASSIGN_FIRST">먼저 이 계정을 공유 폴더에 지정한 뒤 시험하세요</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">이 계정을 쓰는 폴더가 없습니다</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">쓰기 금지 파일/숨김 파일 무시</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">날짜/시간 형식</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">국가 코드페이지</system:String>
@@ -2250,6 +2277,11 @@
     <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">받는 사람 주소(또는 발신 주소)를 입력하세요.</system:String>
     <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">전송할 보고서 페이지가 없습니다.</system:String>
     <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">보고서 이름을 입력하세요.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_INVALID">리포트 템플릿 파일 형식이 아닙니다.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_MIXED">혼합(개별 + 모음) 템플릿은 가져올 수 없습니다.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_DROPPED">여러 페이지 템플릿입니다. 첫 페이지만 가져왔습니다. (제외 {0} 페이지)</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_UNSUPPORTED">이 제품에서 지원하지 않는 요소는 제외했습니다 : {0}</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_SIZE">이 제품은 A4 만 출력합니다. 용지 크기 {0} 는 A4 로 대체됩니다.</system:String>
     <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">선택한 보고서를 삭제하시겠습니까?</system:String>
     <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">기본 보고서는 삭제할 수 없습니다.</system:String>
     <!--REPORT EMAIL SETTING (event-driven mail)-->
@@ -2267,6 +2299,12 @@
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">전체 데이터</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ERROR">NG 데이터만</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">OK 데이터만</system:String>
+    <system:String x:Key="MS_RMAIL_INCLUDE_ALARM">Alarm 종류 포함 (메일 본문 기입)</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TITLE">알람 요약</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TYPE">알람</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_NONE">이 리포트의 측정항목에서 발생 중인 알람이 없습니다.</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TOTAL">전체 {1}개 측정항목 중 {0}개에서 알람이 발생했습니다.</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_FOOTER">상세 측정 데이터는 첨부된 리포트를 참조하시기 바랍니다.</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">메일 제목</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">첨부 파일 이름</system:String>
     <system:String x:Key="MS_RMAIL_BODY">메일 본문</system:String>

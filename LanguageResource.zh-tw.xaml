@@ -365,6 +365,7 @@
     <system:String x:Key="DATA_FIELD_1001">零件號碼</system:String>
     <system:String x:Key="DATA_FIELD_1002">零件描述</system:String>
     <system:String x:Key="DATA_FIELD_1003">零件簡稱</system:String>
+    <system:String x:Key="DATA_FIELD_1004">變更狀態</system:String>
     <system:String x:Key="DATA_FIELD_1005">產品</system:String>
 	<system:String x:Key="DATA_FIELD_1007">零件編號（簡稱）</system:String>
 	<system:String x:Key="DATA_FIELD_1008">零件類型</system:String>
@@ -392,8 +393,13 @@
 	<system:String x:Key="DATA_FIELD_1102">廠房</system:String>
 	<system:String x:Key="DATA_FIELD_1103">成本中心</system:String>
 	<system:String x:Key="DATA_FIELD_1104">班別</system:String>
+    <system:String x:Key="DATA_FIELD_1201">檢驗設備編號</system:String>
+    <system:String x:Key="DATA_FIELD_1202">檢驗設備說明</system:String>
     <system:String x:Key="DATA_FIELD_1203">檢測原因</system:String>
     <system:String x:Key="DATA_FIELD_1206">檢測地點</system:String>
+    <system:String x:Key="DATA_FIELD_1222">檢驗員姓名</system:String>
+    <system:String x:Key="DATA_FIELD_1231">量測程式編號</system:String>
+    <system:String x:Key="DATA_FIELD_1232">量測程式版本</system:String>
     <system:String x:Key="DATA_FIELD_1342">Test Plan Name</system:String>
     <system:String x:Key="DATA_FIELD_1344">Gauge Manufacturer / Type</system:String>
     <system:String x:Key="DATA_FIELD_1303">工廠</system:String>
@@ -1206,8 +1212,10 @@
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_REQUIREMENTS_ALARMS">警報</system:String>
     <system:String x:Key="CONFIG_CLIENT_TITLE">用戶端</system:String>
+    <system:String x:Key="CONFIG_CLIENT_COPY">複製用戶端</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH">取得</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">無法從伺服器取得用戶端清單。</system:String>
+    <system:String x:Key="CONFIG_CLIENT_LAST">無法刪除最後一個用戶端。若要暫停，請停用而非刪除。</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">伺服器上沒有已註冊的用戶端。</system:String>
     <system:String x:Key="CONFIG_CLIENT">用戶端設定</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">啟用</system:String>
@@ -1255,6 +1263,12 @@
 	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">型別違規原則</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">欄位長度例外（依廠區）</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">於下次開始DB上傳時套用（連線時自動擴充，不會縮小）</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE">實際資料庫欄位大小（立即套用）</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_TABLES">載入資料表</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_LOAD">載入欄位</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_APPLY">立即套用</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTTEXT">非字串欄位，無法變更大小</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTE">僅能放大。執行時會鎖定資料表，大型資料表請於維護時段執行。</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">關鍵欄位設定</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">零件關鍵欄位</system:String>
@@ -1272,6 +1286,19 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR">輸入目錄</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR_LIST">目錄清單</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_SUBDIR">包含子目錄</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TITLE">共用資料夾帳戶</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TAB">Account</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NOTE">僅在其他電腦的共用資料夾需要登入時才需登錄。為帳戶命名後，在上方資料夾的「帳戶」欄選擇該名稱。位址不同但帳戶相同時共用一筆即可。</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NAME">名稱</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USER">使用者</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_PW">密碼</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USED">使用此帳戶的資料夾</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_CHECK">連線測試</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NONE">(無帳戶)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_SAVE_HINT">請用下方的[儲存設定]按鈕儲存。</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_LOCAL_NA">(本機 - 不需帳戶)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_ASSIGN_FIRST">請先將此帳戶指定給共用資料夾再測試</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">沒有資料夾使用此帳戶</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">無法新增、修改檔案/忽略隱藏檔案</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">日期/時間格式</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">編碼</system:String>
@@ -2053,6 +2080,11 @@
     <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">請輸入收件者地址(或寄件地址)。</system:String>
     <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">沒有可傳送的報表頁面。</system:String>
     <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">請輸入報表名稱。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_INVALID">此檔案不是報表範本。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_MIXED">混合（個別＋彙總）範本無法匯入。</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_DROPPED">多頁範本，僅匯入第一頁。（已排除 {0} 頁）</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_UNSUPPORTED">本產品不支援的元素已排除 : {0}</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_SIZE">本產品僅輸出 A4，紙張大小 {0} 將以 A4 取代。</system:String>
     <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">確定刪除所選報表嗎？</system:String>
     <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">預設報表無法刪除。</system:String>
     <!--REPORT EMAIL SETTING (event-driven mail)-->
@@ -2070,6 +2102,12 @@
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">全部資料</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ERROR">僅NG資料</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">僅OK資料</system:String>
+    <system:String x:Key="MS_RMAIL_INCLUDE_ALARM">郵件內文包含警報類型</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TITLE">警報摘要</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TYPE">警報</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_NONE">本報表的特性未偵測到進行中的警報。</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TOTAL">共 {1} 個特性中有 {0} 個發生警報。</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_FOOTER">詳細測量數據請參閱附件報表。</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">郵件標題</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">附件檔名</system:String>
     <system:String x:Key="MS_RMAIL_BODY">郵件內容</system:String>

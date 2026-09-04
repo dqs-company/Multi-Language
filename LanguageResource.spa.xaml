@@ -397,6 +397,7 @@
     <system:String x:Key="DATA_FIELD_1001">Número de pieza</system:String>
 	<system:String x:Key="DATA_FIELD_1002">Descripción de pieza</system:String>
 	<system:String x:Key="DATA_FIELD_1003">Abreviatura de pieza</system:String>
+	<system:String x:Key="DATA_FIELD_1004">Estado de modificación</system:String>
 	<system:String x:Key="DATA_FIELD_1005">Producto</system:String>
 	<system:String x:Key="DATA_FIELD_1007">N.º de pieza-descripción corta</system:String>
 	<system:String x:Key="DATA_FIELD_1008">Tipo de pieza</system:String>
@@ -424,8 +425,13 @@
 	<system:String x:Key="DATA_FIELD_1102">Taller</system:String>
 	<system:String x:Key="DATA_FIELD_1103">Centro de costes</system:String>
 	<system:String x:Key="DATA_FIELD_1104">Turno</system:String>
+	<system:String x:Key="DATA_FIELD_1201">Número de equipo de ensayo</system:String>
+	<system:String x:Key="DATA_FIELD_1202">Descripción del equipo de ensayo</system:String>
 	<system:String x:Key="DATA_FIELD_1203">Motivo de prueba</system:String>
 	<system:String x:Key="DATA_FIELD_1206">Ubicación de prueba</system:String>
+	<system:String x:Key="DATA_FIELD_1222">Nombre del inspector</system:String>
+	<system:String x:Key="DATA_FIELD_1231">Número de programa de medición</system:String>
+	<system:String x:Key="DATA_FIELD_1232">Versión del programa de medición</system:String>
 	<system:String x:Key="DATA_FIELD_1342">Test Plan Name</system:String>
     <system:String x:Key="DATA_FIELD_1344">Gauge Manufacturer / Type</system:String>
     <system:String x:Key="DATA_FIELD_1303">Planta</system:String>
@@ -1507,8 +1513,10 @@
 
     <!-- ==>Client -->
     <system:String x:Key="CONFIG_CLIENT_TITLE">Cliente</system:String>
+    <system:String x:Key="CONFIG_CLIENT_COPY">Copiar cliente</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH">Obtener</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">No se pudo obtener la lista de clientes del servidor.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_LAST">No se puede eliminar el último cliente. Para pausarlo, desactívelo en lugar de eliminarlo.</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">No hay clientes registrados en el servidor.</system:String>
     <system:String x:Key="CONFIG_CLIENT">Configuración del cliente</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">Activo</system:String>
@@ -1552,6 +1560,12 @@
 	<system:String x:Key="CONFIG_SCHEMA_TYPE_POLICY">Type violation policy</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_OVERRIDES">Column length overrides (per site)</system:String>
 	<system:String x:Key="CONFIG_SCHEMA_APPLY_NOTE">Applied on next DB Upload start (auto-widen on connect, never shrinks)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE">Tamaño real de columna (aplicar ahora)</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_TABLES">Cargar tablas</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_LOAD">Cargar columnas</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_APPLY">Aplicar ahora</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTTEXT">No es una columna de texto: no se puede cambiar el tamaño</system:String>
+	<system:String x:Key="CONFIG_SCHEMA_LIVE_NOTE">Solo ampliación. La tabla queda bloqueada mientras se ejecuta: use una ventana de mantenimiento en tablas grandes.</system:String>
     <system:String x:Key="CONFIG_KEY_FIELD">Configuración de campos clave</system:String>
 
     <system:String x:Key="CONFIG_KEY_FIELD_PART_INPUT">Campo clave de pieza</system:String>
@@ -1568,6 +1582,19 @@
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR">Directorio de entrada</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_DIR_LIST">Lista de directorios</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_SUBDIR">Incluir subdirectorios</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TITLE">Cuentas de carpeta compartida</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_TAB">Account</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NOTE">Solo es necesario para carpetas en otro equipo que exijan inicio de sesión. Ponga un nombre a cada cuenta y elíjalo en la columna Cuenta de la carpeta. Una cuenta puede servir a carpetas en servidores distintos.</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NAME">Nombre</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USER">Usuario</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_PW">Contraseña</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_USED">Carpetas que la usan</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_CHECK">Probar</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_NONE">(sin cuenta)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_SAVE_HINT">Use el botón [Guardar configuración] de abajo.</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_LOCAL_NA">(local - sin cuenta)</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_ASSIGN_FIRST">asigne esta cuenta a una carpeta compartida antes de probar</system:String>
+    <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">ninguna carpeta usa esta cuenta</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">Archivos protegidos contra escritura/Ignorar archivos ocultos</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">Formato de fecha/hora</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">Página de códigos del país</system:String>
@@ -2198,6 +2225,11 @@
     <system:String x:Key="MS_MSG_MAIL_NO_RECIPIENT">Introduzca una dirección Para (o dirección de remitente).</system:String>
     <system:String x:Key="MS_MSG_MAIL_NO_REPORT_PAGE">No hay página de informe para enviar.</system:String>
     <system:String x:Key="MS_MSG_REPORT_NAME_REQUIRED">Introduzca un nombre de informe.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_INVALID">Este archivo no es una plantilla de informe.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_MIXED">Las plantillas mixtas (individual + colectiva) no se pueden importar.</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_DROPPED">Plantilla de varias páginas. Solo se importó la primera página. ({0} página(s) descartada(s))</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_UNSUPPORTED">Se excluyeron los elementos no admitidos por este producto : {0}</system:String>
+    <system:String x:Key="MS_MSG_REPORT_IMPORT_PAGE_SIZE">Este producto solo imprime A4. El tamaño de papel {0} se sustituye por A4.</system:String>
     <system:String x:Key="MS_MSG_REPORT_DELETE_CONFIRM">¿Eliminar el informe seleccionado?</system:String>
     <system:String x:Key="MS_MSG_REPORT_SEED_PROTECT">Los informes predeterminados no se pueden eliminar.</system:String>
     <!--REPORT EMAIL SETTING (event-driven mail)-->
@@ -2215,6 +2247,12 @@
     <system:String x:Key="MS_RMAIL_SCOPE_ALL">Todos los datos</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_ERROR">Solo datos NG</system:String>
     <system:String x:Key="MS_RMAIL_SCOPE_GOOD">Solo datos OK</system:String>
+    <system:String x:Key="MS_RMAIL_INCLUDE_ALARM">Incluir tipos de alarma en el cuerpo del correo</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TITLE">Resumen de alarmas</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TYPE">Alarma</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_NONE">No se detectaron alarmas activas para las características de este informe.</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_TOTAL">{0} de {1} característica(s) generaron alarma(s).</system:String>
+    <system:String x:Key="MS_RMAIL_ALARM_SUMMARY_FOOTER">Consulte el informe adjunto para los datos de medición detallados.</system:String>
     <system:String x:Key="MS_RMAIL_MAIL_TITLE">Asunto del correo</system:String>
     <system:String x:Key="MS_RMAIL_ATTACH">Nombre de archivo adjunto</system:String>
     <system:String x:Key="MS_RMAIL_BODY">Cuerpo del correo</system:String>
