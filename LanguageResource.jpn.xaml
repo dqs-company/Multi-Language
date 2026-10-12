@@ -157,6 +157,16 @@
     <system:String x:Key="SPANISH">スペイン語</system:String>
 
 	<system:String x:Key="ADDITIONAL_DATA">付帯データ</system:String>
+	<!-- Value List 툴팁/상태 문구 추가 hodo20260916 -->
+	<system:String x:Key="VALUE_LIST_NEW_DATA">新しいデータを受信しました - 再読込を押してください</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_SAVE">編集した測定値をデータベースに保存します</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_EXPORT">現在のリストを Excel ファイルに出力します</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_DECIMAL">測定値の小数点桁数</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_ADDITIONAL">各特性の横に表示する付帯フィールドを選択します</system:String>
+	<system:String x:Key="VALUE_LIST_APPLY">適用</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_APPLY">選択した付帯データを列に適用します</system:String>
+	<system:String x:Key="VALUE_LIST_RELOAD">再読込</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_RELOAD">測定データを読み込み直します</system:String>
     <system:String x:Key="NONE">なし</system:String>
     
     <system:String x:Key="EXPORT">エクスポート</system:String>
@@ -1514,6 +1524,7 @@
     <system:String x:Key="SENSE_AUTO_ACCEPT">自動データ承認</system:String>	
 	<system:String x:Key="SENSE_DECIMAL_POINT">小数点</system:String>
 	<system:String x:Key="SENSE_FILE_ACCEPT">ファイル単位承認</system:String>	
+	<system:String x:Key="SENSE_NUMBER_DECIMAL_SEPARATOR">小数点表示 (画面/入力)</system:String>
     <system:String x:Key="SENSE_LATEST_DATA">直近のデータから承認</system:String>	
 	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">データの管理限界を使用</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Xバー管理図タイプ</system:String>
@@ -1528,7 +1539,13 @@
     <system:String x:Key="SENSE_EVENT_POPUP_NONE">ポップアップなし</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_NG">NGポップアップ</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">常にポップアップ</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_MODE">自動承認時のNG処理</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_ACCEPT">承認 + イベント入力 (未入力可)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_NOK">無効処理 (NOK)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT">自動承認時の既定イベント</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT_NONE">(なし)</system:String>
     <system:String x:Key="EVENT_POPUP_TITLE">イベント入力</system:String>
+    <system:String x:Key="EVENT_INPUT_TOO_LONG">イベント内容が長すぎます（{0}/{1}文字）。選択したイベントまたはその他イベントの内容を減らしてください。</system:String>
     <system:String x:Key="EVENT_AVAILABLE_LIST">利用可能イベント</system:String>
     <system:String x:Key="EVENT_SELECTED_LIST">選択イベント</system:String>
     <system:String x:Key="EVENT_OTHER_EVENT">その他のイベント</system:String>
@@ -1557,6 +1574,7 @@
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">サーバーからクライアント一覧を取得できませんでした。</system:String>
     <system:String x:Key="CONFIG_CLIENT_LAST">最後のクライアントは削除できません。一時的に止めるには削除ではなく無効にしてください。</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">サーバーに登録されたクライアントがありません。</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_NOT_REGISTERED">クライアント名 {0} はサーバーに登録されていません。一覧から選択してください（大文字・小文字を区別）。</system:String>
     <system:String x:Key="CONFIG_CLIENT">インスタンス設定</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">アクティブ</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">フォルダ共有モード</system:String>
@@ -1637,6 +1655,13 @@
     <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">このアカウントを使うフォルダはありません</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">書込み禁止/隠しファイル無視</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">日付/時刻形式</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_PREVIEW">プレビュー</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_AUTO">空欄の場合、ファイルの日付を自動認識します。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_SYSTEM">system: Windows の地域設定の日付形式を使用します。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_INVALID">無効な形式です。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_MONTH_WARN">小文字の mm は分です。月は大文字の MM を使用してください。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_HOUR_WARN">hh は12時間制です（AM/PM の tt なし）。24時間制は HH を使用してください。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_ROUNDTRIP">この形式の日付を読み取れません。形式を確認してください。</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">エンコード</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">ドキュメント転送</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">全データ収集(属性無視)</system:String>
@@ -1675,6 +1700,8 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">パスワード</system:String>
     <system:String x:Key="CONFIG_DB_LIST">データベース</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL">テーブル作成スクリプト</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL_BTN">SQL エクスポート</system:String>
 	<system:String x:Key="CONFIG_DB_PORT">ポート</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">ローカルデータベース</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">選択した部品を削除</system:String>

@@ -155,6 +155,16 @@
     <system:String x:Key="SPANISH">Spanish</system:String>
 
 	<system:String x:Key="ADDITIONAL_DATA">Additional data</system:String>
+	<!-- Value List 툴팁/상태 문구 추가 hodo20260916 -->
+	<system:String x:Key="VALUE_LIST_NEW_DATA">New data received - press Reload</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_SAVE">Save edited values to the database</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_EXPORT">Export the current list to an Excel file</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_DECIMAL">Number of decimal places for measured values</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_ADDITIONAL">Choose the extra fields shown next to each characteristic</system:String>
+	<system:String x:Key="VALUE_LIST_APPLY">Apply</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_APPLY">Apply the selected additional data to the columns</system:String>
+	<system:String x:Key="VALUE_LIST_RELOAD">Reload</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_RELOAD">Read the measurement data again</system:String>
     <system:String x:Key="NONE">None</system:String>
     
     <system:String x:Key="EXPORT">Export</system:String>
@@ -1514,6 +1524,7 @@
     <system:String x:Key="SENSE_AUTO_ACCEPT">Automatic acception</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">Decimal point</system:String>
     <system:String x:Key="SENSE_FILE_ACCEPT">File acceptance</system:String>	
+    <system:String x:Key="SENSE_NUMBER_DECIMAL_SEPARATOR">Decimal separator (display/input)</system:String>
     <system:String x:Key="SENSE_LATEST_DATA">Accept latest data set</system:String>	
 	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">Take over QCC from dataset</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Location chart type</system:String>
@@ -1528,7 +1539,13 @@
     <system:String x:Key="SENSE_EVENT_POPUP_NONE">No Popup</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_NG">NG Popup</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">Always Popup</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_MODE">NG handling on auto acceptance</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_ACCEPT">Accept + event input (optional)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_NOK">Invalidate (NOK)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT">Default event on auto acceptance</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT_NONE">(none)</system:String>
     <system:String x:Key="EVENT_POPUP_TITLE">Event Input</system:String>
+    <system:String x:Key="EVENT_INPUT_TOO_LONG">The event entry is too long ({0}/{1} characters). Remove some selected events or shorten the other event text.</system:String>
     <system:String x:Key="EVENT_AVAILABLE_LIST">Available Events</system:String>
     <system:String x:Key="EVENT_SELECTED_LIST">Selected Events</system:String>
     <system:String x:Key="EVENT_OTHER_EVENT">Other Event</system:String>
@@ -1557,6 +1574,7 @@
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">Failed to fetch the client list from the server.</system:String>
     <system:String x:Key="CONFIG_CLIENT_LAST">The last client cannot be removed. To pause it, turn it off instead of deleting.</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">No registered clients on the server.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_NOT_REGISTERED">Client name {0} is not registered on the server. Select one from the list (case-sensitive).</system:String>
     <system:String x:Key="CONFIG_CLIENT">Client Configuration</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">Active</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">Share Folder Mode</system:String>
@@ -1639,6 +1657,13 @@
     <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">no folder uses this account</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">Write-protected file/Ignore hidden files</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">Date/time format</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_PREVIEW">Preview</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_AUTO">Empty: the date in the file is detected automatically.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_SYSTEM">system: uses the Windows regional date format.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_INVALID">Invalid format.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_MONTH_WARN">Lowercase mm means minutes. Use uppercase MM for the month.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_HOUR_WARN">hh is 12-hour (no AM/PM tt). Use HH for 24-hour.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_ROUNDTRIP">A date written in this format cannot be read back. Check the format.</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">Country code page</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">Document Transfer</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">Data All Collect(Ignore attribute)</system:String>
@@ -1677,6 +1702,8 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">Password</system:String>
     <system:String x:Key="CONFIG_DB_LIST">Database</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL">Data table script</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL_BTN">Export SQL</system:String>
 	<system:String x:Key="CONFIG_DB_PORT">Port</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">Local Database</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">Delete Selected Part</system:String>

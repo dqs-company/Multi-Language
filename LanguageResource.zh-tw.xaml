@@ -147,6 +147,16 @@
 	<system:String x:Key="GERMAN">德文</system:String>
 	<system:String x:Key="SPANISH">西班牙文</system:String>
 	<system:String x:Key="ADDITIONAL_DATA">附加資料</system:String>
+	<!-- Value List 툴팁/상태 문구 추가 hodo20260916 -->
+	<system:String x:Key="VALUE_LIST_NEW_DATA">已接收新資料 - 請按重新載入</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_SAVE">將編輯後的量測值儲存至資料庫</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_EXPORT">將目前清單匯出為 Excel 檔案</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_DECIMAL">量測值的小數位數</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_ADDITIONAL">選擇每個特性旁要顯示的附加欄位</system:String>
+	<system:String x:Key="VALUE_LIST_APPLY">套用</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_APPLY">將選取的附加資料套用至欄</system:String>
+	<system:String x:Key="VALUE_LIST_RELOAD">重新載入</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_RELOAD">重新讀取量測資料</system:String>
     <system:String x:Key="NONE">無</system:String>
     
     <system:String x:Key="EXPORT">匯出</system:String>
@@ -1172,6 +1182,7 @@
     <system:String x:Key="SENSE_AUTO_ACCEPT">自動核可資料</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">小數點</system:String>
     <system:String x:Key="SENSE_FILE_ACCEPT">檔案 acceptance</system:String>
+    <system:String x:Key="SENSE_NUMBER_DECIMAL_SEPARATOR">小數點顯示 (畫面/輸入)</system:String>
     <system:String x:Key="SENSE_LATEST_DATA">從最新資料核可</system:String>	
 	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">使用資料的管制界限</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">QCC location chart type</system:String>
@@ -1187,7 +1198,13 @@
     <system:String x:Key="SENSE_EVENT_POPUP_NONE">無彈出視窗</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_NG">NG 彈出視窗</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">永遠彈出視窗</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_MODE">自動核准時的NG處理</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_ACCEPT">核准 + 事件輸入 (可不輸入)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_NOK">無效處理 (NOK)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT">自動核准預設事件</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT_NONE">(無)</system:String>
     <system:String x:Key="EVENT_POPUP_TITLE">事件輸入</system:String>
+    <system:String x:Key="EVENT_INPUT_TOO_LONG">事件內容過長（{0}/{1} 字）。請減少已選事件或縮短其他事件內容。</system:String>
     <system:String x:Key="EVENT_AVAILABLE_LIST">可用事件</system:String>
     <system:String x:Key="EVENT_SELECTED_LIST">已選事件</system:String>
     <system:String x:Key="EVENT_OTHER_EVENT">其他事件</system:String>
@@ -1217,6 +1234,7 @@
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">無法從伺服器取得用戶端清單。</system:String>
     <system:String x:Key="CONFIG_CLIENT_LAST">無法刪除最後一個用戶端。若要暫停，請停用而非刪除。</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">伺服器上沒有已註冊的用戶端。</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_NOT_REGISTERED">用戶端名稱 {0} 未在伺服器註冊。請從清單中選擇（區分大小寫）。</system:String>
     <system:String x:Key="CONFIG_CLIENT">用戶端設定</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">啟用</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">資料夾共用模式</system:String>
@@ -1301,6 +1319,13 @@
     <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">沒有資料夾使用此帳戶</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">無法新增、修改檔案/忽略隱藏檔案</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">日期/時間格式</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_PREVIEW">預覽</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_AUTO">空白時自動識別檔案中的日期。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_SYSTEM">system: 使用 Windows 地區設定的日期格式。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_INVALID">格式無效。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_MONTH_WARN">小寫 mm 代表分鐘，月份請使用大寫 MM。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_HOUR_WARN">hh 為12小時制（無 AM/PM 的 tt）。24小時制請使用 HH。</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_ROUNDTRIP">無法讀回此格式的日期，請確認格式。</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">編碼</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">文件傳輸</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">所有資料收集(忽略屬性)</system:String>
@@ -1339,6 +1364,8 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">密碼</system:String>
     <system:String x:Key="CONFIG_DB_LIST">資料庫</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL">資料表建立指令碼</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL_BTN">匯出 SQL</system:String>
     <system:String x:Key="CONFIG_DB_PORT">連接埠</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">本地資料庫</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">刪除選定的部分</system:String>

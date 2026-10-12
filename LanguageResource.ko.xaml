@@ -159,6 +159,16 @@
 	<system:String x:Key="SPANISH">스페인어</system:String>
 	
 	<system:String x:Key="ADDITIONAL_DATA">추가 데이터</system:String>
+	<!-- Value List 툴팁/상태 문구 추가 hodo20260916 -->
+	<system:String x:Key="VALUE_LIST_NEW_DATA">새 데이터 도착 - 다시 읽기를 누르세요</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_SAVE">편집한 측정값을 데이터베이스에 저장합니다</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_EXPORT">현재 목록을 Excel 파일로 내보냅니다</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_DECIMAL">측정값 소수점 자리수</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_ADDITIONAL">각 특성 옆에 표시할 추가 필드를 선택합니다</system:String>
+	<system:String x:Key="VALUE_LIST_APPLY">적용</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_APPLY">선택한 추가 데이터를 컬럼에 적용합니다</system:String>
+	<system:String x:Key="VALUE_LIST_RELOAD">다시 읽기</system:String>
+	<system:String x:Key="VALUE_LIST_TIP_RELOAD">측정 데이터를 다시 읽어 옵니다</system:String>
     <system:String x:Key="NONE">없음</system:String>
     
     <system:String x:Key="EXPORT">내보내기</system:String>
@@ -1516,6 +1526,7 @@
     <system:String x:Key="SENSE_AUTO_ACCEPT">자동 승인</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">소수점</system:String>
     <system:String x:Key="SENSE_FILE_ACCEPT">파일 기준 승인</system:String>		
+    <system:String x:Key="SENSE_NUMBER_DECIMAL_SEPARATOR">소수점 표시 (화면/입력)</system:String>
     <system:String x:Key="SENSE_LATEST_DATA">최신 데이터 사용</system:String>	
 	<system:String x:Key="SENSE_TAKEOVER_QCC_DATA">데이터 QCC 사용</system:String>
 	<system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">로케이션 차트 타입</system:String>
@@ -1530,7 +1541,13 @@
     <system:String x:Key="SENSE_EVENT_POPUP_NONE">팝업 없음</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_NG">NG 팝업</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">항상 팝업</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_MODE">자동 승인 시 NG 처리</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_ACCEPT">승인 + 이벤트 입력 (미입력 가능)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_NOK">무효 처리 (NOK)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT">자동 승인 기본 이벤트</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT_NONE">(없음)</system:String>
     <system:String x:Key="EVENT_POPUP_TITLE">이벤트 입력</system:String>
+    <system:String x:Key="EVENT_INPUT_TOO_LONG">이벤트 내용이 너무 깁니다 ({0}/{1}자). 선택한 이벤트나 기타 이벤트 내용을 줄여 주세요.</system:String>
     <system:String x:Key="EVENT_AVAILABLE_LIST">사용 가능한 이벤트</system:String>
     <system:String x:Key="EVENT_SELECTED_LIST">선택된 이벤트</system:String>
     <system:String x:Key="EVENT_OTHER_EVENT">기타 이벤트</system:String>
@@ -1559,6 +1576,7 @@
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">서버에서 클라이언트 목록을 가져오지 못했습니다.</system:String>
     <system:String x:Key="CONFIG_CLIENT_LAST">마지막 클라이언트는 지울 수 없습니다. 잠시 멈추려면 삭제 대신 사용을 끄세요.</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">서버에 등록된 클라이언트가 없습니다.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_NOT_REGISTERED">현재 클라이언트 이름 {0} 은(는) 서버에 등록되어 있지 않습니다. 목록에서 선택하세요 (대소문자 구분).</system:String>
     <system:String x:Key="CONFIG_CLIENT">클라이언트 설정</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">활성화</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">공유 폴더 모드</system:String>
@@ -1637,6 +1655,13 @@
     <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">이 계정을 쓰는 폴더가 없습니다</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">쓰기 금지 파일/숨김 파일 무시</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">날짜/시간 형식</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_PREVIEW">미리보기</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_AUTO">형식이 비어 있으면 파일의 날짜를 자동 인식합니다.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_SYSTEM">system: Windows 지역 설정의 날짜 형식을 사용합니다.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_INVALID">잘못된 형식입니다.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_MONTH_WARN">소문자 mm 은 분(minute)입니다. 월은 대문자 MM 을 사용하세요.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_HOUR_WARN">hh 는 12시간제입니다(오전/오후 tt 없음). 24시간제는 HH 를 사용하세요.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_ROUNDTRIP">이 형식으로 쓴 날짜를 다시 읽을 수 없습니다. 형식을 확인하세요.</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">국가 코드페이지</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">문서 전송</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">데이터 모두 수집(상태 값 무시)</system:String>
@@ -1675,6 +1700,8 @@
     <system:String x:Key="CONFIG_DB_ID">아이디</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">패스워드</system:String>
     <system:String x:Key="CONFIG_DB_LIST">데이터베이스</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL">테이블 생성 스크립트</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL_BTN">SQL 내보내기</system:String>
 	<system:String x:Key="CONFIG_DB_PORT">포트</system:String>	
     <system:String x:Key="CONFIG_DB_LOCAL">로컬 데이터베이스</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">선택 파트 삭제</system:String>

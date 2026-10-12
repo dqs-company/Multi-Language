@@ -151,6 +151,16 @@
     <system:String x:Key="SPANISH">Spanisch</system:String>
 
     <system:String x:Key="ADDITIONAL_DATA">Zusätzliche Daten</system:String>
+    <!-- Value List 툴팁/상태 문구 추가 hodo20260916 -->
+    <system:String x:Key="VALUE_LIST_NEW_DATA">Neue Daten empfangen - Neu laden drücken</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_SAVE">Bearbeitete Messwerte in der Datenbank speichern</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_EXPORT">Aktuelle Liste in eine Excel-Datei exportieren</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_DECIMAL">Anzahl der Nachkommastellen der Messwerte</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_ADDITIONAL">Zusätzliche Felder wählen, die neben jedem Merkmal angezeigt werden</system:String>
+    <system:String x:Key="VALUE_LIST_APPLY">Übernehmen</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_APPLY">Ausgewählte zusätzliche Daten auf die Spalten anwenden</system:String>
+    <system:String x:Key="VALUE_LIST_RELOAD">Neu laden</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_RELOAD">Messwerte erneut einlesen</system:String>
     <system:String x:Key="NONE">Keine</system:String>
     
     <system:String x:Key="EXPORT">Exportieren</system:String>
@@ -1472,6 +1482,7 @@
     <system:String x:Key="SENSE_AUTO_ACCEPT">Automatische Annahme</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">Dezimalpunkt</system:String>
     <system:String x:Key="SENSE_FILE_ACCEPT">Dateiannahme</system:String>	
+    <system:String x:Key="SENSE_NUMBER_DECIMAL_SEPARATOR">Dezimaltrennzeichen (Anzeige/Eingabe)</system:String>
     <system:String x:Key="SENSE_LATEST_DATA">Neuesten Datensatz annehmen</system:String>	
     <system:String x:Key="SENSE_TAKEOVER_QCC_DATA">QCC aus Datensatz übernehmen</system:String>
     <system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Lagediagramm-Typ</system:String>
@@ -1487,7 +1498,13 @@
     <system:String x:Key="SENSE_EVENT_POPUP_NONE">Kein Popup</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_NG">NG-Popup</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">Popup immer anzeigen</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_MODE">NG-Behandlung bei automatischer Annahme</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_ACCEPT">Annehmen + Ereigniseingabe (optional)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_NOK">Ungültig machen (NOK)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT">Standardereignis bei automatischer Annahme</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT_NONE">(keins)</system:String>
     <system:String x:Key="EVENT_POPUP_TITLE">Ereigniseingabe</system:String>
+    <system:String x:Key="EVENT_INPUT_TOO_LONG">Der Ereigniseintrag ist zu lang ({0}/{1} Zeichen). Entfernen Sie ausgewählte Ereignisse oder kürzen Sie den sonstigen Ereignistext.</system:String>
     <system:String x:Key="EVENT_AVAILABLE_LIST">Verfügbare Ereignisse</system:String>
     <system:String x:Key="EVENT_SELECTED_LIST">Ausgewählte Ereignisse</system:String>
     <system:String x:Key="EVENT_OTHER_EVENT">Anderes Ereignis</system:String>
@@ -1515,6 +1532,7 @@
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">Die Client-Liste konnte nicht vom Server abgerufen werden.</system:String>
     <system:String x:Key="CONFIG_CLIENT_LAST">Der letzte Client kann nicht entfernt werden. Zum Pausieren deaktivieren statt löschen.</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">Auf dem Server sind keine Clients registriert.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_NOT_REGISTERED">Der Clientname {0} ist auf dem Server nicht registriert. Wählen Sie einen aus der Liste (Groß-/Kleinschreibung beachten).</system:String>
     <system:String x:Key="CONFIG_CLIENT">Client-Konfiguration</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">Aktiv</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">Freigabemodus</system:String>
@@ -1594,6 +1612,13 @@
     <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">kein Ordner nutzt dieses Konto</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">Schreibgeschützte Dateien/Versteckte Dateien ignorieren</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">Datums-/Zeitformat</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_PREVIEW">Vorschau</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_AUTO">Leer: Das Datum in der Datei wird automatisch erkannt.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_SYSTEM">system: verwendet das regionale Datumsformat von Windows.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_INVALID">Ungültiges Format.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_MONTH_WARN">Kleines mm steht für Minuten. Für den Monat großes MM verwenden.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_HOUR_WARN">hh ist 12-Stunden-Format (ohne AM/PM tt). Für 24 Stunden HH verwenden.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_ROUNDTRIP">Ein Datum in diesem Format kann nicht zurückgelesen werden. Format prüfen.</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">Länder-Codepage</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">Dokumentübertragung</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">Alle Daten erfassen (Attribute ignorieren)</system:String>
@@ -1631,6 +1656,8 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">Passwort</system:String>
     <system:String x:Key="CONFIG_DB_LIST">Datenbank</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL">Tabellenskript</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL_BTN">SQL exportieren</system:String>
 	<system:String x:Key="CONFIG_DB_PORT">Port</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">Lokale Datenbank</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">Ausgewähltes Teil löschen</system:String>

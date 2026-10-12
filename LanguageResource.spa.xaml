@@ -153,6 +153,16 @@
     <system:String x:Key="SPANISH">Español</system:String>
 
     <system:String x:Key="ADDITIONAL_DATA">Datos adicionales</system:String>
+    <!-- Value List 툴팁/상태 문구 추가 hodo20260916 -->
+    <system:String x:Key="VALUE_LIST_NEW_DATA">Nuevos datos recibidos: pulse Recargar</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_SAVE">Guardar los valores editados en la base de datos</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_EXPORT">Exportar la lista actual a un archivo de Excel</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_DECIMAL">Número de decimales de los valores medidos</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_ADDITIONAL">Elegir los campos adicionales mostrados junto a cada característica</system:String>
+    <system:String x:Key="VALUE_LIST_APPLY">Aplicar</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_APPLY">Aplicar a las columnas los datos adicionales seleccionados</system:String>
+    <system:String x:Key="VALUE_LIST_RELOAD">Recargar</system:String>
+    <system:String x:Key="VALUE_LIST_TIP_RELOAD">Volver a leer los datos de medición</system:String>
     <system:String x:Key="NONE">Ninguno</system:String>
     
     <system:String x:Key="EXPORT">Exportar</system:String>
@@ -1476,6 +1486,7 @@
     <system:String x:Key="SENSE_AUTO_ACCEPT">Aceptación automática</system:String>	
     <system:String x:Key="SENSE_DECIMAL_POINT">Punto decimal</system:String>
     <system:String x:Key="SENSE_FILE_ACCEPT">Aceptación de archivos</system:String>	
+    <system:String x:Key="SENSE_NUMBER_DECIMAL_SEPARATOR">Separador decimal (pantalla/entrada)</system:String>
     <system:String x:Key="SENSE_LATEST_DATA">Aceptar el conjunto de datos más reciente</system:String>	
     <system:String x:Key="SENSE_TAKEOVER_QCC_DATA">Adoptar QCC del conjunto de datos</system:String>
     <system:String x:Key="SENSE_QCC_LOCATION_CHART_TYPE">Tipo de gráfico de ubicación</system:String>
@@ -1491,7 +1502,13 @@
     <system:String x:Key="SENSE_EVENT_POPUP_NONE">Sin ventana emergente</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_NG">Ventana emergente NG</system:String>
     <system:String x:Key="SENSE_EVENT_POPUP_ALWAYS">Mostrar siempre ventana emergente</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_MODE">Tratamiento NG en aceptación automática</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_ACCEPT">Aceptar + introducir evento (opcional)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_NG_NOK">Invalidar (NOK)</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT">Evento predeterminado en aceptación automática</system:String>
+    <system:String x:Key="SENSE_AUTO_ACCEPT_DEFAULT_EVENT_NONE">(ninguno)</system:String>
     <system:String x:Key="EVENT_POPUP_TITLE">Entrada de evento</system:String>
+    <system:String x:Key="EVENT_INPUT_TOO_LONG">La entrada de evento es demasiado larga ({0}/{1} caracteres). Quite eventos seleccionados o acorte el texto de otro evento.</system:String>
     <system:String x:Key="EVENT_AVAILABLE_LIST">Eventos disponibles</system:String>
     <system:String x:Key="EVENT_SELECTED_LIST">Eventos seleccionados</system:String>
     <system:String x:Key="EVENT_OTHER_EVENT">Otro evento</system:String>
@@ -1518,6 +1535,7 @@
     <system:String x:Key="CONFIG_CLIENT_FETCH_FAIL">No se pudo obtener la lista de clientes del servidor.</system:String>
     <system:String x:Key="CONFIG_CLIENT_LAST">No se puede eliminar el último cliente. Para pausarlo, desactívelo en lugar de eliminarlo.</system:String>
     <system:String x:Key="CONFIG_CLIENT_FETCH_EMPTY">No hay clientes registrados en el servidor.</system:String>
+    <system:String x:Key="CONFIG_CLIENT_FETCH_NOT_REGISTERED">El nombre de cliente {0} no está registrado en el servidor. Seleccione uno de la lista (distingue mayúsculas y minúsculas).</system:String>
     <system:String x:Key="CONFIG_CLIENT">Configuración del cliente</system:String>
     <system:String x:Key="CONFIG_CLIENT_ACTIVE">Activo</system:String>
     <system:String x:Key="CONFIG_CLIENT_SHARE_FOLDER_MODE">Modo de carpeta compartida</system:String>
@@ -1597,6 +1615,13 @@
     <system:String x:Key="CONFIG_SHARE_CRED_UNUSED">ninguna carpeta usa esta cuenta</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_INPUT_WRITE_HIDDEN">Archivos protegidos contra escritura/Ignorar archivos ocultos</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME">Formato de fecha/hora</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_PREVIEW">Vista previa</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_AUTO">Vacío: la fecha del archivo se detecta automáticamente.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_SYSTEM">system: usa el formato de fecha regional de Windows.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_INVALID">Formato no válido.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_MONTH_WARN">mm en minúsculas son minutos. Use MM en mayúsculas para el mes.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_HOUR_WARN">hh es formato de 12 horas (sin AM/PM tt). Use HH para 24 horas.</system:String>
+    <system:String x:Key="CONFIG_DATA_COLLEC_DATETIME_ROUNDTRIP">No se puede volver a leer una fecha con este formato. Revise el formato.</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_CODEPAGE">Página de códigos del país</system:String>
     <system:String x:Key="CONFIG_DATA_COLLEC_DOCUMENT_TRANSFER">Transferencia de documentos</system:String>
     <system:String x:Key="CONFIG_DATA_ALL_COLLECT_OPTION">Recopilar todos los datos (Ignorar atributos)</system:String>
@@ -1634,6 +1659,8 @@
     <system:String x:Key="CONFIG_DB_ID">ID</system:String>
     <system:String x:Key="CONFIG_DB_PASSWORD">Contraseña</system:String>
     <system:String x:Key="CONFIG_DB_LIST">Base de datos</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL">Script de tablas</system:String>
+    <system:String x:Key="CONFIG_DB_EXPORT_DDL_BTN">Exportar SQL</system:String>
 	<system:String x:Key="CONFIG_DB_PORT">Puerto</system:String>
     <system:String x:Key="CONFIG_DB_LOCAL">Base de datos local</system:String>
     <system:String x:Key="CONFIG_DELETE_PART">Eliminar pieza seleccionada</system:String>
